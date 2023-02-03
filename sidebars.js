@@ -138,16 +138,35 @@ const sidebars = {
       ],
     },
     // External APIs doc
-    'external-apis',
+    {
+      type: 'category',
+      label: 'Developer APIs',
+      link: {
+        type: 'generated-index',
+      },
+      collapsed: true,
+      items: [
+        'api/filing/platform',
+        'api/filing/beta-platform',
+        'api/public-verification/index',
+        'api/file-serving/index',
+        'api/data-browser/index',
+        'api/rate-spread/index',
+        'api/check-digit/index',
+        'api/graphs/index',
+      ],
+    },
   ],
-  // Includes APIs from: https://cfpb.github.io/hmda-platform/#hmda-api-documentation
+  /* Includes APIs from: https://cfpb.github.io/hmda-platform/#hmda-api-documentation
   hmdaDeveloperAPIs: [
     'api/filing/platform',
     'api/filing/beta-platform',
     'api/public-verification/index',
+    'rate-spread/index',
     'api/check-digit/index',
     'api/graphs/index',
   ],
+  */
 }
 
-module.exports = sidebars;
+module.exports = sidebars

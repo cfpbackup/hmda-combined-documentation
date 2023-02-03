@@ -72,8 +72,6 @@ Submission of a HMDA file flows in the following steps which are mirrored in the
 
 The Submission status is the best way to check the state of a Filing. It will be useful to query the Submission status often throughout the process of file upload and Edit validation.
 
-#### Submission Status Codes
-
 <b>JSON Response:</b>
 
 ```json
@@ -94,6 +92,8 @@ The Submission status is the best way to check the state of a Filing. It will be
   "receipt": ""
 }
 ```
+
+#### Submission Status Codes
 
 In order to track the status of a Filing for a financial institution, the following states are captured by the HMDA Platform:
 

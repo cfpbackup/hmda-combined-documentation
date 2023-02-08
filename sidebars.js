@@ -13,9 +13,7 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  // Includes: /faq, /publications, /tools, 'external-apis.mdx' and 'hmda-intro
   ffiecDocs: [
-    'hmda-intro',
     // FAQ
     {
       type: 'category',
@@ -137,7 +135,7 @@ const sidebars = {
         },
       ],
     },
-    // External APIs doc
+    // Developer APIs
     {
       type: 'category',
       label: 'Developer APIs',
@@ -157,16 +155,6 @@ const sidebars = {
       ],
     },
   ],
-  /* Includes APIs from: https://cfpb.github.io/hmda-platform/#hmda-api-documentation
-  hmdaDeveloperAPIs: [
-    'api/filing/platform',
-    'api/filing/beta-platform',
-    'api/public-verification/index',
-    'rate-spread/index',
-    'api/check-digit/index',
-    'api/graphs/index',
-  ],
-  */
 }
 
 module.exports = sidebars

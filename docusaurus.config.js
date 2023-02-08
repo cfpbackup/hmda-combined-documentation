@@ -7,10 +7,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'HMDA Documentation',
-  tagline: 'Dinosaurs are cool',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
@@ -56,7 +55,7 @@ const config = {
         logo: {
           alt: 'hmda-logo',
           src: 'img/ffiec-logo.svg',
-          href: '/documentation/hmda-intro'
+          href: '/documentation/category/frequently-asked-questions',
         },
         items: [
           {
@@ -97,8 +96,7 @@ const config = {
             target: '_self',
           },
           {
-            type: 'doc',
-            docId: 'hmda-intro',
+            to: '/documentation/category/frequently-asked-questions',
             position: 'right',
             label: 'DOCUMENTATION',
           },

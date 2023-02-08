@@ -55,7 +55,7 @@ const config = {
         logo: {
           alt: 'hmda-logo',
           src: 'img/ffiec-logo.svg',
-          href: '/documentation/category/frequently-asked-questions',
+          href: 'https://ffiec.cfpb.gov/',
         },
         items: [
           {

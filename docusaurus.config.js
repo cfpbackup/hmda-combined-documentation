@@ -13,10 +13,6 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -34,7 +30,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           path: 'documentation',
-          routeBasePath: 'documentation'
+          routeBasePath: 'documentation',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -60,6 +56,7 @@ const config = {
         logo: {
           alt: 'hmda-logo',
           src: 'img/ffiec-logo.svg',
+          href: '/documentation/hmda-intro'
         },
         items: [
           {
@@ -111,17 +108,6 @@ const config = {
             position: 'right',
             target: '_self',
           },
-          // {
-          //   type: 'doc',
-          //   docId: 'graphs/index',
-          //   position: 'left',
-          //   label: 'HMDA APIs'
-          // }
-          // {
-          //   href: 'https://github.com/facebook/docusaurus',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
       // footer: {

@@ -7,11 +7,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'HMDA Documentation',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://ffiec.cfpb.gov',
+  baseUrl: '/documentation/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: '/documentation/img/favicon.ico',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -29,7 +29,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           path: 'documentation',
-          routeBasePath: 'documentation',
+          routeBasePath: '/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -48,7 +48,7 @@ const config = {
       announcementBar: {
         id: 'us-government-website',
         content:
-          '<div class="banner"><header class="banner-header"><div class="banner-inner"><img src="/img/favicon-57.png" alt="U.S. flag" /><p>An official website of the United States government</p></div></header></div>',
+          '<div class="banner"><header class="banner-header"><div class="banner-inner"><img src="/documentation/img/favicon-57.png" alt="U.S. flag" /><p>An official website of the United States government</p></div></header></div>',
         isCloseable: false,
       },
       navbar: {

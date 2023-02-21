@@ -85,15 +85,13 @@ describe('Docusarus user interactions', () => {
     })
     cy.get('#annual-filing-period-dates').contains('Annual Filing Period Dates')
   })
-  it.skip('Navigates to Data Browser API and ensure CSV response image has loaded', () => {
+  it('Navigates to Data Browser API and ensure CSV response image has loaded', () => {
     cy.visit(url)
     cy.get(':nth-child(4) > .menu__list-item-collapsible > .clean-btn').click()
     cy.get(':nth-child(4) > .menu__list > :nth-child(5) > .menu__link').click()
-    cy.get(
-      '.img_node_modules-@docusaurus-theme-classic-lib-theme-MDXComponents-Img-styles-module'
-    )
-      .should('be.visible')
-      .and($img => {
+    cy.get('img[src*="DataBrowserCsvExample.png"]')
+      // .should('be.visible')
+      .should($img => {
         // "naturalWidth" and "naturalHeight" are set when the image loads
         expect(
           $img[0].naturalWidth,

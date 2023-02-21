@@ -123,7 +123,7 @@ Get a CSV containing all HMDA data reported in 2018 in California, Maryland, or 
 ```
 
 **CSV Response:**
-  <img src="/documentation/img/DataBrowserCsvExample.png" class="lang-specific shell" />
+  <img src="/documentation/img/DataBrowserCsvExample.png" className="lang-specific shell" />
 
 ## HMDA Filers
 

@@ -1,8 +1,6 @@
-let hostname =
-  window.location.hostname === 'localhost' ? 'localhost:3000' : 'ffiec.beta.cfpb.gov'
+const { HOST } = Cypress.env()
 
-let url =
-  `http://${hostname}/documentation/category/frequently-asked-questions`
+let url = `${HOST}/documentation/category/frequently-asked-questions`
 
 describe('General Checks', () => {
   it('Government banner is displayed and image is visible', () => {
@@ -25,7 +23,7 @@ describe('General Checks', () => {
 
 describe('Docusarus user interactions', () => {
   it('Redirect from "/documentation/" to the docs/faq page', () => {
-    cy.visit(`http://${hostname}/documentation/`)
+    cy.visit(`${HOST}/documentation/`)
     cy.location().should(loc => {
       expect(loc.href).to.eq(url)
     })
@@ -36,7 +34,7 @@ describe('Docusarus user interactions', () => {
     cy.wait(1000)
     cy.location().should(loc => {
       expect(loc.href).to.eq(
-        `http://${hostname}/documentation/faq/data-collection-timelines`
+        `${HOST}/documentation/faq/data-collection-timelines`
       )
     })
     // Confirm user navigates to document
@@ -58,18 +56,20 @@ describe('Docusarus user interactions', () => {
     ).click()
     cy.location().should(loc => {
       expect(loc.href).to.eq(
-        `http://${hostname}/documentation/publications/aggregate-disclosure-reports/ad-changes`
+        `${HOST}/documentation/publications/aggregate-disclosure-reports/ad-changes`
       )
     })
   })
   it('Interacts with nested documentation via category selector', () => {
     cy.visit(url)
     cy.get(':nth-child(2) > .menu__list-item-collapsible > .menu__link').click()
+    cy.wait(1000)
     cy.get(':nth-child(2) > .card').click()
+    cy.wait(1000)
     cy.get('.card').click()
     cy.location().should(loc => {
       expect(loc.href).to.eq(
-        `http://${hostname}/documentation/publications/aggregate-disclosure-reports/ad-changes`
+        `${HOST}/documentation/publications/aggregate-disclosure-reports/ad-changes`
       )
     })
   })
@@ -80,7 +80,7 @@ describe('Docusarus user interactions', () => {
     cy.get(':nth-child(2) > .table-of-contents__link').click()
     cy.location().should(loc => {
       expect(loc.href).to.eq(
-        `http://${hostname}/documentation/faq/data-collection-timelines#annual-filing-period-dates`
+        `${HOST}/documentation/faq/data-collection-timelines#annual-filing-period-dates`
       )
     })
     cy.get('#annual-filing-period-dates').contains('Annual Filing Period Dates')
@@ -89,6 +89,7 @@ describe('Docusarus user interactions', () => {
     cy.visit(url)
     cy.get(':nth-child(4) > .menu__list-item-collapsible > .clean-btn').click()
     cy.get(':nth-child(4) > .menu__list > :nth-child(5) > .menu__link').click()
+    cy.wait(1000)
     cy.get('img[src*="DataBrowserCsvExample.png"]')
       // .should('be.visible')
       .should($img => {

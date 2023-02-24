@@ -199,14 +199,35 @@
   padding-left: .5em;
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1500px) {
   .hmda-name {
     display: inline-block;
   }
-
 }
 
 .navbar__brand,
 .navbar__logo {
   margin-right: 0;
+}
+
+/* Emphasize sidebar selection */
+.menu__link--active {
+  border-radius: 0;
+  font-weight: bold;
+  border-left: 5px solid #1f498f;
+}
+
+.menu__link--sublist.menu__link--active,
+.table-of-contents__link--active {
+  font-weight:bold;
+  border-left: none;
+}
+
+/* Prevent Chrome hover-on-link display of URL from obscuring sidebar options */
+li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-of-type {
+  margin-bottom: 50px;
+}
+
+.pagination-nav {
+  margin-bottom: 50vh;
 }

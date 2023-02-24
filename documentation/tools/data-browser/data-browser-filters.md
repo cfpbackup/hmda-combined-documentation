@@ -1,4 +1,4 @@
-# HMDA Dataset Filtering Tool - List of filters
+# HMDA Dataset Filtering - Available Filters
 
 ## Geography Filters
 

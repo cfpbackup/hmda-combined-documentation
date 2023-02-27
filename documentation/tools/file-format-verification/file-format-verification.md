@@ -1,4 +1,6 @@
-# HMDA File Format Verification Tool - Instructions
+# File Format Verification Tool
+
+## Instructions for utilizing the File Format Verification Tool (FFVT) to validate a HMDA LAR file.
 
 1. Navigate to the File Format Verification Tool at https://ffiec.cfpb.gov/tools/file-format-verification.
 ![](https://raw.githubusercontent.com/cfpb/hmda-frontend/master/src/documentation/markdown/images/ffvt/File_Format_Verification_Tool.png)

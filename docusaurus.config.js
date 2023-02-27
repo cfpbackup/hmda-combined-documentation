@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'HMDA Documentation',
-  url: 'https://ffiec.cfpb.gov',
+  url: 'https://ffiec.beta.cfpb.gov',
   baseUrl: '/documentation/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',

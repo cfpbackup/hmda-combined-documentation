@@ -117,22 +117,8 @@ const sidebars = {
         },
         'tools/rate-spread',
         'tools/check-digit',
-        {
-          type: 'category',
-          label: 'File Format Verification',
-          link: {
-            type: 'generated-index',
-          },
-          items: ['tools/file-format-verification/file-format-verification'],
-        },
-        {
-          type: 'category',
-          label: 'LAR Formatting',
-          link: {
-            type: 'generated-index',
-          },
-          items: ['tools/lar-formatting/lar-formatting'],
-        },
+        'tools/file-format-verification/file-format-verification',
+        'tools/lar-formatting/lar-formatting',
       ],
     },
     // Developer APIs

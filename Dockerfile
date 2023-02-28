@@ -3,7 +3,6 @@ FROM node:16.14 as build-stage
 
 # Set the working directory to /app
 WORKDIR /app
-ARG DOCKER_TAG="latest"
 
 # Copy package.json and package-lock.json to the container
 COPY package*.json ./
@@ -18,6 +17,12 @@ COPY . .
 ENV NODE_ENV=production
 ENV BABEL_ENV=production
 RUN npm run build
+
+# Non-root user
+RUN useradd -M -d /app -s /bin/bash hmda_user && \
+  chown -R hmda_user:hmda_user /app
+
+USER hmda_user
 
 EXPOSE 8080
 CMD ["npm", "run", "serve", "--", "--port", "8080", "--host", "0.0.0.0"]

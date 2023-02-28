@@ -15,25 +15,9 @@ RUN npm install
 COPY . .
 
 # Build the Docusaurus project
+ENV NODE_ENV=production
+ENV BABEL_ENV=production
 RUN npm run build
 
-# Serve the built files using a lightweight web server
-FROM nginx:alpine
-
-ENV NGINX_USER=svc_nginx_hmda
-
-COPY nginx /etc/nginx
-COPY --from=build-stage /app/build /usr/share/nginx/html
-COPY --from=build-stage /app/build /usr/share/nginx/html/documentation
-
-RUN adduser -S $NGINX_USER nginx && \
-    addgroup -S $NGINX_USER && \
-    addgroup $NGINX_USER $NGINX_USER && \
-    touch /run/nginx.pid && \
-    chown -R $NGINX_USER:$NGINX_USER /etc/nginx /run/nginx.pid /var/cache/nginx/
-
 EXPOSE 8080
-
-USER svc_nginx_hmda
-
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["npm", "run", "serve", "--", "--port", "8080", "--host", "0.0.0.0"]

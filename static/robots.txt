@@ -1,4 +1,5 @@
 User-agent: *
+Allow: /
 Disallow:
 Algolia-Crawler-Verif: 483797C57D33AA54
 Sitemap: https://ffiec.beta.cfpb.gov/documentation/sitemap.xml

@@ -234,7 +234,7 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-
 
 /* Algolia Search Bar */
 
-.searchBox_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-Search-styles-module {
+[class^="searchBox"] {
   padding-left: .2rem !important;
   margin-right: 1rem
 }

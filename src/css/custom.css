@@ -231,3 +231,10 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-
 .pagination-nav {
   margin-bottom: 50vh;
 }
+
+/* Algolia Search Bar */
+
+.searchBox_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-Search-styles-module {
+  padding-left: .2rem !important;
+  margin-right: 1rem
+}

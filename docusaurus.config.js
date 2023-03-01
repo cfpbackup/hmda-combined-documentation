@@ -108,6 +108,13 @@ const config = {
           },
         ],
       },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: '69RTFLDVTR',
+        // Public API key: it is safe to commit it
+        apiKey: 'a9f10b8a29718f165720035309b65a46',
+        indexName: 'ffiec-beta-cfpb',
+      },
       // footer: {
       //   style: 'dark',
       //   links: [

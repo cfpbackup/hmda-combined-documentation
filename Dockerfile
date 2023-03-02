@@ -3,7 +3,6 @@ FROM node:16.14 as build-stage
 
 # Set the working directory to /app
 WORKDIR /app
-ARG DOCKER_TAG="latest"
 
 # Copy package.json and package-lock.json to the container
 COPY package*.json ./
@@ -15,25 +14,15 @@ RUN npm install
 COPY . .
 
 # Build the Docusaurus project
+ENV NODE_ENV=production
+ENV BABEL_ENV=production
 RUN npm run build
 
-# Serve the built files using a lightweight web server
-FROM nginx:alpine
+# Non-root user
+RUN useradd -M -d /app -s /bin/bash hmda_user && \
+  chown -R hmda_user:hmda_user /app
 
-ENV NGINX_USER=svc_nginx_hmda
-
-COPY nginx /etc/nginx
-COPY --from=build-stage /app/build /usr/share/nginx/html
-COPY --from=build-stage /app/build /usr/share/nginx/html/documentation
-
-RUN adduser -S $NGINX_USER nginx && \
-    addgroup -S $NGINX_USER && \
-    addgroup $NGINX_USER $NGINX_USER && \
-    touch /run/nginx.pid && \
-    chown -R $NGINX_USER:$NGINX_USER /etc/nginx /run/nginx.pid /var/cache/nginx/
+USER hmda_user
 
 EXPOSE 8080
-
-USER svc_nginx_hmda
-
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["npm", "run", "serve", "--", "--port", "8080", "--host", "0.0.0.0"]

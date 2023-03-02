@@ -2,7 +2,7 @@ const { HOST } = Cypress.env()
 
 let url = `${HOST}/documentation/category/frequently-asked-questions`
 
-describe.skip('General Checks', () => {
+describe('General Checks', () => {
   it('Government banner is displayed and image is visible', () => {
     cy.visit(url)
     cy.get('.banner-inner').then(banner => {
@@ -22,13 +22,13 @@ describe.skip('General Checks', () => {
 })
 
 describe('Docusarus user interactions', () => {
-  it.skip('Redirect from "/documentation/" to the docs/faq page', () => {
+  it('Redirect from "/documentation/" to the docs/faq page', () => {
     cy.visit(`${HOST}/documentation/`)
     cy.location().should(loc => {
       expect(loc.href).to.eq(url)
     })
   })
-  it.skip('Interaction with category card and category navbar', () => {
+  it('Interaction with category card and category navbar', () => {
     cy.visit(url)
     cy.get(':nth-child(1) > .card').click()
     cy.wait(1000)
@@ -45,7 +45,7 @@ describe('Docusarus user interactions', () => {
       expect(loc.href).to.eq(url)
     })
   })
-  it.skip('Interacts with nested documentation via menu list', () => {
+  it('Interacts with nested documentation via menu list', () => {
     cy.visit(url)
     cy.get(':nth-child(2) > .menu__list-item-collapsible > .clean-btn').click()
     cy.get(
@@ -60,7 +60,7 @@ describe('Docusarus user interactions', () => {
       )
     })
   })
-  it.skip('Interacts with nested documentation via category selector', () => {
+  it('Interacts with nested documentation via category selector', () => {
     cy.visit(url)
     cy.get(':nth-child(2) > .menu__list-item-collapsible > .menu__link').click()
     cy.wait(1000)
@@ -73,7 +73,7 @@ describe('Docusarus user interactions', () => {
       )
     })
   })
-  it.skip('Interacts with table of contents on single doc', () => {
+  it('Interacts with table of contents on single doc', () => {
     cy.visit(url)
     cy.get(':nth-child(1) > .card').click()
     cy.wait(1000)
@@ -104,7 +104,7 @@ describe('Docusarus user interactions', () => {
   })
 })
 
-describe.skip('Algolia user interactions', () => {
+describe('Algolia user interactions', () => {
   it('Opens Algolia search box and looks up documentation on HMDA Filing', () => {
     cy.visit(url)
     cy.get('.DocSearch').click()

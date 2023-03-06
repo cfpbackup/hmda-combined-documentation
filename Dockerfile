@@ -1,5 +1,9 @@
 # Use node as the base image
 FROM node:16.14 as build-stage
+RUN apt-get update && \
+    apt-get install -y dpkg=1.19.8 && git=1:2.20* && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
 # Set the working directory to /app
 WORKDIR /app

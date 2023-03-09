@@ -1,5 +1,8 @@
 # Use node as the base image
-FROM node:16.14 as build-stage
+FROM node:16.19.1-buster-slim as build-stage
+RUN apt-get update --allow-releaseinfo-change \
+    && apt-get update \
+    && apt-get clean
 
 # Set the working directory to /app
 WORKDIR /app

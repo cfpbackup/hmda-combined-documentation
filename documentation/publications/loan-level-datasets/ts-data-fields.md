@@ -1,4 +1,4 @@
-# Public Transmittal Sheet - Data Fields
+# Public Transmittal Sheet (TS) - Data Fields
 
 ### [activity\_year](#activity_year)
 - **Description:** The calendar year of data collection.

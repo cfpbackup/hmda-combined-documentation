@@ -17,15 +17,17 @@ The collection window of HMDA Data submission and resubmission is a three year p
 | 2021      | January 1, 2022   | December 31, 2024 |
 | 2022      | January 1, 2023   | December 31, 2025 |
 
-## Annual Filing Period Dates
-
-The HMDA Platform is open for annual filing from January 1 – March 1. The Platform remains available outside of the filing period for late submissions and resubmissions.
-
-If you need additional information to help get your file ready you can refer to the table below.
+## Filing Instructions Guide (FIG)
 
 | HMDA Filing Instructions Guides (FIG) | 
 |:---:|
 | <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig.pdf">2018</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2019-hmda-fig.pdf">2019</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2020-hmda-fig.pdf">2020</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2021-hmda-fig.pdf">2021</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2022-hmda-fig.pdf">2022</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2023-hmda-fig.pdf">2023</a> |
+
+## Annual Filing Period Dates
+
+The HMDA Platform is open for annual filing from January 1 – March 1. The Platform remains available outside of the filing period for late submissions and resubmissions.
+
+If you need additional information to help get your file ready you can refer [Filing Instructions Guide (FIG)](#filing-instructions-guide-fig) section.
 
 See below for information on HMDA Annual Filing period dates:
 
@@ -35,11 +37,7 @@ See below for information on HMDA Annual Filing period dates:
 
 Beginning January 1, 2020, the 2015 HMDA Final Rule requires quarterly reporting for financial institutions that reported a combined total of at least 60,000 applications and covered loans, excluding purchased covered loans, for the preceding calendar year. Thus, in addition to their annual data submission, these larger-volume reporters will submit HMDA data for each of the first three quarters of the year on a quarterly basis. Further information can be found in <a target="_blank" rel="noopener noreferrer" href="https://www.consumerfinance.gov/rules-policy/regulations/1003/5/#a-1-ii">Regulation C, 12 CFR 1003.5(a)(1)(ii)</a>.
 
-If you need additional information to help get your file ready you can refer to the <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/supplemental-guide-for-quarterly-filers.pdf">Supplemental Guide for Quarterly Filers</a> or the table below.
-
-| HMDA Filing Instructions Guides (FIG) | 
-|:---:|
-| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig.pdf">2018</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2019-hmda-fig.pdf">2019</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2020-hmda-fig.pdf">2020</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2021-hmda-fig.pdf">2021</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2022-hmda-fig.pdf">2022</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2023-hmda-fig.pdf">2023</a> |
+If you need additional information to help get your file ready you can refer to the <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/supplemental-guide-for-quarterly-filers.pdf">Supplemental Guide for Quarterly Filers</a> or the [Filing Instructions Guide (FIG)](#filing-instructions-guide-fig) section.
 
 See below for information on HMDA Quarterly Filing period dates:
 

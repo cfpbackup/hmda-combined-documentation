@@ -1,4 +1,4 @@
-# Public HMDA - Data Fields
+# Public HMDA - LAR Data Fields
 
 ### [activity\_year](#activity_year)
 

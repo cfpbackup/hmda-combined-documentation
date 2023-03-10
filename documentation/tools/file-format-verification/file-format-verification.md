@@ -18,7 +18,7 @@
  
 
 ## Frequently Asked Questions
-The Frequently Asked Questions are available at https://ffiec.cfpb.gov/documentation/v2/faqs/
+The Frequently Asked Questions are available at https://ffiec.cfpb.gov/documentation/category/frequently-asked-questions
 
 
 ##	HMDA Help

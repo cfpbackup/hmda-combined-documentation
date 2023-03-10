@@ -13,7 +13,7 @@ HMDA Maps provides a way to visually analyze population-density adjusted, geogra
 |---|---|
 |**YEAR**: The year in which the loan was processed.|![Year Selector](https://raw.githubusercontent.com/cfpb/hmda-frontend/master/src/documentation/markdown/images/maps/maps-year-selection.png)|  
 |**MAP LEVEL**: The geographic level at which the HMDA Data is aggregated. | ![Level Selector](https://raw.githubusercontent.com/cfpb/hmda-frontend/master/src/documentation/markdown/images/maps/maps-geography-selection.png) |
-|**WHERE & AND**: These filters allow you to narrow the selected data based on <a target="_blank" rel="noopener noreferrer" href="/documentation/2019/data-browser-filters/#action_taken">popular variables</a>. | ![Filters Selector](https://raw.githubusercontent.com/cfpb/hmda-frontend/master/src/documentation/markdown/images/maps/maps-filters.png)  |
+|**WHERE & AND**: These filters allow you to narrow the selected data based on <a target="_blank" rel="noopener noreferrer" href="/documentation/tools/data-browser/data-browser-filters#action-taken-action_taken">popular variables</a>. | ![Filters Selector](https://raw.githubusercontent.com/cfpb/hmda-frontend/master/src/documentation/markdown/images/maps/maps-filters.png)  |
 
 
 ## What does the map show?

@@ -83,7 +83,6 @@ const config = {
               '/2021/static-dataset-faq/',
               '/2022/static-dataset-faq/',
               '/2023/static-dataset-faq/',
-              '/2021/static-dataset-faq',
             ],
           },
           {
@@ -126,7 +125,7 @@ const config = {
           },
           {
             to: '/publications/modified-lar/modified-lar-schema',
-            from: ['/2021/modified-lar-schema/', '2022/modified-lar-schema/'],
+            from: ['/2021/modified-lar-schema/', '/2022/modified-lar-schema/'],
           },
           {
             to: '/publications/loan-level-datasets/panel-data-fields',
@@ -153,7 +152,7 @@ const config = {
             from: '/2021/data-browser-faq',
           },
           {
-            to: '/tools/data-browser/derived-data-fields#derived-hmda-data-fields',
+            to: '/tools/data-browser/derived-data-fields',
             from: '/2022/derived-data-fields/',
           },
           // Plugin does not yet support sections of a page in the redirect url

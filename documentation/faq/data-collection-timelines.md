@@ -21,7 +21,9 @@ The collection window of HMDA Data submission and resubmission is a three year p
 
 | HMDA Filing Instructions Guides (FIG) | 
 |:---:|
-| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig.pdf">2018</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2019-hmda-fig.pdf">2019</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2020-hmda-fig.pdf">2020</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2021-hmda-fig.pdf">2021</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2022-hmda-fig.pdf">2022</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2023-hmda-fig.pdf">2023</a> |
+| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig-2018-hmda-rule.pdf">2018</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2019-hmda-fig.pdf">2019</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2020-hmda-fig.pdf">2020</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2021-hmda-fig.pdf">2021</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2022-hmda-fig.pdf">2022</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2023-hmda-fig.pdf">2023</a> |
+
+**Note**: The 2018 FIG link in the table is the updated FIG released on October 11, 2018 for data collected in 2018 incorporating the 2018 HMDA rule. The <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig-2018">previous 2018 FIG</a> released before the ruling is also available. Data collection for 2018 is closed.
 
 ## Annual Filing Period Dates
 

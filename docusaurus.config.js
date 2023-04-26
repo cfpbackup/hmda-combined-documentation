@@ -140,6 +140,17 @@ const config = {
             ],
           },
           {
+            to: '/tools/online-lar-formatting/',
+            from: [
+              '/2018/online-lar-formatting',
+              '/2019/online-lar-formatting',
+              '/2020/online-lar-formatting',
+              '/2021/online-lar-formatting',
+              '/2022/online-lar-formatting',
+              '/2023/online-lar-formatting',
+            ],
+          },
+          {
             to: '/tools/data-browser/data-browser-filters',
             from: [
               '/2018/data-browser-filters/',

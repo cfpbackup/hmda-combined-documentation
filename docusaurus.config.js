@@ -45,12 +45,12 @@ const config = {
         defaultMode: 'light',
         disableSwitch: true,
       },
-      announcementBar: {
-        id: 'us-government-website',
-        content:
-          '<div class="banner"><header class="banner-header"><div class="banner-inner"><img src="/documentation/img/favicon-57.png" alt="U.S. flag" /><p>An official website of the United States government</p></div></header></div>',
-        isCloseable: false,
-      },
+      // announcementBar: {
+      //   id: 'us-government-website',
+      //   content:
+      //     '<div class="banner"><header class="banner-header"><div class="banner-inner"><img src="/documentation/img/favicon-57.png" alt="U.S. flag" /><p>An official website of the United States government</p></div></header></div>',
+      //   isCloseable: false,
+      // },
       navbar: {
         logo: {
           alt: 'hmda-logo',
@@ -114,6 +114,14 @@ const config = {
         // Public API key: it is safe to commit it
         apiKey: 'a9f10b8a29718f165720035309b65a46',
         indexName: 'ffiec-beta-cfpb',
+      },
+      chainWebpack: (config, { webpack }) => {
+        config.module
+          .rule('svg')
+          .test(/\.svg$/)
+          .use('svg-react-loader')
+          .loader('svg-react-loader')
+          .end();
       },
       // footer: {
       //   style: 'dark',

@@ -18,6 +18,7 @@ uswds.settings.version = 3;
 */
 uswds.paths.dist.css = './src/theme/Navbar/uswds/css';
 uswds.paths.dist.theme = './src/theme/Navbar/uswds/scss';
+uswds.paths.dist.js = './src/theme/Navbar/uswds/js';
 
 /**
 * Exports

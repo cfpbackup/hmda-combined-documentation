@@ -20,6 +20,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  staticDirectories: ['static'],
 
   presets: [
     [
@@ -36,6 +37,16 @@ const config = {
         },
       }),
     ],
+  ],
+  scripts: [    
+    {
+      src: '/documentation/js/uswds-init.min.js',
+      defer: true,
+    },
+    {
+      src: '/documentation/js/uswds.min.js',
+      defer: true,
+    },
   ],
 
   themeConfig:
@@ -114,14 +125,6 @@ const config = {
         // Public API key: it is safe to commit it
         apiKey: 'a9f10b8a29718f165720035309b65a46',
         indexName: 'ffiec-beta-cfpb',
-      },
-      chainWebpack: (config, { webpack }) => {
-        config.module
-          .rule('svg')
-          .test(/\.svg$/)
-          .use('svg-react-loader')
-          .loader('svg-react-loader')
-          .end();
       },
       // footer: {
       //   style: 'dark',

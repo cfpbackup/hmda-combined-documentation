@@ -9,10 +9,13 @@ import CloseBtn from '../uswds/img/usa-icons/close.svg'
 import BannerUSA from './BannerUSA'
 
 import SearchBar from '@theme/SearchBar';
-import NavbarSearch from '@theme/Navbar/Search';
+
 
 
 const Header = ({links = defaultLinks}) => {
+  const forceReload = (route) => {
+    window.location.href = route
+  }
   return (
     <div>
       <BannerUSA />
@@ -42,6 +45,7 @@ const Header = ({links = defaultLinks}) => {
                     {!link.submenu ? 
                       <Link
                         to={link.href}
+                        onClick={() => forceReload(link.href)}
                         // className={
                         //     isActive
                         //     ? 'usa-nav__link usa-current'
@@ -69,6 +73,7 @@ const Header = ({links = defaultLinks}) => {
                                 <div className="subMenuHeading">{sublink.name}</div> :
                                 <Link
                                   to={sublink.href}
+                                  onClick={() => forceReload(sublink.href)}
                                 >
                                   {sublink.name}
                                 </Link>

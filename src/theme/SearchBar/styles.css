@@ -13,6 +13,10 @@
   z-index: calc(var(--ifm-z-index-fixed) + 1);
 }
 
+.DocSearch {
+  width: 100%;
+}
+
 .DocSearch-Logo {
   display: none;
 }

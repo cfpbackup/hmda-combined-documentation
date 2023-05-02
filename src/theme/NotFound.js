@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Translate, { translate } from '@docusaurus/Translate'
 import { PageMetadata } from '@docusaurus/theme-common'
 import Layout from '@theme/Layout'
 import SearchBar from './SearchBar'
 
 export default function NotFound() {
-  let urlLocation = window.location.pathname
+  const [urlLocation, setUrllocation] = useState()
+
+  useEffect(() => {
+    if (!window) return
+    setUrllocation(window.location.pathname)
+  }, [])
   return (
     <>
       <PageMetadata
@@ -31,7 +36,7 @@ export default function NotFound() {
                   URL: <span style={{ fontWeight: 500 }}>{urlLocation}</span>
                 </p>
                 <p>
-                  The above URL was not able to direct you to a specific
+                  The above url was not able to direct you to a specific
                   document.
                 </p>
               </div>
@@ -54,7 +59,7 @@ export default function NotFound() {
               >
                 <SearchBar />
               </div>
-              <p>
+              {/* <p>
                 <Translate
                   id='theme.NotFound.p2'
                   description='The 2nd paragraph of the 404 page'
@@ -62,7 +67,7 @@ export default function NotFound() {
                   Please contact the owner of the site that linked you to the
                   original URL and let them know their link is broken.
                 </Translate>
-              </p>
+              </p> */}
             </div>
           </div>
         </main>

@@ -30,7 +30,11 @@ i.e.
 .navbar {
    display: block;
    padding: 0;
-   height: 74px;
+   height: 96px;
+
+   @media (min-width: 640px) {
+      height: 72px;
+   }
 
    .gov {
       height: 40px;
@@ -38,6 +42,17 @@ i.e.
 
    .logo {
       height: 32px;
+   }
+}
+
+.navbar__toggle {
+   margin: 1em 1.5em;
+}
+
+.theme-doc-breadcrumbs {
+   margin-left: 2.5em;
+   @media (min-width: 997px) {
+      margin-left: 0;
    }
 }
 

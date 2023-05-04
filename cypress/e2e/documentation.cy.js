@@ -80,7 +80,7 @@ describe('Docusarus user interactions', () => {
     cy.get(':nth-child(2) > .table-of-contents__link').click()
     cy.location().should(loc => {
       expect(loc.href).to.eq(
-        `${HOST}/documentation/faq/data-collection-timelines#annual-filing-period-dates`
+        `${HOST}/documentation/faq/data-collection-timelines#filing-instructions-guide-fig`
       )
     })
     cy.get('#annual-filing-period-dates').contains('Annual Filing Period Dates')

@@ -20,7 +20,7 @@ export default function NotFound() {
         })}
       />
       <Layout>
-        <main className='container margin-vert--xl'>
+        <main className='container margin-vert--xl not-found'>
           <div className='row'>
             <div className='col col--6 col--offset-3'>
               <h1 className='hero__title'>

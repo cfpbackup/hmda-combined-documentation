@@ -13,7 +13,7 @@
   z-index: calc(var(--ifm-z-index-fixed) + 1);
 }
 
-.DocSearch {
+.not-found .DocSearch {
   width: 100%;
 }
 

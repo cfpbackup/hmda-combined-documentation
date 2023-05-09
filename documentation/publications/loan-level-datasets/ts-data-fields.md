@@ -19,7 +19,7 @@
   - 4
 
 ### [lei](#lei)
-- **Description:** The <a target="_blank" rel="noopener noreferrer" href="http://ffiec.cfpb.gov/documentation/2021/filing-faq#what-is-a-legal-entity-identifier-lei">LEI (Legal Entity Identifier)</a> of the filing institution.
+- **Description:** The <a target="_blank" rel="noopener noreferrer" href="http://ffiec.cfpb.gov/documentation/faq/filing-faq#what-is-a-legal-entity-identifier-lei">LEI (Legal Entity Identifier)</a> of the filing institution.
 - **Values:**
   - Various values
 

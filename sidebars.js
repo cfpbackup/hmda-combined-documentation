@@ -119,6 +119,7 @@ const sidebars = {
         'tools/check-digit',
         'tools/file-format-verification/file-format-verification',
         'tools/lar-formatting/lar-formatting',
+        'tools/online-lar-formatting/online-lar-formatting',
       ],
     },
     // Developer APIs

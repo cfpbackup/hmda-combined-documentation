@@ -1,4 +1,4 @@
-# LAR Formatting Tool
+# Excel LAR Formatting Tool
 
 ## Instructions for using the LAR Formatting Tool (LARFT) to create a HMDA LAR file.
 
@@ -88,7 +88,7 @@
 ![](https://raw.githubusercontent.com/cfpb/hmda-frontend/master/src/documentation/markdown/images/larft/Document_Inspector.png)
 
 # Frequently Asked Questions
-The Frequently Asked Questions are available at https://ffiec.cfpb.gov/documentation/v2/faqs/
+The Frequently Asked Questions are available at https://ffiec.cfpb.gov/documentation/category/frequently-asked-questions
 
 
 ## HMDA Help

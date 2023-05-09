@@ -30,7 +30,7 @@ For additional information, please review Appendix J of the <a target="_blank" r
 ## Filing Preparation
 
 ### How can I test my file before submitting it to HMDA?
-The Bureau hosts the <a target="_blank" rel="noopener noreferrer" href="https://ffiec.beta.cfpb.gov/">HMDA Beta Filing Platform</a> (https://ffiec.beta.cfpb.gov/) where you can submit HMDA data in a sandbox environment (a non-production system designed for application testing) prior to the official filing period. This gives you an early opportunity to <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/markdown/2021/filing-faq.md#what-tools-can-i-use-to-help-prepare-my-file-for-submission">prepare your data</a>, review and resolve edits, as well as identify and correct formatting errors. **Data submitted to the <a target="_blank" rel="noopener noreferrer" href="https://ffiec.beta.cfpb.gov/">HMDA Beta Filing Platform</a> is not retained by the Bureau, or any other regulatory agency.**
+The Bureau hosts the <a target="_blank" rel="noopener noreferrer" href="https://ffiec.beta.cfpb.gov/">HMDA Beta Filing Platform</a> (https://ffiec.beta.cfpb.gov/) where you can submit HMDA data in a sandbox environment (a non-production system designed for application testing) prior to the official filing period. This gives you an early opportunity to <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/faq/filing-faq#what-tools-can-i-use-to-help-prepare-my-file-for-submission">prepare your data</a>, review and resolve edits, as well as identify and correct formatting errors. **Data submitted to the <a target="_blank" rel="noopener noreferrer" href="https://ffiec.beta.cfpb.gov/">HMDA Beta Filing Platform</a> is not retained by the Bureau, or any other regulatory agency.**
 
 ### What tools can I use to help prepare my file for submission?
 You can use the <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2022-hmda-fig.pdf">**Filing Instructions Guide (FIG)**</a> applicable to the year you are filing data for. Filing Instructions Guides for each year can be found on the home page of https://ffiec.cfpb.gov/, **under the “Guides for HMDA Filers” section.** 
@@ -41,7 +41,7 @@ You can use the <a target="_blank" rel="noopener noreferrer" href="https://s3.am
 
 + Edits: Syntactical, Validity, Quality, and Macro quality edits can be found in **Section 5.3 of the FIG**.  
 
-The <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/tools/lar-formatting">**LAR Formatting Tool**</a> assists institutions that are not using their own vendor software in formatting their LAR files correctly. In order to successfully use the tool, Excel macros need to be enabled; please work with your IT department if this is not the case. Additionally, institutions should take note of the annotations that appear when hovering over each cell. These annotations describe what values can be included in each cell. The first tab of the tool entitled “Resources” gives instructions on use.  
+The <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/tools/lar-formatting">**Excel LAR Formatting Tool**</a> assists institutions that are not using their own vendor software in formatting their LAR files correctly. In order to successfully use the tool, Excel macros need to be enabled; please work with your IT department if this is not the case. Additionally, institutions should take note of the annotations that appear when hovering over each cell. These annotations describe what values can be included in each cell. The first tab of the tool entitled “Resources” gives instructions on use.  
 
 The <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/tools/file-format-verification">**File Format Verification Tool**</a> is a resource for testing whether your file meets certain formatting requirements specified in the HMDA FIG, specifically that the file
 
@@ -78,7 +78,7 @@ If using two separate systems to create your LAR File, please combine all entrie
 <a target="_blank" rel="noopener noreferrer" href="https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-1">As stated in Section 1003.5(a)(1)(iii)</a> when the last day for submission falls on a Saturday or Sunday, a submission shall be considered timely if it is submitted on the next succeeding Monday. For example, submissions of 2019 HMDA data were considered timely if received on or before Monday, March 2, 2020.
 
 ### When is the filing period?
-The **Annual filing** period is between <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/2019/annual-filing-dates/">January 1 and March 1</a> of each year.  The <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/filing">HMDA Filing Platform</a> for each filing period opens January 1st.  The submission deadline is March 1st. 
+The **Annual filing** period is between <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/faq/data-collection-timelines#annual-filing-period-dates">January 1 and March 1</a> of each year.  The <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/filing">HMDA Filing Platform</a> for each filing period opens January 1st.  The submission deadline is March 1st. 
 
 ### How do I know my file was submitted?
 Upon signing and submitting your file, an email confirming your submission will be sent to the email address on file. Additionally, when you log into your account, you should see a message stating:
@@ -97,10 +97,7 @@ _Annual HMDA data submissions_ for the filing year are considered timely when co
 
 Quarterly HMDA Data submissions are separated into three quarters, with an on-time filing period and a late submissions period.
 
-- <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/2023/quarterly-filing-dates/">2023 Quarterly Filing Dates</a>
-- <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/2022/quarterly-filing-dates/">2022 Quarterly Filing Dates</a>
-- <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/2021/quarterly-filing-dates/">2021 Quarterly Filing Dates</a>
-- <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/2020/quarterly-filing-dates/">2020 Quarterly Filing Dates</a>
+- <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/faq/data-collection-timelines#quarterly-filing-period-dates">Quarterly Filing Dates</a>
 
 ### Should I file quarterly?
 Beginning January 1, 2020, the 2015 HMDA Final Rule requires quarterly reporting for financial institutions that reported a combined total of at least 60,000 applications and covered loans, excluding purchased covered loans, for the preceding calendar year. Thus, in addition to their annual data submission, these larger-volume reporters will submit HMDA data for each of the first three quarters of the year on a quarterly basis. Further information can be found in <a target="_blank" rel="noopener noreferrer" href="https://www.consumerfinance.gov/rules-policy/regulations/1003/5/#a-1-ii">Regulation C, 12 CFR 1003.5(a)(1)(ii)</a>. 

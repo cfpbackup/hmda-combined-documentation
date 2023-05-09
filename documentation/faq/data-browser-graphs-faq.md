@@ -162,7 +162,7 @@ VA offers loan programs to help servicemembers, veterans, and their families buy
 
 ## How often will the quarterly graphs be updated?
 
-The graphs are updated with the latest data at the conclusion of each quarterly filing period, including the late submission period. A calendar of quarterly filing periods can be found in the [Quarterly Filing documentation](https://ffiec.cfpb.gov/documentation/2022/quarterly-filing-dates/). 
+The graphs are updated with the latest data at the conclusion of each quarterly filing period, including the late submission period. A calendar of quarterly filing periods can be found in the [Quarterly Filing documentation](https://ffiec.cfpb.gov/documentation/faq/data-collection-timelines#quarterly-filing-period-dates). 
 <br/>
 <br/>
 <br/>

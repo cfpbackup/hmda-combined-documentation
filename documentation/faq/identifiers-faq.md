@@ -8,7 +8,7 @@ sidebar_position: 2
 The following information below details guidance regarding institution identifiers in 2017 and 2018.
 
 ### What are the institution identifiers for 2018?
-For 2018 and forward, <a target="_blank" rel="noopener noreferrer" href="http://ffiec.cfpb.gov/documentation/2021/filing-faq#what-is-a-legal-entity-identifier-lei">LEI (Legal Entity Identifier)</a> sourced from a <a target="_blank" rel="noopener noreferrer" href="https://www.gleif.org/">Global LEI Foundation (GLEIF)</a> operating unit is the unique identifier for HMDA Filers. Institutions can be searched by name or LEI on this site.
+For 2018 and forward, <a target="_blank" rel="noopener noreferrer" href="http://ffiec.cfpb.gov/documentation/faq/filing-faq#what-is-a-legal-entity-identifier-lei">LEI (Legal Entity Identifier)</a> sourced from a <a target="_blank" rel="noopener noreferrer" href="https://www.gleif.org/">Global LEI Foundation (GLEIF)</a> operating unit is the unique identifier for HMDA Filers. Institutions can be searched by name or LEI on this site.
 
 ### What are the institution identifiers for 2017?
 For 2017 and prior, an institutions unique identifier is the concatenation of Agency Code and Respondent ID. The use of both Agency Code and Respondent ID is important as Respondent ID by itself is not always sufficient to uniquely identify an institution.
@@ -24,7 +24,7 @@ The _ARID2017 to LEI Reference Table_ provides a mapping of 2017 Agency Code and
 ## Institution Name Changes
 
 ### What if institutions change their names for 2018 or later?
-In 2018 and subsequent years, an institutions name in the HMDA Panel dataset is pulled from <a target="_blank" rel="noopener noreferrer" href="https://www.gleif.org/">GLEIF</a> using the <a target="_blank" rel="noopener noreferrer" href="http://ffiec.cfpb.gov/documentation/2021/filing-faq#what-is-a-legal-entity-identifier-lei">LEI</a> provided by that institution. If the institution changes their legal name with <a target="_blank" rel="noopener noreferrer" href="https://www.gleif.org/">GLEIF</a> after the publication of the HMDA Panel, that change will populate in the subsequent HMDA Panel.
+In 2018 and subsequent years, an institutions name in the HMDA Panel dataset is pulled from <a target="_blank" rel="noopener noreferrer" href="https://www.gleif.org/">GLEIF</a> using the <a target="_blank" rel="noopener noreferrer" href="http://ffiec.cfpb.gov/documentation/faq/filing-faq#what-is-a-legal-entity-identifier-lei">LEI</a> provided by that institution. If the institution changes their legal name with <a target="_blank" rel="noopener noreferrer" href="https://www.gleif.org/">GLEIF</a> after the publication of the HMDA Panel, that change will populate in the subsequent HMDA Panel.
 
 ### What if institutions change their names for 2017 or prior?
 In 2017 an institutions name in the HMDA Panel is pulled from the National Information Center (NIC) dataset. If an institution changed its legal name in NIC after the publication of the HMDA Panel, this change was not back populated.
@@ -40,7 +40,7 @@ An institution’s Agency Code can change from year to year. These changes are d
 Changes to an institutions Agency Code may result in changes to that institutions Respondent ID, especially in the case of depository institutions. Please see the <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2017-hmda-fig.pdf#page=14">2017 HMDA FIG Table 1</a> for a breakout of how Respondent ID is derived based on Agency Code.
 
 ### How do I distinguish between a depository and a non-depository institution?
-In order to distinguish between depository and non-depository institutions in the HMDA data, refer to the <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/2020/panel-data-fields/">HMDA Panel</a> data field <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/2020/panel-data-fields/#other_lender_code">Other Lender Code</a>. Depository institutions all have Code 0 as their Other Lender Code. The remaining codes are all for non-depository institutions.
+In order to distinguish between depository and non-depository institutions in the HMDA data, refer to the <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/publications/loan-level-datasets/panel-data-fields">HMDA Panel</a> data field <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/publications/loan-level-datasets/panel-data-fields#other_lender_code">Other Lender Code</a>. Depository institutions all have Code 0 as their Other Lender Code. The remaining codes are all for non-depository institutions.
 
 The use of Other Lender Code to distinguish between institution types is more accurate than using Agency Code. 
 

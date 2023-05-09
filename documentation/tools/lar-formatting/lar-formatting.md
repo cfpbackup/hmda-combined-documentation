@@ -1,4 +1,4 @@
-# LAR Formatting Tool
+# Excel LAR Formatting Tool
 
 ## Instructions for using the LAR Formatting Tool (LARFT) to create a HMDA LAR file.
 

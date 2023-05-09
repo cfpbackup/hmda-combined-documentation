@@ -41,7 +41,7 @@ You can use the <a target="_blank" rel="noopener noreferrer" href="https://s3.am
 
 + Edits: Syntactical, Validity, Quality, and Macro quality edits can be found in **Section 5.3 of the FIG**.  
 
-The <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/tools/lar-formatting">**LAR Formatting Tool**</a> assists institutions that are not using their own vendor software in formatting their LAR files correctly. In order to successfully use the tool, Excel macros need to be enabled; please work with your IT department if this is not the case. Additionally, institutions should take note of the annotations that appear when hovering over each cell. These annotations describe what values can be included in each cell. The first tab of the tool entitled “Resources” gives instructions on use.  
+The <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/tools/lar-formatting">**Excel LAR Formatting Tool**</a> assists institutions that are not using their own vendor software in formatting their LAR files correctly. In order to successfully use the tool, Excel macros need to be enabled; please work with your IT department if this is not the case. Additionally, institutions should take note of the annotations that appear when hovering over each cell. These annotations describe what values can be included in each cell. The first tab of the tool entitled “Resources” gives instructions on use.  
 
 The <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/tools/file-format-verification">**File Format Verification Tool**</a> is a resource for testing whether your file meets certain formatting requirements specified in the HMDA FIG, specifically that the file
 

@@ -141,6 +141,23 @@ const sidebars = {
         'api/graphs/index',
       ],
     },
+    // Filing Instructions Guide
+    {
+      type: 'category',
+      label: 'Filing Instructions Guide',
+      link: {
+        type: 'generated-index',
+      },
+      collapsed: true,
+      items: [
+        'fig/overview.md',
+        'fig/changes-2023.md',
+        'fig/file-specifications.md',
+        'fig/data-specifications.md',
+        'fig/edit-specifications.md',
+        'fig/additional-info.md',
+      ],
+    },
   ],
 }
 

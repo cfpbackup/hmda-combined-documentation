@@ -1,5 +1,4 @@
-# File Specifications
-2023 File Specifications 
+# 3. 2023 File Specifications 
 
 ## 3.1  Introduction 
 The following information describes the format used when filing HMDA data with the Bureau.

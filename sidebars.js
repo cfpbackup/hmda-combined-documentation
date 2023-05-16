@@ -157,6 +157,7 @@ const sidebars = {
         {type: 'doc', id: 'fig/edit-specifications', label: '5. Edit Specifications'},
         {type: 'doc', id: 'fig/additional-info', label: '6. Additional Info'},
         {type: 'doc', id: 'fig/paperwork-reduction', label: 'Paperwork Reduction'},
+        {type: 'doc', id: 'fig/test', label: 'Tables'},
       ],
     },
   ],

@@ -239,4 +239,14 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-
   margin-right: 1rem
 }
 
+/* FIG Tables */
 
+.react-table {
+  overflow: auto;
+}
+
+.react-table thead {
+  position: sticky;
+  top: 0;
+  background-color: #ddd;
+}

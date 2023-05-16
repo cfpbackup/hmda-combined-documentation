@@ -41,33 +41,36 @@ export const TableMaker = ({ jsonData, tableNumber, tableName }) => {
     };
   
     return (
-      <table {...getTableProps()} className='react-table'>
-        <thead>
-          <tr>
-            <th colSpan={columns.length}>{tableName}</th>
-          </tr>
-          {headerGroups.map((headerGroup) => (
-            <tr {...headerGroup.getHeaderGroupProps()}>
-              {headerGroup.headers.map((column) => (
-                <th {...column.getHeaderProps()}>{column.render('Header')}</th>
-              ))}
+      <div className='react-table'>
+        <table {...getTableProps()}>
+          <thead>
+            <tr>
+              <th colSpan={columns.length}>{tableName}</th>
             </tr>
-          ))}
-        </thead>
-        <tbody {...getTableBodyProps()}>
-            {rows.map((row) => {
-                prepareRow(row);
-                return (
-                <tr {...row.getRowProps()}>
-                    {row.cells.map((cell) => (
-                    <td {...cell.getCellProps()}>
-                        <Cell cell={cell} />
-                    </td>
-                    ))}
-                </tr>
-                );
-            })}
-        </tbody>
-      </table>
+            {headerGroups.map((headerGroup) => (
+              <tr {...headerGroup.getHeaderGroupProps()}>
+                {headerGroup.headers.map((column) => (
+                  <th {...column.getHeaderProps()}>{column.render('Header')}</th>
+                ))}
+              </tr>
+            ))}
+          </thead>
+          <tbody {...getTableBodyProps()}>
+              {rows.map((row) => {
+                  prepareRow(row);
+                  return (
+                  <tr {...row.getRowProps()}>
+                      {row.cells.map((cell) => (
+                      <td {...cell.getCellProps()}>
+                          <Cell cell={cell} />
+                      </td>
+                      ))}
+                  </tr>
+                  );
+              })}
+          </tbody>
+        </table>
+      </div>
+      
     );
   };

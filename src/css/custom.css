@@ -255,3 +255,7 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-
   <th colSpan={columns.length}>{tableName}</th>
 </tr>
 */
+
+.react-table tbody {
+  vertical-align: top;
+}

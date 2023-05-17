@@ -239,7 +239,7 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-
   margin-right: 1rem
 }
 
-/* FIG Tables */
+/* FIG Tables 
 
 .react-table {
   overflow: auto;
@@ -250,3 +250,8 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-
   top: 0;
   background-color: #ddd;
 }
+
+<tr>
+  <th colSpan={columns.length}>{tableName}</th>
+</tr>
+*/

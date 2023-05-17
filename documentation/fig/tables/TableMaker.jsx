@@ -44,9 +44,6 @@ export const TableMaker = ({ jsonData, tableNumber, tableName }) => {
       <div className='react-table'>
         <table {...getTableProps()}>
           <thead>
-            <tr>
-              <th colSpan={columns.length}>{tableName}</th>
-            </tr>
             {headerGroups.map((headerGroup) => (
               <tr {...headerGroup.getHeaderGroupProps()}>
                 {headerGroup.headers.map((column) => (

@@ -84,6 +84,9 @@ i.e.
 
 .usa-banner__header--expanded .usa-banner__inner {
    margin-left: 0;
+   @media (min-width: 40em) {
+      margin-left: 0 !important;
+   }
 }
 
 .usa-banner .usa-accordion__button {

@@ -5,11 +5,11 @@ let url = `${HOST}/documentation/category/frequently-asked-questions`
 describe('General Checks', () => {
   it('Government banner is displayed and image is visible', () => {
     cy.visit(url)
-    cy.get('.banner-inner').then(banner => {
+    cy.get('.usa-banner__header').then(banner => {
       Cypress.dom.isVisible(banner)
     })
     // Images loads
-    cy.get('.banner-inner > img')
+    cy.get('.usa-banner__header-flag')
       .should('be.visible')
       .and($img => {
         // "naturalWidth" and "naturalHeight" are set when the image loads

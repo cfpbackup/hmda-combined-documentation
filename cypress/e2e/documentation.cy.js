@@ -106,7 +106,7 @@ describe('Docusarus user interactions', () => {
 
 describe('Algolia user interactions', () => {
   beforeEach(() => {
-    cy.viewport(1025, 1000) // adjust to your needed resolution
+    cy.viewport(1025, 1000)
   })
 
   it('Opens Algolia search box and looks up documentation on HMDA Filing', () => {

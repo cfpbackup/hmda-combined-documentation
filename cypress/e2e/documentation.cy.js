@@ -105,6 +105,10 @@ describe('Docusarus user interactions', () => {
 })
 
 describe('Algolia user interactions', () => {
+  beforeEach(() => {
+    cy.viewport(1025, 1000) // adjust to your needed resolution
+  })
+
   it('Opens Algolia search box and looks up documentation on HMDA Filing', () => {
     cy.visit(url)
     cy.get('.DocSearch').click()

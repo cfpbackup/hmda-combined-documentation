@@ -38,7 +38,7 @@ const config = {
       }),
     ],
   ],
-  scripts: [    
+  scripts: [
     {
       src: '/documentation/js/uswds-init.min.js',
       defer: true,
@@ -80,6 +80,10 @@ const config = {
               '/2022/filing-faq/',
               '/2023/filing-faq/',
             ],
+          },
+          {
+            to: '/faq/data-collection-timelines',
+            from: '/2023/quarterly-filing-dates/',
           },
           {
             to: '/faq/identifiers-faq',

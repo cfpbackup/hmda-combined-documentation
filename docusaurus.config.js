@@ -50,12 +50,13 @@ const config = {
   ],
 
   plugins: [
-    [
+    'docusaurus-plugin-sass',
+    /*[
       '@docusaurus/plugin-client-redirects',
       {
         redirects: [
           {
-            to: '/fig/overview',
+            to: '/category/filing-instructions-guide',
             from: '/documentation',
           },
           {
@@ -189,7 +190,7 @@ const config = {
           },
         ],
       },
-    ],
+    ],*/
   ],
 
   themeConfig:

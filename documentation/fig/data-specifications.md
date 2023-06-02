@@ -48,10 +48,10 @@ Example: If the e-mail address is erikaotis@bank.com, enter erikaotis@bank.com.
 
 4. **Contact Person's Office Address.** Enter the street address, city, state, and ZIP code.
 
+Example:
 
-# Missing Graphic
+![Example Contact Address](./images/contact-address.png)
 
-# Missing Graphic
 
 
 >  a. **Contact Person's Office Street Address.** Enter the street address of the contact person's office as one (1) data field. U.S. Postal Service Publication 28, Sub-Sections 231–239 can be used as a guide for formatting the street address. Address components include, as applicable, the following individual items:
@@ -147,11 +147,8 @@ Enter the ULI assigned to the covered loan or application. Your financial instit
 
 Example:
 
-# Missing Graphic
+![Example ULI](./images/uli.png)
 
-# Missing Graphic
-
-10BX939C5543TQA1144M999143X38
 
 4. If, pursuant to the 2018 HMDA Rule, your institution is not reporting ULI, enter a NULI assigned to the covered loan or application. Your financial institution shall assign and report an identifier that:
 
@@ -262,13 +259,10 @@ Enter the location of the property securing the covered loan or, in the case of 
 
 [Property Address Securing (or Proposed to Secure) the Covered Loan](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-9).
 
+Example:
 
-# Missing Graphic
+![Example Property Address](./images/property-address.png)
 
-# Missing Graphic
-
-
-456 W Somewhere Ave Apt 201 Anytown CA 90049-9998
 
 1. **Street Address.** Enter the street address of the property as one (1) data field. U.S. Postal Service Publication 28, Sub-Sections 231–239, can be used as a guide for formatting the street address to help improve geocoding accuracy. Address components include, as applicable, the following individual items:
 

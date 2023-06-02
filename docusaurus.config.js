@@ -83,7 +83,14 @@ const config = {
           },
           {
             to: '/faq/data-collection-timelines',
-            from: '/2023/quarterly-filing-dates/',
+            from: [
+              '/2018/quarterly-filing-dates/',
+              '/2019/quarterly-filing-dates/',
+              '/2020/quarterly-filing-dates/',
+              '/2021/quarterly-filing-dates/',
+              '/2022/quarterly-filing-dates/',
+              '/2023/quarterly-filing-dates/',
+            ],
           },
           {
             to: '/faq/identifiers-faq',
@@ -103,7 +110,6 @@ const config = {
           {
             to: '/faq/data-collection-timelines',
             from: [
-              '/2021/quarterly-filing-dates/',
               '/2022/data-collection-timelines/',
               '/2023/annual-filing-dates/',
             ],

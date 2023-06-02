@@ -1,0 +1,112 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+ /* You can override the default Infima variables here. */
+ :root {
+   --ifm-color-primary: #1f498f;
+   --ifm-color-primary-dark: #1c4281;
+   --ifm-color-primary-darker: #1a3e7a;
+   --ifm-color-primary-darkest: #163364;
+   --ifm-color-primary-light: #22509d;
+   --ifm-color-primary-lighter: #2454a4;
+   --ifm-color-primary-lightest: #285fba;
+   --ifm-code-font-size: 95%;
+   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+ 
+   --ifm-font-family-base: Source Sans Pro;
+   --docusaurus-announcement-bar-height: 26px !important;
+   --ifm-navbar-height: 5rem;
+   --ifm-navbar-padding-vertical: 0;
+   --ifm-navbar-item-padding-horizontal: .275rem;
+   --ifm-navbar-link-hover-color: #0071bc;
+ 
+ 
+ }
+ 
+ @media screen and (min-width: 1280px) {
+   :root {
+     --ifm-navbar-item-padding-horizontal: .8rem;
+   }
+ 
+ }
+ 
+ /* For readability concerns, you should choose a lighter palette in dark mode. */
+ [data-theme='dark'] {
+   --ifm-color-primary: #25c2a0;
+   --ifm-color-primary-dark: #21af90;
+   --ifm-color-primary-darker: #1fa588;
+   --ifm-color-primary-darkest: #1a8870;
+   --ifm-color-primary-light: #29d5b0;
+   --ifm-color-primary-lighter: #32d8b4;
+   --ifm-color-primary-lightest: #4fddbf;
+   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+ }
+ 
+ 
+ 
+ /* Emphasize sidebar selection */
+ .menu__link--active {
+   border-radius: 0;
+   font-weight: bold;
+   border-left: 5px solid #1f498f;
+ }
+ 
+ .menu__link--sublist.menu__link--active,
+ .table-of-contents__link--active {
+   font-weight:bold;
+   border-left: none;
+ }
+ 
+ /* Prevent Chrome hover-on-link display of URL from obscuring sidebar options */
+ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-of-type {
+   margin-bottom: 50px;
+ }
+ 
+ .pagination-nav {
+   margin-bottom: 50vh;
+ }
+ 
+ /* Algolia Search Bar */
+ 
+ [class^="searchBox"] {
+   padding-left: .2rem !important;
+   margin-right: 1rem
+ }
+ 
+ /* FIG Tables */
+ 
+ .react-table {
+   table {
+     position: relative;
+     overflow: unset;
+     border-collapse: separate;
+     border-spacing: 0;
+   }
+   tbody {
+     vertical-align: top;
+   }
+ 
+   .table1, .table2, .table5, .table6, .table7, .table8 {
+     .table-name th {
+       top: 5em;
+       line-height: 1em;
+     }
+     th {
+       position: sticky;
+       top: 7.5em;
+       background-color: #eaeaea;
+       border: 1px solid #ccc;
+       line-height: 1em;
+     
+     }
+     .anchorWithStickyNavbar_LWe7 {
+       scroll-margin-top: 12em;
+     }
+   }
+ }

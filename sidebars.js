@@ -15,7 +15,7 @@
 const sidebars = {
   ffiecDocs: [
     // FAQ
-    {
+    /*{
       type: 'category',
       label: 'Frequently Asked Questions',
       link: {
@@ -139,6 +139,24 @@ const sidebars = {
         'api/rate-spread/index',
         'api/check-digit/index',
         'api/graphs/index',
+      ],
+    },*/
+    // Filing Instructions Guide
+    {
+      type: 'category',
+      label: 'Filing Instructions Guide',
+      link: {
+        type: 'generated-index',
+      },
+      collapsed: true,
+      items: [
+        {type: 'doc', id: 'fig/overview', label: '1. Overview'},
+        {type: 'doc', id: 'fig/changes-2023', label: '2. Changes for 2023'},
+        {type: 'doc', id: 'fig/file-specifications', label: '3. File Specifications'},
+        {type: 'doc', id: 'fig/data-specifications', label: '4. Data Specifications'},
+        {type: 'doc', id: 'fig/edit-specifications', label: '5. Edit Specifications'},
+        {type: 'doc', id: 'fig/additional-info', label: '6. Additional Info'},
+        {type: 'doc', id: 'fig/paperwork-reduction', label: 'Paperwork Reduction'},
       ],
     },
   ],

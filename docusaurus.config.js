@@ -55,7 +55,7 @@ const config = {
       {
         redirects: [
           {
-            to: '/category/frequently-asked-questions/',
+            to: '/fig/overview',
             from: '/documentation',
           },
           {

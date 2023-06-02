@@ -24,14 +24,14 @@ const Header = ({links = defaultLinks}) => {
         <div className="usa-nav-container">
           <div className="usa-navbar">
             <div className="usa-logo" id="logo">
-              <a className="nav-link" href="/" aria-label="Home">
+              <a className="nav-link" href="https://ffiec.cfpb.gov/" aria-label="Home">
                 <FFIEC_Logo className='logo' />
                 <span className="usa-logo__text">Home Mortgage Disclosure Act</span>
               </a>
             </div>
             <button type="button" className="usa-menu-btn">Menu</button>
           </div>
-          <nav className="usa-nav">
+         {/*<nav className="usa-nav">
             <button type="button" className="usa-nav__close">
               <CloseBtn />
             </button>
@@ -88,7 +88,7 @@ const Header = ({links = defaultLinks}) => {
               })}
             </ul>
             {<SearchBar />}
-          </nav>
+          </nav>*/}
         </div>
       </header>
     </div>

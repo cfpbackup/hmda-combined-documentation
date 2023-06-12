@@ -16,6 +16,10 @@ RUN npm install
 # Copy the rest of the project files
 COPY . .
 
+# Set Build Version for Footer
+ARG DOCKER_TAG
+ENV DOCKER_TAG=${DOCKER_TAG}
+
 # Build the Docusaurus project
 ENV NODE_ENV=production
 ENV BABEL_ENV=production

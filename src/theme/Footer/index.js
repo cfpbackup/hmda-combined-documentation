@@ -2,11 +2,12 @@ import React, { useEffect } from 'react'
 
 import './Footer.scss'
 import FFIEC_Icon from './images/ffiec-icon-white.svg'
-import ReleaseVersion from './ReleaseVersion'
 import { withRouter } from 'react-router-dom'
 
-const Footer = ({ config, location: {pathname} }) => {
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
+const Footer = ({ config, location: {pathname} }) => {
+  const { siteConfig } = useDocusaurusContext();
   return (
     <>
     <div className="return-to-top">
@@ -32,7 +33,8 @@ const Footer = ({ config, location: {pathname} }) => {
       >
         <p className="usa-identifier__identity-domain">ffiec.cfpb.gov</p>
         <p className="usa-identifier__identity-disclaimer">
-          An official website of the <a href="https://www.consumerfinance.gov/data-research/hmda/" target="_blank">CFPB's HMDA</a> <ReleaseVersion />
+          An official website of the <a href="https://www.consumerfinance.gov/data-research/hmda/" target="_blank">CFPB's HMDA</a> &nbsp; 
+           {siteConfig.themeConfig.docker_tag}
         </p>
       </section>
     </div>

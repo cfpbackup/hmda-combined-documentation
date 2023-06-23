@@ -10,7 +10,7 @@ const Navbar = () => {
       <Header />
       <div id='fig-titlebar'>
         {!mobileSidebar.disabled && <NavbarMobileSidebarToggle />}
-        <span>Filing Information Guide</span>
+        <span>Documentation Menu</span>
       </div>
     </>
   )

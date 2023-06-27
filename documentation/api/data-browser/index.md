@@ -46,7 +46,7 @@ HMDA Data requests support the following filtering parameters. Multiple options 
 
 | Variable Name | Options |
 |:--------------|:---------|
-|years | 2018,2019|
+|years | 2018, 2019, 2020, 2021, 2022|
 |construction_methods | 1,2|
 |dwelling_categories | Single Family (1-4 Units):Site-Built<br />Multifamily:Site-Built<br />Single Family (1-4 Units):Manufactured<br />Multifamily:Manufactured|
 |ethnicities | Hispanic or Latino<br />Not Hispanic or Latino<br />Joint<br />Ethnicity Not Available<br />Free Form Text Only|

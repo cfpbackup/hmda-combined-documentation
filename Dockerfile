@@ -1,8 +1,8 @@
 # Use node as the base image
-FROM node:16.19.1-buster-slim as build-stage
-RUN apt-get update --allow-releaseinfo-change \
-    && apt-get update \
-    && apt-get clean
+FROM node:16-alpine as build-stage
+RUN apk update \
+    && apk upgrade \
+    && apk cache clean
 
 # Set the working directory to /app
 WORKDIR /app
@@ -26,8 +26,8 @@ ENV BABEL_ENV=production
 RUN npm run build
 
 # Non-root user
-RUN useradd -M -d /app -s /bin/bash hmda_user && \
-  chown -R hmda_user:hmda_user /app
+RUN addgroup -S hmda_group && adduser -S -G hmda_group hmda_user && \
+    chown -R hmda_user:hmda_group /app
 
 USER hmda_user
 

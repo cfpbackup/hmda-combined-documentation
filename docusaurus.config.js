@@ -33,7 +33,7 @@ const config = {
           routeBasePath: '/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
       }),
     ],
@@ -50,6 +50,7 @@ const config = {
   ],
 
   plugins: [
+    'docusaurus-plugin-sass',
     [
       '@docusaurus/plugin-client-redirects',
       {
@@ -216,6 +217,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      docker_tag: process.env.DOCKER_TAG || 'dev',
     }),
 }
 

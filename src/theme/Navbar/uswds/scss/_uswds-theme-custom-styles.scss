@@ -30,9 +30,13 @@ i.e.
 .navbar {
    display: block;
    padding: 0;
-   height: 96px;
+   height: 150px;
 
    @media (min-width: 640px) {
+      height: 125px;
+   }
+
+   @media (min-width: 997px) {
       height: 72px;
    }
 
@@ -46,12 +50,26 @@ i.e.
    }
 }
 
+#fig-titlebar {
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+   border-bottom: 1px solid #ddd;
+
+   span {
+      font-size: 1.25em;
+   }
+   @media (min-width: 997px) {
+      display: none;
+   }
+}
+
 .navbar__toggle {
    margin: 1em 1.5em;
 }
 
 .theme-doc-breadcrumbs {
-   margin-left: 2.5em;
+   margin-left: 0;
    @media (min-width: 997px) {
       margin-left: 0;
    }
@@ -79,11 +97,11 @@ i.e.
 /*************************/
 
 .usa-banner__inner {
-   margin-left: 0;
+   margin-left: 0 !important;
 }
 
 .usa-banner__header--expanded .usa-banner__inner {
-   margin-left: 0;
+   margin-left: 0 !important;
 }
 
 .usa-banner .usa-accordion__button {

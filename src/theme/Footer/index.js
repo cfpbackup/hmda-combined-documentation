@@ -34,7 +34,7 @@ const Footer = ({ config, location: {pathname} }) => {
         <p className="usa-identifier__identity-domain">ffiec.cfpb.gov</p>
         <p className="usa-identifier__identity-disclaimer">
           An official website of the <a href="https://www.consumerfinance.gov/data-research/hmda/" target="_blank">CFPB's HMDA</a> &nbsp; 
-           {/*siteConfig.themeConfig.docker_tag*/}
+           {siteConfig.themeConfig.docker_tag}
         </p>
       </section>
     </div>

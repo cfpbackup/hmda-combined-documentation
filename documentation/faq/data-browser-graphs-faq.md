@@ -17,12 +17,12 @@ The institutions displayed are required to file quarterly data in the current ye
 
 ## How do I view a list of quarterly filers?
 
-View a list of quarterly filers by navigating to the “Filer Info” tab.  
+View a list of quarterly filers by navigating to the “Filer Info” tab.
 
-<img alt='Graphs Section Selector' className='widthOriginal' src='https://raw.githubusercontent.com/cfpb/hmda-frontend/master/src/documentation/markdown/images/graphs/section-selector.png' />
- 
+<img alt='Graphs Section Selector' className='widthOriginal' src='/documentation/img/faq/graphs-section-selector.png' />
+
 Users can view the filer name, legal entity identifier (LEI), regulatory agency, and loan/application register (LAR) counts for the previous three years. 
- 
+
 ## How can I sort the quarterly filer list?
 
 By default, the quarterly filer list is sorted alphabetically by Agency and Institution, respectively. The sort order is reflected in the direction of the arrow adjacent to the field name. An up arrow indicates an ascending sort (e.g. A to Z, least to highest) and a down arrow indicates the opposite (e.g. Z to A, highest to least).

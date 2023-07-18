@@ -1,3 +1,4 @@
+### Build Stage ###
 # Use node as the base image
 FROM node:16-alpine as build-stage
 RUN apk update \
@@ -25,10 +26,25 @@ ENV NODE_ENV=production
 ENV BABEL_ENV=production
 RUN npm run build
 
-# Non-root user
-RUN addgroup -S hmda_group && adduser -S -G hmda_group hmda_user && \
-    chown -R hmda_user:hmda_group /app
+# Remove devDependancies
+RUN npm prune --production
 
+### Run Stage ###
+FROM node:16-alpine as run-stage
+
+# Set the working directory to /app
+WORKDIR /app
+
+# Copy files from build-stage
+COPY --from=build-stage /app/package.json /app/package.json
+COPY --from=build-stage /app/docusaurus.config.js /app/docusaurus.config.js
+COPY --from=build-stage /app/sidebars.js /app/sidebars.js
+COPY --from=build-stage /app/src /app/src
+COPY --from=build-stage /app/node_modules /app/node_modules
+COPY --from=build-stage /app/build /app/build
+
+# Non-root user
+RUN addgroup -S hmda_group && adduser -S hmda_user -G hmda_group
 USER hmda_user
 
 EXPOSE 8080

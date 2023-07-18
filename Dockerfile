@@ -26,7 +26,10 @@ ENV NODE_ENV=production
 ENV BABEL_ENV=production
 RUN npm run build
 
-### Build Stage ###
+# Remove devDependancies
+RUN npm prune --production
+
+### Run Stage ###
 FROM node:16-alpine as run-stage
 
 # Set the working directory to /app

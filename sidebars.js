@@ -86,7 +86,7 @@ const sidebars = {
           link: {
             type: 'generated-index',
           },
-          items: ['publications/modified-lar/modified-lar-schema'],
+          items: ['publications/modified-lar/modified-lar-schema', 'publications/modified-lar/supporting-resources'],
         },
       ],
     },

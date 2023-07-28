@@ -46,7 +46,7 @@ The following components have been [swizzled](https://docusaurus.io/docs/swizzli
 - SearchBar (./src/theme/SearchBar)
 - Footer (./src/theme/Footer)
 
-The ```Navbar``` and ```Footer``` components are from the USWDS and are independent from the Docusaurus theme. They can be edited manually and updating docusaurus shouldn't affect these components.
+The ```Navbar``` and ```Footer``` components are from the [USWDS v3.0](https://designsystem.digital.gov/whats-new/updates/2022/04/28/introducing-uswds-3-0/) and are independent from the Docusaurus theme. They can be edited manually and updating docusaurus shouldn't affect these components.
 
 To update links in the Navbar, edit the ```links.js``` (./src/theme/Navbar/Content/links.js) file.
 

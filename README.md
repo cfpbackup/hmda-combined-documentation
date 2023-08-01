@@ -34,10 +34,16 @@ Run tests via cli: `yarn run cypress run`
 <br />
 Run tests via Cypress UI: `yarn run cypress open`
 
-#### Search
+### Search + Newely Added/Updating Documentation
 
 Search feature is powered by [Algolia](https://www.algolia.com/) via the [DocSearch](https://docsearch.algolia.com/) program.
 
+#### Adding new documentation or updating existing documentation
+
+Section explains how to properly update the Algolia crawler to pick up documentation changes.
+
+1. Navigate to https://crawler.algolia.com/admin/users/login and Login
+2. Head over to the `Overview` navigation tab, once there click the `Restart Crawling` button and that will trigger a re-crawl and update the searchable documentation for Algolia
 
 ### Swizzled Components
 

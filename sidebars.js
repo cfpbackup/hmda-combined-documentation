@@ -97,16 +97,8 @@ const sidebars = {
               items: [
                 "publications/modified-lar/resources/supporting-resources",
                 "publications/modified-lar/resources/mlar-with-excel",
-                {
-                  type: "category",
-                  label: "File Specifications",
-                  link: {
-                    type: "generated-index",
-                  },
-                  items: [
-                    "publications/modified-lar/resources/file-specifications/mlar-fs-2017",
-                  ],
-                },
+                "publications/modified-lar/resources/mlar-fs-2017",
+                "publications/modified-lar/resources/using-mlar-data",
                 {
                   type: "category",
                   label: "Data Dictionaries",
@@ -119,16 +111,6 @@ const sidebars = {
                     "publications/modified-lar/resources/data-dictionaries/mlar-dd-2019",
                     "publications/modified-lar/resources/data-dictionaries/mlar-dd-2018",
                     "publications/modified-lar/resources/data-dictionaries/mlar-dd-2017",
-                  ],
-                },
-                {
-                  type: "category",
-                  label: "Field Information",
-                  link: {
-                    type: "generated-index",
-                  },
-                  items: [
-                    "publications/modified-lar/resources/field-information/using-mlar-data",
                   ],
                 },
               ],

@@ -359,15 +359,15 @@ _Note:_ Some edit checks require institution data. These checks are not run in a
 <b>Request:</b>
 
 ```
-curl -X OPTIONS \
-"https://ffiec.cfpb.gov/v2/public/hmda/validate" \
+curl -X POST \
+"https://ffiec.cfpb.gov/v2/public/hmda/validate/2018" \
 -F file=@<PATH>/<FILENAME>.txt
 ```
 
 <b>JSON Response:</b>
 
 ```
-Method: OPTIONS
+Method: POST
 Endpoint: https://ffiec.cfpb.gov/v2/public/hmda/validate/{{year}}
 Payload: HMDA file
 ```

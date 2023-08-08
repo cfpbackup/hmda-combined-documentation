@@ -22,6 +22,11 @@ i.e.
 
 @use "uswds-core" as *;
 
+:root {
+   --hmda-blue: #1f498f;
+   --hmda-blue-light: #2360C2;
+}
+
 
 /*************************
    Docusaurus Overwrites
@@ -221,6 +226,18 @@ i.e.
       left: 1em;
       right: 1em;
       bottom: -0.3em;
+   }
+
+   .usa-nav__primary button[aria-expanded=true] {
+      background-color: var(--hmda-blue);
+   }
+   
+   .usa-nav__submenu .usa-nav__submenu-item {
+      background-color: var(--hmda-blue);
+
+      a:hover {
+         background-color: var(--hmda-blue-light);
+      }
    }
 }
 

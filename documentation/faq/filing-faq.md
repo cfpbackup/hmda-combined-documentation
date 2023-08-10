@@ -1,5 +1,7 @@
 # HMDA Filing
 
+***HMDA Filing Platform: https://ffiec.cfpb.gov/filing/***
+
 ## Account Registration
 
 ### How do I register my financial institution?

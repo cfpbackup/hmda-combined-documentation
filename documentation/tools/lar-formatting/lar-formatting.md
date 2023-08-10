@@ -1,5 +1,7 @@
 # Excel LAR Formatting Tool
 
+***Excel LAR Formatting Tool: https://ffiec.cfpb.gov/tools/lar-formatting***
+
 ## Instructions for using the LAR Formatting Tool (LARFT) to create a HMDA LAR file.
 
 1. Download the HMDA **LAR Formatting Tool for data collected in or after 2018** by selecting the link located on the Loan/Application Register (LAR) Formatting Tool webpage located at https://ffiec.cfpb.gov/tools/lar-formatting. 

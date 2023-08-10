@@ -22,11 +22,6 @@ i.e.
 
 @use "uswds-core" as *;
 
-:root {
-   --hmda-blue: #1f498f;
-   --hmda-blue-light: #2360C2;
-}
-
 
 /*************************
    Docusaurus Overwrites
@@ -210,6 +205,13 @@ i.e.
       }
    }
 
+}
+
+.usa-header--basic .usa-menu-btn {
+   background-color: var(--hmda-blue);
+   &:hover {
+      background-color: var(--hmda-blue-light);
+   }
 }
 
 @media (min-width: 1024px) {

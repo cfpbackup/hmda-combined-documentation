@@ -231,7 +231,7 @@ i.e.
    }
 
    .usa-nav__primary button[aria-expanded=true] {
-      background-color: var(--hmda-blue);
+      background-color: var(--hmda-blue) !important;
    }
    
    .usa-nav__submenu .usa-nav__submenu-item {

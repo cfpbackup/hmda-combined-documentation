@@ -124,6 +124,9 @@ const sidebars = {
       type: "category",
       label: "Developer APIs",
       collapsed: true,
+      link: {
+        type: "generated-index",
+      },
       items: [
         "api/filing/platform",
         "api/filing/beta-platform",

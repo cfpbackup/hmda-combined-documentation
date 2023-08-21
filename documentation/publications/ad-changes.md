@@ -1,4 +1,6 @@
-# What’s Changed?
+# Aggregate Disclousure Reports
+
+## What’s Changed?
 
 The Home Mortgage Disclosure Act (HMDA) requires lending institutions to make annual public disclosures of their home mortgage and home improvement lending activity. In addition to each lending institution's individual disclosure statement, aggregate data tables covering the lending activity of all institutions subject to HMDA in each MSA/MD for the entire nation are made available. Aggregate Reports summarize lending activity by MSA/MD. Disclosure reports summarize lending activity for individual institutions, both nationwide and by MSA/MD.
 

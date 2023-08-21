@@ -207,6 +207,13 @@ i.e.
 
 }
 
+.usa-header--basic .usa-menu-btn {
+   background-color: var(--hmda-blue);
+   &:hover {
+      background-color: var(--hmda-blue-light);
+   }
+}
+
 @media (min-width: 1024px) {
    .usa-header--basic .usa-nav__primary-item {
       position: relative;
@@ -221,6 +228,18 @@ i.e.
       left: 1em;
       right: 1em;
       bottom: -0.3em;
+   }
+
+   .usa-nav__primary button[aria-expanded=true] {
+      background-color: var(--hmda-blue) !important;
+   }
+   
+   .usa-nav__submenu .usa-nav__submenu-item {
+      background-color: var(--hmda-blue);
+
+      a:hover {
+         background-color: var(--hmda-blue-light);
+      }
    }
 }
 

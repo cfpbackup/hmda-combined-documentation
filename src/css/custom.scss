@@ -7,7 +7,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
 
-/* You can override the default Infima variables here. */
+/***********************************
+  Default Overwrites
+/***********************************/
+
 :root {
   --ifm-color-primary: #1f498f;
   --ifm-color-primary-dark: #1c4281;
@@ -26,6 +29,12 @@
   --ifm-navbar-item-padding-horizontal: .275rem;
   --ifm-navbar-link-hover-color: #0071bc;
 
+  --hmda-blue: #1f498f;
+  --hmda-blue-light: #2360C2;
+  --hmda-blue-dark: #162e51;
+  --hmda-blue-bright: #3B7BE9;
+  --ifm-h1-font-size: 2.5rem;
+  --ifm-heading-color: #444;
 
 }
 @media screen and (min-width: 640px) {
@@ -46,19 +55,19 @@
 
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+.markdown p {
+  font-size: 18px;
+  color: #5b616b;
 }
 
-/* BannerUSA */
+.markdown h1:first-child, h1 {
+  --ifm-h1-font-size: 2.5rem;
+  color: var(--hmda-blue);
+}
+
+/***********************************
+  Banner USA
+/***********************************/
 
 .banner {
   background-color: #f1f1f1;
@@ -177,7 +186,9 @@
 }
 
 
-
+/***********************************
+  Navbar
+/***********************************/
 
 .navbar {
   padding-right: 0 !important;
@@ -238,6 +249,10 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-
   margin-bottom: 50px;
 }
 
+/***********************************
+  Bottom PageNav Hacks for Short Content
+/***********************************/
+
 .pagination-nav {
   margin-bottom: 5em;
 }
@@ -264,9 +279,74 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-
   }
 }
 
-/* Algolia Search Bar */
+/***********************************
+  Algolia SearchBar
+/***********************************/
 
 [class^="searchBox"] {
   padding-left: .2rem !important;
   margin-right: 1rem
+}
+
+/***********************************
+  Tool Links
+/***********************************/
+
+.tool-link {
+  font-weight: normal;
+}
+
+
+/**************************
+  Style Guide
+/**************************/
+
+.color-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  .color-card {
+    border: 1px solid #aaa;
+    width: 200px;
+    .color {
+      height: 150px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+    .hmda-blue {
+      background-color: var(--hmda-blue);
+    }
+    .hmda-blue-light {
+      background-color: var(--hmda-blue-light);
+    }
+    .hmda-blue-dark {
+      background-color: var(--hmda-blue-dark);
+    }
+    .hmda-blue-bright {
+      background-color: var(--hmda-blue-bright);
+    }
+    p {
+      padding: 1em;
+      span {
+        display: inline-block;
+        font-weight: bold;
+        margin-right: .5em;
+      }
+    }
+  }
+}
+
+.link {
+  color: var(--hmda-blue-light);
+  text-decoration: underline;
+}
+.link-visited {
+  color: var(--hmda-blue);
+}
+.link-hover {
+  color: var(--hmda-blue-bright);
 }

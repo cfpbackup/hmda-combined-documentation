@@ -36,38 +36,23 @@ const sidebars = {
     {
       type: "category",
       label: "Publications",
-      link: {
-        type: "generated-index",
-      },
       collapsed: true,
       items: [
         {
           type: "category",
           label: "General",
-          link: {
-            type: "generated-index",
-          },
           items: [
             "publications/general/arid2017-to-lei-schema",
             "publications/general/derived-data-fields",
           ],
         },
         {
-          type: "category",
-          label: "Aggregate Disclosure Reports",
-          link: {
-            type: "generated-index",
-          },
-          items: ["publications/aggregate-disclosure-reports/ad-changes"],
+          type: "doc",
+          id: "publications/ad-changes",
         },
         {
           type: "category",
           label: "Loan Level Datasets",
-          link: {
-            type: "generated-index",
-            description:
-              "Information regarding Snapshot, One Year, Three Year and Dynamic National Loan Level Datasets",
-          },
           items: [
             "publications/loan-level-datasets/lar-data-fields",
             "publications/loan-level-datasets/ts-data-fields",
@@ -83,17 +68,11 @@ const sidebars = {
         {
           type: "category",
           label: "Modified LAR",
-          link: {
-            type: "generated-index",
-          },
           items: [
             "publications/modified-lar/modified-lar-schema",
             {
               type: "category",
               label: "Resources",
-              link: {
-                type: "generated-index",
-              },
               items: [
                 "publications/modified-lar/resources/supporting-resources",
                 "publications/modified-lar/resources/mlar-with-excel",
@@ -102,9 +81,6 @@ const sidebars = {
                 {
                   type: "category",
                   label: "Data Dictionaries",
-                  link: {
-                    type: "generated-index",
-                  },
                   items: [
                     "publications/modified-lar/resources/data-dictionaries/mlar-dd-2021",
                     "publications/modified-lar/resources/data-dictionaries/mlar-dd-2020",
@@ -124,18 +100,10 @@ const sidebars = {
       type: "category",
       label: "Tools",
       collapsed: true,
-      link: {
-        type: "generated-index",
-        description:
-          "This tool allows users to filter and download HMDA datasets.",
-      },
       items: [
         {
           type: "category",
           label: "Data Browser",
-          link: {
-            type: "generated-index",
-          },
           items: [
             "tools/data-browser/data-browser-faq",
             "tools/data-browser/data-browser-filters",
@@ -155,10 +123,10 @@ const sidebars = {
     {
       type: "category",
       label: "Developer APIs",
+      collapsed: true,
       link: {
         type: "generated-index",
       },
-      collapsed: true,
       items: [
         "api/filing/platform",
         "api/filing/beta-platform",
@@ -168,6 +136,7 @@ const sidebars = {
         "api/rate-spread/index",
         "api/check-digit/index",
         "api/graphs/index",
+        "api/style-guide/index",
       ],
     },
   ],

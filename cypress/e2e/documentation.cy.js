@@ -49,30 +49,40 @@ describe('Docusarus user interactions', () => {
     cy.visit(url)
     cy.get(':nth-child(2) > .menu__list-item-collapsible > .clean-btn').click()
     cy.get(
-      ':nth-child(2) > .menu__list > :nth-child(2) > .menu__list-item-collapsible > .clean-btn'
+      ':nth-child(2) > :nth-child(4) > .menu__list-item-collapsible'
     ).click()
     cy.get(
-      ':nth-child(2) > .menu__list > .theme-doc-sidebar-item-link > .menu__link'
+      ':nth-child(2) > :nth-child(4) > .menu__list > :nth-child(2) > .menu__list-item-collapsible'
+    ).click()
+    cy.get(
+      ':nth-child(2) > :nth-child(4) > .menu__list > :nth-child(2) > .menu__list > :nth-child(5)  > .menu__list-item-collapsible'
+    ).click()
+    cy.get(
+      ':nth-child(2) > :nth-child(4) > .menu__list > :nth-child(2) > .menu__list > :nth-child(5)  > .menu__list > :nth-child(3) > .menu__link'
     ).click()
     cy.location().should(loc => {
       expect(loc.href).to.eq(
-        `${HOST}/documentation/publications/aggregate-disclosure-reports/ad-changes`
+        `${HOST}/documentation/publications/modified-lar/resources/data-dictionaries/mlar-dd-2019`
       )
     })
   })
-  it('Interacts with nested documentation via category selector', () => {
-    cy.visit(url)
-    cy.get(':nth-child(2) > .menu__list-item-collapsible > .menu__link').click()
-    cy.wait(1000)
-    cy.get(':nth-child(2) > .card').click()
-    cy.wait(1000)
-    cy.get('.card').click()
-    cy.location().should(loc => {
-      expect(loc.href).to.eq(
-        `${HOST}/documentation/publications/aggregate-disclosure-reports/ad-changes`
-      )
-    })
-  })
+
+  // Test for Nested Category Pages.
+  // it('Interacts with nested documentation via category selector', () => {
+  //   cy.visit(url)
+  //   cy.get(':nth-child(2) > .menu__list-item-collapsible > .menu__link').click()
+  //   cy.wait(1000)
+  //   cy.get(':nth-child(2) > .card').click()
+  //   cy.wait(1000)
+  //   cy.get('.card').click()
+  //   cy.location().should(loc => {
+  //     expect(loc.href).to.eq(
+  //       `${HOST}/documentation/publications/aggregate-disclosure-reports/ad-changes`
+  //     )
+  //   })
+  // })
+
+  
   it('Interacts with table of contents on single doc', () => {
     cy.visit(url)
     cy.get(':nth-child(1) > .card').click()

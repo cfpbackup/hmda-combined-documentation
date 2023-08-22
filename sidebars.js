@@ -36,10 +36,10 @@ const sidebars = {
     {
       type: "category",
       label: "Publications",
+      collapsed: true,
       link: {
         type: "generated-index",
       },
-      collapsed: true,
       items: [
         {
           type: "category",

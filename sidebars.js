@@ -37,6 +37,9 @@ const sidebars = {
       type: "category",
       label: "Publications",
       collapsed: true,
+      link: {
+        type: "generated-index",
+      },
       items: [
         {
           type: "category",
@@ -99,6 +102,9 @@ const sidebars = {
     {
       type: "category",
       label: "Tools",
+      link: {
+        type: "generated-index",
+      },
       collapsed: true,
       items: [
         {

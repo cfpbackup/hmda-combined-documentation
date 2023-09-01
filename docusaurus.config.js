@@ -211,6 +211,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      docker_tag: process.env.DOCKER_TAG || 'dev',
     }),
 }
 

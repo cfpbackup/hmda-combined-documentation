@@ -10,7 +10,7 @@ import table9 from './tables/table9.json'
 
 # 5. 2023 Edit Specifications
 
-## 5.1 Introduction
+## 5.1 &nbsp; Introduction
 
 HMDA edits are rules to assist filers in checking the accuracy of HMDA data prior to
 submission. There are four types of edits:
@@ -46,14 +46,14 @@ the accuracy of all the values flagged by the macro quality edits in the HMDA Pl
 corrects the flagged values and re-uploads the updated loan/application register to the
 HMDA Platform.
 
-## 5.2 2023 New and Revised Edits 
+## 5.2 &nbsp; 2023 New and Revised Edits 
 
 
 ### TABLE 3: 2023 EDITS REVISED FROM 2022
 
 <TableMaker jsonData={table3} tableNumber='3' tableName='Table 3' />
 
-## 5.3 2023 Edits
+## 5.3 &nbsp; 2023 Edits
 Table 4 through Table 8 list all of the edits for HMDA data collected in 2023 under the HMDA
 Final Rule. Each table groups the edits by type and whether the edit is related to the data fields
 in the “Filing Institution, Reporting Period, and Contact Information (Transmittal Sheet)”

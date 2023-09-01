@@ -1,8 +1,8 @@
 # 2. Changes to the Submission Process for Data Collected in 2023 
 
-## 2.1 Items that have changed:    
+## 2.1 &nbsp; Items that have changed:    
 There are no significant changes to the submission process for data collected in 2023 and reported in 2024.  
-## 2.2 Items that have not changed: 
+## 2.2 &nbsp; Items that have not changed: 
 
 ### The data fields to be collected and reported have not changed: 
 

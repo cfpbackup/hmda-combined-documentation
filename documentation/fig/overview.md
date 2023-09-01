@@ -6,7 +6,7 @@ The 2023 Filing Instructions Guide (FIG) is a compendium of resources to help yo
 
 The FIG includes the following sections:    
 
-## 1.1 Changes to the Submission Process for Data Collected in 2023 
+## 1.1 &nbsp; Changes to the Submission Process for Data Collected in 2023 
 
 This section provides a summary of the changes made to the submission process for filing HMDA data collected in 2023 with the Bureau.  This section may be useful for employees in a variety of roles, for example, your institution’s: 
 
@@ -16,14 +16,14 @@ This section provides a summary of the changes made to the submission process fo
 
 - HMDA technology support staff 
 
-## 1.2  2023 File Specifications 
+## 1.2 &nbsp; 2023 File Specifications 
 This section provides information including valid values, how to format your loan/application register, and how to file your HMDA data collected in 2023 with the Bureau. This section may be useful for employees in a variety of roles, for example, your institution’s: 
 
 - Staff who collect, prepare, and submit HMDA data 
 
 - HMDA technology support staff
 
-## 1.3  2023 Data Specifications 
+## 1.3 &nbsp; 2023 Data Specifications 
 
 On October 15, 2015, the Bureau issued a final rule 2015 HMDA Final Rule (https://www.federalregister.gov/articles/2015/10/28/2015-26607/home-mortgage-disclosure-regulation-c?amending) Regulation C. 
 
@@ -37,7 +37,7 @@ This section provides instructions for what to enter into each data field in the
 
 - Staff who collect, prepare, and submit HMDA data 
 
-## 1.4 2023 Edit Specifications 
+## 1.4 &nbsp; 2023 Edit Specifications 
 
 This section lists the edits that financial institutions must run on HMDA data before filing with the Bureau.  This section may be useful for employees in a variety of roles, for example, your institution’s: 
 

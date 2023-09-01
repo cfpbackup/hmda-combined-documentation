@@ -1,14 +1,14 @@
 # 4. 2023 Data Specifications
 
-## 4.1 Introduction
+## 4.1 &nbsp; Introduction
 
 This section provides instructions on entering data in the loan/application register for HMDA data collected in 2023. This document is not a substitute for Regulation C. Refer to Regulation C for a complete explanation of the reporting requirement for each data field.
 
 Data fields are presented in the order they are recorded in the loan/application register. Data fields are identified by the corresponding 2023 File Specifications table and data field number, followed by the Regulation C paragraph containing the relevant reporting requirements. For example, (1-2) [Paragraph 5(a)(3)(i)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-i) refers to the data field listed in table 1, data field 2 in the 2023 File Specifications document, and the reporting requirement found at 12 CFR § 1003.5(a)(3)(i). The blue underlined words provide hyperlinks to the referenced Regulation C paragraph.
 
-## 4.2 Data format and itemization
+## 4.2 &nbsp; Data format and itemization
 
-### 4.2.1 Filing institution, reporting period, and contact information
+### 4.2.1 &nbsp; Filing institution, reporting period, and contact information
 
 Please provide the following information regarding your institution in the format described in each paragraph below.
 
@@ -18,7 +18,7 @@ Enter the name of the financial institution that is submitting HMDA data.
 
 Example: If the submission contains HMDA data for Ficus Bank, enter Ficus Bank.
 
-#### (1-3 to 1-4)[Paragraph 5(a)(3)(ii)—Calendar Year and Calendar Quarter](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-ii).
+#### (1-3 to 1-4) [Paragraph 5(a)(3)(ii)—Calendar Year and Calendar Quarter](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-ii).
 
 1. **Calendar Year.** Enter, in numeral form, the calendar year the data submission covers, using YYYY format.
 
@@ -31,7 +31,7 @@ Code 4—Annual submissions for covered loans and applications with respect to w
 a. Codes for individual calendar quarters (1-3) are used only by financial institutions required to report HMDA data quarterly effective January 1, 2020. Further instructions for reporting quarterly data can be found in the [Supplemental Guide for Quarterly Filers](https://s3.amazonaws.com/cfpb-hmda-public/prod/help/supplemental-guide-for-quarterly-filers-for-2021.pdf).
 
 
-#### (1-5 to 1-11)[Paragraph 5(a)(3)(iii)—Contact Person](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-iii)_._
+#### (1-5 to 1-11) [Paragraph 5(a)(3)(iii)—Contact Person](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-iii)_._
 
 Enter the name, telephone number, e-mail address, and office address of a person who may be contacted with questions about your institution's submission.
 
@@ -106,7 +106,7 @@ Code 7—United States Department of Housing and Urban Development (HUD)
 
 Code 9—Consumer Financial Protection Bureau (Bureau)
 
-#### (1-13)[Paragraph 5(a)(3)(v)—Total Number of Entries Contained in Submission](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-v).
+#### (1-13) [Paragraph 5(a)(3)(v)—Total Number of Entries Contained in Submission](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-v).
 
 Enter, in numeral form, the total number of entries contained in the submission.
 
@@ -124,11 +124,11 @@ Enter your financial institution's LEI as defined in [Paragraph 4(a)(1)(i)(A)](h
 
 Example: If your institution's LEI is 10BX939C5543TQA1144M, enter 10BX939C5543TQA1144M.
 
-### 4.2.2 Loan/Application Register
+### 4.2.2 &nbsp; Loan/Application Register
 
 Please provide the following data fields for each application for a covered loan your institution receives, each covered loan that your institution originates, and each covered loan that your institution purchases in the format described in each paragraph below.
 
-#### (2-3)[Paragraph 4(a)(1)(i)—Universal Loan Identifier (ULI)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-1-i) or Non-Universal Loan Identifier (NULI)
+#### (2-3) [Paragraph 4(a)(1)(i)—Universal Loan Identifier (ULI)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-1-i) or Non-Universal Loan Identifier (NULI)
 
 Enter the ULI assigned to the covered loan or application. Your financial institution shall assign and report a ULI that:
 
@@ -178,7 +178,7 @@ Code 3—Veterans Affairs guaranteed (VA)
 
 Code 4—USDA Rural Housing Service or Farm Service Agency guaranteed (RHS or FSA)
 
-#### (2-6)[Paragraph 4(a)(3)—Loan Purpose](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-3).
+#### (2-6) [Paragraph 4(a)(3)—Loan Purpose](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-3).
 
 Indicate the purpose of the covered loan or application by entering the applicable Code from the following:
 
@@ -194,7 +194,7 @@ Code 4—Other purpose
 
 Code 5—Not applicable
 
-#### (2-7)[Paragraph 4(a)(4)—Preapproval](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-4).
+#### (2-7) [Paragraph 4(a)(4)—Preapproval](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-4).
 
 Indicate whether the covered loan or application involved a request for a preapproval of a home purchase loan under a preapproval program by entering the applicable Code from the following:
 
@@ -202,7 +202,7 @@ Code 1—Preapproval requested
 
 Code 2—Preapproval not requested
 
-#### (2-8)[Paragraph 4(a)(5)—Construction Method](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-5).
+#### (2-8) [Paragraph 4(a)(5)—Construction Method](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-5).
 
 Indicate the construction method for the dwelling by entering the applicable Code from the following:
 
@@ -211,7 +211,7 @@ Code 1—Site-built
 Code 2—Manufactured home
 
 
-#### (2-9)[Paragraph 4(a)(6)—Occupancy Type](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-6).
+#### (2-9) [Paragraph 4(a)(6)—Occupancy Type](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-6).
 
 Indicate the occupancy type by entering the applicable Code from the following:
 
@@ -221,13 +221,13 @@ Code 2—Second residence
 
 Code 3—Investment property
 
-#### (2-10)[Paragraph 4(a)(7)—Loan Amount](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-7).
+#### (2-10) [Paragraph 4(a)(7)—Loan Amount](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-7).
 
 Enter, in dollars, the amount of the covered loan, or the amount applied for, as applicable.
 
 Example: If the loan amount is $110,500, enter 110500 or 110500.00. If the loan amount is $110,500.24, enter 110500.24.
 
-#### (2-11)[Paragraph 4(a)(8)(i)—Action Taken](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-8-i).
+#### (2-11) [Paragraph 4(a)(8)(i)—Action Taken](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-8-i).
 
 Indicate the action taken on the covered loan or application by entering the applicable Code from the following:
 
@@ -247,13 +247,13 @@ Code 7—Preapproval request denied
 
 Code 8—Preapproval request approved but not accepted
 
-#### (2-12)[Paragraph 4(a)(8)(ii)—Action Taken Date](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-8-ii).
+#### (2-12) [Paragraph 4(a)(8)(ii)—Action Taken Date](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-8-ii).
 
 Enter, in numeral form, the date of action taken by year, month, and day, using YYYYMMDD format.
 
 Example: If the action taken date is July 21, 2023, enter 20230721.
 
-#### (2-13 to 2-18)[Paragraph 4(a)(9)—Location of Property Securing (or Proposed to Secure) the Covered Loan](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-9).
+#### (2-13 to 2-18) [Paragraph 4(a)(9)—Location of Property Securing (or Proposed to Secure) the Covered Loan](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-9).
 
 Enter the location of the property securing the covered loan or, in the case of an application, proposed to secure the covered loan.
 

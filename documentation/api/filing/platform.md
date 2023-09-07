@@ -14,9 +14,12 @@ For local development, no authorization is needed. See [One-line Local Developme
 <b>Request</b>
 
 ```
-curl -X POST \
-"https://ffiec.cfpb.gov/auth/realms/hmda2/protocol/openid-connect/token" \
--d 'client_id=hmda2-api&grant_type=password&username={{username}}%40{{bank_domain}}&password={{password}}'
+TOKEN=$(curl -s 'https://ffiec.cfpb.gov/auth/realms/hmda2/protocol/openid-connect/token'
+--header 'Content-Type: application/x-www-form-urlencoded'
+--data-urlencode 'client_id=hmda2-api'
+--data-urlencode 'grant_type=password'
+--data-urlencode 'username=xxxx'
+--data-urlencode 'password=xxx' | jq .""access_token"" | tr -d '"') && echo $TOKEN
 ```
 
  | |

@@ -30,23 +30,20 @@ For additional questions, contact hmdahelp@cfpb.gov. Text entries in alphanumeri
  We recommend that HMDA filers use a modern browser, such as the latest version of Google Chrome™, Mozilla® Firefox®, Microsoft Edge™, or other modern browsers. The following submission methods will not be permitted: 
 
  - PC Diskette and CD-ROM 
-
  - Submission via Web (from the Data Entry Software (DES)) 
-
  - E-mail to HMDASUB@FRB.GOV 
-
- - Paper Submissions 
- 
+ - Paper Submissions
+[//]: #
  ### The process by which you validate the edit report: 
  
  Financial institutions must address all edits prior to submitting their HMDA data. In contrast to the previous process for filing data with the Federal Reserve Board (FRB), all edits must now be addressed prior to filing HMDA data with the Bureau in order to complete the submission process.  
  
- ### The edit report will be web-based:  
+ The edit report will be web-based:  
 
  - Edit reports will not be e-mailed to filers in PDF format. Instead, the Bureau edit reports will be viewed and can be downloaded from the HMDA Platform.  
 
  - Responses to the edits will not be faxed or e-mailed to the Bureau. The HMDA Platform will guide filers through the process of addressing edits.   
-
+[//]: #
  ### The agency with which you file resubmissions of your HMDA data: 
  
  A resubmission means that you have already filed your HMDA submission and received a confirmation receipt, but you are submitting again for the same filing year. Beginning with data collected in 2017, filers will resubmit their HMDA data to the Bureau.

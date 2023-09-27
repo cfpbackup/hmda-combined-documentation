@@ -28,6 +28,12 @@
    --ifm-heading-color: #444;
  }
  
+ @media screen and (min-width: 996px) and (max-width: 1100px)  {
+  .col--3 {
+    --ifm-col-width: 0;
+  }
+ }
+
  @media screen and (min-width: 1280px) {
    :root {
      --ifm-navbar-item-padding-horizontal: .8rem;

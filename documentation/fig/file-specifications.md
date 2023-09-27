@@ -22,7 +22,7 @@ Beginning with data collected in 2017, your HMDA data loan/application register 
 
 - The loan/application register will be a text file with a .txt file format extension.
 
-Do not encase text entries in single or double quotes. 
+- Do not encase text entries in single or double quotes. 
 
 Text entries in alphanumeric fields do not need to use all uppercase letters with the exception of: 
 

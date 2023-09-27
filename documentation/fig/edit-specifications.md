@@ -10,6 +10,10 @@ import table9 from './tables/table9.json'
 
 # 5. 2023 Edit Specifications
 
+<a class="printBtn" href="javascript:window.print()" target="_self">
+Print Page
+</a>
+
 ## 5.1 &nbsp; Introduction
 
 HMDA edits are rules to assist filers in checking the accuracy of HMDA data prior to

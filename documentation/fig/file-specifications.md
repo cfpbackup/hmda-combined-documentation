@@ -4,6 +4,10 @@ import table2 from './tables/table2.json'
 
 # 3. 2023 File Specifications 
 
+<a class="printBtn" href="javascript:window.print()" target="_self">
+Print Page
+</a>
+
 ## 3.1 &nbsp; Introduction 
 The following information describes the format used when filing HMDA data with the Bureau.
 

@@ -132,3 +132,19 @@
      }
    }
  }
+
+ /* Print Page Button */
+ .printBtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 12px;
+  padding: .25em 1em;
+  background-color: #eee;
+  border-radius: .5em;
+  margin-top: .5em;
+ }
+
+ article {
+  position: relative;
+ }

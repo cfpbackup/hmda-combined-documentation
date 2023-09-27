@@ -1,5 +1,9 @@
 # 2. Changes to the Submission Process for Data Collected in 2023 
 
+<a class="printBtn" href="javascript:window.print()" target="_self">
+Print Page
+</a>
+
 ## 2.1 &nbsp; Items that have changed:    
 There are no significant changes to the submission process for data collected in 2023 and reported in 2024.  
 ## 2.2 &nbsp; Items that have not changed: 

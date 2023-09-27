@@ -1,5 +1,9 @@
 # 6. Additional information
 
+<a class="printBtn" href="javascript:window.print()" target="_self">
+Print Page
+</a>
+
 ## 6.1 &nbsp; Frequently Asked Questions
 
 The Frequently Asked Questions are available in the Self Service Knowledge Portal at https://ffiec.cfpb.gov.

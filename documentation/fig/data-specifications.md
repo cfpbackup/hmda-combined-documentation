@@ -1,5 +1,9 @@
 # 4. 2023 Data Specifications
 
+<a class="printBtn" href="javascript:window.print()" target="_self">
+Print Page
+</a>
+
 ## 4.1 &nbsp; Introduction
 
 This section provides instructions on entering data in the loan/application register for HMDA data collected in 2023. This document is not a substitute for Regulation C. Refer to Regulation C for a complete explanation of the reporting requirement for each data field.

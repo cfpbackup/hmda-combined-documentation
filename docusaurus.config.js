@@ -52,9 +52,23 @@ const config = {
   plugins: [
     'docusaurus-plugin-sass',
     [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'fig',
+        path: 'fig',
+        routeBasePath: '/fig',
+        sidebarPath: require.resolve('./sidebarsFig.js'),
+        // ... other options
+      },
+    ],
+    [
       '@docusaurus/plugin-client-redirects',
       {
         redirects: [
+          {
+            to: '/fig/overview',
+            from: '/fig',
+          },
           {
             to: '/category/frequently-asked-questions/',
             from: '/documentation',

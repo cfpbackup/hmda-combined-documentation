@@ -57,8 +57,7 @@ const config = {
         id: 'fig',
         path: 'fig',
         routeBasePath: '/fig',
-        sidebarPath: require.resolve('./sidebarsFig.js'),
-        // ... other options
+        sidebarPath: './sidebarsFig.js',
       },
     ],
     [

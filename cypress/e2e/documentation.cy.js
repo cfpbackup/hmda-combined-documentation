@@ -22,6 +22,9 @@ describe('General Checks', () => {
 })
 
 describe('Docusarus user interactions', () => {
+  beforeEach(() => {
+    cy.viewport(1125, 1000)
+  })
   it('Redirect from "/documentation/" to the docs/faq page', () => {
     cy.visit(`${HOST}/documentation/`)
     cy.location().should(loc => {
@@ -119,38 +122,38 @@ describe('Algolia user interactions', () => {
     cy.viewport(1025, 1000)
   })
 
-  it('Opens Algolia search box and looks up documentation on HMDA Filing', () => {
+  it('Opens Algolia search box and looks up documentation on HMDA Maps', () => {
     cy.visit(url)
     cy.get('.DocSearch').click()
-    cy.get('#docsearch-input').type('hmda filing')
-    cy.get('#docsearch-item-0 > a').contains('HMDA Filing')
-    cy.get('#docsearch-item-0 > a').click()
+    cy.get('#docsearch-input').type('hmda maps')
+    cy.get('#docsearch-item-0 > a').contains('HMDA Maps')
+    cy.get('#docsearch-item-0 > a').click({force: true})
     cy.location().should(loc => {
-      expect(loc.href).to.eq(`${HOST}/documentation/faq/filing-faq`)
+      expect(loc.href).to.eq(`${HOST}/documentation/tools/data-browser/data-browser-maps-faq`)
     })
-    cy.get('h1').contains('HMDA Filing')
+    cy.get('h1').contains('HMDA Maps')
   })
-  it('Visits sub section of the HMDA Filing document', () => {
+  it('Visits sub section of the HMDA Maps document', () => {
     cy.visit(url)
     cy.get('.DocSearch').click()
-    cy.get('#docsearch-input').type('hmda filing')
-    cy.get('#docsearch-item-3 > a').contains('Submission')
-    cy.get('#docsearch-item-3 > a').click()
+    cy.get('#docsearch-input').type('hmda maps')
+    cy.get('#docsearch-item-2 > a').contains('option')
+    cy.get('#docsearch-item-2 > a').click({force: true})
     cy.location().should(loc => {
-      expect(loc.href).to.eq(`${HOST}/documentation/faq/filing-faq#submission`)
+      expect(loc.href).to.eq(`${HOST}/documentation/tools/data-browser/data-browser-maps-faq#what-does-each-option-mean`)
     })
-    cy.get('#submission').contains('Submission')
+    cy.get('#what-does-each-option-mean').contains('option')
   })
   it('Visit the more results page provived by Algolia', () => {
     cy.visit(url)
     cy.get('.DocSearch').click()
-    cy.get('#docsearch-input').type('hmda filing')
+    cy.get('#docsearch-input').type('hmda maps')
     cy.get('.DocSearch-HitsFooter > a').click()
     cy.wait(1000)
     cy.get(':nth-child(1) > [class^=searchResultItemHeading] a').first().click()
     cy.location().should(loc => {
-      expect(loc.href).to.eq(`${HOST}/documentation/faq/filing-faq`)
+      expect(loc.href).to.eq(`${HOST}/documentation/tools/data-browser/data-browser-maps-faq`)
     })
-    cy.get('h1').contains('HMDA Filing')
+    cy.get('h1').contains('HMDA Maps')
   })
 })

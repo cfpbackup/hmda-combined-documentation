@@ -563,7 +563,7 @@ Body: {"signed": true}
 
 ```json
 {
-    "email": "user@example.com",
+    "email": "user@bank.com",
     "timestamp": 1572375004080,
     "receipt": "B90YWS6AFX2LGWOXJ1LD-{{year}}-10-1572375004080",
     "status": {
@@ -595,7 +595,7 @@ Headers: Authorization: Bearer {{access_token}}
 
 ```json
 {
-    "email": "user@example.com",
+    "email": "user@bank.com",
     "timestamp": 1572375004080,
     "receipt": "B90YWS6AFX2LGWOXJ1LD-{{year}}-55-1572375004080",
     "status": {
@@ -644,7 +644,7 @@ Headers: Authorization: Bearer {{access_token}}
         "end": 1634229085705,
         "fileName": "clean_file_5_rows_Bank0_2020.txt",
         "receipt": "B90YWS6AFX2LGWOXJ1LD-2020-26-1634229085705",
-        "signerUsername": "test@testerbank.com"
+        "signerUsername": "user@bank.com"
     },
     "ts": {
         "id": 1,
@@ -654,7 +654,7 @@ Headers: Authorization: Bearer {{access_token}}
         "contact": {
             "name": "Mr. Smug Pockets",
             "phone": "555-555-5555",
-            "email": "pockets@ficus.com",
+            "email": "user@bank.com",
             "address": {
                 "street": "1234 Hocus Potato Way",
                 "city": "Tatertown",

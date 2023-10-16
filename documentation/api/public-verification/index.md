@@ -17,7 +17,7 @@ This endpoint runs parsing on a Transmittal Sheet (TS). The endpoint returns a l
     "https://ffiec.cfpb.gov/v2/public" \
     -H 'Content-Type: application/json' \
     -d '{
-    "ts" : "1|Bank 0|2018|4|Jane|111-111-1111|janesmith@bank.com|123 Main St|Washington|DC|20001|9|100|99-999999|10Bx939c5543TqA1144M"
+    "ts" : "1|Bank 0|2018|4|Jane|111-111-1111|user@bank.com|123 Main St|Washington|DC|20001|9|100|99-999999|10Bx939c5543TqA1144M"
   }'
   ```
 
@@ -38,7 +38,7 @@ Payload: Pipe delimited TS
     "contact": {
         "name": "Jane",
         "phone": "111-111-1111",
-        "email": "janesmith@bank.com",
+        "email": "user@bank.com",
         "address": {
             "street": "123 Main St",
             "city": "Washington",
@@ -66,7 +66,7 @@ _Note:_ Some edit checks require institution data. These checks are not run in a
   "https://ffiec.cfpb.gov/v2/public/ts/validate/2018" \
   -H 'Content-Type: application/json' \
   -d '{
-  "ts" : "1|Bank 0|2018|4|Jane|111-111-1111|janesmith@bank.com|123 Main St|Washington|DC|20001|9|100|99-999999|10Bx939c5543TqA1144M"
+  "ts" : "1|Bank 0|2018|4|Jane|111-111-1111|user@bank.com|123 Main St|Washington|DC|20001|9|100|99-999999|10Bx939c5543TqA1144M"
 }'
 ```
 

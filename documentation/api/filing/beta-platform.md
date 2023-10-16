@@ -17,17 +17,39 @@ For local development, no authorization is needed. See [One-line Local Developme
 
 <b>Request</b>
 
-  ```text
-  curl -X POST \
-  "https://ffiec.beta.cfpb.gov/auth/realms/hmda2/protocol/openid-connect/token" \
-  -d 'client_id=hmda2-api&grant_type=password&username={{username}}%40{{bank_domain}}&password={{password}}'
-  ```
+```
+TOKEN=$(curl -s 'https://ffiec.beta.cfpb.gov/auth/realms/hmda2/protocol/openid-connect/token'
+--header 'Content-Type: application/x-www-form-urlencoded'
+--data-urlencode 'client_id=hmda2-api'
+--data-urlencode 'grant_type=password'
+--data-urlencode 'username=xxxx'
+--data-urlencode 'password=xxx' | jq .""access_token"" | tr -d '"') && echo $TOKEN
+```
 
  | |
 ---|---
 Method  |  `POST`
 URL | `https://ffiec.beta.cfpb.gov/auth/realms/hmda2/protocol/openid-connect/token`
 Payload  | client_id=hmda2-api <br/> grant_type=password <br/> username={{username}}%40{{bank_domain}} <br/> password={{password}}
+
+### Error Messages
+
+error | error_description | explanation
+---|---|---
+invalid_grant | Account is not fully set up | Either the `password` needs to be reset or the `email` needs to be verified..
+invalid_grant | Account disabled | Please contact HMDA Help (hmdahelp@cfpb.gov) in order to re-enable the account.
+invalid_grant | Invalid user credentials | The `username` or `password` provided is incorrect.
+
+### Password Policy
+
+- Users must reset their password every 90 days. This 90 days is from when the account's password was last set.
+- Passwords must:
+  - Be at least 12 characters
+  - Have at least 1 uppercase character
+  - Have at least 1 lowercase character
+  - Have at least 1 numerical character
+  - Have at least 1 special character
+  - Not be the same as your username 
 
 ## Postman Collection
 

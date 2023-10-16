@@ -57,7 +57,9 @@ const config = {
         id: 'fig',
         path: 'fig',
         routeBasePath: '/fig',
-        sidebarPath: './sidebarsFig.js',
+        //sidebarPath: './sidebarsFig.js',
+        lastVersion: '2024',
+        includeCurrentVersion: false,
       },
     ],
     [

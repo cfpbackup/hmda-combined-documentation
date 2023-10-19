@@ -122,7 +122,7 @@ Enter your financial institution's Federal Taxpayer Identification Number.
 
 Example: If your institution's Federal Taxpayer Identification number is 99-9999999, enter 99-9999999.
 
-### (1-15 and 2-2)[Paragraph 5(a)(3)(vii)—Legal Entity Identifier (LEI)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-vii).
+#### (1-15 and 2-2)[Paragraph 5(a)(3)(vii)—Legal Entity Identifier (LEI)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-vii).
 
 Enter your financial institution's LEI as defined in [Paragraph 4(a)(1)(i)(A)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-1-i-A).
 

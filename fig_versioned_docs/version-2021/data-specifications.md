@@ -1,4 +1,4 @@
-# 4. 2023 Data Specifications
+# 4. &nbsp; 2021 Data Specifications
 
 <a class="printBtn" href="javascript:window.print()" target="_self">
 Print Page
@@ -6,9 +6,9 @@ Print Page
 
 ## 4.1 &nbsp; Introduction
 
-This section provides instructions on entering data in the loan/application register for HMDA data collected in 2023. This document is not a substitute for Regulation C. Refer to Regulation C for a complete explanation of the reporting requirement for each data field.
+This section provides instructions on entering data in the loan/application register for HMDA data collected in 2021. This document is not a substitute for Regulation C. Refer to Regulation C for a complete explanation of the reporting requirement for each data field.
 
-Data fields are presented in the order they are recorded in the loan/application register. Data fields are identified by the corresponding 2023 File Specifications table and data field number, followed by the Regulation C paragraph containing the relevant reporting requirements. For example, (1-2) [Paragraph 5(a)(3)(i)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-i) refers to the data field listed in table 1, data field 2 in the 2023 File Specifications document, and the reporting requirement found at 12 CFR § 1003.5(a)(3)(i). The blue underlined words provide hyperlinks to the referenced Regulation C paragraph.
+Data fields are presented in the order they are recorded in the loan/application register. Data fields are identified by the corresponding 2021 File Specifications table and data field number, followed by the Regulation C paragraph containing the relevant reporting requirements. For example, (1-2)[Paragraph 5(a)(3)(i)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-i) refers to the data field listed in table 1, data field 2 in the 2021 File Specifications document, and the reporting requirement found at 12 CFR - 1003.5(a)(3)(i). The blue underlined words provide hyperlinks to the referenced Regulation C paragraph.
 
 ## 4.2 &nbsp; Data format and itemization
 
@@ -16,49 +16,48 @@ Data fields are presented in the order they are recorded in the loan/application
 
 Please provide the following information regarding your institution in the format described in each paragraph below.
 
-#### (1-2) [Paragraph 5(a)(3)(i)—Financial Institution](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-i).
+#### (1-2)[Paragraph 5(a)(3)(i)—Financial Institution](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-i).
 
 Enter the name of the financial institution that is submitting HMDA data.
 
 Example: If the submission contains HMDA data for Ficus Bank, enter Ficus Bank.
 
-#### (1-3 to 1-4) [Paragraph 5(a)(3)(ii)—Calendar Year and Calendar Quarter](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-ii).
+#### (1-3 to 1-4)[Paragraph 5(a)(3)(ii)—Calendar Year and Calendar Quarter](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-ii).
 
 1. **Calendar Year.** Enter, in numeral form, the calendar year the data submission covers, using YYYY format.
 
-Example: If the data covers calendar year 2023, enter 2023.
+Example: If the data covers calendar year 2021, enter 2021.
 
 2. **Calendar Quarter.** Indicate the calendar quarter the data submission covers by entering the applicable Code from the following:
 
 Code 4—Annual submissions for covered loans and applications with respect to which final action was taken from January 1 (01/01) and December 31 (12/31)
 
-a. Codes for individual calendar quarters (1-3) are used only by financial institutions required to report HMDA data quarterly effective January 1, 2020. Further instructions for reporting quarterly data can be found in the [Supplemental Guide for Quarterly Filers](https://s3.amazonaws.com/cfpb-hmda-public/prod/help/supplemental-guide-for-quarterly-filers-for-2021.pdf).
+a. Codes for individual calendar quarters (1-3) are used only by financial institutions required to report HMDA data quarterly effective January 1, 2021. Further instructions for reporting quarterly data can be found in the [Supplemental Guide for Quarterly Filers](https://s3.amazonaws.com/cfpb-hmda-public/prod/help/supplemental-guide-for-quarterly-filers-for-2021.pdf).
 
 
-#### (1-5 to 1-11) [Paragraph 5(a)(3)(iii)—Contact Person](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-iii)_._
+#### (1-5 to 1-11)[Paragraph 5(a)(3)(iii)—Contact Person](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-iii)_._
 
-Enter the name, telephone number, e-mail address, and office address of a person who may be contacted with questions about your institution's submission.
+Enter the name, telephone number, e-mail address, and office address of a person who may be contacted with questions about your institution’s submission.
 
-1. **Contact Person's Name.**
+1. **Contact Person’s Name.**
 
-Example: If the contact person's name is Erika Otis, enter Erika Otis.
+Example: If the contact person’s name is Erika Otis, enter Erika Otis.
 
-2. **Contact Person's Telephone Number.**
+2. **Contact Person’s Telephone Number.**
 
 Example: If the phone number is (999) 999-9999, enter 999-999-9999.
-3. **Contact Person's E-mail Address.**
+
+3. **Contact Person’s E-mail Address.**
 
 Example: If the e-mail address is erikaotis@bank.com, enter erikaotis@bank.com.
 
-4. **Contact Person's Office Address.** Enter the street address, city, state, and ZIP code.
+4. **Contact Person’s Office Address.** Enter the street address, city, state, and ZIP code.
 
 Example:
 
 ![Example Contact Address](./images/contact-address.png)
 
-
-
->  a. **Contact Person's Office Street Address.** Enter the street address of the contact person's office as one (1) data field. U.S. Postal Service Publication 28, Sub-Sections 231–239 can be used as a guide for formatting the street address. Address components include, as applicable, the following individual items:
+> a. **Contact Person’s Office Street Address.** Enter the street address of the contact person’s office as one (1) data field. U.S. Postal Service Publication 28, Sub-Sections 231–239 can be used as a guide for formatting the street address. Address components include, as applicable, the following individual items:
 
 > - Primary Address Number
 - Predirectional
@@ -79,24 +78,24 @@ Example:
 > > Secondary Address Identifier: "Ste"<br />
 > > Secondary Address: "201"<br />
 
-> a. **Contact Person's Office City.** Enter the city of the contact person's office as one (1) data field.
+> a. **Contact Person’s Office City.** Enter the city of the contact person’s office as one (1) data field.
 
-> b. **Contact Person's Office State.** Enter the two-letter state code of the contact person's office as one (1) data field.
+> b. **Contact Person’s Office State.** Enter the two-letter state code of the contact person’s office as one (1) data field.
 
-> c. **Contact Person's Office ZIP Code.** Enter the ZIP code of the contact person's office as one (1) data field.
+> c. **Contact Person’s Office ZIP Code.** Enter the ZIP code of the contact person’s office as one (1) data field.
 
-> d. Non-Standard Addressing. U.S. Postal Service Publication 28, Sub-Sections [24](http://pe.usps.gov/text/pub28/28c2_021.htm), [25](http://pe.usps.gov/text/pub28/28c2_027.htm), and [29](http://pe.usps.gov/text/pub28/28c2_041.htm), respectively, can be used as guides for formatting non-standard style addressing including rural route, Highway Contract Route, and Puerto Rico addresses.
+> d. Non-Standard Addressing. U.S. Postal Service Publication 28, Sub-Sections [24](http://pe.usps.gov/text/pub28/28c2_021.htm), [25](http://pe.usps.gov/text/pub28/28c2_027.htm), and [29](http://pe.usps.gov/text/pub28/28c2_041.htm), respectively, can be used as guides for formatting non-standard style addressing including rural route, Highway Contract Route, and Puerto Rico addresses. 
 
 > e. The following address formats are generally not preferred:
 
 > > - General Delivery addresses, such as General Delivery, Anytown, CA 90049-9998.
-- Post Office Box addresses, such as P.O. Box 100 Anytown, CA 90049-9998.
+- Post Office Box addresses, such as P.O. Box 100 Anytown, CA 90049-9998. 
 - Spelled-out numbers, such as Four Hundred Fifty Six W Somewhere Ave Apt Two Hundred One.
 
 
-#### (1-12) [Paragraph 5(a)(3)(iv)—Federal Agency](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-iv).
+#### (1-12)[Paragraph 5(a)(3)(iv)—Federal Agency](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-iv).
 
-Indicate your financial institution's appropriate Federal agency by entering the applicable Code from the following:
+Indicate your financial institution’s appropriate Federal agency by entering the applicable Code from the following:
 
 Code 1—Office of the Comptroller of the Currency (OCC)
 
@@ -110,33 +109,33 @@ Code 7—United States Department of Housing and Urban Development (HUD)
 
 Code 9—Consumer Financial Protection Bureau (Bureau)
 
-#### (1-13) [Paragraph 5(a)(3)(v)—Total Number of Entries Contained in Submission](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-v).
+#### (1-13)[Paragraph 5(a)(3)(v)—Total Number of Entries Contained in Submission](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-v).
 
 Enter, in numeral form, the total number of entries contained in the submission.
 
 Example: If your institution is submitting 5,000 entries, enter 5000.
 
-#### (1-14) [Paragraph 5(a)(3)(vi)—Federal Taxpayer Identification Number](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-vi).
+#### (1-14)[Paragraph 5(a)(3)(vi)—Federal Taxpayer Identification Number](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-vi).
 
-Enter your financial institution's Federal Taxpayer Identification Number.
+Enter your financial institution’s Federal Taxpayer Identification Number.
 
-Example: If your institution's Federal Taxpayer Identification number is 99-9999999, enter 99-9999999.
+Example: If your institution’s Federal Taxpayer Identification number is 99-9999999, enter   99-9999999.
 
-(1-15 and 2-2)[Paragraph 5(a)(3)(vii)—Legal Entity Identifier (LEI)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-vii).
+#### (1-15 and 2-2)[Paragraph 5(a)(3)(vii)—Legal Entity Identifier (LEI)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-vii).
 
-Enter your financial institution's LEI as defined in [Paragraph 4(a)(1)(i)(A)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-1-i-A).
+Enter your financial institution’s LEI as defined in [Paragraph 4(a)(1)(i)(A)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-1-i-A).
 
-Example: If your institution's LEI is 10BX939C5543TQA1144M, enter 10BX939C5543TQA1144M.
+Example: If your institution’s LEI is 10BX939C5543TQA1144M, enter 10BX939C5543TQA1144M.
 
 ### 4.2.2 &nbsp; Loan/Application Register
 
 Please provide the following data fields for each application for a covered loan your institution receives, each covered loan that your institution originates, and each covered loan that your institution purchases in the format described in each paragraph below.
 
-#### (2-3) [Paragraph 4(a)(1)(i)—Universal Loan Identifier (ULI)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-1-i) or Non-Universal Loan Identifier (NULI)
+#### (2-3)[Paragraph 4(a)(1)(i)—Universal Loan Identifier (ULI)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-1-i) or Non-Universal Loan Identifier (NULI)
 
 Enter the ULI assigned to the covered loan or application. Your financial institution shall assign and report a ULI that:
 
-1. Begins with the financial institution's Legal Entity Identifier as defined in [Paragraph 4(a)(1)(i)(A](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-1-i-A)).
+1. Begins with the financial institution’s Legal Entity Identifier as defined in [Paragraph 4(a)(1)(i)(A](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-1-i-A)).
 
 2. Follows the Legal Entity Identifier with up to 23 additional characters to identify the covered loan or application, which:
 
@@ -153,7 +152,6 @@ Example:
 
 ![Example ULI](./images/uli.png)
 
-
 4. If, pursuant to the 2018 HMDA Rule, your institution is not reporting ULI, enter a NULI assigned to the covered loan or application. Your financial institution shall assign and report an identifier that:
 
 > - Is composed of up to 22 characters;
@@ -161,16 +159,15 @@ Example:
 - Must be unique within the insured depository institution or insured credit union; and
 - Must not include any information that could be used to directly identify the applicant or borrower.
 
+#### (2-4)[Paragraph 4(a)(1)(ii)—Application Date](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-1-ii).
 
-#### (2-4) [Paragraph 4(a)(1)(ii)—Application Date](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-1-ii).
+Enter, in numeral form, the date the application was received or the date shown on the application form by year, month, and day, using YYYYMMDD format. 
 
-Enter, in numeral form, the date the application was received or the date shown on the application form by year, month, and day, using YYYYMMDD format.
+Example: If the application was received on July 21, 2021, enter 20210721.
 
-Example: If the application was received on July 21, 2023, enter 20230721.
+> a. Enter “NA” if the requirement to report application date is not applicable to the covered loan or application that your institution is reporting. 
 
-> a. Enter "NA" if the requirement to report application date is not applicable to the covered loan or application that your institution is reporting.
-
-#### (2-5)[Paragraph 4(a)(2)—Loan Type](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-2).
+#### (2-5)[Paragraph 4(a)(2)—Loan Type](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-2). 
 
 Indicate the type of covered loan or application by entering the applicable Code from the following:
 
@@ -182,7 +179,7 @@ Code 3—Veterans Affairs guaranteed (VA)
 
 Code 4—USDA Rural Housing Service or Farm Service Agency guaranteed (RHS or FSA)
 
-#### (2-6) [Paragraph 4(a)(3)—Loan Purpose](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-3).
+#### (2-6)[Paragraph 4(a)(3)—Loan Purpose](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-3).
 
 Indicate the purpose of the covered loan or application by entering the applicable Code from the following:
 
@@ -198,7 +195,7 @@ Code 4—Other purpose
 
 Code 5—Not applicable
 
-#### (2-7) [Paragraph 4(a)(4)—Preapproval](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-4).
+#### (2-7)[Paragraph 4(a)(4)—Preapproval](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-4). 
 
 Indicate whether the covered loan or application involved a request for a preapproval of a home purchase loan under a preapproval program by entering the applicable Code from the following:
 
@@ -206,7 +203,7 @@ Code 1—Preapproval requested
 
 Code 2—Preapproval not requested
 
-#### (2-8) [Paragraph 4(a)(5)—Construction Method](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-5).
+#### (2-8)[Paragraph 4(a)(5)—Construction Method](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-5).
 
 Indicate the construction method for the dwelling by entering the applicable Code from the following:
 
@@ -214,8 +211,7 @@ Code 1—Site-built
 
 Code 2—Manufactured home
 
-
-#### (2-9) [Paragraph 4(a)(6)—Occupancy Type](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-6).
+#### (2-9)[Paragraph 4(a)(6)—Occupancy Type](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-6).
 
 Indicate the occupancy type by entering the applicable Code from the following:
 
@@ -225,13 +221,13 @@ Code 2—Second residence
 
 Code 3—Investment property
 
-#### (2-10) [Paragraph 4(a)(7)—Loan Amount](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-7).
+#### (2-10)[Paragraph 4(a)(7)—Loan Amount](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-7). 
 
 Enter, in dollars, the amount of the covered loan, or the amount applied for, as applicable.
 
 Example: If the loan amount is $110,500, enter 110500 or 110500.00. If the loan amount is $110,500.24, enter 110500.24.
 
-#### (2-11) [Paragraph 4(a)(8)(i)—Action Taken](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-8-i).
+#### (2-11)[Paragraph 4(a)(8)(i)—Action Taken](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-8-i).
 
 Indicate the action taken on the covered loan or application by entering the applicable Code from the following:
 
@@ -249,17 +245,19 @@ Code 6—Purchased loan
 
 Code 7—Preapproval request denied
 
-Code 8—Preapproval request approved but not accepted
+Code 8—Preapproval request approved but not accepted 
 
-#### (2-12) [Paragraph 4(a)(8)(ii)—Action Taken Date](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-8-ii).
+#### (2-12)[Paragraph 4(a)(8)(ii)—Action Taken Date](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-8-ii).
 
 Enter, in numeral form, the date of action taken by year, month, and day, using YYYYMMDD format.
 
-Example: If the action taken date is July 21, 2023, enter 20230721.
+Example: If the action taken date is July 21, 2021, enter 20210721.
 
-#### (2-13 to 2-18) [Paragraph 4(a)(9)—Location of Property Securing (or Proposed to Secure) the Covered Loan](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-9).
+  
 
-Enter the location of the property securing the covered loan or, in the case of an application, proposed to secure the covered loan.
+#### (2-13 to 2-18)[Paragraph 4(a)(9)—Location of Property Securing (or Proposed to Secure) the Covered Loan](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-9).
+
+Enter the location of the property securing the covered loan or, in the case of an application, proposed to secure the covered loan. 
 
 [Property Address Securing (or Proposed to Secure) the Covered Loan](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-9).
 
@@ -283,12 +281,12 @@ Example:
 
 456 W Somewhere Ave Apt 201
 
-> > Primary Address Number: "456"
-> > Predirectional: "W"
-> > Street Name: "Somewhere"
-> > Suffix: "Ave"
-> > Secondary Address Identifier: "Apt"
-> > Secondary Address: "201"
+> > - Primary Address Number: "456"
+- Predirectional: "W"
+- Street Name: "Somewhere"
+- Suffix: "Ave"
+- Secondary Address Identifier: "Apt"
+- Secondary Address: "201"
 
 2. **City.** Enter the city of the property as one (1) data field.
 
@@ -296,19 +294,19 @@ Example:
 
 4. **ZIP Code.** Enter the ZIP code of the property as one (1) data field.
 
-> a. Non-Standard Addressing. U.S. Postal Service Publication 28, Sub-Section [24](http://pe.usps.gov/text/pub28/28c2_021.htm), [25](http://pe.usps.gov/text/pub28/28c2_027.htm), and [29](http://pe.usps.gov/text/pub28/28c2_041.htm), respectively, can be used as guides for formatting non-standard style addressing including rural route, Highway Contract Route, and Puerto Rico addresses to increase the accuracy for geocoding.
+> a. Non-Standard Addressing. U.S. Postal Service Publication 28, Sub-Section [24](http://pe.usps.gov/text/pub28/28c2_021.htm), [25](http://pe.usps.gov/text/pub28/28c2_027.htm), and [29](http://pe.usps.gov/text/pub28/28c2_041.htm), respectively, can be used as guides for formatting non-standard style addressing including rural route, Highway Contract Route, and Puerto Rico addresses to increase the accuracy for geocoding. 
 
 > b. The following address formats are generally not preferred:
 
 > > General Delivery addresses, such as General Delivery, Anytown, CA 90049-9998.
 
-> > Post Office Box addresses, such as P.O. Box 100 Anytown, CA 90049-9998.
+> > Post Office Box addresses, such as P.O. Box 100 Anytown, CA 90049-9998. 
 
 > > Spelled-out numbers, such as Four Hundred Fifty Six W Somewhere Ave Apt Two Hundred One.
 
-> c. Enter "NA" in each of the property address fields if the requirement to report property address is not applicable to the covered loan or application that your institution is reporting.
+> c. Enter “NA” in each of the property address fields if the requirement to report property address is not applicable to the covered loan or application that your institution is reporting.
 
-> d. Enter "Exempt" in the Street Address, City and Zip Code fields if, pursuant to the 2018 HMDA Rule, your institution is not reporting Property Address.
+> d. Enter “Exempt” in the Street Address, City and Zip Code fields if, pursuant to the 2018 HMDA Rule, your institution is not reporting Property Address.
 
 [County and Census Tract](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-9-ii).
 
@@ -316,13 +314,13 @@ Example:
 
 Example: Enter 06037 for the FIPS code for Los Angeles County, CA.
 
-> a. Enter "NA" if the requirement to report county is not applicable to the covered loan or application that your institution is reporting.
+> a. Enter “NA” if the requirement to report county is not applicable to the covered loan or application that your institution is reporting.
 
 2. **Census Tract.** Enter the 11-digit census tract number as defined by the U.S. Census Bureau. Do not use decimals.
 
 Example: Enter 06037264000 for a census tract within Los Angeles County, CA.
 
-> a. Enter "NA" if the requirement to report census tract is not applicable to the covered loan or application that your institution is reporting.
+> a. Enter “NA” if the requirement to report census tract is not applicable to the covered loan or application that your institution is reporting.
 
 
 #### (2-19 to 2-57)[Paragraph 4(a)(10)—Applicant or Borrower Information](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-10).
@@ -357,7 +355,7 @@ Code 5—No co-applicant
 
 > b. Use Code 3 if the applicant or borrower, or co-applicant or co-borrower, does not provide the information in an application taken by mail, internet, or telephone. Leave the remaining Ethnicity of Applicant or Borrower data fields blank.
 
-> c. Use Code 4 if the requirement to report the applicant's or borrower's ethnicity does not apply to the covered loan or application that your institution is reporting. Leave the remaining Ethnicity of Applicant or Borrower data fields blank.
+> c. Use Code 4 if the requirement to report the applicant’s or borrower’s ethnicity does not apply to the covered loan or application that your institution is reporting. Leave the remaining Ethnicity of Applicant or Borrower data fields blank.
 
 > d. Use Code 5 in the co-applicant field if there are no co-applicants or co-borrowers. Leave the remaining Ethnicity of Applicant or Borrower data fields blank.
 
@@ -379,13 +377,13 @@ Code 3—Not applicable
 
 Code 4—No co-applicant
 
-> a. Use Code 3 if the requirement to report the applicant's or borrower's ethnicity does not apply to the covered loan or application that your institution is reporting.
+> a. Use Code 3 if the requirement to report the applicant’s or borrower’s ethnicity does not apply to the covered loan or application that your institution is reporting.
 
 > b. Use Code 3 if the financial institution received the application prior to January 1st, 2018, and the financial institution chooses not to report whether the ethnicity of the applicant or borrower, or of the first co-applicant or co-borrower, as applicable, was collected on the basis of visual observation or surname.
 
 > c. Use Code 4 in the co-applicant field if there are no co-applicants or co-borrowers.
 
-> > i. If there is more than one co-applicant or co-borrower, provide the required information only for the first co-applicant or co-borrower listed on the collection form.
+> > i. If there is more than one co-applicant or co-borrower, provide the required information only for the first co-applicant or co-borrower listed on the collection form. 
 
 [Race of Applicant or Borrower](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-10-i).
 
@@ -433,17 +431,17 @@ Code 8—No co-applicant
 
 > b. Use Code 6 if the applicant or borrower, or co-applicant or co-borrower, does not provide the information in an application taken by mail, internet, or telephone. Leave the remaining Race of Applicant or Borrower data fields blank.
 
-> c. Use Code 7 if the requirement to report the applicant's or borrower's race does not apply to the covered loan or application that your institution is reporting. Leave the remaining Race of Applicant or Borrower data fields blank.
+> c. Use Code 7 if the requirement to report the applicant’s or borrower’s race does not apply to the covered loan or application that your institution is reporting. Leave the remaining Race of Applicant or Borrower data fields blank.
 
 > d. Use Code 8 in the co-applicant field if there are no co-applicants or co-borrowers. Leave the remaining Race of Applicant or Borrower data fields blank.
 
-> > i. If there is more than one co-applicant or co-borrower, provide the required information only for the first co-applicant or co-borrower listed on the collection form.
+> > i. If there is more than one co-applicant or co-borrower, provide the required information only for the first co-applicant or co-borrower listed on the collection form. 
 
 > e. If fewer than five (5) races are provided by the applicant or borrower, or by any co-applicant or co-borrower, leave the remaining Race of Applicant or Borrower data fields blank.
 
-> f. If the applicant or borrower, or any co-applicant or co-borrower, did not select Code(s) 1, 27, or 44, but provided the name of the applicant's or borrower's American Indian or Alaska Native Enrolled or Principal Tribe(s) in the Race Free Form Text Field for American Indian or Alaska Native Enrolled or Principal Tribe, other Asian race(s) in the Race Free Form Text Field for Other Asian, or Other Pacific Islander race(s) in the Race Free Form Text Field for Other Pacific Islander, your institution is permitted, but not required, to report Code 1, Code 27, or Code 44, as applicable, in one of the Race of Applicant or Borrower data fields. Each reported race will be counted as one of the five (5) reported races, whether or not you also choose to report Code 1, Code 27, or Code 44, as applicable as one of the Race of Applicant or Borrower, or Race of Co-Applicant or Co-Borrower, data fields.
+> f. If the applicant or borrower, or any co-applicant or co-borrower, did not select Code(s) 1, 27, or 44, but provided the name of the applicant’s or borrower’s American Indian or Alaska Native Enrolled or Principal Tribe(s) in the Race Free Form Text Field for American Indian or Alaska Native Enrolled or Principal Tribe, other Asian race(s) in the Race Free Form Text Field for Other Asian, or Other Pacific Islander race(s) in the Race Free Form Text Field for Other Pacific Islander, your institution is permitted, but not required, to report Code 1, Code 27, or Code 44, as applicable, in one of the Race of Applicant or Borrower data fields. Each reported race will be counted as one of the five (5) reported races, whether or not you also choose to report Code 1, Code 27, or Code 44, as applicable as one of the Race of Applicant or Borrower, or Race of Co-Applicant or Co-Borrower, data fields.
 
-2. **Race Free Form Text Field for American Indian or Alaska Native Enrolled or Principal Tribe.** Enter the name of the applicant's or borrower's American Indian or Alaska Native Enrolled or Principal Tribe(s), if provided by the applicant or borrower, or by any co-applicant or co-borrower, as applicable. For example, enter Navajo if provided by the applicant or borrower, or by any co-applicant or co-borrower, as applicable. Enter more than one American Indian or Alaska Native Enrolled or Principal Tribe, if provided by the applicant or borrower, or by any co-applicant or co-borrower, as applicable. The maximum number of characters for this field is 100 characters, including spaces. If the applicant or borrower, or any co-applicant or co-borrower did not provide an American Indian or Alaska Native Enrolled or Principal Tribe(s), leave this field blank.
+2. **Race Free Form Text Field for American Indian or Alaska Native Enrolled or Principal Tribe.** Enter the name of the applicant’s or borrower’s American Indian or Alaska Native Enrolled or Principal Tribe(s), if provided by the applicant or borrower, or by any co-applicant or co-borrower, as applicable. For example, enter Navajo if provided by the applicant or borrower, or by any co-applicant or co-borrower, as applicable. Enter more than one American Indian or Alaska Native Enrolled or Principal Tribe, if provided by the applicant or borrower, or by any co-applicant or co-borrower, as applicable. The maximum number of characters for this field is 100 characters, including spaces. If the applicant or borrower, or any co-applicant or co-borrower did not provide an American Indian or Alaska Native Enrolled or Principal Tribe(s), leave this field blank.
 
 3. **Race Free Form Text Field for Other Asian.** Enter the specific Other Asian race(s) not listed above, if provided by the applicant or borrower, or by any co-applicant or co-borrower, as applicable. For example, enter Hmong, Laotian, Thai, Pakistani, or Cambodian, and so on, if provided by the applicant or borrower, or by any co-applicant or co-borrower, as applicable. Enter more than one other Asian race, if provided by the applicant or borrower, or by any co-applicant or co-borrower, as applicable. The maximum number of characters for this field is 100 characters, including spaces. If the applicant or borrower, or any co-applicant or co-borrower, did not provide an Other Asian race(s), leave this field blank.
 
@@ -459,13 +457,13 @@ Code 3—Not applicable
 
 Code 4—No co-applicant
 
-a. Use Code 3 if the requirement to report the applicant's or borrower's race does not apply to the covered loan or application that your institution is reporting.
+a. Use Code 3 if the requirement to report the applicant’s or borrower’s race does not apply to the covered loan or application that your institution is reporting.
 
 b. Use Code 3 if the financial institution received the application prior to January 1st, 2018, and the financial institution chooses not to report whether the race of the applicant or borrower, or of the first co-applicant or co-borrower, as applicable, was collected on the basis of visual observation or surname.
 
 c. Use Code 4 in the co-applicant field if there are no co-applicants or co-borrowers.
 
-> i. If there is more than one co-applicant or co-borrower, provide the required information only for the first co-applicant or co-borrower listed on the collection form.
+> i. If there is more than one co-applicant or co-borrower, provide the required information only for the first co-applicant or co-borrower listed on the collection form. 
 
 [Sex of Applicant or Borrower](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-10-i).
 
@@ -485,11 +483,11 @@ Code 6—Applicant selected both male and female
 
 > a. Use Code 3 if the applicant or co-applicant does not provide the information in an application taken by mail, internet, or telephone.
 
-> b. Use Code 4 if the requirement to report the applicant's or borrower's sex does not apply to the covered loan or application that your institution is reporting.
+> b. Use Code 4 if the requirement to report the applicant’s or borrower’s sex does not apply to the covered loan or application that your institution is reporting.
 
 > c. Use Code 5 in the co-applicant field if there are no co-applicants or co-borrowers.
 
-> > i. If there is more than one co-applicant or co-borrower, provide the required information only for the first co-applicant or co-borrower listed on the collection form.
+> > i. If there is more than one co-applicant or co-borrower, provide the required information only for the first co-applicant or co-borrower listed on the collection form. 
 
 > d. Use Code 6 if the applicant or co-applicant selected both male and female.
 
@@ -503,14 +501,13 @@ Code 3—Not applicable
 
 Code 4—No co-applicant
 
-> a. Use Code 3 if the requirement to report the applicant's or borrower's sex does not apply to the covered loan or application that your institution is reporting.
+> a. Use Code 3 if the requirement to report the applicant’s or borrower’s sex does not apply to the covered loan or application that your institution is reporting.
 
 > b. Use Code 3 if the financial institution received the application prior to January 1st, 2018, and the financial institution chooses not to report whether the sex of the applicant or borrower, or of the first co-applicant or co-borrower, as applicable, was collected on the basis of visual observation or surname.
 
 > c. Use Code 4 in the co-applicant field if there are no co-applicants or co-borrowers.
 
-> > i. If there is more than one co-applicant or co-borrower, provide the required information only for the first co-applicant or co-borrower listed on the collection form.
-
+> > i. If there is more than one co-applicant or co-borrower, provide the required information only for the first co-applicant or co-borrower listed on the collection form.    
 
 [Paragraph 4(a)(10)(ii)—Age of Applicant or Borrower](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-10-ii).
 
@@ -522,19 +519,19 @@ Code 9999—No co-applicant
 
 Example: If the applicant or borrower is 24 years old, enter 24.
 
-> a. Use Code 8888 if the requirement to report the applicant's or borrower's age does not apply to the covered loan or application that your institution is reporting.
+> a. Use Code 8888 if the requirement to report the applicant’s or borrower’s age does not apply to the covered loan or application that your institution is reporting.
 
 > b. Use Code 9999 in the co-applicant field if there are no co-applicants or co-borrowers.
 
-> > i. If there is more than one co-applicant or co-borrower, provide the required information only for the first co-applicant or co-borrower listed on the collection form.
+> > i. If there is more than one co-applicant or co-borrower, provide the required information only for the first co-applicant or co-borrower listed on the collection form.      
 
 [Paragraph 4(a)(10)(iii)—Income](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-10-iii).
 
 Enter, in dollars, rounded to the nearest thousand, the gross annual income relied on in making the credit decision, or if a credit decision was not made, the gross annual income relied on in processing the application (round $500 up to the next $1,000). The HMDA Platform can accept negative numbers for Income.
 
-Example: If the income amount is $35,500, enter 36. If the income amount is $50,000, enter 50.
+Example: If the income amount is $35,500, enter 36. If the income amount is $50,000, enter 50.
 
-> a. Enter "NA" if the requirement to report gross annual income does not apply to the covered loan or application that your institution is reporting.
+> a. Enter “NA” if the requirement to report gross annual income does not apply to the covered loan or application that your institution is reporting.
 
 #### (2-58)[Paragraph 4(a)(11)—Type of Purchaser](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-11).
 
@@ -566,29 +563,29 @@ Code 9—Other type of purchaser
 
 #### (2-59)[Paragraph 4(a)(12)—Rate Spread](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-12).
 
-Enter, as a percentage, to at least three (3) decimal places, the difference between the covered loan's annual percentage rate (APR) and the average prime offer rate (APOR) for a comparable transaction as of the date the interest rate is set. Numbers calculated to beyond three (3) decimal places may either be reported beyond three (3) decimal places, up to 15 decimal places, or rounded or truncated to three (3) decimal places. Decimal place trailing zeros may either be included or omitted. The HMDA Platform can accept negative numbers for Rate Spread.
+Enter, as a percentage, to at least three (3) decimal places, the difference between the covered loan’s annual percentage rate (APR) and the average prime offer rate (APOR) for a comparable transaction as of the date the interest rate is set. Numbers calculated to beyond three (3) decimal places may either be reported beyond three (3) decimal places, up to 15 decimal places, or rounded or truncated to three (3) decimal places. Decimal place trailing zeros may either be included or omitted. The HMDA Platform can accept negative numbers for Rate Spread.
 
-> a. If the APR exceeds the APOR, enter a positive number.
+> a. If the APR exceeds the APOR, enter a positive number. 
 
 > Example:
 
-> If the APR is 3.678% and the APOR is 3.25%, enter 0.428.
+> If the APR is 3.678% and the APOR is 3.25%, enter 0.428. 
 
 > If the APR is 4.560% and the APOR is 4.25%, enter either 0.31 or 0.310
 
-> b. If the APR is less than the APOR, enter a negative number.
+> b. If the APR is less than the APOR, enter a negative number. 
 
-> Example:
+E> xample:
 
 > If the APR 3.1235% and the APOR is 3.25%, enter -0.1265. Alternatively, the rate spread may be truncated to -0.126 or rounded to -0.127.
 
-> c. Enter "NA" if the requirement to report rate spread does not apply to the covered loan or application that your institution is reporting.
+> c. Enter “NA” if the requirement to report rate spread does not apply to the covered loan or application that your institution is reporting.
 
-> d. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Rate Spread.
+> d. Enter “Exempt” if, pursuant to the 2018 HMDA Rule, your institution is not reporting Rate Spread.
 
-#### (2-60)[Paragraph 4(a)(13)—HOEPA Status](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-13).
+#### (2-60)[Paragraph 4(a)(13)—HOEPA Status](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-13). 
 
-Indicate whether the covered loan is a high-cost mortgage under Regulation Z, 12 CFR 1026.32(a) by entering the applicable Code from the following:
+Indicate whether the covered loan is a high-cost mortgage under Regulation Z, 12 CFR 1026.32(a) by entering the applicable Code from the following:
 
 Code 1—High-cost mortgage
 
@@ -626,12 +623,11 @@ Example: If the credit score is 650, enter 650.
 
 > b. Use Code 9999 in the co-applicant field if there are no co-applicants or co-borrowers.
 
-> c. Use Code 7777 if your institution relied on a credit score that is not a number (e.g., a credit score of "Meets Threshold"). Code 7777 should not be used if a credit scoring model that produces numeric credit scores returns a result stating that the credit score could not be determined.
+> c. Use Code 7777 if your institution relied on a credit score that is not a number (e.g., a credit score of “Meets Threshold”). Code 7777 should not be used if a credit scoring model that produces numeric credit scores returns a result stating that the credit score could not be determined.
 
-> d. Enter "1111" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Credit Score.
+> d. Enter “1111” if, pursuant to the 2018 HMDA Rule, your institution is not reporting Credit Score.
 
 2. **Name and Version of Credit Scoring Model.** Indicate the name and version of the credit scoring model used to generate the credit score, or scores, relied on in making the credit decision by entering the applicable Code from the following:
-
 
 Code 1—Equifax Beacon 5.0
 
@@ -653,12 +649,9 @@ Code 9—Not applicable
 
 Code 10—No co-applicant
 
-Code 11—FICO Score 9
-
 Code 1111—Exempt
 
-
-> a. Use Code 1 for Equifax Beacon 5.0, which may also be known as FICO Score 5.
+> a.  Use Code 1 for Equifax Beacon 5.0, which may also be known as FICO Score 5.
 
 > b. Use Code 2 for Experian Fair/Isaac Risk Model v2, which may also be known as FICO Score 2 or FICO Classic v2.
 
@@ -668,17 +661,15 @@ Code 1111—Exempt
 
 > e. Use Code 9 if the requirement to report the name and version of the credit scoring model does not apply to the covered loan or application that your institution is reporting.
 
-> i. If Regulation C requires your institution to report a single score for a covered loan or application involving multiple applicants or borrowers, either report the name and version of the credit scoring model, or that multiple credit scoring models were used, in the applicant field, and use Code 9 in the co-applicant field; or report the name and version of the credit scoring model, or that multiple credit scoring models were used, in the co-applicant field and use Code 9 in the applicant field.
+> > i. If Regulation C requires your institution to report a single score for a covered loan or application involving multiple applicants or borrowers, either report the name and version of the credit scoring model, or that multiple credit scoring models were used, in the applicant field, and use Code 9 in the co-applicant field; or report the name and version of the credit scoring model, or that multiple credit scoring models were used, in the co-applicant field and use Code 9 in the applicant field.
 
 > f. Use Code 10 in the co-applicant field if there are no co-applicants or co-borrowers.
 
-> g. Use Code 11 for FICO Score 9, which also may be known as FICO 9.
-
-> h. Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Credit Score.
+> g. Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Credit Score.
 
 3. **Name and Version of Credit Scoring Model Conditional Free Form Text Field for Code 8.** If Code 8 is selected in the Name and Version of Credit Scoring Model Field, enter the specific other credit scoring model that is not listed above. The maximum number of characters for this field is 100 characters, including spaces. If 8 is not entered, leave this field blank.
 
-#### (2-68 to 2-72) [Paragraph 4(a)(16)—Reason for Denial](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-16).
+(2-68 to 2-72)[Paragraph 4(a)(16)—Reason for Denial](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-16).
 
 1. **Reason for Denial.** Indicate the principal reason, or reasons, for denial by entering up to four (4) applicable Codes from the following:
 
@@ -712,7 +703,7 @@ Code 1111—Exempt
 
 > d. If there are fewer than four principal (4) reasons for denial, leave the remaining Reason for Denial data fields blank.
 
-> e. If your institution uses the model form contained in Appendix C to Regulation B, 12 CFR part 1002 (Form C–1, Sample Notice of Action Taken and Statement of Reasons), use the foregoing Codes as follows:
+> e. If your institution uses the model form contained in Appendix C to Regulation B, 12 CFR part 1002 (Form C–1, Sample Notice of Action Taken and Statement of Reasons), use the foregoing Codes as follows:
 
 > Code 1—Income insufficient for amount of credit requested, and Excessive obligations in relation to income
 
@@ -726,13 +717,13 @@ Code 1111—Exempt
 
 > Code 7—Credit application incomplete
 
-> Code 9—Length of residence; Temporary residence; and Other reasons specified on the adverse action notice.
+> Code 9—Length of residence; Temporary residence; and Other reasons specified on the adverse action notice. 
 
 2. **Reason for Denial Conditional Free Form Text Field for Code 9.** If Code 9 is selected in any Reason for Denial field, enter the specific other reason(s) for denial not listed above. The maximum number of characters for this field is 255 characters, including spaces. If 9 is not entered, leave this field blank.
 
 #### (2-73 to 2-74)[Paragraph 4(a)(17)—Total Loan Costs or Total Points and Fees](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-17).
 
-Enter either Total Loan Costs or Total Points and Fees or indicate that neither reporting requirement applies by entering "NA" for both.
+Enter either Total Loan Costs or Total Points and Fees or indicate that neither reporting requirement applies by entering “NA” for both. 
 
 [Paragraph 4(a)(17)(i)—Total Loan Costs](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-17-i).
 
@@ -740,10 +731,9 @@ Enter, in dollars, the amount of total loan costs. If the amount is zero, enter 
 
 Example: If the total loan costs are $2,399.04, enter 2399.04.
 
-> a. Enter "NA" if the requirement to report total loan costs does not apply to the covered loan or application that your institution is reporting.
+> a. Enter “NA” if the requirement to report total loan costs does not apply to the covered loan or application that your institution is reporting.
 
-> b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Total Loan Costs or Total Points and Fees.
-
+> b. Enter “Exempt” if, pursuant to the 2018 HMDA Rule, your institution is not reporting Total Loan Costs or Total Points and Fees. 
 
 [Paragraph 4(a)(17)(ii)—Total Points and Fees](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-17-ii).
 
@@ -751,9 +741,9 @@ Enter, in dollars, the total points and fees charged in connection with the cove
 
 Example: If the total points and fees are $2,399.04, enter 2399.04.
 
-> c. Enter "NA" if the requirement to report total points and fees does not apply to the covered loan or application that your institution is reporting.
+> c. Enter “NA” if the requirement to report total points and fees does not apply to the covered loan or application that your institution is reporting.
 
-> d. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Total Loan Costs or Total Points and Fees.
+> d. Enter “Exempt” if, pursuant to the 2018 HMDA Rule, your institution is not reporting Total Loan Costs or Total Points and Fees.
 
 #### (2-75)[Paragraph 4(a)(18)—Origination Charges](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-18).
 
@@ -761,9 +751,9 @@ Enter, in dollars, the total of all itemized amounts that are designated borrowe
 
 Example: If the origination charges are $2,399.04, enter 2399.04.
 
-> a. Enter "NA" if the requirement to report origination charges does not apply to the covered loan or application that your institution is reporting.
-> b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Total Loan Costs or Total Points and Fees.
+> a. Enter “NA” if the requirement to report origination charges does not apply to the covered loan or application that your institution is reporting.
 
+> b. Enter “Exempt” if, pursuant to the 2018 HMDA Rule, your institution is not reporting Total Loan Costs or Total Points and Fees.
 
 #### (2-76)[Paragraph 4(a)(19)—Discount Points](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-19).
 
@@ -771,9 +761,9 @@ Enter, in dollars, the points paid to the creditor to reduce the interest rate. 
 
 Example: If the amount paid for discount points is $2,399.04, enter 2399.04.
 
-> a. Enter "NA" if the requirement to report discount points does not apply to the covered loan or application that your institution is reporting.
+> a. Enter “NA” if the requirement to report discount points does not apply to the covered loan or application that your institution is reporting.
 
-> b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Discount Points.
+b. Enter “Exempt” if, pursuant to the 2018 HMDA Rule, your institution is not reporting Discount Points.
 
 #### (2-77)[Paragraph 4(a)(20)—Lender Credits](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-20)_._
 
@@ -781,9 +771,9 @@ Enter, in dollars, the amount of lender credits. If no lender credits were provi
 
 Example: If the amount is $1500.24, enter 1500.24.
 
-> a. Enter "NA" if the requirement to report lender credits does not apply to the covered loan or application that your institution is reporting.
+> a. Enter “NA” if the requirement to report lender credits does not apply to the covered loan or application that your institution is reporting.
 
-> b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Lender Credits.
+> b. Enter “Exempt” if, pursuant to the 2018 HMDA Rule, your institution is not reporting Lender Credits. 
 
 #### (2-78)[Paragraph 4(a)(21)—Interest Rate](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-21).
 
@@ -793,45 +783,45 @@ Example: If the interest rate is 4.125%, enter 4.125.
 
 If the interest rate is exactly 4.500%, enter 4.5, 4.50, or 4.500.
 
-> a. Enter "NA" if the requirement to report interest rate does not apply to the covered loan or application that your institution is reporting.
+> a. Enter “NA” if the requirement to report interest rate does not apply to the covered loan or application that your institution is reporting.
 
-> b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Interest Rate.
+> b. Enter “Exempt” if, pursuant to the 2018 HMDA Rule, your institution is not reporting Interest Rate.
 
-> c. Enter 0 if the interest rate is 0.
-
+> c. Enter 0 if the interest rate is 0.> 
 
 #### (2-79)[Paragraph 4(a)(22)—Prepayment Penalty Term](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-22).
 
 Enter, in numeral form, the term, in months, of any prepayment penalty.
 
-Example: If a prepayment penalty may be imposed within the first 24 months after closing or account opening, enter 24.
+Example: If a prepayment penalty may be imposed within the first 24 months after closing or account opening, enter 24. 
 
-> a. Enter "NA" if the requirement to report prepayment penalty term does not apply to the covered loan or application that your institution is reporting.
+> a. Enter “NA” if the requirement to report prepayment penalty term does not apply to the covered loan or application that your institution is reporting.
 
-> b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Prepayment Penalty Term.
+> b. Enter “Exempt” if, pursuant to the 2018 HMDA Rule, your institution is not reporting Prepayment Penalty Term.
 
-#### (2-80)[Paragraph 4(a)(23)—Debt-to-Income Ratio](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-23).
+#### (2-80)[Paragraph 4(a)(23)—Debt-to-Income Ratio](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-23). 
 
-Enter, as a percentage, the ratio of the applicant's or borrower's total monthly debt to the total monthly income relied on in making the credit decision. Use decimal places only if the ratio relied upon uses decimal places. The HMDA Platform can accept up to 15 decimal places and can accept negative numbers for Debt-to-Income Ratio.
+Enter, as a percentage, the ratio of the applicant’s or borrower’s total monthly debt to the total monthly income relied on in making the credit decision. Use decimal places only if the ratio relied upon uses decimal places. The HMDA Platform can accept up to 15 decimal places and can accept negative numbers for Debt-to-Income Ratio.
 
 Example: If the relied upon debt-to-income ratio is 42.95, enter 42.95, and not 43.
 
 If, however, your institution rounded the ratio up to 43% and relied on the rounded-up number, enter 43.
 
-> a. Enter "NA" if the requirement to report debt-to-income ratio does not apply to the covered loan or application that your institution is reporting.
-> b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Debt-to-Income Ratio.
+> a. Enter “NA” if the requirement to report debt-to-income ratio does not apply to the covered loan or application that your institution is reporting.
 
-#### (2-81)[Paragraph 4(a)(24)—Combined Loan-to-Value Ratio](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-24).
+> b. Enter “Exempt” if, pursuant to the 2018 HMDA Rule, your institution is not reporting Debt-to-Income Ratio.
 
-Enter, as a percentage, the ratio of the total amount of debt secured by the property to the value of the property relied on in making the credit decision. Use decimal places only if the ratio relied upon uses decimal places. The HMDA Platform can accept up to 15 decimal places for the Combined Loan-to-Value Ratio.
+#### (2-81)[Paragraph 4(a)(24)—Combined Loan-to-Value Ratio](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-24). 
+
+Enter, as a percentage, the ratio of the total amount of debt secured by the property to the value of the property relied on in making the credit decision. Use decimal places only if the ratio relied upon uses decimal places. The HMDA Platform can accept up to 15 decimal places for the Combined Loan-to-Value Ratio.
 
 Example: If the relied upon combined loan-to-value ratio is 80.05, enter 80.05, and not 80.
 
 If, however, your institution rounded the ratio down to 80 and relied on the rounded-down number, enter 80.
 
-> a. Enter "NA" if the requirement to report combined loan-to-value ratio does not apply to the covered loan or application that your institution is reporting.
+> a. Enter “NA” if the requirement to report combined loan-to-value ratio does not apply to the covered loan or application that your institution is reporting.
 
-> b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Combined Loan-to-Value Ratio.
+> b. Enter “Exempt” if, pursuant to the 2018 HMDA Rule, your institution is not reporting Combined Loan-to-Value Ratio.
 
 #### (2-82)[Paragraph 4(a)(25)—Loan Term](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-25).
 
@@ -839,10 +829,9 @@ Enter, in numeral form, the number of months after which the legal obligation wi
 
 Example: If the loan term is 360 months, enter 360.
 
-> a. Enter "NA" if the requirement to report loan term does not apply to the covered loan or application that your institution is reporting.
+> a. Enter “NA” if the requirement to report loan term does not apply to the covered loan or application that your institution is reporting.
 
-> b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Loan Term.
-
+> b. Enter “Exempt” if, pursuant to the 2018 HMDA Rule, your institution is not reporting Loan Term.
 
 #### (2-83)[Paragraph 4(a)(26)—Introductory Rate Period](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-26).
 
@@ -850,9 +839,9 @@ Enter, in numeral form, the number of months, or proposed number of months in th
 
 Example: If the introductory rate period is 24 months, enter 24.
 
-> a. Enter "NA" if the requirement to report introductory rate period does not apply to the covered loan or application that your institution is reporting.
+> a. Enter “NA” if the requirement to report introductory rate period does not apply to the covered loan or application that your institution is reporting.
 
-> b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Introductory Rate Period.
+> b. Enter “Exempt” if, pursuant to the 2018 HMDA Rule, your institution is not reporting Introductory Rate Period.
 
 #### (2-84)[Paragraph 4(a)(27)(i)—Balloon Payment](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-27-i).
 
@@ -864,9 +853,9 @@ Code 2—No balloon payment
 
 Code 1111—Exempt
 
-Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Balloon Payment.
+Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Balloon Payment.  
 
-#### (2-85) [Paragraph 4(a)(27)(ii)—Interest-Only Payments](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-27-ii).
+#### (2-85)[Paragraph 4(a)(27)(ii)—Interest-Only Payments](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-27-ii).
 
 Indicate whether the contractual terms include, or would have included, interest-only payments by entering the applicable Code from the following:
 
@@ -878,7 +867,7 @@ Code 1111—Exempt
 
 Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Interest-Only Payments.
 
-#### (2-86) [Paragraph 4(a)(27)(iii)—Negative Amortization](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-27-iii).
+#### (2-86)[Paragraph 4(a)(27)(iii)—Negative Amortization](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-27-iii).
 
 Indicate whether the contractual terms include, or would have included, a term that would cause the covered loan to be a negative amortization loan by entering the applicable Code from the following:
 
@@ -906,12 +895,11 @@ Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not report
 
 Enter, in dollars, the value of the property securing the covered loan or, in the case of an application, proposed to secure the covered loan, relied on in making the credit decision.
 
-Example: If the property value is $350,500, enter 350500.
+Example: If the property value is $350,500, enter 350500. 
 
-> a. Enter "NA" if the requirement to report property value does not apply to the covered loan or application that your institution is reporting.
+> a. Enter “NA” if the requirement to report property value does not apply to the covered loan or application that your institution is reporting.
 
-> b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Property Value.
-
+> b. Enter “Exempt” if, pursuant to the 2018 HMDA Rule, your institution is not reporting Property Value.   
 
 #### (2-89)[Paragraph 4(a)(29)—Manufactured Home Secured Property Type](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-29)
 
@@ -929,9 +917,9 @@ Code 3—Not applicable
 
 > b. Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Manufactured Home Secured Property Type.
 
-#### (2-90) [Paragraph 4(a)(30)—Manufactured Home Land Property Interest](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-30).
+#### (2-90)[Paragraph 4(a)(30)—Manufactured Home Land Property Interest](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-30).
 
-Indicate the applicant's or borrower's land property interest in the land on which a manufactured home is, or will be, located by entering the applicable Code from the following:
+Indicate the applicant’s or borrower’s land property interest in the land on which a manufactured home is, or will be, located by entering the applicable Code from the following:
 
 Code 1111—Exempt
 
@@ -954,7 +942,7 @@ Code 5—Not applicable
 Enter, in numeral form, the number of individual dwelling units related to the property securing the covered loan or, in the case of an application, proposed to secure the covered loan.
 
 Example: If there are five (5) individual dwelling units, enter 5.
-4.
+
 
 #### (2-92)[Paragraph 4(a)(32)—Multifamily Affordable Units](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-32).
 
@@ -962,12 +950,11 @@ Enter, in numeral form, the number of individual dwelling units related to any m
 
 Example: If there are five (5) multifamily affordable units, enter 5.
 
+> a. Enter “0” for a covered loan or application related to a multifamily dwelling that does not contain any such income-restricted individual dwelling units.
 
-> a. Enter "0" for a covered loan or application related to a multifamily dwelling that does not contain any such income-restricted individual dwelling units.
+> b. Enter “NA” if the requirement to report multifamily affordable units does not apply to the covered loan or application that your institution is reporting.
 
-> b. Enter "NA" if the requirement to report multifamily affordable units does not apply to the covered loan or application that your institution is reporting.
-
-> c. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Multifamily Affordable Units.
+> c. Enter “Exempt” if, pursuant to the 2018 HMDA Rule, your institution is not reporting Multifamily Affordable Units.
 
 #### (2-93 to 2-94)[Paragraph 4(a)(33)—Application Channel](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-33).
 
@@ -1005,10 +992,9 @@ Enter the Nationwide Mortgage Licensing System and Registry mortgage loan origin
 
 Example: If the NMLSR ID for the mortgage loan originator is 123450, enter 123450.
 
-Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting NMLSR ID.
-11.
+Enter “Exempt” if, pursuant to the 2018 HMDA Rule, your institution is not reporting NMLSR ID.
 
-#### (2-96 to 2-107) [Paragraph 4(a)(35)—Automated Underwriting System (AUS) and Result](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-35).
+#### (2-96 to 2-107)[Paragraph 4(a)(35)—Automated Underwriting System (AUS) and Result](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-35).
 
 1. **Automated Underwriting System.** Indicate the automated underwriting system(s) (AUS) used by your institution to evaluate the application by entering up to five (5) of the applicable Codes from the following:
 
@@ -1028,18 +1014,11 @@ Code 7—Internal Proprietary System
 
 Code 1111—Exempt
 
+> a. Use Code 6 if the requirement to report an AUS does not apply to the covered loan or application that your institution is reporting. Leave the remaining Automated Underwriting System data fields blank.
 
-> a. If fewer than five (5) automated underwriting systems were used by your institution to evaluate the application, leave the remaining Automated Underwriting System data fields blank.
+> b. If fewer than five (5) automated underwriting systems were used by your institution to evaluate the application, leave the remaining Automated Underwriting System data fields blank.
 
-> b. Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Automated Underwriting System.
-
-> c. Use Code 5 if your institution uses an Automated Underwriting System that 1) is not listed in the enumerated Automated Underwriting Systems, and 2) **is not** an internal proprietary system. Enter the name of the Automated Underwriting System in the Automated Underwriting System Conditional Free Form Text Field for Code 5 data field.
-
-> d. Use Code 6 if the requirement to report an AUS does not apply to the covered loan or application that your institution is reporting. Leave the remaining Automated Underwriting System data fields blank.
-
-> e. Use Code 7 if your institution uses an Automated Underwriting System that 1) is not listed in the enumerated Automated Underwriting Systems, and 2) **is** an internal proprietary system.
-
-> f. If your institution uses an Automated Underwriting System that is already listed as a valid value for Automated Underwriting Systems and is **not** Code 5 - Other (i.e., Codes 1, 2, 3, etc.), do not enter the name of Automated Underwriting System into the Automated Underwriting System Conditional Free Form Text Field for Code 5 data field. Instead, choose the corresponding code for your input. For example, the Automated Underwriting System Desktop Underwriter (DU) should be coded as 1, and not submitted in the free form text field as "Desktop Underwriter (DU)". Instead, enter the applicable code(s) in the Automated Underwriting System fields.
+> c. Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Automated Underwriting System.  
 
 2. **Automated Underwriting System Conditional Free Form Text Field for Code 5.** If Code 5 is selected in any Automated Underwriting System field, enter the name of the specific other AUS(s) not listed above. Enter more than one other Automated Underwriting System, as applicable. The maximum number of characters for this field is 255 characters, including spaces. If 5 is not entered, leave this field blank.
 
@@ -1095,10 +1074,9 @@ Code 24 - Refer with Caution/Unable to Determine
 
 Code 1111—Exempt
 
+> a.  The AUS of the Federal National Mortgage Association (Fannie Mae) commonly returns results that correspond to Codes 1, 2, 3, 4, 5, 6, 7, and 15. If your result(s) differ, report the AUS result(s) received.
 
-> a. The AUS of the Federal National Mortgage Association (Fannie Mae) commonly returns results that correspond to Codes 1, 2, 3, 4, 5, 6, 7, and 15. If your result(s) differ, report the AUS result(s) received.
-
-> b. The AUS of the Federal Home Loan Mortgage Corporation (Freddie Mac) commonly returns results that correspond to Codes 8, 9, 10, 11, 12, and 13. If more than one result is returned _on the Feedback Certificate_, report the Risk Class result. If your result(s) differ, report the AUS result(s) received.
+> b.   The AUS of the Federal Home Loan Mortgage Corporation (Freddie Mac) commonly returns results that correspond to Codes 8, 9, 10, 11, 12, and 13. If more than one result is returned _on the Feedback Certificate_, report the Risk Class result. If your result(s) differ, report the AUS result(s) received.
 
 > c. The FHA TOTAL Scorecard AUS commonly returns results that correspond to Codes 1, 2, 3, 4, 8, 13, 18, and 19. If your results differ, report the AUS result(s) received.
 
@@ -1108,13 +1086,11 @@ Code 1111—Exempt
 
 > f. If fewer than five (5) results were generated by the automated underwriting system(s) previously indicated, leave the remaining Automated Underwriting System Result data fields blank.
 
-> g. Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Automated Underwriting System Result.
-
-> h. If your institution uses an Automated Underwriting System Result value that is listed in the Automated Underwriting System Results and is **not** Code 16 - Other (i.e., Codes 1, 2, 3, etc.), do not enter this value into the Automated Underwriting System Result Conditional Free Form Text Field for Code 16 data field. For example, an Automated Underwriting System Result of Accept/Eligible should be coded as 18, and not listed as "Accept/Eligible" in the free form text field. Instead, enter the applicable code(s) in the for Automated Underwriting System Result fields.
+> g. Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Automated Underwriting System Result. 
 
 4. **Automated Underwriting System Result Conditional Free Form Text Field for Code 16.** If Code 16 is selected in an Automated Underwriting System Result field, enter the specific other AUS result(s) not listed above. Enter more than one other Automated Underwriting System Result, as applicable. The maximum number of characters for this field is 255 characters, including spaces. If 16 is not entered, leave this field blank.
 
-#### (2-108)[Paragraph 4(a)(36)—Reverse Mortgage](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-36).
+#### (2-108)[Paragraph 4(a)(36)—Reverse Mortgage](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-36). 
 
 Indicate whether the covered loan is, or the application is for, a reverse mortgage by entering the applicable Code from the following:
 
@@ -1124,10 +1100,9 @@ Code 1—Reverse mortgage
 
 Code 2—Not a reverse mortgage
 
-Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Reverse Mortgage.
+Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Reverse Mortgage. 
 
-
-#### (2-109)[Paragraph 4(a)(37)—Open-End Line of Credit](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-37).
+#### (2-109)[Paragraph 4(a)(37)—Open-End Line of Credit](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-37). 
 
 Indicate whether the covered loan is, or the application is for, an open-end line of credit by entering the applicable Code from the following:
 
@@ -1137,8 +1112,7 @@ Code 2—Not an open-end line of credit
 
 Code 1111—Exempt
 
-Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Open End Line of Credit.
-
+Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Open End Line of Credit. 
 
 #### (2-110)[Paragraph 4(a)(38)— Business or Commercial Purpose](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-38).
 

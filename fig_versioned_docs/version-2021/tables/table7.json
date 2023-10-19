@@ -261,7 +261,7 @@
         "Edit ID": "Q654",
         "Data Point Name": "Debt-to-Income Ratio",
         "Affected Data Fields": "Debt-to-Income Ratio; Income; Action Taken",
-        "Edit Description": "Please review the information below and update your file, if needed.   1) If Income is greater than $5,000 (reported as 5), Action Taken equals 1, 2, or 8, and the value for DTI is not NA or Exempt, the DTIshould generally be between 0 and 80."
+        "Edit Description": "Please review the information below and update your file, if needed.   1) If Income is greater than $5,000 (reported as 5) and Action Taken equals 1, 2, or 8, the  DTI  should generally be between 0 and 80."
     },
     {
         "Edit ID": "Q655",
@@ -277,20 +277,8 @@
     },
     {
         "Edit ID": "Q657",
-        "Data Point Name": "Any data point that accepts a numeric data field type that is not eligible for an exemption code",
-        "Affected Data Fields": "Any data field that accepts a numeric data field type that is not eligible for an exemption code",
+        "Data Point Name": "Any data point with a numeric data field type that is not eligible for an exemption code",
+        "Affected Data Fields": "Any data field with a numeric data field type that is not eligible for an exemption code",
         "Edit Description": "Please review the information below and update your file, if needed.   The value 1111 was entered in a field that does not accept 1111 as an exemption code, which may indicate that an incorrect exemption code is being used."
-    },
-    {
-        "Edit ID": "Q658",
-        "Data Point Name": "Loan Term",
-        "Affected Data Fields": "Loan Term",
-        "Edit Description": "Please review the information below and update your file, if needed.   1) If Loan Termis not NA or Exempt, the Loan Term should generally be 600 or less."
-    },
-    {
-        "Edit ID": "Q659",
-        "Data Point Name": "Any data point that accepts a “Not Applicable” or “No Co-Applicant” value",
-        "Affected Data Fields": "Any data point that accepts a “Not Applicable” or “No Co-Applicant” value",
-        "Edit Description": "Please review the information below and update your file, if needed.   1) The values 888 or 88888 were entered in a field that accepts 8888 or NA as a value, which may indicate that an incorrect value is being used.   2) The values 999 or 99999 were entered in a field that accepts 9999 or NA as a value, which may indicate that an incorrect value is being used."
     }
 ]

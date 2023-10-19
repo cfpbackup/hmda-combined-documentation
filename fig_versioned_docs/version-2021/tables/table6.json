@@ -15,7 +15,7 @@
         "Edit ID": "V608",
         "Data Point Name": "Universal Loan Identifier (ULI) or Non-Universal Loan Identifier (NULI)",
         "Affected Data Fields": "Universal Loan Identifier (ULI) Universal Loan Identifier (NULI)",
-        "Edit Description": "A ULI with an invalid format was provided. Please review the information below and update your file accordingly.   1) The required format for ULI is alphanumeric with at least 23 characters and up to 45 characters, and it cannot be left blank.   2) The required format for NULIis alphanumeric with at least 1 character and no more than 22 characters, and it cannot be NA, Exempt, 1111 or left blank."
+        "Edit Description": "A ULI with an invalid format was provided. Please review the information below and update your file accordingly.   1) The required format for ULI is alphanumeric with at least 23 characters and up to 45 characters, and it cannot be left blank.   2) The required format for NULIis alphanumeric with at least 1 character and no more than 22 characters, and it cannot be left blank."
     },
     {
         "Edit ID": "V609",
@@ -321,7 +321,7 @@
         "Edit ID": "V660",
         "Data Point Name": "Credit Score",
         "Affected Data Fields": "Credit Score of Applicant or Borrower; Applicant or Borrower, Name and Version of Credit Scoring Model",
-        "Edit Description": "An invalid Credit Scoredata field was reported. Please review the information below and update your file accordingly.   1) Credit Score of Applicant or Borrower must be a number, and cannot be left blank.   2)  Applicant or Borrower, Name and Version of Credit Scoring Model  must equal 1111, 1, 2, 3, 4, 5, 6, 7, 8, 9, or 11."
+        "Edit Description": "An invalid Credit Scoredata field was reported. Please review the information below and update your file accordingly.   1) Credit Score of Applicant or Borrower must be a number, and cannot be left blank.   2)  Applicant or Borrower, Name and Version of Credit Scoring Model  must equal 1111, 1, 2, 3, 4, 5, 6, 7, 8, or 9."
     },
     {
         "Edit ID": "V661",
@@ -333,7 +333,7 @@
         "Edit ID": "V662",
         "Data Point Name": "Credit Score",
         "Affected Data Fields": "Applicant or Borrower, Name and Version of Credit Scoring Model; Applicant or Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8",
-        "Edit Description": "An invalid Credit Scoredata field was reported. Please review the information below update your file accordingly.   1) If  Applicant or Borrower, Name and Version of Credit Scoring Model  equals 1111, 1, 2, 3, 4, 5, 6, 7, 9, or 11 then  Applicant or Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8  must be left blank, and the reverse must be true.   2) If  Applicant or Borrower, Name and Version of Credit Scoring Model  equals 8, then A  pplicant or Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8  must not be blank,  and the reverse must be true."
+        "Edit Description": "An invalid Credit Scoredata field was reported. Please review the information below update your file accordingly.   1) If  Applicant or Borrower, Name and Version of Credit Scoring Model  equals 1111, 1, 2, 3, 4, 5, 6, 7, or 9, then  Applicant or Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8  must be left blank, and the reverse must be true.   2) If  Applicant or Borrower, Name and Version of Credit Scoring Model  equals 8, then A  pplicant or Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8  must not be blank,  and the reverse must be true."
     },
     {
         "Edit ID": "V663",
@@ -351,7 +351,7 @@
         "Edit ID": "V665",
         "Data Point Name": "Credit Score",
         "Affected Data Fields": "Credit Score of Co-Applicant or Co-Borrower; Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model",
-        "Edit Description": "An invalid Credit Score data field was reported. Please review the information below and update your file accordingly.   1) Credit Score of Co-Applicant or Co-Borrower must be a number, and cannot be left blank.   2)  Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model  must equal 1111, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, or 11 and cannot be left blank."
+        "Edit Description": "An invalid Credit Score data field was reported. Please review the information below and update your file accordingly.   1) Credit Score of Co-Applicant or Co-Borrower must be a number, and cannot be left blank.   2)  Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model  must equal 1111, 1, 2, 3, 4, 5, 6, 7, 8, 9, or 10, and cannot be left blank."
     },
     {
         "Edit ID": "V666",
@@ -363,7 +363,7 @@
         "Edit ID": "V667",
         "Data Point Name": "Credit Score",
         "Affected Data Fields": "Co-Applicant or Co-Borrower,Name and Version of Credit Scoring Model; Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8",
-        "Edit Description": "An invalid Credit Score data field was reported. Please review the information below and update your file accordingly.   1) If  Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model  equals 1111, 1, 2, 3, 4, 5, 6, 7, 9, 10, or 11 then  Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8  must be left blank, and the reverse must be true.   2) If  Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model  equals 8, thenCo-Applicant or Co-Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8must not be left blank,  and the reverse must be true."
+        "Edit Description": "An invalid Credit Score data field was reported. Please review the information below and update your file accordingly.   1) If  Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model  equals 1111, 1, 2, 3, 4, 5, 6, 7, 9, or 10, then  Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8  must be left blank, and the reverse must be true.   2) If  Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model  equals 8, thenCo-Applicant or Co-Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8must not be left blank,  and the reverse must be true."
     },
     {
         "Edit ID": "V668",
@@ -648,15 +648,9 @@
         "Edit Description": "An invalid Property Location was reported. Please review the information below and update your file accordingly:   1) The reported State and County are not a valid combination. If neither State nor County were reported NA, then the County must be located within the State."
     },
     {
-        "Edit ID": "V720",
-        "Data Point Name": "Credit Score",
-        "Affected Data Fields": "Credit Score of Applicant or Borrower; Credit Score of Co-Applicant or Co-Borrower; Applicant or Borrower, Name and Version of Credit Scoring Model;   Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model",
-        "Edit Description": "An invalid Credit Score was reported. Please review the information below and update your file accordingly:   1) If Applicant or Borrower, Name and Version of Credit Scoring Model is 1, 2, 3, 4, 5, 6, or 11, Credit Score of Applicant or Borrower should be 280 or above.   2) If Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model is 1, 2, 3, 4, 5, 6, or 11, Credit Score of Co-Applicant or Co-Borrower should be 280 or above."
-    },
-    {
-        "Edit ID": "V721",
-        "Data Point Name": "Age",
-        "Affected Data Fields": "Age of Applicant or Borrower; Age of Co-Applicant or Co-Borrower",
-        "Edit Description": "An invalid Age was reported. Please review the information below and update your file accordingly:   1) If Age of Applicant or Borrower is not 8888, indicating Not Applicable, it must be the applicant or borrower’s age and cannot be 9999 or 1111.   2) If Age of Co-Applicant is not 8888, indicating Not Applicable, or 9999, indicating No Co-Applicant, it must be the co-applicant or co-borrower’s age and cannot be 1111."
+        "Edit ID": "V719",
+        "Data Point Name": "Financial Institution Name",
+        "Affected Data Fields": "Financial Institution Name",
+        "Edit Description": "An invalid Financial Institution Name was reported. Please review the information below and update your file accordingly:   1) The required format for Financial Institution Name is alphanumeric. The Financial Institution Name field contains only numbers and no letters."
     }
 ]

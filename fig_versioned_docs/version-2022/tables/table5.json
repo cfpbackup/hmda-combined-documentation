@@ -53,10 +53,5 @@
         "Edit ID": "V717",
         "Data Field Name(s)": "Contact Person’s Email Address",
         "Edit Description": "An invalid Contact Person’s Email Addresswas provided. Please review the information below and update your file accordingly.   1) The required format for the  Contact Person’s Email Address  is name@example.com, and it cannot be left blank."
-    },
-    {
-        "Edit ID": "V719",
-        "Data Field Name(s)": "Financial Institution Name; LEI",
-        "Edit Description": "An invalid Financial Institution Name was reported. Please review the information below and update your file accordingly:   1) The required format for  Financial Institution Name  is alphanumeric. The Financial Institution Name field contains only numbers and no letters.   2) The Financial Institution Name provided matches the LEI provided. Please update the  Financial Institution Name  ."
     }
 ]

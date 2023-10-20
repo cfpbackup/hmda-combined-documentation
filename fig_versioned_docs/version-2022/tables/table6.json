@@ -648,6 +648,12 @@
         "Edit Description": "An invalid Property Location was reported. Please review the information below and update your file accordingly:   1) The reported State and County are not a valid combination. If neither State nor County were reported NA, then the County must be located within the State."
     },
     {
+        "Edit ID": "V719",
+        "Data Point Name": "Financial Institution Name",
+        "Affected Data Fields": "Financial Institution Name",
+        "Edit Description": "An invalid Financial Institution Name was reported. Please review the information below and update your file accordingly:   1) The required format for Financial Institution Name is alphanumeric. The Financial Institution Name field contains only numbers and no letters."
+    },
+    {
         "Edit ID": "V720",
         "Data Point Name": "Credit Score",
         "Affected Data Fields": "Credit Score of Applicant or Borrower; Credit Score of Co-Applicant or Co-Borrower; Applicant or Borrower, Name and Version of Credit Scoring Model;   Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model",

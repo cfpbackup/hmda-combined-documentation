@@ -28,7 +28,7 @@
         "Data Field Name": "Application Date",
         "Data Field Type": "Alphanumeric",
         "Valid Values": "",
-        "Descriptions and Examples": "Example:   20230721 (or) NA",
+        "Descriptions and Examples": "Example:   20210721 (or) NA",
         "Data Point Name": "Application Date"
     },
     {
@@ -92,7 +92,7 @@
         "Data Field Name": "Action Taken Date",
         "Data Field Type": "Numeric",
         "Valid Values": "",
-        "Descriptions and Examples": "Example:   20230721",
+        "Descriptions and Examples": "Example:   20210721",
         "Data Point Name": "Action Taken Date"
     },
     {
@@ -113,7 +113,7 @@
     },
     {
         "Data Field Number": "15",
-        "Data Field Name": "State1F [1]",
+        "Data Field Name": "State",
         "Data Field Type": "Alphanumeric",
         "Valid Values": "",
         "Descriptions and Examples": "Example:   CA (or) NA",
@@ -507,8 +507,8 @@
         "Data Field Number": "64",
         "Data Field Name": "Applicant or Borrower, Name and Version of Credit Scoring Model",
         "Data Field Type": "Numeric",
-        "Valid Values": "1   2   3   4   5   6   7   8   9   11   1111",
-        "Descriptions and Examples": "Descriptions:   1. Equifax Beacon 5.0   2. Experian Fair Isaac Risk Model v2   3. TransUnion FICO Risk Score Classic 04   4. TransUnion FICO Risk Score Classic 98   5. VantageScore 2.0   6. VantageScore 3.0   7. More than one credit scoring model   8. Other credit scoring model   9. Not applicable   11. FICO Score 9   1111. Exempt",
+        "Valid Values": "1   2   3   4   5   6   7   8   9   1111",
+        "Descriptions and Examples": "Descriptions:   1. Equifax Beacon 5.0   2. Experian Fair Isaac Risk Model v2   3. TransUnion FICO Risk Score Classic 04   4. TransUnion FICO Risk Score Classic 98   5. VantageScore 2.0   6. VantageScore 3.0   7. More than one credit scoring model   8. Other credit scoring model   9. Not applicable   1111. Exempt",
         "Data Point Name": "Credit Score"
     },
     {
@@ -523,8 +523,8 @@
         "Data Field Number": "66",
         "Data Field Name": "Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model",
         "Data Field Type": "Numeric",
-        "Valid Values": "1   2   3   4   5   6   7   8   9   10   11   1111",
-        "Descriptions and Examples": "Descriptions:   1. Equifax Beacon 5.0   2. Experian Fair Isaac Risk Model v2   3. TransUnion FICO Risk Score Classic 04   4. TransUnion FICO Risk Score Classic 98   5. VantageScore 2.0   6. VantageScore 3.0   7. More than one credit scoring model   8. Other credit scoring model   9. Not applicable   10. No co-applicant   11. FICO Score 9   1111. Exempt",
+        "Valid Values": "1   2   3   4   5   6   7   8   9   10   1111",
+        "Descriptions and Examples": "Descriptions:   1. Equifax Beacon 5.0   2. Experian Fair Isaac Risk Model v2   3. TransUnion FICO Risk Score Classic 04   4. TransUnion FICO Risk Score Classic 98   5. VantageScore 2.0   6. VantageScore 3.0   7. More than one credit scoring model   8. Other credit scoring model   9. Not applicable   10. No co-applicant   1111. Exempt",
         "Data Point Name": "Credit Score"
     },
     {

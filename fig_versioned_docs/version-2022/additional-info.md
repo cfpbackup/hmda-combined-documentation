@@ -6,7 +6,7 @@ Print Page
 
 ## 6.1 &nbsp; Frequently Asked Questions
 
-The Frequently Asked Questions are available in the Self Service Knowledge Portal at https://ffiec.cfpb.gov.
+The Frequently Asked Questions are available in the Self Service Knowledge Portal at [https://ffiec.cfpb.gov](https://ffiec.cfpb.gov).
 
 ## 6.2 &nbsp; HMDA Help
 

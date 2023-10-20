@@ -6,7 +6,7 @@ Print Page
 
 The 2024 Filing Instructions Guide (FIG) is a compendium of resources to help you file annual
 HMDA data collected in 2024 with the Consumer Financial Protection Bureau (Bureau) in
-2024. These resources are briefly described in this section and are further detailed throughout this document in individual sections.
+2025. These resources are briefly described in this section and are further detailed throughout this document in individual sections.
 
 The HMDA agencies have agreed that filing HMDA data collected in or after 2017 with the
 Bureau will be deemed as a submission to the appropriate Federal agency. [^1]

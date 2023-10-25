@@ -1,4 +1,4 @@
-# Aggregate Disclousure Reports
+# Aggregate Disclosure Reports
 
 ## What’s Changed?
 

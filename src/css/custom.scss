@@ -426,3 +426,24 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-
 article {
  position: relative;
 }
+
+/***************************************
+  Export CSV Button
+/***************************************/
+
+.export-csv {
+  text-align: right;
+
+  .btn-csv {
+    font-size: 12px;
+    padding: .5em 1em;
+    border-radius: .25em;
+    border: 1px solid #ccc;
+    margin-bottom: .25em;
+
+    &:hover {
+      background-color: var(--hmda-blue-light);
+      color: #fff;
+    }
+  }
+}

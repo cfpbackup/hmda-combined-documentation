@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTable } from 'react-table'
+import CsvDownloadButton from 'react-json-to-csv'
 
 
 
@@ -42,6 +43,16 @@ export const TableMaker = ({ jsonData, tableNumber, tableName }) => {
   
     return (
       <div className='react-table'>
+        <div className='export-csv'>
+          <CsvDownloadButton
+            className="btn-csv"
+            data={jsonData}
+            filename={'table' + tableNumber + ".csv"}
+            delimiter=","
+          >
+            Export CSV
+          </CsvDownloadButton>
+        </div>
         <table {...getTableProps()} className={'table' + tableNumber}>
           <thead>
             <tr className="table-name">

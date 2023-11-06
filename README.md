@@ -51,6 +51,7 @@ The following components have been [swizzled](https://docusaurus.io/docs/swizzli
 - Navbar (./src/theme/Navbar)
 - SearchBar (./src/theme/SearchBar)
 - Footer (./src/theme/Footer)
+- DocVersionBanner (./src/theme/DocVersionBanner)
 
 The ```Navbar``` and ```Footer``` components are from the [USWDS v3.0](https://designsystem.digital.gov/whats-new/updates/2022/04/28/introducing-uswds-3-0/) and are independent from the Docusaurus theme. They can be edited manually and updating docusaurus shouldn't affect these components.
 
@@ -62,3 +63,11 @@ To update the styling of the ```Navbar``` and ```Footer```:
 1. Every time you save the scss file it will automatically be compiled
 
 The ```SearchBar``` component has a slightly modified CSS (./src/theme/SearchBar/styles.css) file and may need to be "re-swizzled" when upgrading docusaurus to a new version.
+
+### Filing Instructions Guide (FIG)
+
+To create properly formatted .json files for each table in the FIG (/fig_versioned_docs/version-2024/tables/):
+
+1. Convert each table from the .docx file into .html with: https://word2cleanhtml.com/
+2. Convert the html table to markdown with: https://johnbeech.github.io/html-table-to-markdown-converter/index.html
+3. Convert the markdown table into json with: https://tableconvert.com/markdown-to-json

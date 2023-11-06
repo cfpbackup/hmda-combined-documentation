@@ -113,7 +113,7 @@
     },
     {
         "Data Field Number": "15",
-        "Data Field Name": "State1F [1]",
+        "Data Field Name": "State",
         "Data Field Type": "Alphanumeric",
         "Valid Values": "",
         "Descriptions and Examples": "Example:   CA (or) NA",

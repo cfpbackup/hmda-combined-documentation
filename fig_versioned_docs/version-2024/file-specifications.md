@@ -61,5 +61,5 @@ Table 1 and Table 2 contain the data field name, data field type, valid values f
 
 <TableMaker jsonData={table2} tableNumber='2' tableName='Table 2' />
 
-Footnotes:
+<hr />
 <a id="3">3:</a> Reporting of the State data field is subject to the requirements of both Property Address, provided in 1003.4(a)(9)(i), and Property Location, provided in 1003.4(a)(9)(ii).

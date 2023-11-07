@@ -9,6 +9,7 @@ Print Page
 </a>
 
 <TableMaker jsonData={versionLog} tableNumber='0' tableName='Version Log' />
+* Consult the version log of prior years’ versions of the FIG for previous changes.
 
 ## 2.1 &nbsp; Items that have changed:    
 There are no significant changes to the submission process for data collected in 2024 and

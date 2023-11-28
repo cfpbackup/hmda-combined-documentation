@@ -10,29 +10,29 @@ This API is what powers the [HMDA Data Browser application](https://ffiec.cfpb.g
 
 **Nationwide Aggregations**
   
-  ```GET https://ffiec.cfpb.gov/v2/data-browser-api/data-browser-api/view/nationwide/aggregations```
+  ```GET https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/aggregations?years={{year}}```
   
-  This endpoint is used to generated JSON reports on the full dataset. The year parameter is required when calling this endpoint.
+  This endpoint is used to generated JSON reports on the full dataset. The ```years``` parameter is required when calling this endpoint.
 
 **Aggregations**
 
- ```GET https://ffiec.cfpb.gov/v2/data-browser-api/data-browser-api/view/aggregations```
+ ```GET https://ffiec.cfpb.gov/v2/data-browser-api/view/aggregations?years={{year}}&state={{state}}```
 
-  This endpoint is used to generated JSON reports on an LEI and/or geography subset. The year parameter as well at least of a geographic and/or LEI parameter are required when calling this endpoint.
+  This endpoint is used to generated JSON reports on an LEI and/or geography subset. The ```years``` parameter and a <a href="#supported-geographic-filter-parameters">geographic</a> and/or LEI parameter are required when calling this endpoint. See <a href="#aggregation-example">Aggregation Examples</a>
 
 **Nationwide CSV**
 
-  ```GET https://ffiec.cfpb.gov/v2/data-browser-api/data-browser-api/view/nationwide/csv```
+  ```GET https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years={{year}}```
 
-  This endpoint is used to download raw HMDA data given the applied filters in csv format. The file will be streamed. The year parameter is required when calling this endpoint.
+  This endpoint is used to download raw HMDA data given the applied filters in csv format. The file will be streamed. The ```years``` parameter is required when calling this endpoint.
 
 **CSV**
 
-  ```GET https://ffiec.cfpb.gov/v2/data-browser-api/data-browser-api/view/csv```
+  ```GET https://ffiec.cfpb.gov/v2/data-browser-api/view/csv?years={{year}}&state={{state}}```
   
-  This endpoint is used to download raw HMDA data given the applied filters in csv format. The file will be streamed. The year parameter as well at least of a geographic and/or LEI parameter are required when calling this endpoint.
+  This endpoint is used to download raw HMDA data given the applied filters in csv format. The file will be streamed. The ```years``` parameter and a <a href="#supported-geographic-filter-parameters">geographic</a> and/or LEI parameter are required when calling this endpoint. See <a href="#csv-example">CSV Example</a>
 
-### Supported Geographic Filters
+### Supported Geographic Filter Parameters
 
   Geography | Format
   --- | ---
@@ -40,7 +40,7 @@ This API is what powers the [HMDA Data Browser application](https://ffiec.cfpb.g
   State | Two Letter State Abbreviation (Eg. AL for Alabama)
   County | Five Digit County FIPS Code
 
-### HMDA Data Filters
+### HMDA Data Filter Parameters
 
 HMDA Data requests support the following filtering parameters. Multiple options are acceptable.
 
@@ -127,7 +127,7 @@ Get a CSV containing all HMDA data reported in 2018 in California, Maryland, or 
 
 ## HMDA Filers
 
-`GET https://ffiec.cfpb.gov/v2/data-browser-api/data-browser-api/view/filers`
+`GET https://ffiec.cfpb.gov/v2/data-browser-api/view/filers`
 
 This endpoint can be used to fetch list of financial instituions present in the HMDA dataset. The year parameter is required when calling this endpoint.
 

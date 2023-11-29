@@ -10,25 +10,25 @@ This API is what powers the [HMDA Data Browser application](https://ffiec.cfpb.g
 
 **Nationwide Aggregations**
   
-  ```GET https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/aggregations?years={{year}}```
+  ```GET https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/aggregations?years={{years}}```
   
   This endpoint is used to generated JSON reports on the full dataset. The ```years``` parameter is required when calling this endpoint.
 
 **Aggregations**
 
- ```GET https://ffiec.cfpb.gov/v2/data-browser-api/view/aggregations?years={{year}}&state={{state}}```
+ ```GET https://ffiec.cfpb.gov/v2/data-browser-api/view/aggregations?years={{years}}&state={{states}}&leis={{leis}}```
 
   This endpoint is used to generated JSON reports on an LEI and/or geography subset. The ```years``` parameter and a <a href="#supported-geographic-filter-parameters">geographic</a> and/or LEI parameter are required when calling this endpoint. See <a href="#aggregation-example">Aggregation Examples</a>
 
 **Nationwide CSV**
 
-  ```GET https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years={{year}}```
+  ```GET https://ffiec.cfpb.gov/v2/data-browser-api/view/nationwide/csv?years={{years}}```
 
   This endpoint is used to download raw HMDA data given the applied filters in csv format. The file will be streamed. The ```years``` parameter is required when calling this endpoint.
 
 **CSV**
 
-  ```GET https://ffiec.cfpb.gov/v2/data-browser-api/view/csv?years={{year}}&state={{state}}```
+  ```GET https://ffiec.cfpb.gov/v2/data-browser-api/view/csv?years={{years}}&state={{states}}&leis={{leis}}```
   
   This endpoint is used to download raw HMDA data given the applied filters in csv format. The file will be streamed. The ```years``` parameter and a <a href="#supported-geographic-filter-parameters">geographic</a> and/or LEI parameter are required when calling this endpoint. See <a href="#csv-example">CSV Example</a>
 

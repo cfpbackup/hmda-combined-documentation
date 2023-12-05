@@ -375,6 +375,26 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-
  h6 { font-size: 13px; }
  .theme-doc-markdown p { font-size: 18px; }
 
+
+ .docs-version-2024 {
+  h2 {
+    color: var(--ifm-color-primary);
+    font-size: 36px;
+  }
+  h3 { font-size: 32px; }
+  h4 { font-size: 24px; }
+  h5 { font-size: 20px; }
+  h6 { font-size: 16px; }
+  .col--3 {
+    display: none;
+  }
+
+  .nav-item a.active {
+    color: #ff0000; /* Adjust the color to your preference */
+    font-weight: bold; /* Optional: Adjust the styling as needed */
+  }
+ }
+
 /***************************************
   FIG Tables
 /***************************************/

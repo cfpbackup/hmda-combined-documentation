@@ -47,6 +47,10 @@ const config = {
       src: '/documentation/js/uswds.min.js',
       defer: true,
     },
+    {
+      src: '/documentation/js/scrollspy.js',
+      defer: true,
+    },
   ],
 
   plugins: [

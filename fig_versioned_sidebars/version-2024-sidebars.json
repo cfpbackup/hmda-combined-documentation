@@ -3,9 +3,6 @@
     {
       "type": "category",
       "label": "2024 Filing Instructions Guide",
-      "link": {
-        "type": "generated-index"
-      },
       "collapsed": true,
       "items": [
         {
@@ -14,33 +11,33 @@
           "label": "1. Overview"
         },
         {
-          "type": "doc",
-          "id": "changes-2024",
+          "type": "link",
+          "href": "#changes",
           "label": "2. Changes for 2024"
         },
         {
-          "type": "doc",
-          "id": "file-specifications",
+          "type": "link",
+          "href": "#file-specifications",
           "label": "3. File Specifications"
         },
         {
-          "type": "doc",
-          "id": "data-specifications",
+          "type": "link",
+          "href": "#data-specifications",
           "label": "4. Data Specifications"
         },
         {
-          "type": "doc",
-          "id": "edit-specifications",
+          "type": "link",
+          "href": "#edit-specifications",
           "label": "5. Edit Specifications"
         },
         {
-          "type": "doc",
-          "id": "additional-info",
+          "type": "link",
+          "href": "#additional-information",
           "label": "6. Additional Info"
         },
         {
-          "type": "doc",
-          "id": "paperwork-reduction",
+          "type": "link",
+          "href": "#paperwork-reduction-act",
           "label": "Paperwork Reduction"
         }
       ]

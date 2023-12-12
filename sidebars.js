@@ -25,7 +25,6 @@ const sidebars = {
       items: [
         "faq/data-collection-timelines",
         "faq/identifiers-faq",
-        "faq/downloading-datasets",
         "faq/filing-faq",
         "faq/data-browser-graphs-faq",
         "faq/data-browser-maps-faq",
@@ -85,10 +84,7 @@ const sidebars = {
                   type: "category",
                   label: "Data Dictionaries",
                   items: [
-                    "publications/modified-lar/resources/data-dictionaries/mlar-dd-2021",
-                    "publications/modified-lar/resources/data-dictionaries/mlar-dd-2020",
-                    "publications/modified-lar/resources/data-dictionaries/mlar-dd-2019",
-                    "publications/modified-lar/resources/data-dictionaries/mlar-dd-2018",
+                    "publications/modified-lar/resources/data-dictionaries/mlar-dd-2018-onward",
                     "publications/modified-lar/resources/data-dictionaries/mlar-dd-2017",
                   ],
                 },
@@ -113,9 +109,6 @@ const sidebars = {
           items: [
             "tools/data-browser/data-browser-faq",
             "tools/data-browser/data-browser-filters",
-            "tools/data-browser/data-browser-maps-faq",
-            "tools/data-browser/derived-data-fields",
-            "tools/data-browser/lar-data-fields",
           ],
         },
         "tools/rate-spread",

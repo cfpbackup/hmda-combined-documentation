@@ -15,20 +15,19 @@
 4. If the message “Macros have been disabled” appears, select the **“Enable Content”** button.
 ![](https://raw.githubusercontent.com/cfpb/hmda-frontend/master/src/documentation/markdown/images/larft/Macros_enabled.png)
 
-5.	The workbook contains two worksheets, Resources and Data:
+5. The workbook contains two worksheets, **Resources** and **Data**:
 
-      a.	 The **Resources Worksheet** provides information including:
-      - Quick Start Guide
-      
-      - Additional Resources
-          - The FFIEC and HUD have published resources for financial institutions required to file HMDA data on the Help for Filers section of the HMDA Homepage located at http://www.ffiec.cfpb.gov/;
-          - Information regarding valid values and data format can be found in Section 3.4 of the Filing Instructions Guide for HMDA data collected in or after 2018 located at https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2019-hmda-fig.pdf. 
-      
-      b.	The **Data Worksheet** is where the data is entered under the appropriate headings in **row 4**.
-      - Certain cells in the Data Worksheet provide information regarding what data to enter. Prompts will appear when you select a cell.
-      
-      - The header row (row 2 and row 4) are locked in order to keep the order of the data fields consistent.
-![](https://raw.githubusercontent.com/cfpb/hmda-frontend/master/src/documentation/markdown/images/larft/Annotations.png)
+ a. The **Resources Worksheet** provides information including:
+   - Quick Start Guide
+   - Additional Resources
+   - The FFIEC and HUD have published resources for financial institutions required to file HMDA data on the Help for Filers section of the HMDA Homepage located at http://www.ffiec.cfpb.gov/.
+   - Information regarding valid values and data format can be found in Section 3.4 of the Filing Instructions Guide for HMDA data collected in or after 2018 located at https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2019-hmda-fig.pdf. 
+
+ b. The **Data Worksheet** is where the data is entered under the appropriate headings in **row 4**.
+   - Certain cells in the Data Worksheet provide information regarding what data to enter. Prompts will appear when you select a cell.
+   - The header row (row 2 and row 4) are locked in order to keep the order of the data fields consistent.
+
+ ![](https://raw.githubusercontent.com/cfpb/hmda-frontend/master/src/documentation/markdown/images/larft/Annotations.png)
 
 6.	**Enter** the information from what is commonly known as the HMDA transmittal sheet into the respective cells in **row 3** of the Data Worksheet.
 
@@ -44,19 +43,19 @@
 7.	**Enter** loan level data beginning in **row 5** of the Data Worksheet.
 ![](https://raw.githubusercontent.com/cfpb/hmda-frontend/master/src/documentation/markdown/images/larft/LAR_Row.png)
 
-      a.	Enter the data consecutively by row. Do not skip any rows.
+ a.	Enter the data consecutively by row. Do not skip any rows.
 
-      b.	Each row should contain information regarding an individual loan.
+ b.	Each row should contain information regarding an individual loan.
 
-      c.	Do not enter any commas “,” into any of the cells.
+ c.	Do not enter any commas “,” into any of the cells.
 
-      d.	The format for data fields including a date, such as date application received or date of action, is YYYYMMDD. For example, January 17, 2019 should be reported as 20190117.
-      
-      e.	Not applicable exempt codes must be entered as ‘NA’, not ‘N/A’, ‘na’, or ‘Na’. Exempt codes must be entered as ‘Exempt’, not ‘EXEMPT’ or ‘exempt’.
-      
-      f.	Beginning with row 5, all data entered from columns A to DF will be exported into the pipe delimited text file. Any information entered after column DF will not be exported.
-      
-      g.	The data fields have been formatted to wrap text in the cells, which means that the data in each cell wraps to fit the column width. All the data entered into each individual cell will be exported, even if part of the data is not visible.
+ d.	The format for data fields including a date, such as date application received or date of action, is YYYYMMDD. For example, January 17, 2019 should be reported as 20190117.
+
+ e.	Not applicable exempt codes must be entered as ‘NA’, not ‘N/A’, ‘na’, or ‘Na’. Exempt codes must be entered as ‘Exempt’, not ‘EXEMPT’ or ‘exempt’.
+
+ f.	Beginning with row 5, all data entered from columns A to DF will be exported into the pipe delimited text file. Any information entered after column DF will not be exported.
+ 
+ g.	The data fields have been formatted to wrap text in the cells, which means that the data in each cell wraps to fit the column width. All the data entered into each individual cell will be exported, even if part of the data is not visible.
 
 
 8.	When all the data have been entered, select the **“Create LAR File”** button located in cell B1 of the Data Worksheet.

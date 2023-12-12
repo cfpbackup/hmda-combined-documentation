@@ -1,8 +1,8 @@
-# 2020 MLAR Data Dictionary 
+# 2018 & Onward MLAR Data Dictionary
 
 Field Name|Field Data Type|Valid Values|Notes
 |----|-------------|----|----|
-Activity Year|Integer||
+Activity Year|Integer| 2018, 2019, 2020, 2021, 2022, 2023 |
 Legal Entity Identifier (LEI)|Character Varying||
 Loan Type|Integer|1, 2, 3, 4|
 Loan Purpose|Integer|1, 2, 31, 32, 4, 5|

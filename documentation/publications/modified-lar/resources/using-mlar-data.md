@@ -1,6 +1,6 @@
 # Using MLAR Data
 
-***MLAR Publications: https://ffiec.cfpb.gov/data-publication/modified-lar/2022***
+***MLAR Publications: https://ffiec.cfpb.gov/data-publication/modified-lar/***
 
 Modified LAR is the public-facing set of the Loan Application Register (LAR) data in which 27 fields have been redacted for privacy reasons. In addition, 6 fields have been modified for privacy. Two fields have been added indicating whether the age of the applicant or co-applicant is greater than 62 have been added. Please refer to the [schemas](https://github.com/cfpb/HMDA_Data_Science_Kit/tree/master/documentation_resources/schemas/mlar/schemas/), or [Regulation C](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/) for further details on Modified LAR disclosure.
 

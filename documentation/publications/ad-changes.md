@@ -6,7 +6,7 @@ The Home Mortgage Disclosure Act (HMDA) requires lending institutions to make an
 
 Aggregate and Disclosure reports available for 2018 are listed below. Reports that have been discontinued in 2018 can now be produced using the <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/data-browser/">HMDA Data Browser</a>. Starting in 2018, derived fields are based on new data points collected and reported using the [CFPB disclosure methodology](https://files.consumerfinance.gov/f/documents/HMDA_Data_Disclosure_Policy_Guidance.Executive_Summary.FINAL.12212018.pdf).
 
-Explanations of derived fields that were used in the creation of these reports can be found in the <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/tools/data-browser/derived-data-fields">Derived Data Fields Guide</a>. For custom report creation, visit the <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/data-browser/">HMDA Data Browser</a>.
+Explanations of derived fields that were used in the creation of these reports can be found in the <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/documentation/publications/general/derived-data-fields">Derived Data Fields Guide</a>. For custom report creation, visit the <a target="_blank" rel="noopener noreferrer" href="https://ffiec.cfpb.gov/data-browser/">HMDA Data Browser</a>.
 Note: Series identifiers (i, 1, 2, 3, etc.) have been discontinued for all reports.
 
 ## National Aggregate Reports

@@ -12,6 +12,7 @@
   | 2021 | 2021 |
   | 2022 | 2022 |
   | 2023 | 2023 |
+  | 2024 | 2024 |
 
 ### [lei](#lei)
 - **Description:** A financial institution’s Legal Entity Identifier

@@ -31,9 +31,10 @@ If you are looking for a particular year's data, or additional documentation abo
 | Year | Data Browser Source Dataset | Data Freeze Date |
 |---|---|---|
 |2018|[Three Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/three-year-national-loan-level-dataset/2018)|Dec 31, 2021|
-|2019|[One Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/one-year-national-loan-level-dataset/2019)|Apr 5, 2022|
+|2019|[Three Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/three-year-national-loan-level-dataset/2019)|Dec 31, 2022|
 |2020|[One Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/one-year-national-loan-level-dataset/2020)|Apr 30, 2022|
-|2021|[Snapshot National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/2021)|Apr 30, 2022|
+|2021|[One Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/one-year-national-loan-level-dataset/2021)|May 1, 2023|
+|2022|[Snapshot National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/2022)|May 1, 2023|
 
 ## What static datasets are available?
 

@@ -63,7 +63,4 @@ The URL will take the visitor directly to the map, and zoom to the selected geog
 
 ## Report a bug
   - Please [open an Issue](https://github.com/cfpb/hmda-frontend/issues) that includes a detailed description of the issue you're experiencing, along with the URL.
-
-
-## Still need help?
-  - Please reach out to [HMDA Help](mailto:hmdahelp@cfpb.gov) via email with additional inquiries.
+  - If you are not familiar with using GitHub Issues, you can email hmdahelp@cfpb.gov with a description of the bug or issue.

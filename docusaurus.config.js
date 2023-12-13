@@ -204,7 +204,7 @@ const config = {
             from: '/2021/data-browser-faq',
           },
           {
-            to: '/tools/data-browser/derived-data-fields',
+            to: '/publications/general/derived-data-fields',
             from: '/2022/derived-data-fields/',
           },
           // Plugin does not yet support sections of a page in the redirect url

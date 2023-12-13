@@ -12,7 +12,7 @@ Import or export your LAR data.
 - **Download**: Create a [LAR file](#lar-file-output) based on the currently saved LAR data.
 - **Reset**: Start fresh by erasing all LAR data.
 
-![File Actions](https://github.com/cfpb/hmda-frontend/raw/master/src/documentation/markdown/images/larft/file_actions.png)
+![File Actions](/img/tools/olarft/file_actions.png)
 
 ### Saved Records
 
@@ -21,13 +21,13 @@ Review your existing records. This section also allows you to search by text con
 - **Transmittal Sheet**: Institution information
 - **Loan/Application Records**: Application information
 
-![Saved Records](https://github.com/cfpb/hmda-frontend/raw/master/src/documentation/markdown/images/larft/saved_records_populated.png)
+![Saved Records](/img/tools/olarft/saved_records_populated.png)
 
 ### Editing a Row
 
 Edit the currently selected row. Use the `New Row` button to start a new record.
 
-![Editing Row](https://github.com/cfpb/hmda-frontend/raw/master/src/documentation/markdown/images/larft/editing_section.png)
+![Editing Row](/img/tools/olarft/editing_section.png)
 
 ### Row Actions
 
@@ -38,14 +38,14 @@ Manage the persistence of the current row.
 - **New Row**: Clears the [Editor](#editing-a-row) in preparation for entry of a new record.
 - **Clipboard Copy/Paste**: Quickly import/export a single row's data.
 
-![Row Actions](https://github.com/cfpb/hmda-frontend/raw/master/src/documentation/markdown/images/larft/row_actions_update.png)
+![Row Actions](/img/tools/olarft/row_actions_update.png)
 
 ### Search/Filter fields
 
 - Use the `Search` box to find rows that contain the provided text (case insensitive).
 - Use the `Filter` box to restrict which LAR fields are displayed.
 
-![Search Results](https://github.com/cfpb/hmda-frontend/raw/master/src/documentation/markdown/images/larft/saved_records_searching.png)
+![Search Results](/img/tools/olarft/saved_records_searching.png)
 
 ### Editing a Record
 
@@ -69,9 +69,9 @@ Edit the selected row with guided enumerations, examples, and field descriptions
 - **Dates**: Date-picker with easily readable date format. Values are automatically converted between the display-format and the lar-format (yyyymmdd).
 - **Field details**: View description, enumerations, and examples.
 
-![Parsed Values](https://github.com/cfpb/hmda-frontend/raw/master/src/documentation/markdown/images/larft/parsed_multi_select.png)
+![Parsed Values](/img/tools/olarft/parsed_multi_select.png)
 
-![Field Details](https://github.com/cfpb/hmda-frontend/raw/master/src/documentation/markdown/images/larft/parsed_field_details.png)
+![Field Details](/img/tools/olarft/parsed_field_details.png)
 
 #### Pipe-Delimited Values
 
@@ -80,12 +80,12 @@ Edit the selected row as if you were directly in the LAR file. Changes are not p
 - **Clipboard Copy/Paste**: Easily import/export data between applications.
 - **Linking with Parsed Values**: Selecting a field in the text area will highlight the same field in [`Parsed Values`](#parsed-values) to make editing data easier with the guided enumerations, examples, and field descriptions.
 
-![Pipe-Delimited Values](https://github.com/cfpb/hmda-frontend/raw/master/src/documentation/markdown/images/larft/piped.png)
+![Pipe-Delimited Values](/img/tools/olarft/piped.png)
 
 #### Please Review
 
 If there are records in an uploaded LAR file that we could not reliably parse, you will see the following.
-![Please review](https://github.com/cfpb/hmda-frontend/raw/master/src/documentation/markdown/images/larft/saved_records_unparsable.png)
+![Please review](/img/tools/olarft/saved_records_unparsable.png)
 
 ## Creating a LAR file from scratch
 
@@ -165,7 +165,7 @@ The LARFT produces pipe-delimited, UTF-8 encoded LAR files. Files contain at lea
 
 Example output:
 
-![LAR file content](https://raw.githubusercontent.com/cfpb/hmda-frontend/master/src/documentation/markdown/images/larft/Text_file_sample.png)
+![LAR file content](/img/tools/olarft/Text_file_sample.png)
 
 ## Frequently Asked Questions
 

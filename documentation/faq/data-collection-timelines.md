@@ -7,7 +7,10 @@ sidebar_position: 1
 ## HMDA Data Resubmission Window
 The collection window of HMDA Data submission and resubmission is a three year period starting on January 1 and ending December 31.
 
-<img src='https://raw.githubusercontent.com/cfpb/hmda-frontend/master/src/documentation/markdown/images/data_collection_timeline.png' />
+<img src='/documentation/img/faq/data_collection_timeline.png' />
+
+<br />
+<br />
 
 | Data Year | Collection Begins | Resubmission Ends |
 | --------- | ----------------- | ----------------- |
@@ -16,6 +19,7 @@ The collection window of HMDA Data submission and resubmission is a three year p
 | 2020      | January 1, 2021   | December 31, 2023 |
 | 2021      | January 1, 2022   | December 31, 2024 |
 | 2022      | January 1, 2023   | December 31, 2025 |
+| 2023      | January 1, 2024   | December 31, 2026 |
 
 ## Filing Instructions Guide (FIG)
 
@@ -41,7 +45,7 @@ Beginning January 1, 2020, the 2015 HMDA Final Rule requires quarterly reporting
 
 If you need additional information to help get your file ready you can refer to the <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/supplemental-guide-for-quarterly-filers-for-2024.pdf">Supplemental Guide for Quarterly Filers</a> or the [Filing Instructions Guide (FIG)](#filing-instructions-guide-fig) section.
 
-See below for information on HMDA 2023 Quarterly Filing period dates:
+See below for information on HMDA 2024 Quarterly Filing period dates:
 
 ![Quarterly Filing calendar](/img/filing/quarterly_filing.png)
 

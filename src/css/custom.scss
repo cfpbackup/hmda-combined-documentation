@@ -441,9 +441,14 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-
  background-color: #eee;
  border-radius: .5em;
  margin-top: .5em;
+ cursor: pointer;
+ &:hover {
+  color: #fff;
+  background-color: var(--hmda-blue-light);
+ }
 }
 
-article {
+article, .fig-section {
  position: relative;
 }
 

@@ -1,10 +1,11 @@
-# 2024 FIG (Filing Instructions Guide) {#fig2024}
-<script src='//localhost:3000/documentation/js/scrollspy.js'></script>
-## 1.  What’s in the FIG? {#overview}
+import PrintPage from '/js/PrintPage.js'
+import { TableMaker } from './tables/TableMaker'
+import versionLog from './tables/version-log.json'
 
-<a className="printBtn" href="javascript:window.print()" target="_self">
-Print Page
-</a>
+# 2024 FIG (Filing Instructions Guide) {#fig2024}
+<div className="fig-section">
+<h2 id="overview">1.  What's in the FIG?</h2>
+
 
 The 2024 Filing Instructions Guide (FIG) is a compendium of resources to help you file annual
 HMDA data collected in 2024 with the Consumer Financial Protection Bureau (Bureau) in
@@ -52,19 +53,14 @@ Bureau (CFPB), the Office of the Comptroller of the Currency (OCC), the Federal 
 the Federal Reserve System (Board), and the National Credit Union Administration (NCUA), and the Department of Housing and Urban
 Development (HUD).
 
-
-import { TableMaker } from './tables/TableMaker'
-import versionLog from './tables/version-log.json'
-
+<PrintPage />
+</div>
+<div className="fig-section">
 
 ## 2. Changes to the Submission Process for Data Collected in 2024 {#changes}
 
-<a className="printBtn" href="javascript:window.print()" target="_self">
-Print Page
-</a>
-
 <TableMaker jsonData={versionLog} tableNumber='0' tableName='Version Log' />
-* Consult the version log of prior years’ versions of the FIG for previous changes.
+* Consult the version log of prior years' versions of the FIG for previous changes.
 
 ### 2.1 &nbsp; Items that have changed:    
 There are no significant changes to the submission process for data collected in 2024 and
@@ -129,17 +125,17 @@ Technical questions about reporting HMDA data collected in or before 2016 should
 to hmdahelp@frb.gov.
 
 
+<PrintPage />
+</div>
+<div className="fig-section">
 
 import table1 from './tables/table1.json'
 import table2 from './tables/table2.json'
 
 ## 3. 2024 File Specifications {#file-specifications}
 
-<a className="printBtn" href="javascript:window.print()" target="_self">
-Print Page
-</a>
-
 ### 3.1 &nbsp; Introduction 
+<PrintPage />
 The following information describes the format used when filing HMDA data with the Bureau.
 
 ### 3.2 &nbsp; Submission instructions 
@@ -196,11 +192,11 @@ Table 1 and Table 2 contain the data field name, data field type, valid values f
 <a id="3">3:</a> Reporting of the State data field is subject to the requirements of both Property Address, provided in 1003.4(a)(9)(i), and Property Location, provided in 1003.4(a)(9)(ii).
 
 
-## 4. 2024 Data Specifications {#data-specifications}
+<PrintPage />
+</div>
+<div className="fig-section">
 
-<a className="printBtn" href="javascript:window.print()" target="_self">
-Print Page
-</a>
+## 4. 2024 Data Specifications {#data-specifications}
 
 ### 4.1 &nbsp; Introduction
 
@@ -1365,6 +1361,9 @@ Code 1111—Exempt
 
 Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Business or Commercial Purpose.
 
+<PrintPage />
+</div>
+<div className="fig-section">
 
 
 import table3 from './tables/table3.json'
@@ -1376,10 +1375,6 @@ import table8 from './tables/table8.json'
 import table9 from './tables/table9.json'
 
 ## 5. 2024 Edit Specifications {#edit-specifications}
-
-<a className="printBtn" href="javascript:window.print()" target="_self">
-Print Page
-</a>
 
 ### 5.1 &nbsp; Introduction
 
@@ -1449,12 +1444,11 @@ edit, and the edit descriptions contain all data field names in italics.
 
 <TableMaker jsonData={table9} tableNumber='9' tableName='Table 9' />
 
+<PrintPage />
+</div>
+<div className="fig-section">
 
 ## 6. Additional information {#additional-information}
-
-<a className="printBtn" href="javascript:window.print()" target="_self">
-Print Page
-</a>
 
 ### 6.1 &nbsp; Frequently Asked Questions
 
@@ -1466,12 +1460,13 @@ Technical questions about reporting HMDA data collected in or after 2017 should 
 
 Technical questions about reporting HMDA data collected in or before 2016 should be directed to hmdahelp@frb.gov.
 
+<PrintPage />
+</div>
+<div className="fig-section">
 
 ## Paperwork Reduction Act {#paperwork-reduction-act}
 
-<a className="printBtn" href="javascript:window.print()" target="_self">
-Print Page
-</a>
-
 According to the Paperwork Reduction Act of 1995, an agency may not conduct or sponsor, and,
 not withstanding any other provision of law, a person is not required to respond to a collection of information unless it displays a valid OMB control number. The OMB control number for this collection is 3170-0008. The time required to complete this information collection is estimated to average between 9,000 hours and 161 hours per response depending on the size of the institution, per response. The obligation to respond to this collection of information is mandatory per the Home Mortgage Disclosure Act 12 U.S.C. 2801–2810, as implemented by Consumer Financial Protection Bureau’s Regulation C, 12 CFR part 1003. Comments regarding this collection of information, including the estimated response time, suggestions for improving the usefulness of the information, or suggestions for reducing the burden to respond to this collection should be submitted to the Bureau at the Consumer Financial Protection Bureau (Attention: PRA Office), 1700 G Street NW, Washington, DC 20552, or by email to PRA@cfpb.gov. The other agencies collecting information under this regulation maintain OMB Control numbers for their collections as follows: Office of the Comptroller of the Currency (1557-0159), the Federal Deposit Insurance Corporation (3064-0046), the Federal Reserve System (7100-0247), the Department of Housing and Urban Development (HUD) (2502-0529), the National Credit Union Administration (3133-0166).
+
+</div>

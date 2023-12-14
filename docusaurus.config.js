@@ -51,10 +51,6 @@ const config = {
       src: '/documentation/js/scrollspy.js',
       defer: true,
     },
-    {
-      src: '/documentation/js/PrintPage.js',
-      defer: true,
-    },
   ],
 
   plugins: [

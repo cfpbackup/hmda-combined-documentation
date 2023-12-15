@@ -1,34 +1,45 @@
 function handleScroll() {
+  // array of all h2s
   const headings = document.querySelectorAll('.docs-version-2024 h2');
+  // array of all sidebar links
   const links = document.querySelectorAll('.docs-version-2024 .menu__link')
+  // top sidebar link with no #
   const overview = document.querySelector('.menu__link[href="/documentation/fig/overview"]')
   let currentUrl = ''
   let newUrl = ''
 
 
   headings.forEach((heading) => {
+    // sidebar link that corresponds to h2
     const link = document.querySelector(`.menu__link[href="#${heading.id}"]`)
 
+    // if link is not null
     if (link) {
+      // if h2 is in viewport
       if (heading.id && isElementInViewport(heading)) {
+        // removes active class from all sidebar links
         links.forEach((activeLink) => {
           activeLink.classList.remove('menu__link--active');
         })
+        // adds active class to corresponding sidebar link
         link.classList.add('menu__link--active');
+        // updates url
         currentUrl = window.location.href
         newUrl = currentUrl.split('#')[0] + '#' + heading.id
         history.pushState(null, heading.id, newUrl)
       }
-    } else if( window.scrollY == 0 ) {
-      console.log('Overview: ' + overview)
+    } 
+    // if first h2 (with no #) is in viewport
+    else if( window.scrollY == 0 ) {
+      // removes active class from all other sidebar links
       links.forEach((activeLink) => {
-        console.log('Active: ' + activeLink + '\nOverview: ' + overview)
-
         if (activeLink.toString() !== overview.toString()) {
           activeLink.classList.remove('menu__link--active');
         }
       })
+      // adds active class top sidebar link with no #
       overview.classList.add('menu__link--active');
+      // updates url
       currentUrl = window.location.href
       newUrl = currentUrl.split('#')[0]
       history.pushState(null, heading.id, newUrl)
@@ -36,6 +47,7 @@ function handleScroll() {
   });
 }
 
+// defines viewport
 function isElementInViewport(element) {
   const rect = element.getBoundingClientRect();
   return (
@@ -46,5 +58,6 @@ function isElementInViewport(element) {
   );
 }
 
+// calls handleScroll
 document.addEventListener('scroll', handleScroll);
 document.addEventListener('DOMContentLoaded', handleScroll);

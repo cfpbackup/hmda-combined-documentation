@@ -5,9 +5,6 @@ function handleScroll() {
   const links = document.querySelectorAll('.docs-version-2024 .menu__link')
   // top sidebar link with no #
   const overview = document.querySelector('.menu__link[href="/documentation/fig/overview"]')
-  let currentUrl = ''
-  let newUrl = ''
-
 
   headings.forEach((heading) => {
     // sidebar link that corresponds to h2
@@ -23,10 +20,6 @@ function handleScroll() {
         })
         // adds active class to corresponding sidebar link
         link.classList.add('menu__link--active');
-        // updates url
-        currentUrl = window.location.href
-        newUrl = currentUrl.split('#')[0] + '#' + heading.id
-        history.pushState(null, heading.id, newUrl)
       }
     } 
     // if first h2 (with no #) is in viewport
@@ -39,10 +32,6 @@ function handleScroll() {
       })
       // adds active class top sidebar link with no #
       overview.classList.add('menu__link--active');
-      // updates url
-      currentUrl = window.location.href
-      newUrl = currentUrl.split('#')[0]
-      history.pushState(null, heading.id, newUrl)
     }
   });
 }

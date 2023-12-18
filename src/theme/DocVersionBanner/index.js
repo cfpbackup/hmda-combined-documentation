@@ -37,7 +37,7 @@ function UnmaintainedVersionLabel({siteTitle, versionMetadata}) {
         versionLabel: <b>{versionMetadata.label}</b>,
       }}>
       {
-        'This is the {versionLabel} Filing Instructions Guide.'
+        'This is the {versionLabel} Filing Instructions Guide for data collected in {versionLabel}.'
       }
     </Translate>
   );
@@ -71,7 +71,7 @@ function LatestVersionSuggestionLabel({versionLabel, to, onClick}) {
         ),
       }}>
       {
-        'See the current {versionLabel} {latestVersionLink}.'
+        'Here is the {versionLabel} {latestVersionLink}.'
       }
     </Translate>
   );

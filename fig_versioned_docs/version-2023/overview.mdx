@@ -1,28 +1,197 @@
-# 4. 2023 Data Specifications
+import PrintPage from './tables/PrintPage'
+import { TableMaker } from './tables/TableMaker'
+import './tables/scrollspy.js'
 
-<a class="printBtn" href="javascript:window.print()" target="_self">
-Print Page
-</a>
+# 2023 FIG (Filing Instructions Guide) {#fig2023}
 
-## 4.1 &nbsp; Introduction
+## 1.  What’s in the FIG? {#overview}
+
+The 2023 Filing Instructions Guide (FIG) is a compendium of resources to help you file annual HMDA data collected in 2023 with the Consumer Financial Protection Bureau (Bureau) in 2024. These resources are briefly described in this section and are further detailed throughout this document in individual sections.  The HMDA agencies have agreed that filing HMDA data collected in or after 2017 with the Bureau will be deemed as a submission to the appropriate Federal agency. [^1] 
+
+<PrintPage />
+
+[^1]: The HMDA agencies are the member agencies of the Federal Financial Institutions Examination Council (FFIEC)—the Consumer Financial Protection
+Bureau (CFPB), the Office of the Comptroller of the Currency (OCC), the Federal Deposit Insurance Corporation (FDIC), the Board of Governors of
+the Federal Reserve System (Board), and the National Credit Union Administration (NCUA), and the Department of Housing and Urban
+Development (HUD).
+
+The FIG includes the following sections:    
+
+### 1.1 &nbsp; Changes to the Submission Process for Data Collected in 2023 
+
+This section provides a summary of the changes made to the submission process for filing HMDA data collected in 2023 with the Bureau.  This section may be useful for employees in a variety of roles, for example, your institution’s: 
+
+- Compliance Officer
+
+- Staff who collect, prepare, and submit HMDA data 
+
+- HMDA technology support staff 
+
+### 1.2 &nbsp; 2023 File Specifications 
+This section provides information including valid values, how to format your loan/application register, and how to file your HMDA data collected in 2023 with the Bureau. This section may be useful for employees in a variety of roles, for example, your institution’s: 
+
+- Staff who collect, prepare, and submit HMDA data 
+
+- HMDA technology support staff
+
+### 1.3 &nbsp; 2023 Data Specifications 
+
+On October 15, 2015, the Bureau issued a final rule [(2015 HMDA Final Rule)](https://www.federalregister.gov/articles/2015/10/28/2015-26607/home-mortgage-disclosure-regulation-c?amending) Regulation C. In August 2017, the Bureau issued a final rule amending the 2015 HMDA Rule primarily to make technical corrections and clarify amendments [(2017 HMDA Final Rule)](https://www.federalregister.gov/documents/2017/09/13/2017-18284/home-mortgage-disclosure-regulation-c?). In August 2018, the Bureau issued an interpretive and procedural rule [(2018 HMDA Rule)](https://files.consumerfinance.gov/f/documents/bcfp_hmda_interpretive-procedural-rule_2018-08.pdf?) to implement and clarify the amendments to HMDA made by section 104(a) of the Economic Growth, Regulatory Relief, and Consumer Protection Act (the Act). Beginning with data collected in 2018, HMDA filers should report the data points described in the 2015 HMDA Final Rule and the 2017 HMDA Final Rule, as modified by the 2018 HMDA Rule for insured depository institutions and insured credit unions reporting transactions covered by a partial exemption. 
+
+This section provides instructions for what to enter into each data field in the loan/application register. This section may be useful for employees in a variety of roles, for example, your institution’s:
+
+- Compliance officer 
+
+- Staff who collect, prepare, and submit HMDA data 
+
+### 1.4 &nbsp; 2023 Edit Specifications
+
+This section lists the edits that financial institutions must run on HMDA data before filing with the Bureau.  This section may be useful for employees in a variety of roles, for example, your institution’s: 
+
+- Staff who collect, prepare, and submit HMDA data
+
+## 2. Changes to the Submission Process for Data Collected in 2023 {#changes}
+
+### 2.1 &nbsp; Items that have changed:    
+There are no significant changes to the submission process for data collected in 2023 and reported in 2024.  
+
+### 2.2 &nbsp; Items that have not changed: 
+
+#### The data fields to be collected and reported have not changed: 
+
+The required data fields for the 2023 data have not changed from the 2022 data collection and reporting requirements. Please refer to Regulation C, the 2018 HMDA Rule, and the Data Specification section for the 2023 requirements. 
+
+#### The loan/application register file format for submitting your HMDA data: 
+
+Financial institutions will submit data collected in a pipe delimited text file (.txt). Data fields will be separated by a pipe character, “|”, and will not be fixed length. Do not include leading zeros for the purpose of making a data field a specific number of characters. Additional information regarding the loan/application register file format can be found in the “Self Service Knowledge Portal” located at https://ffiec.cfpb.gov. 
+
+For additional questions, contact hmdahelp@cfpb.gov. Text entries in alphanumeric fields do not need to use all uppercase letters with the exception of: 
+
+- “NA” used when the reporting requirement is not applicable; 
+
+- Two-letter state codes; 
+
+- A capital “E” at the beginning of any “Exempt” response. 
+
+
+ A loan/application register formatting tool will be provided to help filers format certain data into a pipe delimited text file. This tool may be especially helpful for filers with small volumes of reported loans that do not use vendor or other software to prepare their HMDA data for submission. Information regarding the loan/application register formatting tool will be located at https://ffiec.cfpb.gov. 
+
+ #### The way you submit your HMDA data: 
+ 
+ Filers will submit their HMDA data using a web interface referred to as the HMDA Platform. Information regarding the HMDA Platform can be located at: https://ffiec.cfpb.gov.   
+ 
+ We recommend that HMDA filers use a modern browser, such as the latest version of Google Chrome™, Mozilla® Firefox®, Microsoft Edge™, or other modern browsers. The following submission methods will not be permitted: 
+
+ - PC Diskette and CD-ROM 
+ - Submission via Web (from the Data Entry Software (DES)) 
+ - E-mail to HMDASUB@FRB.GOV 
+ - Paper Submissions
+[//]: #
+ #### The process by which you validate the edit report: 
+ 
+ Financial institutions must address all edits prior to submitting their HMDA data. In contrast to the previous process for filing data with the Federal Reserve Board (FRB), all edits must now be addressed prior to filing HMDA data with the Bureau in order to complete the submission process.  
+ 
+ The edit report will be web-based:  
+
+ - Edit reports will not be e-mailed to filers in PDF format. Instead, the Bureau edit reports will be viewed and can be downloaded from the HMDA Platform.  
+
+ - Responses to the edits will not be faxed or e-mailed to the Bureau. The HMDA Platform will guide filers through the process of addressing edits.   
+[//]: #
+ #### The agency with which you file resubmissions of your HMDA data: 
+ 
+ A resubmission means that you have already filed your HMDA submission and received a confirmation receipt, but you are submitting again for the same filing year. Beginning with data collected in 2017, filers will resubmit their HMDA data to the Bureau.
+ 
+ #### The Officer Certification process: 
+ 
+ As part of the submission process, an authorized representative of your institution with knowledge of the data submitted shall certify to the accuracy and completeness of the data submitted. Filers will not fax or e-mail the signed certification. 
+ 
+ ##### The contact information for HMDA Help: 
+ 
+ Technical questions about reporting HMDA data collected in or after 2017 should be directed to hmdahelp@cfpb.gov.  Technical questions about reporting HMDA data collected in or before 2016 should be directed to hmdahelp@frb.gov.
+
+
+ 
+import table1 from './tables/table1.json'
+import table2 from './tables/table2.json'
+
+## 3. 2023 File Specifications {#file-specifications}
+
+### 3.1 &nbsp; Introduction 
+The following information describes the format used when filing HMDA data with the Bureau.
+
+### 3.2 &nbsp; Submission instructions 
+
+Filers will submit their HMDA data using a web interface. Information regarding the HMDA Platform can be located at: https://ffiec.cfpb.gov.   
+
+- We recommend that HMDA filers use a modern browser, such as the latest version of Google Chrome™, Mozilla® Firefox®, Microsoft Edge™, or other modern browsers. 
+
+The HMDA Platform will walk you through the loan/application register filing process. 
+
+Certification will also occur within the HMDA Platform. An authorized representative of your institution with knowledge of the data submitted shall certify to the accuracy and completeness of the data submitted.
+ 
+### 3.3 &nbsp; Loan/Application Register format
+Beginning with data collected in 2017, your HMDA data loan/application register will be submitted in a pipe (also referred to as vertical bar) delimited text file format. This means that: 
+
+- Each data field within each row will be separated with a pipe character, “|”. 
+
+- Do not include leading zeros for the purpose of making a data field a specific number of characters. 
+
+- The loan/application register will be a text file with a .txt file format extension.
+
+- Do not encase text entries in single or double quotes. 
+
+Text entries in alphanumeric fields do not need to use all uppercase letters with the exception of: 
+
+- “NA” used when the reporting requirement is not applicable;
+
+- Two-letter state codes; 
+
+- A capital “E” at the beginning of any “Exempt” response.  
+
+As with previous submissions:  
+
+- The first row of the loan/application register will begin with the number one (1) to indicate that the data fields in row one contain information relating to your institution. 
+
+- All subsequent rows of the loan/application register will begin with the number two (2) to indicate that the data fields beginning in row two contain data fields for the loan/application register, with information relating to the reported loan or application. 
+  
+- Each covered loan or application must appear on its own line in the loan/application register. 
+
+
+### 3.4 &nbsp; Information regarding data fields 
+
+Table 1 and Table 2 contain the data field name, data field type, valid values for numeric fields, examples for alphanumeric fields, and the data point name, where applicable.
+
+Please refer to Regulation C and the Data Specifications section for details regarding each data field. 
+
+#### TABLE 1: &nbsp; FILING INSTITUTION, REPORTING PERIOD, AND CONTACT INFORMATION (TRANSMITTAL SHEET) 
+
+<TableMaker jsonData={table1} tableNumber='1' tableName='Table 1' />
+
+#### TABLE 2: &nbsp; LOAN/APPLICATION REGISTER
+
+<TableMaker jsonData={table2} tableNumber='2' tableName='Table 2' />
+
+## 4. 2023 Data Specifications {#data-specifications}
+
+### 4.1 &nbsp; Introduction
 
 This section provides instructions on entering data in the loan/application register for HMDA data collected in 2023. This document is not a substitute for Regulation C. Refer to Regulation C for a complete explanation of the reporting requirement for each data field.
 
 Data fields are presented in the order they are recorded in the loan/application register. Data fields are identified by the corresponding 2023 File Specifications table and data field number, followed by the Regulation C paragraph containing the relevant reporting requirements. For example, (1-2) [Paragraph 5(a)(3)(i)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-i) refers to the data field listed in table 1, data field 2 in the 2023 File Specifications document, and the reporting requirement found at 12 CFR § 1003.5(a)(3)(i). The blue underlined words provide hyperlinks to the referenced Regulation C paragraph.
 
-## 4.2 &nbsp; Data format and itemization
+### 4.2 &nbsp; Data format and itemization
 
-### 4.2.1 &nbsp; Filing institution, reporting period, and contact information
+#### 4.2.1 &nbsp; Filing institution, reporting period, and contact information
 
 Please provide the following information regarding your institution in the format described in each paragraph below.
 
-#### (1-2) [Paragraph 5(a)(3)(i)—Financial Institution](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-i).
+##### (1-2) [Paragraph 5(a)(3)(i)—Financial Institution](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-i).
 
 Enter the name of the financial institution that is submitting HMDA data.
 
 Example: If the submission contains HMDA data for Ficus Bank, enter Ficus Bank.
 
-#### (1-3 to 1-4) [Paragraph 5(a)(3)(ii)—Calendar Year and Calendar Quarter](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-ii).
+##### (1-3 to 1-4) [Paragraph 5(a)(3)(ii)—Calendar Year and Calendar Quarter](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-ii).
 
 1. **Calendar Year.** Enter, in numeral form, the calendar year the data submission covers, using YYYY format.
 
@@ -35,7 +204,7 @@ Code 4—Annual submissions for covered loans and applications with respect to w
 a. Codes for individual calendar quarters (1-3) are used only by financial institutions required to report HMDA data quarterly effective January 1, 2020. Further instructions for reporting quarterly data can be found in the [Supplemental Guide for Quarterly Filers](https://s3.amazonaws.com/cfpb-hmda-public/prod/help/supplemental-guide-for-quarterly-filers-for-2021.pdf).
 
 
-#### (1-5 to 1-11) [Paragraph 5(a)(3)(iii)—Contact Person](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-iii)_._
+##### (1-5 to 1-11) [Paragraph 5(a)(3)(iii)—Contact Person](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-iii)_._
 
 Enter the name, telephone number, e-mail address, and office address of a person who may be contacted with questions about your institution's submission.
 
@@ -94,7 +263,7 @@ Example:
 - Spelled-out numbers, such as Four Hundred Fifty Six W Somewhere Ave Apt Two Hundred One.
 
 
-#### (1-12) [Paragraph 5(a)(3)(iv)—Federal Agency](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-iv).
+##### (1-12) [Paragraph 5(a)(3)(iv)—Federal Agency](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-iv).
 
 Indicate your financial institution's appropriate Federal agency by entering the applicable Code from the following:
 
@@ -110,13 +279,13 @@ Code 7—United States Department of Housing and Urban Development (HUD)
 
 Code 9—Consumer Financial Protection Bureau (Bureau)
 
-#### (1-13) [Paragraph 5(a)(3)(v)—Total Number of Entries Contained in Submission](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-v).
+##### (1-13) [Paragraph 5(a)(3)(v)—Total Number of Entries Contained in Submission](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-v).
 
 Enter, in numeral form, the total number of entries contained in the submission.
 
 Example: If your institution is submitting 5,000 entries, enter 5000.
 
-#### (1-14) [Paragraph 5(a)(3)(vi)—Federal Taxpayer Identification Number](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-vi).
+##### (1-14) [Paragraph 5(a)(3)(vi)—Federal Taxpayer Identification Number](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/5/#a-3-vi).
 
 Enter your financial institution's Federal Taxpayer Identification Number.
 
@@ -128,11 +297,11 @@ Enter your financial institution's LEI as defined in [Paragraph 4(a)(1)(i)(A)](h
 
 Example: If your institution's LEI is 10BX939C5543TQA1144M, enter 10BX939C5543TQA1144M.
 
-### 4.2.2 &nbsp; Loan/Application Register
+#### 4.2.2 &nbsp; Loan/Application Register
 
 Please provide the following data fields for each application for a covered loan your institution receives, each covered loan that your institution originates, and each covered loan that your institution purchases in the format described in each paragraph below.
 
-#### (2-3) [Paragraph 4(a)(1)(i)—Universal Loan Identifier (ULI)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-1-i) or Non-Universal Loan Identifier (NULI)
+##### (2-3) [Paragraph 4(a)(1)(i)—Universal Loan Identifier (ULI)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-1-i) or Non-Universal Loan Identifier (NULI)
 
 Enter the ULI assigned to the covered loan or application. Your financial institution shall assign and report a ULI that:
 
@@ -162,7 +331,7 @@ Example:
 - Must not include any information that could be used to directly identify the applicant or borrower.
 
 
-#### (2-4) [Paragraph 4(a)(1)(ii)—Application Date](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-1-ii).
+##### (2-4) [Paragraph 4(a)(1)(ii)—Application Date](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-1-ii).
 
 Enter, in numeral form, the date the application was received or the date shown on the application form by year, month, and day, using YYYYMMDD format.
 
@@ -170,7 +339,7 @@ Example: If the application was received on July 21, 2023, enter 20230721.
 
 > a. Enter "NA" if the requirement to report application date is not applicable to the covered loan or application that your institution is reporting.
 
-#### (2-5)[Paragraph 4(a)(2)—Loan Type](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-2).
+##### (2-5)[Paragraph 4(a)(2)—Loan Type](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-2).
 
 Indicate the type of covered loan or application by entering the applicable Code from the following:
 
@@ -182,7 +351,7 @@ Code 3—Veterans Affairs guaranteed (VA)
 
 Code 4—USDA Rural Housing Service or Farm Service Agency guaranteed (RHS or FSA)
 
-#### (2-6) [Paragraph 4(a)(3)—Loan Purpose](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-3).
+##### (2-6) [Paragraph 4(a)(3)—Loan Purpose](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-3).
 
 Indicate the purpose of the covered loan or application by entering the applicable Code from the following:
 
@@ -198,7 +367,7 @@ Code 4—Other purpose
 
 Code 5—Not applicable
 
-#### (2-7) [Paragraph 4(a)(4)—Preapproval](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-4).
+##### (2-7) [Paragraph 4(a)(4)—Preapproval](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-4).
 
 Indicate whether the covered loan or application involved a request for a preapproval of a home purchase loan under a preapproval program by entering the applicable Code from the following:
 
@@ -206,7 +375,7 @@ Code 1—Preapproval requested
 
 Code 2—Preapproval not requested
 
-#### (2-8) [Paragraph 4(a)(5)—Construction Method](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-5).
+##### (2-8) [Paragraph 4(a)(5)—Construction Method](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-5).
 
 Indicate the construction method for the dwelling by entering the applicable Code from the following:
 
@@ -215,7 +384,7 @@ Code 1—Site-built
 Code 2—Manufactured home
 
 
-#### (2-9) [Paragraph 4(a)(6)—Occupancy Type](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-6).
+##### (2-9) [Paragraph 4(a)(6)—Occupancy Type](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-6).
 
 Indicate the occupancy type by entering the applicable Code from the following:
 
@@ -225,13 +394,13 @@ Code 2—Second residence
 
 Code 3—Investment property
 
-#### (2-10) [Paragraph 4(a)(7)—Loan Amount](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-7).
+##### (2-10) [Paragraph 4(a)(7)—Loan Amount](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-7).
 
 Enter, in dollars, the amount of the covered loan, or the amount applied for, as applicable.
 
 Example: If the loan amount is $110,500, enter 110500 or 110500.00. If the loan amount is $110,500.24, enter 110500.24.
 
-#### (2-11) [Paragraph 4(a)(8)(i)—Action Taken](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-8-i).
+##### (2-11) [Paragraph 4(a)(8)(i)—Action Taken](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-8-i).
 
 Indicate the action taken on the covered loan or application by entering the applicable Code from the following:
 
@@ -251,13 +420,13 @@ Code 7—Preapproval request denied
 
 Code 8—Preapproval request approved but not accepted
 
-#### (2-12) [Paragraph 4(a)(8)(ii)—Action Taken Date](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-8-ii).
+##### (2-12) [Paragraph 4(a)(8)(ii)—Action Taken Date](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-8-ii).
 
 Enter, in numeral form, the date of action taken by year, month, and day, using YYYYMMDD format.
 
 Example: If the action taken date is July 21, 2023, enter 20230721.
 
-#### (2-13 to 2-18) [Paragraph 4(a)(9)—Location of Property Securing (or Proposed to Secure) the Covered Loan](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-9).
+##### (2-13 to 2-18) [Paragraph 4(a)(9)—Location of Property Securing (or Proposed to Secure) the Covered Loan](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-9).
 
 Enter the location of the property securing the covered loan or, in the case of an application, proposed to secure the covered loan.
 
@@ -325,7 +494,7 @@ Example: Enter 06037264000 for a census tract within Los Angeles County, CA.
 > a. Enter "NA" if the requirement to report census tract is not applicable to the covered loan or application that your institution is reporting.
 
 
-#### (2-19 to 2-57)[Paragraph 4(a)(10)—Applicant or Borrower Information](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-10).
+##### (2-19 to 2-57)[Paragraph 4(a)(10)—Applicant or Borrower Information](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-10).
 
 [Appendix B](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/B/) to Regulation C contains instructions for the collection of data on ethnicity, race, and sex, and contains a sample data-collection form.
 
@@ -536,7 +705,7 @@ Example: If the income amount is $35,500, enter 36. If the income amount is $50,
 
 > a. Enter "NA" if the requirement to report gross annual income does not apply to the covered loan or application that your institution is reporting.
 
-#### (2-58)[Paragraph 4(a)(11)—Type of Purchaser](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-11).
+##### (2-58)[Paragraph 4(a)(11)—Type of Purchaser](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-11).
 
 Indicate the type of entity purchasing a covered loan from your institution within the same calendar year that your institution originated or purchased the loan by entering the applicable Code from the following:
 
@@ -564,7 +733,7 @@ Code 9—Other type of purchaser
 
 > a. Use Code 0 if the requirement to report the type of purchaser does not apply to the covered loan that your institution is reporting.
 
-#### (2-59)[Paragraph 4(a)(12)—Rate Spread](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-12).
+##### (2-59)[Paragraph 4(a)(12)—Rate Spread](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-12).
 
 Enter, as a percentage, to at least three (3) decimal places, the difference between the covered loan's annual percentage rate (APR) and the average prime offer rate (APOR) for a comparable transaction as of the date the interest rate is set. Numbers calculated to beyond three (3) decimal places may either be reported beyond three (3) decimal places, up to 15 decimal places, or rounded or truncated to three (3) decimal places. Decimal place trailing zeros may either be included or omitted. The HMDA Platform can accept negative numbers for Rate Spread.
 
@@ -586,7 +755,7 @@ Enter, as a percentage, to at least three (3) decimal places, the difference bet
 
 > d. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Rate Spread.
 
-#### (2-60)[Paragraph 4(a)(13)—HOEPA Status](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-13).
+##### (2-60)[Paragraph 4(a)(13)—HOEPA Status](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-13).
 
 Indicate whether the covered loan is a high-cost mortgage under Regulation Z, 12 CFR 1026.32(a) by entering the applicable Code from the following:
 
@@ -598,7 +767,7 @@ Code 3—Not applicable
 
 > a. Use Code 3 if the requirement to report HOEPA status does not apply to the covered loan that your institution is reporting.
 
-#### (2-61)[Paragraph 4(a)(14)—Lien Status](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-14).
+##### (2-61)[Paragraph 4(a)(14)—Lien Status](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-14).
 
 Indicate the lien status of the property securing the covered loan, or in the case of an application, proposed to secure the covered loan, by entering the applicable Code from the following:
 
@@ -606,7 +775,7 @@ Code 1—Secured by a first lien
 
 Code 2—Secured by a subordinate lien
 
-#### (2-62 to 2-67)[Paragraph 4(a)(15)—Credit Score of Applicant or Borrower](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-15).
+##### (2-62 to 2-67)[Paragraph 4(a)(15)—Credit Score of Applicant or Borrower](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-15).
 
 1. **Credit Score of Applicant or Borrower.** Enter, in numeral form, the credit score, or scores relied on in making the credit decision for the applicant or borrower, or of the first co-applicant or co-borrower, as applicable. If Regulation C requires your institution to report a single score that corresponds to multiple applicants or borrowers, report the score in either the applicant field or the co-applicant field. Or, enter the applicable Code from the following:
 
@@ -678,7 +847,7 @@ Code 1111—Exempt
 
 3. **Name and Version of Credit Scoring Model Conditional Free Form Text Field for Code 8.** If Code 8 is selected in the Name and Version of Credit Scoring Model Field, enter the specific other credit scoring model that is not listed above. The maximum number of characters for this field is 100 characters, including spaces. If 8 is not entered, leave this field blank.
 
-#### (2-68 to 2-72) [Paragraph 4(a)(16)—Reason for Denial](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-16).
+##### (2-68 to 2-72) [Paragraph 4(a)(16)—Reason for Denial](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-16).
 
 1. **Reason for Denial.** Indicate the principal reason, or reasons, for denial by entering up to four (4) applicable Codes from the following:
 
@@ -730,7 +899,7 @@ Code 1111—Exempt
 
 2. **Reason for Denial Conditional Free Form Text Field for Code 9.** If Code 9 is selected in any Reason for Denial field, enter the specific other reason(s) for denial not listed above. The maximum number of characters for this field is 255 characters, including spaces. If 9 is not entered, leave this field blank.
 
-#### (2-73 to 2-74)[Paragraph 4(a)(17)—Total Loan Costs or Total Points and Fees](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-17).
+##### (2-73 to 2-74)[Paragraph 4(a)(17)—Total Loan Costs or Total Points and Fees](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-17).
 
 Enter either Total Loan Costs or Total Points and Fees or indicate that neither reporting requirement applies by entering "NA" for both.
 
@@ -755,7 +924,7 @@ Example: If the total points and fees are $2,399.04, enter 2399.04.
 
 > d. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Total Loan Costs or Total Points and Fees.
 
-#### (2-75)[Paragraph 4(a)(18)—Origination Charges](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-18).
+##### (2-75)[Paragraph 4(a)(18)—Origination Charges](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-18).
 
 Enter, in dollars, the total of all itemized amounts that are designated borrower-paid at or before closing. If the total is zero, enter 0.
 
@@ -765,7 +934,7 @@ Example: If the origination charges are $2,399.04, enter 2399.04.
 > b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Total Loan Costs or Total Points and Fees.
 
 
-#### (2-76)[Paragraph 4(a)(19)—Discount Points](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-19).
+##### (2-76)[Paragraph 4(a)(19)—Discount Points](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-19).
 
 Enter, in dollars, the points paid to the creditor to reduce the interest rate. If no points were paid, leave this field blank.
 
@@ -775,7 +944,7 @@ Example: If the amount paid for discount points is $2,399.04, enter 2399.04.
 
 > b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Discount Points.
 
-#### (2-77)[Paragraph 4(a)(20)—Lender Credits](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-20)_._
+##### (2-77)[Paragraph 4(a)(20)—Lender Credits](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-20)_._
 
 Enter, in dollars, the amount of lender credits. If no lender credits were provided, leave this field blank.
 
@@ -785,7 +954,7 @@ Example: If the amount is $1500.24, enter 1500.24.
 
 > b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Lender Credits.
 
-#### (2-78)[Paragraph 4(a)(21)—Interest Rate](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-21).
+##### (2-78)[Paragraph 4(a)(21)—Interest Rate](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-21).
 
 Enter, as a percentage, to at least three (3) decimal places, the interest rate. Numbers calculated to beyond three (3) decimal places may either be reported beyond three (3) decimal places or rounded or truncated to three (3) decimal places. Decimal place trailing zeros may either be included or omitted. The HMDA Platform can accept up to 15 decimal places for the Interest Rate.
 
@@ -800,7 +969,7 @@ If the interest rate is exactly 4.500%, enter 4.5, 4.50, or 4.500.
 > c. Enter 0 if the interest rate is 0.
 
 
-#### (2-79)[Paragraph 4(a)(22)—Prepayment Penalty Term](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-22).
+##### (2-79)[Paragraph 4(a)(22)—Prepayment Penalty Term](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-22).
 
 Enter, in numeral form, the term, in months, of any prepayment penalty.
 
@@ -810,7 +979,7 @@ Example: If a prepayment penalty may be imposed within the first 24 months after
 
 > b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Prepayment Penalty Term.
 
-#### (2-80)[Paragraph 4(a)(23)—Debt-to-Income Ratio](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-23).
+##### (2-80)[Paragraph 4(a)(23)—Debt-to-Income Ratio](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-23).
 
 Enter, as a percentage, the ratio of the applicant's or borrower's total monthly debt to the total monthly income relied on in making the credit decision. Use decimal places only if the ratio relied upon uses decimal places. The HMDA Platform can accept up to 15 decimal places and can accept negative numbers for Debt-to-Income Ratio.
 
@@ -821,7 +990,7 @@ If, however, your institution rounded the ratio up to 43% and relied on the roun
 > a. Enter "NA" if the requirement to report debt-to-income ratio does not apply to the covered loan or application that your institution is reporting.
 > b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Debt-to-Income Ratio.
 
-#### (2-81)[Paragraph 4(a)(24)—Combined Loan-to-Value Ratio](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-24).
+##### (2-81)[Paragraph 4(a)(24)—Combined Loan-to-Value Ratio](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-24).
 
 Enter, as a percentage, the ratio of the total amount of debt secured by the property to the value of the property relied on in making the credit decision. Use decimal places only if the ratio relied upon uses decimal places. The HMDA Platform can accept up to 15 decimal places for the Combined Loan-to-Value Ratio.
 
@@ -833,7 +1002,7 @@ If, however, your institution rounded the ratio down to 80 and relied on the rou
 
 > b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Combined Loan-to-Value Ratio.
 
-#### (2-82)[Paragraph 4(a)(25)—Loan Term](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-25).
+##### (2-82)[Paragraph 4(a)(25)—Loan Term](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-25).
 
 Enter, in numeral form, the number of months after which the legal obligation will mature or terminate, or would have matured or terminated.
 
@@ -844,7 +1013,7 @@ Example: If the loan term is 360 months, enter 360.
 > b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Loan Term.
 
 
-#### (2-83)[Paragraph 4(a)(26)—Introductory Rate Period](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-26).
+##### (2-83)[Paragraph 4(a)(26)—Introductory Rate Period](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-26).
 
 Enter, in numeral form, the number of months, or proposed number of months in the case of an application, until the first date the interest rate may change after closing or account opening.
 
@@ -854,7 +1023,7 @@ Example: If the introductory rate period is 24 months, enter 24.
 
 > b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Introductory Rate Period.
 
-#### (2-84)[Paragraph 4(a)(27)(i)—Balloon Payment](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-27-i).
+##### (2-84)[Paragraph 4(a)(27)(i)—Balloon Payment](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-27-i).
 
 Indicate whether the contractual terms include, or would have included, a balloon payment by entering the applicable Code from the following:
 
@@ -866,7 +1035,7 @@ Code 1111—Exempt
 
 Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Balloon Payment.
 
-#### (2-85) [Paragraph 4(a)(27)(ii)—Interest-Only Payments](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-27-ii).
+##### (2-85) [Paragraph 4(a)(27)(ii)—Interest-Only Payments](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-27-ii).
 
 Indicate whether the contractual terms include, or would have included, interest-only payments by entering the applicable Code from the following:
 
@@ -878,7 +1047,7 @@ Code 1111—Exempt
 
 Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Interest-Only Payments.
 
-#### (2-86) [Paragraph 4(a)(27)(iii)—Negative Amortization](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-27-iii).
+##### (2-86) [Paragraph 4(a)(27)(iii)—Negative Amortization](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-27-iii).
 
 Indicate whether the contractual terms include, or would have included, a term that would cause the covered loan to be a negative amortization loan by entering the applicable Code from the following:
 
@@ -890,7 +1059,7 @@ Code 2—No negative amortization
 
 Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Negative Amortization.
 
-#### (2-87)[Paragraph 4(a)(27)(iv)—Other Non-Amortizing Features](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-27-iv).
+##### (2-87)[Paragraph 4(a)(27)(iv)—Other Non-Amortizing Features](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-27-iv).
 
 Indicate whether the contractual terms include, or would have included, any term, other than those described in [Paragraphs 1003.4(a)(27)(i), (ii), and (iii)](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-27) that would allow for payments other than fully amortizing payments during the loan term by entering the applicable Code from the following:
 
@@ -902,7 +1071,7 @@ Code 2—No other non-fully amortizing features
 
 Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Other Non-Amortizing Features.
 
-#### (2-88)[Paragraph 4(a)(28)—Property Value](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-28).
+##### (2-88)[Paragraph 4(a)(28)—Property Value](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-28).
 
 Enter, in dollars, the value of the property securing the covered loan or, in the case of an application, proposed to secure the covered loan, relied on in making the credit decision.
 
@@ -913,7 +1082,7 @@ Example: If the property value is $350,500, enter 350500.
 > b. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Property Value.
 
 
-#### (2-89)[Paragraph 4(a)(29)—Manufactured Home Secured Property Type](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-29)
+##### (2-89)[Paragraph 4(a)(29)—Manufactured Home Secured Property Type](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-29)
 
 Indicate whether the covered loan or application is, or would have been, secured by a manufactured home and land, or by a manufactured home and not land, by entering the applicable Code from the following:
 
@@ -929,7 +1098,7 @@ Code 3—Not applicable
 
 > b. Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Manufactured Home Secured Property Type.
 
-#### (2-90) [Paragraph 4(a)(30)—Manufactured Home Land Property Interest](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-30).
+##### (2-90) [Paragraph 4(a)(30)—Manufactured Home Land Property Interest](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-30).
 
 Indicate the applicant's or borrower's land property interest in the land on which a manufactured home is, or will be, located by entering the applicable Code from the following:
 
@@ -949,14 +1118,14 @@ Code 5—Not applicable
 
 > b. Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Manufactured Home Land Property Interest.
 
-#### (2-91)[Paragraph 4(a)(31)—Total Units](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-31).
+##### (2-91)[Paragraph 4(a)(31)—Total Units](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-31).
 
 Enter, in numeral form, the number of individual dwelling units related to the property securing the covered loan or, in the case of an application, proposed to secure the covered loan.
 
 Example: If there are five (5) individual dwelling units, enter 5.
 4.
 
-#### (2-92)[Paragraph 4(a)(32)—Multifamily Affordable Units](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-32).
+##### (2-92)[Paragraph 4(a)(32)—Multifamily Affordable Units](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-32).
 
 Enter, in numeral form, the number of individual dwelling units related to any multifamily dwelling property securing the covered loan or, in the case of an application, proposed to secure the covered loan, that are income-restricted pursuant to Federal, State, or local affordable housing programs.
 
@@ -969,7 +1138,7 @@ Example: If there are five (5) multifamily affordable units, enter 5.
 
 > c. Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting Multifamily Affordable Units.
 
-#### (2-93 to 2-94)[Paragraph 4(a)(33)—Application Channel](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-33).
+##### (2-93 to 2-94)[Paragraph 4(a)(33)—Application Channel](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-33).
 
 1. **Submission of Application.** Indicate whether the applicant or borrower submitted the application directly to your institution by entering the applicable Code from the following:
 
@@ -999,7 +1168,7 @@ Code 1111—Exempt
 
 > b. Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Initially Payable to Your Institution.
 
-#### (2-95)[Paragraph 4(a)(34)—Mortgage Loan Originator NMLSR Identifier](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-34).
+##### (2-95)[Paragraph 4(a)(34)—Mortgage Loan Originator NMLSR Identifier](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-34).
 
 Enter the Nationwide Mortgage Licensing System and Registry mortgage loan originator unique identifier (NMLSR ID) for the mortgage loan originator, NA, or Exempt. The NMLSR ID should not include zeros that are not part of the NMLSR ID (e.g., if the NMLSR ID is 64573, it should be entered as 64573, not 00064573). The HMDA Platform can accept a value with, at most, nine integers (e.g., 214748364).
 
@@ -1008,7 +1177,7 @@ Example: If the NMLSR ID for the mortgage loan originator is 123450, enter 12345
 Enter "Exempt" if, pursuant to the 2018 HMDA Rule, your institution is not reporting NMLSR ID.
 11.
 
-#### (2-96 to 2-107) [Paragraph 4(a)(35)—Automated Underwriting System (AUS) and Result](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-35).
+##### (2-96 to 2-107) [Paragraph 4(a)(35)—Automated Underwriting System (AUS) and Result](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-35).
 
 1. **Automated Underwriting System.** Indicate the automated underwriting system(s) (AUS) used by your institution to evaluate the application by entering up to five (5) of the applicable Codes from the following:
 
@@ -1114,7 +1283,7 @@ Code 1111—Exempt
 
 4. **Automated Underwriting System Result Conditional Free Form Text Field for Code 16.** If Code 16 is selected in an Automated Underwriting System Result field, enter the specific other AUS result(s) not listed above. Enter more than one other Automated Underwriting System Result, as applicable. The maximum number of characters for this field is 255 characters, including spaces. If 16 is not entered, leave this field blank.
 
-#### (2-108)[Paragraph 4(a)(36)—Reverse Mortgage](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-36).
+##### (2-108)[Paragraph 4(a)(36)—Reverse Mortgage](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-36).
 
 Indicate whether the covered loan is, or the application is for, a reverse mortgage by entering the applicable Code from the following:
 
@@ -1127,7 +1296,7 @@ Code 2—Not a reverse mortgage
 Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Reverse Mortgage.
 
 
-#### (2-109)[Paragraph 4(a)(37)—Open-End Line of Credit](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-37).
+##### (2-109)[Paragraph 4(a)(37)—Open-End Line of Credit](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-37).
 
 Indicate whether the covered loan is, or the application is for, an open-end line of credit by entering the applicable Code from the following:
 
@@ -1140,7 +1309,7 @@ Code 1111—Exempt
 Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Open End Line of Credit.
 
 
-#### (2-110)[Paragraph 4(a)(38)— Business or Commercial Purpose](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-38).
+##### (2-110)[Paragraph 4(a)(38)— Business or Commercial Purpose](https://www.consumerfinance.gov/policy-compliance/rulemaking/regulations/1003/4/#a-38).
 
 Indicate whether the covered loan is, or the application is for a covered loan that will be made, primarily for a business or commercial purpose by entering the applicable Code from the following:
 
@@ -1151,3 +1320,114 @@ Code 2—Not primarily for a business or commercial purpose
 Code 1111—Exempt
 
 Use Code 1111 if, pursuant to the 2018 HMDA Rule, your institution is not reporting Business or Commercial Purpose.
+
+
+
+
+import table3 from './tables/table3.json'
+import table4 from './tables/table4.json'
+import table5 from './tables/table5.json'
+import table6 from './tables/table6.json'
+import table7 from './tables/table7.json'
+import table8 from './tables/table8.json'
+import table9 from './tables/table9.json'
+
+## 5. 2023 Edit Specifications {#edit-specifications}
+
+### 5.1 &nbsp; Introduction
+
+HMDA edits are rules to assist filers in checking the accuracy of HMDA data prior to
+submission. There are four types of edits:
+
+- **Syntactical**: Edits that check whether the loan/application register is in the correct
+format and whether the data covers the correct filing year. A syntactical edit occurs, for
+example, if none of the rows in the loan/application register begin with the number two
+(2) to indicate that the following data fields contain information relating to the reported
+loan or application. The loan/application register cannot be submitted until the filer
+corrects all syntactical edit errors and re-uploads the updated loan/application register to
+the HMDA Platform.
+
+- **Validity** : Edits that check whether there are valid values in each data field. A validity
+edit occurs, for example, if the contact person’s telephone number does not follow the
+format “999-999-9999.” The loan/application register cannot be submitted until the filer
+corrects all validity edit errors and re-uploads the updated loan/application register to
+the HMDA Platform.
+
+- **Quality**: Edits that check whether entries in the individual data fields or combinations of
+data fields conform to expected values. A quality edit occurs, for example, if the reported
+Tax Identification Number does not match the Tax Identification Number the institution
+reported on the previous year’s loan/application register. The loan/application register
+cannot be submitted until the filer either confirms the accuracy of all values flagged by
+quality edits in the HMDA Platform or corrects the flagged values and re-uploads the
+updated loan/application register to the HMDA Platform.
+
+- **Macro Quality**:Edits that check whether the submitted loan/application register as a
+whole conforms to expected values. A macro quality edit occurs, for example, if the
+reported percentage of multifamily loans exceeds 10% of the loan/application register
+entries. The loan/application register cannot be submitted until the filer either confirms 
+95
+the accuracy of all the values flagged by the macro quality edits in the HMDA Platform or
+corrects the flagged values and re-uploads the updated loan/application register to the
+HMDA Platform.
+
+### 5.2 &nbsp; 2023 New and Revised Edits 
+
+
+#### TABLE 3: 2023 EDITS REVISED FROM 2022
+
+<TableMaker jsonData={table3} tableNumber='3' tableName='Table 3' />
+
+### 5.3 &nbsp; 2023 Edits
+Table 4 through Table 8 list all of the edits for HMDA data collected in 2023 under the HMDA
+Final Rule. Each table groups the edits by type and whether the edit is related to the data fields
+in the “Filing Institution, Reporting Period, and Contact Information (Transmittal Sheet)”
+section or the “Loan/Application Register” section.Edits for data collected in 2023 are grouped
+by data point and may contain more than one condition that must be true for the edit to pass
+during filing. Conditions within the edit description are distinguished with a number. To
+increase clarity, the tables contain a column specifying each data field that affects the overall
+edit, and the edit descriptions contain all data field names in italics. 
+
+#### TABLE 4: SYNTACTICAL AND VALIDITY EDITS FOR FILING INSTITUTION, REPORTING PERIOD, AND CONTACT INFORMATION (TRANSMITTAL SHEET), AND LOAN/APPLICATION REGISTER
+
+<TableMaker jsonData={table4} tableNumber='4' tableName='Table 4' />
+
+#### TABLE 5: SYNTACTICAL AND VALIDITY EDITS FOR FILING INSTITUTION, REPORTING PERIOD, AND CONTACT INFORMATION (TRANSMITTAL SHEET)
+
+<TableMaker jsonData={table5} tableNumber='5' tableName='Table 5' />
+
+#### TABLE 6: SYNTACTICAL AND VALIDITY EDITS FOR LOAN/APPLICATION REGISTER
+
+<TableMaker jsonData={table6} tableNumber='6' tableName='Table 6' />
+
+#### TABLE 7: QUALITY EDITS FOR LOAN/APPLICATION REGISTER
+
+<TableMaker jsonData={table7} tableNumber='7' tableName='Table 7' />
+
+#### TABLE 8: MACRO QUALITY EDITS FOR LOAN/APPLICATION REGISTER
+
+<TableMaker jsonData={table8} tableNumber='8' tableName='Table 8' />
+
+#### TABLE 9: MACRO QUALITY EDITS FOR TRANSMITTAL SHEET AND LOAN/APPLICATION REGISTER
+
+<TableMaker jsonData={table9} tableNumber='9' tableName='Table 9' />
+
+## 6. Additional information {#additional-information}
+
+
+
+### 6.1 &nbsp; Frequently Asked Questions
+
+The Frequently Asked Questions are available in the Self Service Knowledge Portal at https://ffiec.cfpb.gov.
+
+### 6.2 &nbsp; HMDA Help
+
+Technical questions about reporting HMDA data collected in or after 2017 should be directed to hmdahelp@cfpb.gov. 
+
+Technical questions about reporting HMDA data collected in or before 2016 should be directed to hmdahelp@frb.gov.
+
+
+## Paperwork Reduction Act {#paperwork-reduction-act}
+
+
+
+According to the Paperwork Reduction Act of 1995, an agency may not conduct or sponsor, and, not withstanding any other provision of law, a person is not required to respond to a collection of information unless it displays a valid OMB control number. The OMB control number for this collection is 3170-0008. The time required to complete this information collection is estimated to average between 9,000 hours and 161 hours per response depending on the size of the institution, per response. The obligation to respond to this collection of information is mandatory per the Home Mortgage Disclosure Act 12 U.S.C. 2801–2810, as implemented by Consumer Financial Protection Bureau’s Regulation C, 12 CFR part 1003. Comments regarding this collection of information, including the estimated response time, suggestions for improving the usefulness of the information, or suggestions for reducing the burden to respond to this collection should be submitted to the Bureau at the Consumer Financial Protection Bureau (Attention: PRA Office), 1700 G Street NW, Washington, DC 20552, or by email to PRA@cfpb.gov. The other agencies collecting information under this regulation maintain OMB Control numbers for their collections as follows: Office of the Comptroller of the Currency (15570159), the Federal Deposit Insurance Corporation (3064-0046), the Federal Reserve System (7100-0247), the Department of Housing and Urban Development (HUD) (2502-0529), the National Credit Union Administration (3133-0166).

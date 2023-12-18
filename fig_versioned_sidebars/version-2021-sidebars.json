@@ -47,7 +47,7 @@
     },
     {
       "type": "category",
-      "label": "Previous Years",
+      "label": "Other Years",
       "collapsed": true,
       "items": [
         {
@@ -64,11 +64,6 @@
           "type": "link",
           "label": "2022 Filing Instructions Guide",
           "href": "/fig/2022/overview"
-        },
-        {
-          "type": "link",
-          "label": "2021 Filing Instructions Guide",
-          "href": "/fig/2021/overview"
         }
       ]
     }

@@ -114,25 +114,27 @@ describe('Covers Filing Instructions Guide (FIG) interactions', () => {
     cy.visit(FIG_DOCS_DEFAULT_URL)
     cy.get('h1').contains(LATEST_FIG_YEAR)
   })
-  it('Searches for an answer on the latest FIG through Algolia', () => {
-    cy.visit(FIG_DOCS_DEFAULT_URL)
+  it('Searches for an answer on the 2023 FIG through Algolia', () => {
+    cy.visit(`${HOST}/documentation/fig/2023/overview`)
     cy.get('.DocSearch').click()
     cy.get('#docsearch-input').type('Loan/Application Register format')
     cy.get('#docsearch-item-0 > a > .DocSearch-Hit-Container').contains('Loan/Application Register format').click()
     cy.get('[id^=33--loanapplication-register-format]').contains('Loan/Application Register format')
   })
-  it('Navigates to previous FIG year (2023) and ensures 2023 version is properly displayed and allows navigation to the latest FIG via the banner link', () => {
+  it('Navigates to FIG year (2023) and ensures 2023 version is properly displayed and allows navigation to the latest FIG via the banner link', () => {
     let previousYear = '2023'
     cy.visit(FIG_DOCS_DEFAULT_URL)
     cy.get('.menu__list-item--collapsed > .menu__list-item-collapsible > .menu__link').click()
-    cy.get(':nth-child(2) > .menu__list > :nth-child(2) > .menu__link').click()
-    cy.get(':nth-child(2) > .menu__list > :nth-child(2) > .menu__link').should('not.have.value', LATEST_FIG_YEAR)
-    cy.get(':nth-child(2) > .menu__list > :nth-child(2) > .menu__link').click()
-    let bannerMessage = 'This is the 2023 Filing Instructions Guide.See the current 2024 Filing Instructions Guide.'
-    cy.get('.theme-doc-version-banner').contains(bannerMessage)
-    cy.get('.breadcrumbs__link > span').contains(`${previousYear} Filing Instructions Guide`)
+    cy.get(':nth-child(2) > .menu__list > :nth-child(1) > .menu__link').click()
+    cy.get(':nth-child(2) > .menu__list > :nth-child(1) > .menu__link').should('not.have.value', LATEST_FIG_YEAR)
+    cy.get(':nth-child(2) > .menu__list > :nth-child(1) > .menu__link').click()
+    cy.wait(1000)
+    cy.get('.theme-doc-version-banner').contains('2023 Filing Instructions Guide')
+    cy.get('.theme-doc-version-banner').contains('2024 Filing Instructions Guide')
+    cy.get(':nth-child(2) > .breadcrumbs__link').contains(`${previousYear} Filing Instructions Guide`)
     cy.get('.theme-doc-version-badge').contains(previousYear)
     cy.get('b > a').click()
+    cy.wait(1000)
     cy.url().should('eq', FIG_DOCS_DEFAULT_URL)
   })
 })

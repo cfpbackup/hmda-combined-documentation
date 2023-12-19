@@ -1,14 +1,14 @@
 # HMDA User API
 
-The HMDA User API is used to update users attributes in the HMDA Platform. These attributes are: first name, last name, and the institutions that they are associated with.
+The HMDA User API is used to update a user's attributes in the HMDA Platform. These attributes are: first name, last name, and the institutions that they are associated with.
 
 All requests to the User API require an authorization token. More information on getting this token can be found in the [HMDA Platform Filing API documentation](/documentation/api/filing/platform.md#authorization).
 
 ## Seeing a User's Current Attributes
 
-All user attributes for the HMDA Platform are stored in the HMDA Platform's authorization provider, Keycloak, and can be found in the users authorization token once decoded using standard JWT decoding. In order to see the changes to a user's attributes a new token must be fetched.
+All user attributes for the HMDA Platform are stored in the HMDA Platform's authorization provider, Keycloak, and can be found in the user's authorization token once decoded using standard JWT decoding. In order to see the changes to a user's attributes a new token must be fetched.
 
-In order to associate a user with an institution that user's email domain must be associated with that institution. In order to determine what institutions are associated with the users email domain the [Institution's API search by email domain route](/api/institutions-api/#search-by-email-domain) can be used.
+In order to associate a user with an institution that user's email domain must be associated with that institution. In order to determine what institutions are associated with the user's email domain the [Institution's API search by email domain route](/api/institutions-api/#search-by-email-domain) can be used.
 
 ## Update a User
 

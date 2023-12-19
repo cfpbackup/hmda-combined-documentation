@@ -4,7 +4,7 @@ These are a series of APIs that can be used to fetch information about financial
 
 ## Get All Institutions for a Specific Year
 
-This API is used for getting every institution that filed for a specific year.
+This API is used for getting every institution that filed HMDA data for a specific year.
 
 ```
 Method: GET
@@ -43,7 +43,7 @@ curl GET \
 
 ## Search for an Institution by LEI
 
-This API allows a user to fetch information for an institution by the institution's LEI.
+This API is used to fetch information for a particular institution by the institution's LEI.
 
 
 ```
@@ -104,7 +104,7 @@ curl GET \
 
 ## Search by Email Domain
 
-This API allows a user to fetch all institutions that associated with a particular email domain. This API is used to determine what institutions a user my be associated with in the HMDA Platform.
+This API is used to fetch all institutions associated with a particular email domain. This API is used to determine what institutions a user may be associated with in the HMDA Platform.
 
 ```
 Method: GET

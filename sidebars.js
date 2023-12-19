@@ -127,16 +127,34 @@ const sidebars = {
         type: "generated-index",
       },
       items: [
-        "api/filing/platform",
-        "api/filing/beta-platform",
-        "api/hmda-auth/index",
-        "api/public-verification/index",
-        "api/file-serving/index",
-        "api/data-browser/index",
-        "api/rate-spread/index",
-        "api/check-digit/index",
-        "api/graphs/index",
-        "api/institutions-api/index",
+        {
+          type: "category",
+            label: "Data Submission",
+            items: [
+              "api/filing/platform",
+              "api/filing/beta-platform",
+              "api/hmda-auth/index"
+          ]
+        },
+        {
+          type: "category",
+            label: "Data Submission Tools",
+            items: [
+              "api/public-verification/index",
+              "api/rate-spread/index",
+              "api/check-digit/index"
+          ]
+        },
+        {
+          type: "category",
+            label: "Data Publication Tools",
+            items: [
+              "api/file-serving/index",
+              "api/data-browser/index",
+              "api/graphs/index",
+              "api/institutions-api/index",
+          ]
+        },
         "api/style-guide/index",
       ],
     },

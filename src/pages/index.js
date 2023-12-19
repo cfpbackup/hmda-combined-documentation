@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <>
-      <Redirect to='/documentation/fig/2023/overview' />
+      <Redirect to='/documentation/category/frequently-asked-questions' />
     </>
   )
 }

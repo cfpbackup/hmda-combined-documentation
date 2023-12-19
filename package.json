@@ -19,7 +19,9 @@
     "@docusaurus/plugin-client-redirects": "^2.4.1",
     "@docusaurus/preset-classic": "^2.4.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-json-to-csv": "^1.2.0",
+    "react-table": "^7.8.0"
   },
   "resolutions": {
     "webpack": "^5.76.3"

@@ -47,14 +47,33 @@ const config = {
       src: '/documentation/js/uswds.min.js',
       defer: true,
     },
+    {
+      src: '/documentation/js/scrollspy.js',
+      defer: true,
+    },
   ],
 
   plugins: [
     'docusaurus-plugin-sass',
     [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'fig',
+        path: 'fig',
+        routeBasePath: '/fig',
+        //sidebarPath: './sidebarsFig.js',
+        lastVersion: '2024',
+        includeCurrentVersion: false,
+      },
+    ],
+    [
       '@docusaurus/plugin-client-redirects',
       {
         redirects: [
+          {
+            to: '/fig/overview',
+            from: '/fig',
+          },
           {
             to: '/category/frequently-asked-questions/',
             from: '/documentation',

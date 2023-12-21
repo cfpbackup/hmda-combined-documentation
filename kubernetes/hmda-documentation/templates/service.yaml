@@ -56,5 +56,3 @@ metadata:
       - x-forwarded-server
 spec:
   clusterIP: None
-  ports:
-    - port: {{ .Values.service.port }}

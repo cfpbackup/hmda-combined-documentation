@@ -10,7 +10,15 @@ These endpoints are used to parse and run edits on a TS. Use `parse` to check fo
 
 This endpoint runs parsing on a Transmittal Sheet (TS). The endpoint returns a list of parsing errors in JSON format. If the TS is valid it the parsed TS object in JSON format.
 
-  <b>Request:</b>
+#### Example
+
+```
+Method: POST
+Endpoint: https://ffiec.cfpb.gov/v2/public
+Payload: Pipe delimited TS
+```
+
+<b>Request:</b>
 
   ```
     curl -X POST \
@@ -22,12 +30,6 @@ This endpoint runs parsing on a Transmittal Sheet (TS). The endpoint returns a l
   ```
 
 <b>JSON Response:</b>
-
-```
-Method: POST
-Endpoint: https://ffiec.cfpb.gov/v2/public
-Payload: Pipe delimited TS
-```
 
 ```json
 {
@@ -59,6 +61,14 @@ This endpoint runs parsing and a specific year's edit checks on a Transmittal Sh
 
 _Note:_ Some edit checks require institution data. These checks are not run in any public APIs.
 
+```
+Method: POST
+Endpoint: https://ffiec.cfpb.gov/v2/public/ts/validate/{{year}}
+Payload: Pipe delimited TS
+```
+
+#### Example
+
 <b>Request:</b>
 
 ```
@@ -71,12 +81,6 @@ _Note:_ Some edit checks require institution data. These checks are not run in a
 ```
 
 <b>JSON Response:</b>
-
-```
-Method: POST
-Endpoint: https://ffiec.cfpb.gov/v2/public/ts/validate/{{year}}
-Payload: Pipe delimited TS
-```
 
 ```json
 {
@@ -100,6 +104,14 @@ These endpoints are used to parse and and run edits on a LAR. Use `parse` to che
 
 This endpoint runs parsing on a single Loan Application Register (LAR). The endpoint returns a list of parsing errors in JSON format. If the LAR is valid it returns the parsed LAR object in JSON format.
 
+ ```
+Method: POST
+Endpoint: https://ffiec.cfpb.gov/v2/public/lar/parse
+Payload: { "lar": "{{Pipe delimited LAR}}"}
+ ```
+
+#### Example
+
 <b>Request:</b>
 
 ```
@@ -111,12 +123,6 @@ This endpoint runs parsing on a single Loan Application Register (LAR). The endp
 ```
 
  <b>JSON Response:</b>
-
- ```
-Method: POST
-Endpoint: https://ffiec.cfpb.gov/v2/public/lar/parse
-Payload: Pipe delimited LAR
- ```
 
  ```json
   {
@@ -275,6 +281,14 @@ This endpoint runs parsing and a specific year's edit checks on a Loan Applicati
 
 _Note:_ Some edit checks require institution data. These checks are not run in any public APIs. Macro edits are also not run this endpoint checks only a single LAR.
 
+```
+Method: POST
+Endpoint: https://ffiec.cfpb.gov/v2/public/lar/validate/{{year}}
+Payload: {"lar": "{{Pipe delimited LAR}}"}
+```
+
+#### Example
+
 <b>Request:</b>
 
   ```
@@ -286,12 +300,6 @@ _Note:_ Some edit checks require institution data. These checks are not run in a
 ```
 
 <b>JSON Response:</b>
-
-```
-Method: POST
-Endpoint: https://ffiec.cfpb.gov/v2/public/lar/validate/{{year}}
-Payload: Pipe delimited LAR
-```
 
   ```json
 {
@@ -328,6 +336,14 @@ The following endpoints can be used to parse and run edit checks on a full HMDA 
 
 This endpoint runs parsing on a HMDA file. The endpoint returns a list of parsing errors in JSON format. If the file is valid it returns and empty list.
 
+```
+Method: OPTIONS
+URL: https://ffiec.cfpb.gov/v2/public/hmda/parse
+Payload: HMDA file
+```
+
+#### Example
+
 <b>Request:</b>
 
 ```
@@ -337,12 +353,6 @@ curl -X OPTIONS \
 ```
 
 <b>JSON Response:</b>
-
-```
-Method: OPTIONS
-URL: https://ffiec.cfpb.gov/v2/public/hmda/parse
-Payload: HMDA file
-```
 
 ```json
 {
@@ -356,6 +366,14 @@ This endpoint runs parsing and a specific year's edit checks on a HMDA file. Thi
 
 _Note:_ Some edit checks require institution data. These checks are not run in any public APIs. Macro edits are also not run as the check runs line by line.
 
+```
+Method: POST
+Endpoint: https://ffiec.cfpb.gov/v2/public/hmda/validate/{{year}}
+Payload: HMDA file
+```
+
+#### Example
+
 <b>Request:</b>
 
 ```
@@ -365,12 +383,6 @@ curl -X POST \
 ```
 
 <b>JSON Response:</b>
-
-```
-Method: POST
-Endpoint: https://ffiec.cfpb.gov/v2/public/hmda/validate/{{year}}
-Payload: HMDA file
-```
 
 ```json
 {

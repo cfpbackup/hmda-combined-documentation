@@ -126,21 +126,22 @@ Code | Message | Description
 For every filing period, you must begin by starting a Filing. This only needs to be done once per filing season. On the official HMDA Platform this Filing will have already been created by the HMDA Operations team.
 The `POST` will result in a `200` only for the first time it's called. If the filing for the given filing period already exists, the `POST` will return a `400`.
 
-<b>Request:</b>
-
-```
-curl -X POST \
-  "https://ffiec.cfpb.gov/v2/filing/institutions/B90YWS6AFX2LGWOXJ1LD/filings/{{year}}" \
-  -H 'Authorization: Bearer  {{access_token}}' \
-```
-
-<b>Response:</b>
-
 ```
 Method: POST
 Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}
 Headers: Authorization: Bearer {{access_token}}
 ```
+#### Example
+
+<b>Request:</b>
+
+```
+curl -X POST \
+  "https://ffiec.cfpb.gov/v2/filing/institutions/B90YWS6AFX2LGWOXJ1LD/filings/2020" \
+  -H 'Authorization: Bearer  {{access_token}}' \
+```
+
+<b>Response:</b>
 
 ```json
 {
@@ -163,6 +164,14 @@ Headers: Authorization: Bearer {{access_token}}
 
 This endpoint can be used to confirm that a Filing exists for the relevant period.
 
+```
+Method: GET
+Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}
+Headers: Authorization: Bearer {{access_token}}
+```
+
+#### Example
+
 <b>Request:</b>
 
 ```
@@ -172,12 +181,6 @@ curl -X GET \
 ```
 
 <b>Response:</b>
-
-```
-Method: GET
-Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}
-Headers: Authorization: Bearer {{access_token}}
-```
 
 ```json
 {
@@ -198,23 +201,26 @@ Headers: Authorization: Bearer {{access_token}}
 
 ### Create a Submission
 
-<b>Request:</b>
-
-```
-curl -X POST \
-  "https://ffiec.cfpb.gov/v2/filing/institutions/B90YWS6AFX2LGWOXJ1LD/filings/{{year}}/submissions" \
-  -H 'Authorization: Bearer {{access_token}}' \
-```
-
 A Submission must be created for each file upload. More than one Submission can be created for a filing period. The most recent Submission will be considered the Latest Submission. Each `POST` on the Submission endpoint will return a new Submission `sequenceNumber`.
-
-<b>Response:</b>
 
 ```
 Method: POST
 Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions
 Headers: {{access_token}}
 ```
+
+#### Example
+
+<b>Request:</b>
+
+```
+curl -X POST \
+  "https://ffiec.cfpb.gov/v2/filing/institutions/B90YWS6AFX2LGWOXJ1LD/filings/{{year}}/submissions" \
+  -H 'Authorization: Bearer {{access_token}}' \
+``````
+
+<b>Response:</b>
+
 
 ```json
 {
@@ -239,6 +245,14 @@ Headers: {{access_token}}
 
 Returns details about the last created Submission including its sequence number and status.
 
+```
+Method: GET
+Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/latest
+Headers: Authorization: Bearer {{access_token}}
+```
+
+#### Example
+
 <b>Request:</b>
 
 ```
@@ -248,12 +262,6 @@ curl -X GET \
 ```
 
 <b>Response:</b>
-
-```
-Method: GET
-Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/latest
-Headers: Authorization: Bearer {{access_token}}
-```
 
 ```json
 {
@@ -282,6 +290,15 @@ Headers: Authorization: Bearer {{access_token}}
 
 Upload a file to a Submission.
 
+```
+Method: POST
+Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/{{sequenceNumber}}
+Headers: Authorization: Bearer {{access_token}}, 'Content-Type': multipart/form-data
+Payload: LAR file
+```
+
+#### Example
+
 <b>Request:</b>
 
 ```
@@ -293,13 +310,6 @@ curl -X POST \
 ```
 
 <b>Response:</b>
-
-```
-Method: POST
-Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/{{sequenceNumber}}
-Headers: Authorization: Bearer {{access_token}}, 'Content-Type': multipart/form-data
-Payload: LAR file
-```
 
 ```json
 {
@@ -324,6 +334,14 @@ Payload: LAR file
 
 Returns a list of all parsing errors triggered by the file uploaded to a Submission.
 
+```
+Method: GET
+Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/{{sequenceNumber}}/parseErrors
+Headers: Authorization: Bearer {{access_token}}
+```
+
+#### Example
+
 <b>Request:</b>
 
 ```
@@ -333,12 +351,6 @@ curl -X POST \
 ```
 
 <b>Response</b>
-
-```
-Method: GET
-Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/{{sequenceNumber}}/parseErrors
-Headers: Authorization: Bearer {{access_token}}
-```
 
 ```json
 {
@@ -366,6 +378,14 @@ Headers: Authorization: Bearer {{access_token}}
 
 Returns a summary of all Edits triggered by an upload in a Submission.
 
+```
+Method: GET
+Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/{{sequenceNumber}}/edits
+Headers: Authorization: Bearer {{access_token}}
+```
+
+#### Example
+
 <b>Request:</b>
 
 ```
@@ -375,12 +395,6 @@ curl -X GET \
 ```
 
 <b>Response:</b>
-
-```
-Method: GET
-Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/{{sequenceNumber}}/edits
-Headers: Authorization: Bearer {{access_token}}
-```
 
 ```json
 {
@@ -426,6 +440,15 @@ Headers: Authorization: Bearer {{access_token}}
 
 Returns detailed information about a specific Edit, including a list of lines that triggered the Edit and the relevant fields from those lines.
 
+
+```
+Method: GET
+Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/{{sequenceNumber}}/edits/{{edit_code}}
+Headers: Authorization: Bearer {{access_token}}
+```
+
+#### Example
+
 <b>Request:</b>
 
 ```
@@ -435,12 +458,6 @@ curl -X GET \
 ```
 
 <b>Response:</b>
-
-```
-Method: GET
-Endpoin: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/{{sequenceNumber}}/edits/{{edit_code}}
-Headers: Authorization: Bearer {{access_token}}
-```
 
 ```json
 {
@@ -477,6 +494,15 @@ Headers: Authorization: Bearer {{access_token}}
 
 Verify that the uploaded data is correct and that the reported Quality Edits are not relevent to the Submission.
 
+```
+Method: POST
+Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/{{sequenceNumber}}/edits/quality
+Headers: Authorization: Bearer {{access_token}}
+Body: {"verified": true}
+```
+
+#### Example
+
 <b>Request:</b>
 
 ```
@@ -487,13 +513,6 @@ curl -X POST \
 ```
 
 <b>Response:</b>
-
-```
-Method: POST
-Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/{{sequenceNumber}}/edits/quality
-Headers: Authorization: Bearer {{access_token}}
-Body: {"verified": true}
-```
 
 ```json
 {
@@ -510,6 +529,15 @@ Body: {"verified": true}
 
 Verify that the uploaded data is correct and that the reported Macro Edits are not relevent to the Submission.
 
+```
+Method: POST
+Endpoint | https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/{{sequenceNumber}}/edits/macro
+Headers: Authorization: Bearer {{access_token}}
+Body: {"verified": true/false}
+```
+
+#### Example
+
 <b>Request:</b>
 
 ```
@@ -521,12 +549,6 @@ curl -X POST \
 
 <b>Response:</b>
 
-```
-Method: POST
-Endpoint | https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/{{sequenceNumber}}/edits/macro
-Headers: Authorization: Bearer {{access_token}}
-Body: {"verified": true}
-```
 
 ```json
 {
@@ -543,6 +565,15 @@ Body: {"verified": true}
 
 Sign and complete a HMDA Submission.
 
+```
+Method: POST
+Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/{{sequenceNumber}}/sign
+Headers: Authorization: Bearer {{access_token}}
+Body: {"signed": true/false}
+```
+
+#### Example
+
 <b>Request:</b>
 
 ```
@@ -554,12 +585,6 @@ curl -X POST \
 
 <b>Response:</b>
 
-```
-Method: POST
-Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/{{sequenceNumber}}/sign
-Headers: Authorization: Bearer {{access_token}}
-Body: {"signed": true}
-```
 
 ```json
 {
@@ -578,6 +603,14 @@ Sign and complete a HMDA Submission.
 
 ### Get Sign receipt
 
+```
+Method: GET
+Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/{{sequenceNumber}}/sign
+Headers: Authorization: Bearer {{access_token}}
+```
+
+#### Example
+
 <b>Request:</b>
 
 ```
@@ -586,12 +619,6 @@ curl -X GET \
   -H 'Authorization: Bearer {{access_token}}'
 ```
 <b>Response:</b>
-
-```
-Method: GET
-Endpoint: https://ffiec.cfpb.gov/v2/filing/{{year}}/submissions/{{sequenceNumber}}/sign
-Headers: Authorization: Bearer {{access_token}}
-```
 
 ```json
 {
@@ -608,6 +635,14 @@ Headers: Authorization: Bearer {{access_token}}
 
 ### Get Submission Summary
 
+```
+Method: GET
+Endpoint: https://ffiec.cfpb.gov/v2/filing/v2/filing/institutions/{{lei}}/filings/{{year}}/submissions/{{sequenceNumber}}/summary
+Headers: Authorization: Bearer {{access_token}}
+```
+
+#### Example
+
 <b>Request:</b>
 
 ```
@@ -617,12 +652,6 @@ curl -X GET \
 ```
 
 <b>Response:</b>
-
-```
-Method: GET
-Endpoint: https://ffiec.cfpb.gov/v2/filing/v2/filing/institutions/{{lei}}/filings/{{year}}/submissions/{{sequenceNumber}}/summary
-Headers: Authorization: Bearer {{access_token}}
-```
 
 ```json
 {

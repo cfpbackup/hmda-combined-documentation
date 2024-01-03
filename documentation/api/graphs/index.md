@@ -4,18 +4,23 @@ This API is what powers the [Data Browser's Quarterly Graphs](https://ffiec.cfpb
 
 ## Quarterly Data Endpoints
 
-### Graph Data Summary
+### Available Graphs
+
+This endpoint lists out all the available graph data accessible through the API. The returned `graphs` field is a list of metadata consisting of `title`, `category`, and `endpoint`;
+by appending the `endpoint` field of the desired graph metadata to the API root url of `https://ffiec.cfpb.gov/quarterly-data/graphs/`, the full graph data is retrieved
+
+  ```
+  Method: GET
+  Endpoint: https://ffiec.cfpb.gov/quarterly-data/graphs
+  ```
+
+  #### Example
 
   <b>Request:</b>
 
   `curl "https://ffiec.cfpb.gov/quarterly-data/graphs" -H 'Content-Type: application/json'`
 
   <b>Response:</b>
-
-  ```
-  Method: GET
-  Response: JSON
-  ```
 
   ```json
   {
@@ -35,21 +40,38 @@ This API is what powers the [Data Browser's Quarterly Graphs](https://ffiec.cfpb
   }
   ```
 
-This endpoint lists out all the available graph data accessible through the API. The returned `graphs` field is a list of metadata consisting of `title`, `category`, and `endpoint`;
-by appending the `endpoint` field of the desired graph metadata to the API root url of `https://ffiec.cfpb.gov/quarterly-data/graphs/`, the full graph data is retrieved
-
 ### Specific Graph Data
 
-<b>Request:</b>
+To get the specific graph data, append the `endpoint` value from the above [Available Graphs](#available-graphs) section example response to the base url of `https://ffiec.cfpb.gov/quarterly-data/graphs/`,
+e.g. `https://ffiec.cfpb.gov/quarterly-data/graphs/applications`.
 
-`curl "https://ffiec.cfpb.gov/quarterly-data/graphs" -H 'Content-Type: application/json'`
+The response contains the following sections:
 
-<b>Response:</b>
+  * title
+  
+  * subtitle
+
+  * series
+
+  * xLabel
+
+  * yLabel
+
+`title`, `subtitle`, `xLabel`, and `yLabel` are text fields providing some contexts of what the data represents.
+
+`series` section is a list of data representing each line within the graph; each element within `series` will include xy `coordinates`, and `name` of the line.
+In general, the x `coordinates` represents the time period (e.g. `2021-Q3`), y `coordinates` are numeric values.
 
   ```
   Method: GET
-  Response: JSON
+  Endpoint: https://ffiec.cfpb.gov/quarterly-data/graphs/{{graph endpoint name}}
   ```
+
+<b>Request:</b>
+
+`curl "https://ffiec.cfpb.gov/quarterly-data/graphs/applications" -H 'Content-Type: application/json'`
+
+<b>Response:</b>
 
   ```json
 {
@@ -82,27 +104,8 @@ by appending the `endpoint` field of the desired graph metadata to the API root 
 
 ```
 
-To get the specific graph data, append the `endpoint` value from the above [Graph Data Summary](#graph-data-summary) section example response to the base url of `https://ffiec.cfpb.gov/quarterly-data/graphs/`,
-e.g. `https://ffiec.cfpb.gov/quarterly-data/graphs/applications`.
 
-The response contains the following sections:
-
-  * title
-  
-  * subtitle
-
-  * series
-
-  * xLabel
-
-  * yLabel
-
-`title`, `subtitle`, `xLabel`, and `yLabel` are text fields providing some contexts of what the data represents.
-
-`series` section is a list of data representing each line within the graph; each element within `series` will include xy `coordinates`, and `name` of the line.
-In general, the x `coordinates` represents the time period (e.g. `2021-Q3`), y `coordinates` are numeric values.
-
-### Available Graph Data
+### Available Graphs
 At the time of publication, below are the data available with their endpoints.
 To get the most up-to-date list, refer to [Graph Data Summary](#graph-data-summary) section.
 

@@ -1,6 +1,6 @@
 # Data Browser API
 
-The data browser api enables developers to interact with HMDA data. The API will return either a JSON report of the data or CSV of the raw data.
+The data browser api enables users to interact with subsets of the HMDA data. Given a list of filters on the data that are entered as parameters in the endpoint the APIs will return either an aggregated report of the data in JSON format or a CSV of the raw data.
 
 This API is what powers the [HMDA Data Browser application](https://ffiec.cfpb.gov/data-browser/)
 
@@ -8,45 +8,65 @@ This API is what powers the [HMDA Data Browser application](https://ffiec.cfpb.g
 
 ## HMDA Data Endpoints
 
-**Nationwide Aggregations**
+**Nationwide Aggregation Report**
   
   ```GET https://ffiec.cfpb.gov/v2/data-browser-api/data-browser-api/view/nationwide/aggregations```
   
-  This endpoint is used to generated JSON reports on the full dataset. The year parameter is required when calling this endpoint.
+  This endpoint is used to generated JSON reports on the entirety of the US. The [year parameter](/api/data-browser/#year-filter) and at least one [HMDA data parameter](/api/data-browser/#hmda-data-filters) are required when calling this endpoint.
 
-**Aggregations**
+**Aggregation Report**
 
  ```GET https://ffiec.cfpb.gov/v2/data-browser-api/data-browser-api/view/aggregations```
 
-  This endpoint is used to generated JSON reports on an LEI and/or geography subset. The year parameter as well at least of a geographic and/or LEI parameter are required when calling this endpoint.
+  This endpoint is used to generated JSON reports on an LEI and/or geography subset. The [year parameter](/api/data-browser/#year-filter) and at least one [HMDA data parameter](/api/data-browser/#hmda-data-filters) are required when calling this endpoint. Additionally, either one [geographic parameter](/api/data-browser/#geographic-filters) or the [LEI parameter](/api/data-browser/#lei-filter) are required when calling this endpoint. Both a geographic parameter and LEI may be provided.
 
-**Nationwide CSV**
+**Nationwide Data Subset as CSV**
 
   ```GET https://ffiec.cfpb.gov/v2/data-browser-api/data-browser-api/view/nationwide/csv```
 
-  This endpoint is used to download raw HMDA data given the applied filters in csv format. The file will be streamed. The year parameter is required when calling this endpoint.
+  This endpoint is used to download raw HMDA on the entirety of the US, data given the applied filters in csv format. The file will be streamed. The [year parameter](/api/data-browser/#year-filter) and at least one [HMDA data parameter](/api/data-browser/#hmda-data-filters) are required when calling this endpoint.
 
-**CSV**
+**Data Subset as CSV**
 
   ```GET https://ffiec.cfpb.gov/v2/data-browser-api/data-browser-api/view/csv```
   
-  This endpoint is used to download raw HMDA data given the applied filters in csv format. The file will be streamed. The year parameter as well at least of a geographic and/or LEI parameter are required when calling this endpoint.
+  This endpoint is used to download raw HMDA data given the applied filters in csv format. The file will be streamed. The [year parameter](/api/data-browser/#year-filter) and at least one [HMDA data parameter](/api/data-browser/#hmda-data-filters) are required when calling this endpoint. Additionally, either one [geographic parameter](/api/data-browser/#geographic-filters) or the [LEI parameter](/api/data-browser/#lei-filter) are required when calling this endpoint. Both a geographic parameter and LEI may be provided.
 
-### Supported Geographic Filters
+## Filters
 
-  Geography | Format
-  --- | ---
-  MSA/MD | Five Digit MSA/MD Code
-  State | Two Letter State Abbreviation (Eg. AL for Alabama)
-  County | Five Digit County FIPS Code
 
-### HMDA Data Filters
+### Year Filter
 
-HMDA Data requests support the following filtering parameters. Multiple options are acceptable.
+All requests must include a year that defines the filing period of the data.
 
 | Variable Name | Options |
 |:--------------|:---------|
 |years | 2018, 2019, 2020, 2021, 2022|
+
+### LEI Filter
+
+The LEI Filter allows users to filter by specific financial institutions.
+
+| Variable Name | Options |
+|:--------------|:---------|
+|leis | List of Legal Entity Identifiers|
+
+### Geographic Filters
+
+The HMDA Data Browser requires exactly one geographic filter for all non-nationwide requests.
+
+  Geography | Format
+  --- | ---
+  msamds | Five Digit MSA/MD Code
+  states | Two Letter State Abbreviation (Eg. AL for Alabama)
+  counties | Five Digit County FIPS Code
+
+### HMDA Data Filters
+
+HMDA Data requests support the following filters. At least one HMDA date filter is required, multiple options are acceptable.
+
+| Variable Name | Options |
+|:--------------|:---------|
 |construction_methods | 1,2|
 |dwelling_categories | Single Family (1-4 Units):Site-Built<br />Multifamily:Site-Built<br />Single Family (1-4 Units):Manufactured<br />Multifamily:Manufactured|
 |ethnicities | Hispanic or Latino<br />Not Hispanic or Latino<br />Joint<br />Ethnicity Not Available<br />Free Form Text Only|
@@ -58,9 +78,18 @@ HMDA Data requests support the following filtering parameters. Multiple options 
 |sexes | Male<br />Female<br />Joint<br />Sex Not Available|
 |total_units | 1,2,3,4,5-24,25-49,50-99,100-149,>149|
 
-### Aggregation Example
+### Dataset Aggregation
 
-Get an aggregation, in JSON format, of HMDA Data reported in 2018 in Maryland, with action takens `5 - File closed for incompleteness`, or `6 - Purchased loan`, where the reported race was Asian.
+```
+Method: GET
+Endpoint: https://ffiec.cfpb.gov/v2/data-browser-api/view/aggregations?years={{}}
+```
+
+#### Example
+
+ **Request:**
+
+```curl "https://ffiec.cfpb.gov/v2/data-browser-api/view/aggregations?states=MD&years=2018&actions_taken=5,6&races=White,Asian,Joint"```
 
 `GET` JSON with the following parameters
 
@@ -70,10 +99,6 @@ Get an aggregation, in JSON format, of HMDA Data reported in 2018 in Maryland, w
   states | MD
   actions_taken | 5,6
   races | Asian
-
-  **Request:**
-
-  ```curl "https://ffiec.cfpb.gov/v2/data-browser-api/view/aggregations?states=MD&years=2018&actions_taken=5,6&races=White,Asian,Joint"```
 
 **JSON Response:**
 
@@ -104,17 +129,14 @@ Get an aggregation, in JSON format, of HMDA Data reported in 2018 in Maryland, w
   }
 ```
 
-### CSV Example
+### Dataset CSV Download
 
-Get a CSV containing all HMDA data reported in 2018 in California, Maryland, or DC, with action taken `5 - File closed for incompleteness`.
+```
+Method: GET
+Endpoint: https://ffiec.cfpb.gov/v2/data-browser-api/view/csv?years={{}}
+```
 
-`GET` CSV file with the following parameters
-
-  var | value
-  --- | ---
-  states | CA, MD, DC
-  years | 2018
-  action_taken | 5
+#### Example 
 
 **Request:**
 
@@ -129,7 +151,7 @@ Get a CSV containing all HMDA data reported in 2018 in California, Maryland, or 
 
 `GET https://ffiec.cfpb.gov/v2/data-browser-api/data-browser-api/view/filers`
 
-This endpoint can be used to fetch list of financial instituions present in the HMDA dataset. The year parameter is required when calling this endpoint.
+This endpoint can be used to fetch list of financial institutions present in the HMDA dataset. The year parameter is required when calling this endpoint.
 
 ### HMDA Filer Parameters
 
@@ -140,14 +162,7 @@ states | two letter state code
 msamds | 5 digit integer code
 counties | 5 digit integer code
 
-### HMDA Filers Example
-
-`GET` with the following parameters
-
-var | value
---- | ---
-years | 2018
-states | MD, DC
+### Example
 
 **Request:**
 

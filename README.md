@@ -66,8 +66,24 @@ The ```SearchBar``` component has a slightly modified CSS (./src/theme/SearchBar
 
 ### Filing Instructions Guide (FIG)
 
-To create properly formatted .json files for each table in the FIG (/fig_versioned_docs/version-2024/tables/):
+#### To create properly formatted .json files for each table in the FIG (/fig_versioned_docs/version-{year}/tables/):
 
 1. Convert each table from the .docx file into .html with: https://word2cleanhtml.com/
 2. Convert the html table to markdown with: https://johnbeech.github.io/html-table-to-markdown-converter/index.html
 3. Convert the markdown table into json with: https://tableconvert.com/markdown-to-json
+
+#### To add a new version/year of the FIG:
+
+1. Go to /fig_versioned_docs and duplicate the folder of the most recent version (version-2024). Name this new folder with the current year (version-2025)
+2. Go to /fig_versioned_sidebars and duplicate the .json file for the most recent version (version-2024-sidebards.json). Name this new file with the same year used in step 1 (version-2025-sidebars.json)
+3. Go to /fig_versions.json and add the year for the new FIG to the top of the array ("2025").
+4. Update the content in the following:
+> - FIG: /fig_versioned_docs/version-2025/overview.mdx
+> - Sidebar: /fig_versioned_sidebars/version-2025-sidebars.json
+5. Update the Algolia Search Crawler
+> - Go to https://crawler.algolia.com/ and select the 'Editor'
+> - In the Actions array, update the 'pathsToMatch' of the entry with 'pageRank: "100"' to be the the URL of the FIG version you want ranked the highest. 
+> - All other FIGs ( >2022 ) should be listed in the entry with 'pageRank: "5"'.
+> > - The path for the most recent FIG is always https://ffiec.cfpb.gov/documentation/fig/overview . 
+> > - Older FIG versions have the year in the URL: https://ffiec.cfpb.gov/documentation/fig/{year}/overview . 
+> - Go to the 'Overview' page and click the 'Restart Crawling' button to re-index the site. All new search results should be displayed in Algolia Search form on the frontend.

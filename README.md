@@ -74,16 +74,88 @@ The ```SearchBar``` component has a slightly modified CSS (./src/theme/SearchBar
 
 #### To add a new version/year of the FIG:
 
-1. Go to /fig_versioned_docs and duplicate the folder of the most recent version (version-2024). Name this new folder with the current year (version-2025)
-2. Go to /fig_versioned_sidebars and duplicate the .json file for the most recent version (version-2024-sidebards.json). Name this new file with the same year used in step 1 (version-2025-sidebars.json)
-3. Go to /fig_versions.json and add the year for the new FIG to the top of the array ("2025").
+1. Go to ```/fig_versioned_docs``` and duplicate the folder of the most recent version (```version-2024```). Name this new folder with the current year (```version-2025```)
+2. Go to ```/fig_versioned_sidebars``` and duplicate the .json file for the most recent version (```version-2024-sidebards.json```). Name this new file with the same year used in step 1 (```version-2025-sidebars.json```)
+3. Go to ```/fig_versions.json``` and add the year for the new FIG to the top of the array ("2025").
 4. Update the content in the following:
-> - FIG: /fig_versioned_docs/version-2025/overview.mdx
-> - Sidebar: /fig_versioned_sidebars/version-2025-sidebars.json
+> - FIG: ```/fig_versioned_docs/version-2025/overview.mdx```
+> - Sidebar: ```/fig_versioned_sidebars/version-2025-sidebars.json```
+<br /><br />
+The ```items``` in the ```version-2025-sidebars.json``` should correlate to the ```H2 Headings ( ## )``` in the ```/version-2025/overview.mdx``` file:
+
+```
+overview.mdx:
+
+## 2. Changes to the Submission Process for Data Collected in 2024 {#changes}
+```
+
+```
+version-2025-sidebars.json:
+
+    "items": [
+        {
+          "type": "link",
+          "href": "#changes",
+          "label": "2. Changes for 2024"
+        },      
+     ]
+```
 5. Update the Algolia Search Crawler
-> - Go to https://crawler.algolia.com/ and select the 'Editor'
-> - In the Actions array, update the 'pathsToMatch' of the entry with 'pageRank: "100"' to be the the URL of the FIG version you want ranked the highest. 
-> - All other FIGs ( >2022 ) should be listed in the entry with 'pageRank: "5"'.
-> > - The path for the most recent FIG is always https://ffiec.cfpb.gov/documentation/fig/overview . 
-> > - Older FIG versions have the year in the URL: https://ffiec.cfpb.gov/documentation/fig/{year}/overview . 
-> - Go to the 'Overview' page and click the 'Restart Crawling' button to re-index the site. All new search results should be displayed in Algolia Search form on the frontend.
+> - Log in to ```https://crawler.algolia.com/``` and select the 'Editor'
+> > - The path for the most recent FIG is always ```https://ffiec.cfpb.gov/documentation/fig/overview``` . 
+> > - Older FIG versions have the year in the URL: ```https://ffiec.cfpb.gov/documentation/fig/{year}/overview``` .
+> - In the Actions array, update the ```pathsToMatch``` of the entry with ```pageRank: "100"``` to be the the URL of the FIG version you want ranked the highest. In this example, search results for 2023 will be returned first:
+```javascript
+    {
+        indexName: "*****-****-cfpb",
+        pathsToMatch: ["https://ffiec.cfpb.gov/documentation/fig/2023/overview"],
+        recordExtractor: ({ $, helpers }) => {
+            ...
+            return helpers.docsearch({
+                recordProps: {
+                    ...
+                    pageRank: "100",
+                },
+                ...
+            });
+        },
+    },
+```
+> - All other FIGs ( 2023 and newer ) should be listed in ```pathsToMatch``` with ```pageRank: "5"```. In this example, the search results for the most current version will be returned with a low priority.
+```javascript
+    {
+      indexName: "*****-****-cfpb",
+      pathsToMatch: ["https://ffiec.cfpb.gov/documentation/fig/overview"],
+      recordExtractor: ({ $, helpers }) => {
+        ...
+        return helpers.docsearch({
+          recordProps: {
+            ...
+            pageRank: "5",
+          },
+          ...
+        });
+      },
+    },
+```
+> - Older FIGs ( 2022 and older ) are listed in the  ```pathsToMatch``` with ```pageRank: "1"```. In this example, search results for the 2022 and 2021 FIG will be returned last:
+```javascript
+    {
+      indexName: "*****-****-cfpb",
+      pathsToMatch: [
+        "https://ffiec.cfpb.gov/documentation/fig/2022/**",
+        "https://ffiec.cfpb.gov/documentation/fig/2021/**",
+      ],
+      recordExtractor: ({ $, helpers }) => {
+        ...
+        return helpers.docsearch({
+          recordProps: {
+            ...
+            pageRank: "1",
+          },
+          ...
+        });
+      },
+    },
+```
+> - Go to the ```Overview``` page and click the ```Restart Crawling``` button to re-index the site. All new search results should be displayed in Algolia Search form on the frontend.

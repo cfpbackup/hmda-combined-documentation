@@ -50,6 +50,18 @@ The HMDA File API is used for accessing the Modified LAR and Institution Registe
 
 ### Get Institution Register Summary (IRS)
 
+The IRS is a summary of a institution's HMDA submission to be used by the filing institution to confirm that they are submitting the correct data.
+
+As such, access to each IRS is restricted to users associated with the institution. Users must be authenticated using the HMDA authentication system and include a bearer token with their request.
+
+(More information on authentication can be found above in the [Authorization section](https://cfpb.github.io/hmda-platform/#hmda-platform-filing-api-authorization) in the HMDA Platform Filing API section of these docs)
+
+| | |
+|:-------|:-----|
+| Method | `GET` |
+| Endpoint | `https://ffiec.cfpb.gov/file/reports/irs/year/{{year}}/institution/{{lei}}` |
+| Headers | `Authorization: Bearer {{access_token}}` |
+
 **Request:**
 
 ```console
@@ -64,18 +76,6 @@ The HMDA File API is used for accessing the Modified LAR and Institution Registe
     16984,"Chicago-Naperville, IL-IN-WI", 1, 135, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0
     27260,"Jacksonville-St. Marys-Palatka, FL-GA", 1, 445, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0
 ```
-
-The IRS is a summary of a institution's HMDA submission to be used by the filing institution to confirm that they are submitting the correct data.
-
-As such, access to each IRS is restricted to users associated with the institution. Users must be authenticated using the HMDA authentication system and include a bearer token with their request.
-
-(More information on authentication can be found above in the [Authorization section](https://cfpb.github.io/hmda-platform/#hmda-platform-filing-api-authorization) in the HMDA Platform Filing API section of these docs)
-
-| | |
-|:-------|:-----|
-| Method | `GET` |
-| Endpoint | `https://ffiec.cfpb.gov/file/reports/irs/year/{{year}}/institution/{{lei}}` |
-| Headers | `Authorization: Bearer {{access_token}}` |
 
 ## Github File Service
 

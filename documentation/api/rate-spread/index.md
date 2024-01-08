@@ -23,6 +23,16 @@ Variable | Type | Accepted Values |
 
 ### Single Ratespread
 
+This endpoint accepts loan data in JSON format and returns a JSON object containing the associated ratespread.
+
+```
+Method: POST
+Endpoint: https://ffiec.cfpb.gov/public/rateSpread
+Payload: { "actionTakenType": "{{actionTakenType}}", "loanTerm": "{{loanTer}}", "amortizationType": "{{FixedRate/VariableRate}}", "apr": "{apr}", "lockInDate": "{{yyyy-mm-dd}}", "reverseMortgage": "{1/2}" }
+```
+
+#### Example
+
   **Request:**
 
   ```console
@@ -35,40 +45,23 @@ Variable | Type | Accepted Values |
     { "rateSpread": "2.010" }
   ```
 
-This endpoint accepts loan data in JSON format and returns a JSON object containing the associated ratespread.
-
-`POST https://ffiec.cfpb.gov/public/rateSpread`
-
-The JSON example contains the following parameters:
-
-| Variable | Value |
-|:---------|:------|
-|actionTakenType | 1 |
-|loanTerm | 30 |
-|amortizationType | FixedRate |
-|apr | 6.0 |
-|lockInDate | 2017-11-20 |
-|reverseMortgage | 2 |
-
 ### Batch Ratespreads
+
+In order to batch caluculate ratespreads the `csv` endpoint can be used. This endpoint accepts a CSV file of ratespread data and returns a CSV file with a new column for the ratespread.
+
+```
+Method: POST 
+Endpoint: https://ffiec.cfpb.gov/public/rateSpread/csv`
+Payload: CSV File as shown below
+```
+
+#### Example
 
 **Request:**
 
 ```text
-curl -X POST "https://ffiec.cfpb.gov/public/rateSpread/csv" -F file=
+curl -X POST "https://ffiec.cfpb.gov/public/rateSpread/csv" -F file={{exampleFile}}
 ```
-
-**CSV Response file with an added column for rate_spread calculated for each row:**
-
-```text
-action_taken_type,loan_term,amortization_type,apr,lock_in_date,reverse_mortgage,rate_spread
-1,30,FixedRate,6.0,2017-11-20,2,2.010
-1,30,VariableRate,6.0,2017-11-20,2,2.150
-```
-
-In order to batch caluculate ratespreads the `csv` endpoint can be used. This endpoint accepts a CSV file of ratespread data and returns a CSV file with a new column for the ratespread.
-
-`POST https://ffiec.cfpb.gov/public/rateSpread/csv`
 
 The CSV file example contains the following contents:
 
@@ -76,3 +69,11 @@ The CSV file example contains the following contents:
 |:--|:---|:-------------|:----|:-----------|
 | 1 | 30 | FixedRate    | 6.0 | 2017-11-20 |
 | 1 | 30 | VariableRate | 6.0 | 2017-11-20 |
+
+**Response:**
+
+```text
+action_taken_type,loan_term,amortization_type,apr,lock_in_date,reverse_mortgage,rate_spread
+1,30,FixedRate,6.0,2017-11-20,2,2.010
+1,30,VariableRate,6.0,2017-11-20,2,2.150
+```

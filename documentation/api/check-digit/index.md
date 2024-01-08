@@ -34,6 +34,14 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
 
   `POST` request to get a single check digit.
   
+    ```
+  Method: POST
+  Endpoint: https://ffiec.cfpb.gov/v2/public/uli/checkDigit
+  Payload: {"loanId": "ULI"}
+  ```
+
+  #### Example
+  
   <b>Request:</b>
 
   ```
@@ -43,11 +51,6 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
   ```
 
   <b>Response:</b>
-
-  ```
-  Method: POST
-  Payload: JSON
-  ```
 
   ```json
   {
@@ -61,6 +64,14 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
 
   `POST` request to get batch check digits.
 
+  ```
+  Method: POST
+  Endpoint: https://ffiec.cfpb.gov/v2/public/uli/validate/csv
+  Payload: CSV File as shown below
+  ```
+
+  #### Example
+  
   <b>Request:</b>
 
   ```
@@ -79,11 +90,6 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
   <b>CSV Response:</b>
 
   ```
-  Method: POST
-  Payload: CSV File as shown below
-  ```
-
-  ```
   loanId,checkDigit,uli
   B90YWS6AFX2LGWOXJ1LDNIXOQ6O0000SLR6FSJJ5R87,51,B90YWS6AFX2LGWOXJ1LDNIXOQ6O0000SLR6FSJJ5R8751
   95GVQQ61RS6CWQF0SZD9F4VRXNN1OCVXHP1JURF9ZJS,92,95GVQQ61RS6CWQF0SZD9F4VRXNN1OCVXHP1JURF9ZJS92
@@ -93,6 +99,14 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
 
   `POST` request to get batch check digits.
 
+  ```
+  Method: POST
+  Endpoint: https://ffiec.cfpb.gov/v2/public/uli/validate/csv
+  Payload: CSV File as shown below
+  ```
+
+  #### Example
+  
   <b>Request:</b>
 
   ```
@@ -115,11 +129,6 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
   <b>CSV Response:</b>
 
   ```
-  Method: POST
-  Payload: CSV File as shown below
-  ```
-
-  ```
   loanId,checkDigit,uli
   BANK1LTEST123451150,Error,Loan ID is not between 21 and 43 characters long
   BANK1LEIFORTEST123458001,26,BANK1LEIFORTEST12345800126
@@ -134,6 +143,14 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
 
   `POST` request to validate a single check digit.
 
+  ```
+  Method: POST
+  Endpoint: https://ffiec.cfpb.gov/v2/public/uli/validate
+  Payload: {"uli": "{{ULI}}"}
+  ```
+
+  #### Example
+  
   <b>Request:</b>
 
   ```
@@ -143,11 +160,6 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
   ```
 
   <b>Response:</b>
-
-  ```
-  Method: POST
-  Payload: JSON
-  ```
 
   ```json
   {
@@ -159,6 +171,14 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
 
   `POST` request to batch validate check digits.
 
+  ```
+  Method: POST
+  Endpoint: https://ffiec.cfpb.gov/v2/public/uli/validate/csv
+  Payload: CSV File as shown below
+  ```
+
+  #### Example
+  
   <b>Request:</b>
 
   ```
@@ -177,11 +197,6 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
   <b>CSV Response:</b>
 
   ```
-  Method: POST
-  Payload: CSV File as shown below
-  ```
-
-  ```
   uli,isValid
   95GVQQ61RS6CWQF0SZD9F4VRXNN1OCVXHP1JURF9ZJS92,true
   B90YWS6AFX2LGWOXJ1LDNIXOQ6O0000SLR6FSJJ5R89,false
@@ -191,6 +206,14 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
 
   `POST` request to batch validate check digits.
 
+  ```
+  Method: POST
+  Endpoint: https://ffiec.cfpb.gov/v2/public/uli/validate/csv
+  Payload: CSV File as shown below
+  ```
+
+  #### Example
+  
   <b>Request:</b>
 
   ```
@@ -211,11 +234,6 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
   ```
   
   <b>CSV Response:</b>
-
-  ```
-  Method: POST
-  Payload: CSV File as shown below
-  ```
 
   ```
   uli,isValid

@@ -34,7 +34,7 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
 
   `POST` request to get a single check digit.
   
-    ```
+  ```
   Method: POST
   Endpoint: https://ffiec.cfpb.gov/v2/public/uli/checkDigit
   Payload: {"loanId": "ULI"}
@@ -42,7 +42,7 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
 
   #### Example
   
-  <b>Request:</b>
+  **Request:**
 
   ```
   curl -X POST 'https://ffiec.cfpb.gov/v2/public/uli/checkDigit' \
@@ -50,7 +50,7 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
   --data-raw '{"loanId": "EILKZAIZF6TX4HB8ZDX33H"}'
   ```
 
-  <b>Response:</b>
+  **Request:**
 
   ```json
   {
@@ -72,7 +72,7 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
 
   #### Example
   
-  <b>Request:</b>
+  **Request:**
 
   ```
   curl -X POST \
@@ -80,7 +80,7 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
   -F file=@<PATH>/check_digit_sample_file.csv
   ```
 
-  <b>Request Payload:</b>
+  **Request:**
 
   ```
   B90YWS6AFX2LGWOXJ1LDNIXOQ6O0000SLR6FSJJ5R87
@@ -107,7 +107,7 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
 
   #### Example
   
-  <b>Request:</b>
+  **Request:**
 
   ```
   curl -X POST \
@@ -115,7 +115,7 @@ This endpoint multiple ULIs with check digits in CSV format and returns whether 
   -F file=@<PATH>/check_digit_sample_file.csv
   ```
 
-  <b>Request Payload:</b>
+  **Request:**
 
   ```
   BANK1LTEST123451150

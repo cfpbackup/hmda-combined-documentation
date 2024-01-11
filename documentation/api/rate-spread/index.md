@@ -36,13 +36,13 @@ Payload: { "actionTakenType": "{{actionTakenType}}", "loanTerm": "{{loanTer}}", 
   **Request:**
 
   ```console
-  curl -X POST 'https://ffiec.cfpb.gov/public/rateSpread' -H 'Content-Type: application/json' -d '{ "actionTakenType": 1, "loanTerm": 30, "amortizationType": "FixedRate", "apr": 6.0, "lockInDate": "2017-11-20", "reverseMortgage": 2 }'
+  curl -X POST 'https://ffiec.cfpb.gov/public/rateSpread' -H 'Content-Type: application/json' -d '{ "actionTakenType": 1, "loanTerm": 30, "amortizationType": "FixedRate", "apr": 6.0, "lockInDate": "2023-11-20", "reverseMortgage": 2 }'
   ```
 
   **JSON Response:**
   
   ```json
-    { "rateSpread": "2.010" }
+  {"rateSpread":"-1.420"}
   ```
 
 ### Batch Ratespreads
@@ -59,21 +59,23 @@ Payload: CSV File as shown below
 
 **Request:**
 
-```text
-curl -X POST "https://ffiec.cfpb.gov/public/rateSpread/csv" -F file={{exampleFile}}
+```bash
+echo "
+1,30,FixedRate,6.0,2023-11-20,2
+1,30,VariableRate,6.0,2023-11-20,2" >> exampleFile.csv
+
+curl -X POST   "https://ffiec.cfpb.gov/public/rateSpread/csv"   --form 'file=@"exampleFile.csv"'
 ```
 
 The CSV file example contains the following contents:
-
-|   |    |              |     |            |
-|:--|:---|:-------------|:----|:-----------|
-| 1 | 30 | FixedRate    | 6.0 | 2017-11-20 |
-| 1 | 30 | VariableRate | 6.0 | 2017-11-20 |
+|   |    |              |     |            |   |
+|:--|:---|:-------------|:----|:-----------|:--|
+| 1 | 30 | FixedRate    | 6.0 | 2023-11-20 | 2 |
+| 1 | 30 | VariableRate | 6.0 | 2023-11-20 | 2 |
 
 **Response:**
 
 ```text
-action_taken_type,loan_term,amortization_type,apr,lock_in_date,reverse_mortgage,rate_spread
-1,30,FixedRate,6.0,2017-11-20,2,2.010
-1,30,VariableRate,6.0,2017-11-20,2,2.150
+1,30,FixedRate,6.0,2023-11-20,2,-1.420
+1,30,VariableRate,6.0,2023-11-20,2,-1.250
 ```

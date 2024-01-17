@@ -89,13 +89,13 @@
 
 - **Description:** The age of the applicant
 - **Values:**
-  - <25
+  - &lt;25
   - 25-34
   - 35-44
   - 45-54
   - 55-64
   - 65-74
-  - \>74
+  - &lt;74
   - 8888
 
 ### Ethnicity (derived\_ethnicity)

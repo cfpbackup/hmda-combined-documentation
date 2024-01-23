@@ -68,6 +68,7 @@ curl -X POST   "https://ffiec.cfpb.gov/public/rateSpread/csv"   --form 'file=@"e
 ```
 
 The CSV file example contains the following contents:
+
 |   |    |              |     |            |   |
 |:--|:---|:-------------|:----|:-----------|:--|
 | 1 | 30 | FixedRate    | 6.0 | 2023-11-20 | 2 |

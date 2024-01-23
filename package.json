@@ -24,7 +24,8 @@
   },
   "resolutions": {
     "webpack": "^5.76.3",
-    "postcss": "^8.4.31"
+    "postcss": "^8.4.31",
+    "glob-parent": ">=5.1.2"
   },
   "devDependencies": {
     "@discoveryjs/json-ext": "^0.5.7",
@@ -35,7 +36,6 @@
     "clsx": "^2.1.0",
     "cypress": "^13.6.3",
     "docusaurus-plugin-sass": "^0.2.5",
-    "glob-parent": "^5.1.2",
     "prism-react-renderer": "^2.3.1",
     "sass": "^1.70.0",
     "strip-ansi": "^7.1.0"
@@ -53,6 +53,7 @@
     ]
   },
   "engines": {
-    "node": ">=18.0"
-  }
+    "node": ">=20.0"
+  },
+  "packageManager": "yarn@4.0.2"
 }

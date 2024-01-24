@@ -1,6 +1,6 @@
 ### Build Stage ###
 # Use node as the base image
-FROM node:16-alpine as build-stage
+FROM node:20-alpine3.19 as build-stage
 RUN apk update \
     && apk upgrade \
     && apk cache clean
@@ -12,7 +12,10 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install
+# RUN npm install
+RUN yarn set version berry
+COPY yarn.lock .yarn .yarnrc.yml ./
+RUN yarn install
 
 # Copy the rest of the project files
 COPY . .
@@ -24,13 +27,13 @@ ENV DOCKER_TAG=${DOCKER_TAG}
 # Build the Docusaurus project
 ENV NODE_ENV=production
 ENV BABEL_ENV=production
-RUN npm run build
+RUN yarn build
 
 # Remove devDependancies
-RUN npm prune --production
+# RUN npm prune --production
 
 ### Run Stage ###
-FROM node:16-alpine as run-stage
+FROM node:20-alpine3.19 as run-stage
 
 # Set the working directory to /app
 WORKDIR /app
@@ -48,4 +51,4 @@ RUN addgroup -S hmda_group && adduser -S hmda_user -G hmda_group
 USER hmda_user
 
 EXPOSE 8080
-CMD ["npm", "run", "serve", "--", "--port", "8080", "--host", "0.0.0.0"]
+CMD ["yarn", "run", "serve", "--", "--port", "8080", "--host", "0.0.0.0"]

@@ -30,7 +30,7 @@ TOKEN=$(curl -s 'https://ffiec.beta.cfpb.gov/auth/realms/hmda2/protocol/openid-c
 ---|---
 Method  |  `POST`
 URL | `https://ffiec.beta.cfpb.gov/auth/realms/hmda2/protocol/openid-connect/token`
-Payload  | client_id=hmda2-api <br/> grant_type=password <br/> username={{username}}%40{{bank_domain}} <br/> password={{password}}
+Payload  | client_id=hmda2-api <br/> grant_type=password <br/> username=```{{username}}@{{bank_domain}}``` <br/> password=`{{password}}`
 
 ### Error Messages
 

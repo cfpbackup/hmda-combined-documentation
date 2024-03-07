@@ -367,13 +367,13 @@
 
 - **Description:** The age of the applicant
 - **Values:**
-  - <25
+  - &lt;25
   - 25-34
   - 35-44
   - 45-54
   - 55-64
   - 65-74
-  - \>74
+  - &gt;74
   - 8888
 
 ### [multifamily\_affordable\_units](#multifamily_affordable_units)
@@ -392,9 +392,9 @@
 
 - **Description:** The ratio, as a percentage, of the applicant’s or borrower’s total monthly debt to the total monthly income relied on in making the credit decision
 - **Varying values; Ratios binned are:**
-  - <20%
-  - 20%-<30%
-  - 30%-<36%
+  - &lt;20%
+  - 20%-&lt;30%
+  - 30%-&lt;36%
   - 37%
   - 38%
   - 39%
@@ -409,7 +409,7 @@
   - 48%
   - 49%
   - 50%-60%
-  - >60%
+  - &gt;60%
   - NA
   - Exempt
 

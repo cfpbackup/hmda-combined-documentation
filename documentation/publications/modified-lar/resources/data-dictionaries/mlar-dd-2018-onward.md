@@ -42,9 +42,9 @@ Sex of Applicant or Borrower|Integer|1, 2, 3, 4, 6|
 Sex of Co-Applicant or Co-Borrower|Integer|1, 2, 3, 4, 5, 6|
 Sex of Applicant or Borrower Collected on the Basis of Visual Observation or Surname|Integer|1, 2, 3|
 Sex of Co-Applicant or Co-Borrower Collected on the Basis of Visual Observation or Surname|Integer|1, 2, 3, 4|
-Age of Applicant or Borrower|Character Varying|<25, 25-34, 35-44, 45-54, 55-64, 65-74, >74, 8888|
+Age of Applicant or Borrower|Character Varying|&lt;25, 25-34, 35-44, 45-54, 55-64, 65-74, &gt;74, 8888|
 Age of Applicant or Borrower Greater Than or Equal To 62|Character Varying|Yes, No, NA|
-Age of Co-Applicant or Co-Borrower|Character Varying|<25, 25-34, 35-44, 45-54, 55-64, 65-74, >74, 8888, 9999|
+Age of Co-Applicant or Co-Borrower|Character Varying|&lt;25, 25-34, 35-44, 45-54, 55-64, 65-74, &gt;74, 8888, 9999|
 Age of Co-Applicant or Co-Borrower Greater Than or Equal To 62|Character Varying|Yes, No, NA|
 Income|Character Varying|NA|
 Type of Purchaser|Integer|0, 1, 2, 3, 4, 5, 6, 71, 72, 8, 9|
@@ -64,7 +64,7 @@ Discount Points|Character Varying|NA, Exempt|
 Lender Credits|Character Varying|NA, Exempt|
 Interest Rate|Character Varying|NA, Exempt|
 Prepayment Penalty Term|Character Varying|NA Exempt|
-Debt-to-Income Ratio|Character Varying|<20%, 20%-<30%, 30%-<36%, 50%-60%, >60%, NA, Exempt|Exact values are reported between 36% and 49%.
+Debt-to-Income Ratio|Character Varying|&lt;20%, 20%-&lt;30%, 30%-&lt;36%, 50%-60%, &gt;60%, NA, Exempt|Exact values are reported between 36% and 49%.
 Combined Loan-to-Value Ratio|Character Varying|NA, Exempt|
 Loan Term|Character Varying|NA, Exempt|
 Introductory Rate Period|Character Varying|NA, Exempt|
@@ -75,7 +75,7 @@ Other Non-Amortizing Features|Integer|1, 2, 1111|
 Property Value|Character Varying|NA, Exempt|Property values are rounded to the midpoint of the nearest $10000 interval for which the reported value falls (For example a reported value of $117834 would be disclosed as $115000 as the midpoint between values $110000 and $120000).
 Manufactured Home Secured Property Type|Integer|1, 2, 3, 1111|
 Manufactured Home Land Property Interest|Integer|1, 2, 3, 4, 5, 1111|
-Total Units|Character Varying|1, 2, 3, 4, 5-24, 25-49, 50-99, 100-149, >149|
+Total Units|Character Varying|1, 2, 3, 4, 5-24, 25-49, 50-99, 100-149, &gt;149|
 Multifamily Affordable Units|Character Varying|NA Exempt|Listed as a percentage of total units.
 Submission of Application|Integer|1, 2, 3, 1111|
 Initially Payable to Your Institution|Integer|1, 2, 3, 1111|

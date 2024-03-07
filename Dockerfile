@@ -13,7 +13,7 @@ COPY package*.json ./
 
 # Install dependencies
 # RUN npm install
-RUN yarn set version berry
+RUN yarn set version 4.1.0
 COPY yarn.lock .yarn .yarnrc.yml ./
 RUN yarn install
 

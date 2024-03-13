@@ -36,7 +36,7 @@ const config = {
           customCss: require.resolve('./src/css/custom.scss'),
         },
         gtag: {
-          trackingID: 'G-TSFHVV1M7J',
+          trackingID: 'GTM-KDGB99D',
           anonymizeIP: false,
         },
       }),

@@ -60,9 +60,8 @@ Payload: CSV File as shown below
 **Request:**
 
 ```bash
-echo "
-1,30,FixedRate,6.0,2023-11-20,2
-1,30,VariableRate,6.0,2023-11-20,2" >> exampleFile.csv
+echo "1,30,FixedRate,6.0,2023-11-20,2
+1,30,VariableRate,6.0,2023-11-20,2" > exampleFile.csv
 
 curl -X POST   "https://ffiec.cfpb.gov/public/rateSpread/csv"   --form 'file=@"exampleFile.csv"'
 ```

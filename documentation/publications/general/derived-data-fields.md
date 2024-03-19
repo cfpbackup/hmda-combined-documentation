@@ -83,7 +83,7 @@ This guide explains fields that are included in public HMDA data collected in 20
 
 ### [applicant\_age\_above\_62](#applicant_age_above_62)
 
-- **Description:** Whether the applicant or borrower age is above 62
+- **Description:** Whether the applicant or borrower age is 62 or above
 - **Field Data Type:** Alphanumeric
 - **Values:**
   - Yes
@@ -92,7 +92,7 @@ This guide explains fields that are included in public HMDA data collected in 20
 
 ### [co-applicant\_age\_above\_62](#co-applicant_age_above_62)
 
-- **Description:** Whether the first co-applicant or co-borrower age is above 62
+- **Description:** Whether the co-applicant or co-borrower age is 62 or above
 - **Field Data Type:** Alphanumeric
 - **Values:**
   - Yes

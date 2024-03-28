@@ -20,6 +20,7 @@ The collection window of HMDA Data submission and resubmission is a three year p
 | 2021      | January 1, 2022   | December 31, 2024 |
 | 2022      | January 1, 2023   | December 31, 2025 |
 | 2023      | January 1, 2024   | December 31, 2026 |
+| 2024      | January 1, 2025   | December 31, 2027 |
 
 ## Filing Instructions Guide (FIG)
 

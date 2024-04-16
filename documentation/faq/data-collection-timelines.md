@@ -30,6 +30,8 @@ The collection window of HMDA Data submission and resubmission is a three year p
 
 **Note**: The 2018 FIG link in the table is the updated FIG released on October 11, 2018 for data collected in 2018 incorporating the 2018 HMDA rule. The <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig-2018">previous 2018 FIG</a> released before the ruling is also available. Data collection for 2018 is closed.
 
+The Filing Instructions Guide is available to filers in an online format that is searchable, linkable, and shareable. Access the [Online FIG](/documentation/fig/overview).
+
 ## Annual Filing Period Dates
 
 The HMDA Platform is open for annual filing from January 1 – March 1. The Platform remains available outside of the filing period for late submissions and resubmissions.

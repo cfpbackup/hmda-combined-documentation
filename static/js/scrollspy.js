@@ -10,10 +10,18 @@ function handleScroll() {
     headings = document.querySelectorAll('.docs-version-2023 h2');
     links = document.querySelectorAll('.docs-version-2023 .menu__link')
     overview = document.querySelector('.menu__link[href="/documentation/fig/2023/overview"]')
-  } else if (window.location.pathname == '/documentation/fig/overview') {
-    headings = document.querySelectorAll('.docs-version-2024 h2');
+  } else if (window.location.pathname == '/documentation/fig/2024/overview') {
+    headings = document.querySelectorAll('.docs-version-2024 h2')
     links = document.querySelectorAll('.docs-version-2024 .menu__link')
-    overview = document.querySelector('.menu__link[href="/documentation/fig/overview"]')
+    overview = document.querySelector(
+      '.menu__link[href="/documentation/fig/2024/overview"]'
+    )
+  } else if (window.location.pathname == '/documentation/fig/overview') {
+    headings = document.querySelectorAll('.docs-version-2025 h2')
+    links = document.querySelectorAll('.docs-version-2025 .menu__link')
+    overview = document.querySelector(
+      '.menu__link[href="/documentation/fig/overview"]'
+    )
   }
   
   if(headings) {

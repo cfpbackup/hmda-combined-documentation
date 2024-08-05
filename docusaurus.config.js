@@ -66,7 +66,7 @@ const config = {
         path: 'fig',
         routeBasePath: '/fig',
         //sidebarPath: './sidebarsFig.js',
-        lastVersion: '2024',
+        lastVersion: '2025',
         includeCurrentVersion: false,
       },
     ],

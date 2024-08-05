@@ -52,8 +52,13 @@
       "items": [
         {
           "type": "link",
-          "label": "2024 Filing Instructions Guide",
+          "label": "2025 Filing Instructions Guide",
           "href": "/fig/overview"
+        },
+        {
+          "type": "link",
+          "label": "2025 Filing Instructions Guide",
+          "href": "/fig/2024/overview"
         },
         {
           "type": "link",

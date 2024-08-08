@@ -465,6 +465,7 @@ article, .fig-section {
     border-radius: .25em;
     border: 1px solid #ccc;
     margin-bottom: .25em;
+    cursor: pointer;
 
     &:hover {
       background-color: var(--hmda-blue-light);
@@ -480,5 +481,37 @@ article, .fig-section {
 .table0 {
   td:nth-of-type(4) {
     width: 100%;
+  }
+}
+
+/***************************************
+  Printing
+/***************************************/
+
+@media print {
+
+  /* Hide Navbar Menu */
+  .navbar {
+    display: none !important;
+  }
+
+  /* Hide Footer */
+  .usa-identifier {
+    display: none !important;
+  }
+
+  /* Hide return to top button */
+  .return-to-top {
+    display: none !important;
+  }
+
+  /* Hide Export CSV button */
+  .export-csv {
+    display: none !important;
+  }
+  
+  /* Hide the print button itself when printing */
+  .printBtn {
+    display: none !important;
   }
 }

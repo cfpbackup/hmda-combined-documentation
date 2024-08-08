@@ -29,7 +29,6 @@ const sidebars = {
         "faq/data-browser-graphs-faq",
         "faq/data-browser-maps-faq",
         "faq/static-dataset-faq",
-        "faq/supplemental-guide-for-quaterly-filers-2025"
       ],
     },
     // Publications

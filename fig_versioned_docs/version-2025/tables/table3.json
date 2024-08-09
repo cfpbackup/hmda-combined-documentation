@@ -1,26 +1,26 @@
 [
-    {
-        "Type of Data Field": "Loan/Application Register",
-        "Edit Number": "V695",
-        "Data Point": "Mortgage Loan Originator NMLSR Identifier",
-        "Modification": "Updated edit to note NMLSR identifier must be four to twelve digits."
-    },
-    {
-        "Type of Data Field": "Filing Instituition, Reporting Period, and Contact Information (Transmittal Sheet)",
-        "Edit Number": "Q303",
-        "Data Point": "Federal Agency; Federal Taxpayer Identification Number; Legal Entity Identifier (LEI)",
-        "Modification": "Changed edit type from S303 to Q303."
-    },
-    {
-        "Type of Data Field": "Loan/Application Register",
-        "Edit Number": "Q651",
-        "Data Point": "Combined Loan to Value Ratio",
-        "Modification": "Updated edit about CLTV’s reporting as a percentage and general range which is less than 150."
-    },
-    {
-        "Type of Data Field": "Loan/Application   Register",
-        "Edit Number": "Q616",
-        "Data Point": "Discount Points",
-        "Modification": "Updated edit to describe discount points’ allowance and reporting in as a dollar value."
-    }
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "V695",
+    "Data Point": "Mortgage Loan Originator NMLSR Identifier",
+    "Modification": "Updated edit to include NMLSR identifier must be four to twelve digits."
+  },
+  {
+    "Type of Data Field": "Filing Instituition, Reporting Period, and Contact Information (Transmittal Sheet)",
+    "Edit Number": "Q303",
+    "Data Point": "Federal Agency; Federal Taxpayer Identification Number; Legal Entity Identifier (LEI)",
+    "Modification": "Changed edit type from S303 to Q303."
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q616",
+    "Data Point": "Discount Points",
+    "Modification": "Updated edit to note discount points should not be higher than 15% of the loan amount and it must be reported in dollars."
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q651",
+    "Data Point": "Combined Loan to Value Ratio",
+    "Modification": "Updated edit to include CLTV should be reported as a percentage and its general range should be less than 150."
+  }
 ]

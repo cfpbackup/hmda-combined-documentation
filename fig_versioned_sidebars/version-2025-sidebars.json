@@ -12,32 +12,32 @@
         },
         {
           "type": "link",
-          "href": "#changes",
+          "href": "/fig/overview#changes",
           "label": "2. Changes for 2025"
         },
         {
           "type": "link",
-          "href": "#file-specifications",
+          "href": "/fig/overview#file-specifications",
           "label": "3. File Specifications"
         },
         {
           "type": "link",
-          "href": "#data-specifications",
+          "href": "/fig/overview#data-specifications",
           "label": "4. Data Specifications"
         },
         {
           "type": "link",
-          "href": "#edit-specifications",
+          "href": "/fig/overview#edit-specifications",
           "label": "5. Edit Specifications"
         },
         {
           "type": "link",
-          "href": "#additional-information",
+          "href": "/fig/overview#additional-information",
           "label": "6. Additional Info"
         },
         {
           "type": "link",
-          "href": "#paperwork-reduction-act",
+          "href": "/fig/overview#paperwork-reduction-act",
           "label": "Paperwork Reduction"
         }
       ]
@@ -75,9 +75,9 @@
       "collapsed": true,
       "items": [
         {
-          "type": "link",
-          "label": "2025 Supplemental Guide for Quarterly Filers",
-          "href": "/fig/supplemental-guide-for-quaterly-filers-2025"
+          "type": "doc",
+          "id": "supplemental-guide-for-quaterly-filers-2025",
+          "label": "2025 Supplemental Guide for Quarterly Filers"
         }
       ]
     }

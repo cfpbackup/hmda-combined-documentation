@@ -71,6 +71,18 @@
           "href": "/fig/2022/overview"
         }
       ]
+    },
+    {
+      "type": "category",
+      "label": "Supplemental Guides for Quarterly Filers",
+      "collapsed": true,
+      "items": [
+        {
+          "type": "link",
+          "label": "2025 Guide for Quarterly Filers",
+          "href": "/fig/supplemental-guide-for-quaterly-filers-2025"
+        }
+      ]
     }
   ]
 }

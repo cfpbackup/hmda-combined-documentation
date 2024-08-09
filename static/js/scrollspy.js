@@ -7,9 +7,11 @@ function handleScroll() {
     let overview = ''
 
   if (window.location.pathname == '/documentation/fig/2023/overview') {
-    headings = document.querySelectorAll('.docs-version-2023 h2');
+    headings = document.querySelectorAll('.docs-version-2023 h2')
     links = document.querySelectorAll('.docs-version-2023 .menu__link')
-    overview = document.querySelector('.menu__link[href="/documentation/fig/2023/overview"]')
+    overview = document.querySelector(
+      '.menu__link[href="/documentation/fig/2023/overview"]'
+    )
   } else if (window.location.pathname == '/documentation/fig/2024/overview') {
     headings = document.querySelectorAll('.docs-version-2024 h2')
     links = document.querySelectorAll('.docs-version-2024 .menu__link')
@@ -22,38 +24,65 @@ function handleScroll() {
     overview = document.querySelector(
       '.menu__link[href="/documentation/fig/overview"]'
     )
+  } else if ( 
+    // Added Supplemental Guide path to remove any previous FIG highlighted links when you click on the Supplemental Guide
+    window.location.pathname ==
+    '/documentation/fig/supplemental-guide-for-quaterly-filers-2025'
+  ) {
+    // Handle the supplemental guide page
+    links = document.querySelectorAll('.menu__link')
+    clearAllHighlights(links)
+    const supplementalGuideLink = document.querySelector(
+      '.menu__link[href="/documentation/fig/supplemental-guide-for-quaterly-filers-2025"]'
+    )
+    if (supplementalGuideLink) {
+      supplementalGuideLink.classList.add('menu__link--active')
+    }
+    return // Exit the function early as we don't need to process headings
   }
   
   if(headings) {
     headings.forEach((heading) => {
+      // Get the current path
+      const currentPath = window.location.pathname
+
       // sidebar link that corresponds to h2
-      const link = document.querySelector(`.menu__link[href="#${heading.id}"]`)
-  
+      const link = document.querySelector(
+        `.menu__link[href="${currentPath}#${heading.id}"]`
+      )
+
       // if link is not null
       if (link) {
         // if h2 is in viewport
         if (heading.id && isElementInViewport(heading)) {
           // removes active class from all sidebar links
-          links.forEach((activeLink) => {
-            activeLink.classList.remove('menu__link--active');
+          links.forEach(activeLink => {
+            activeLink.classList.remove('menu__link--active')
           })
           // adds active class to corresponding sidebar link
-          link.classList.add('menu__link--active');
+          link.classList.add('menu__link--active')
         }
-      } 
+      }
       // if first h2 (with no #) is in viewport
-      else if( window.scrollY == 0 ) {
+      else if (window.scrollY == 0) {
         // removes active class from all other sidebar links
-        links.forEach((activeLink) => {
+        links.forEach(activeLink => {
           if (activeLink.toString() !== overview.toString()) {
-            activeLink.classList.remove('menu__link--active');
+            activeLink.classList.remove('menu__link--active')
           }
         })
         // adds active class top sidebar link with no #
-        overview.classList.add('menu__link--active');
+        overview.classList.add('menu__link--active')
       }
     });
   }
+}
+
+function clearAllHighlights(links) {
+  // removes active class from all sidebar links
+  links.forEach(activeLink => {
+    activeLink.classList.remove('menu__link--active')
+  })
 }
 
 // defines viewport

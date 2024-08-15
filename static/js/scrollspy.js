@@ -1,10 +1,10 @@
 function handleScroll() {
-    // array of all h2s
-    let headings = ''
-    // array of all sidebar links
-    let links = ''
-    // top sidebar link with no #
-    let overview = ''
+  // array of all h2s
+  let headings = ''
+  // array of all sidebar links
+  let links = ''
+  // top sidebar link with no #
+  let overview = ''
 
   if (window.location.pathname == '/documentation/fig/2023/overview') {
     headings = document.querySelectorAll('.docs-version-2023 h2')
@@ -24,25 +24,46 @@ function handleScroll() {
     overview = document.querySelector(
       '.menu__link[href="/documentation/fig/overview"]'
     )
-  } else if ( 
-    // Added Supplemental Guide path to remove any previous FIG highlighted links when you click on the Supplemental Guide
-    window.location.pathname ==
-    '/documentation/fig/supplemental-guide-for-quaterly-filers-2025'
+  } else if (
+    window.location.pathname.includes('supplemental-guide-for-quaterly-filers')
   ) {
     // Handle the supplemental guide page
     links = document.querySelectorAll('.menu__link')
-    clearAllHighlights(links)
+    clearAllHighlights(links) // Clear any highlighted FIG links
+
+    const pathParts = window.location.pathname.split('/')
+    let isLatestYear = true
+    let year
+
+    // Check for year in the path parts (for older years)
+    const yearIndex = pathParts.findIndex(part => /^\d{4}$/.test(part))
+    if (yearIndex !== -1) {
+      year = pathParts[yearIndex]
+      isLatestYear = false
+    }
+
+    // Construct the dynamic href based on whether it's the latest year or not
+    let supplementalGuideHref
+    if (isLatestYear) {
+      // No year in the URL means it's the latest year
+      supplementalGuideHref = `/documentation/fig/supplemental-guide-for-quaterly-filers`
+    } else {
+      supplementalGuideHref = `/documentation/fig/${year}/supplemental-guide-for-quaterly-filers`
+    }
+
     const supplementalGuideLink = document.querySelector(
-      '.menu__link[href="/documentation/fig/supplemental-guide-for-quaterly-filers-2025"]'
+      `.menu__link[href="${supplementalGuideHref}"]`
     )
+
     if (supplementalGuideLink) {
       supplementalGuideLink.classList.add('menu__link--active')
     }
+
     return // Exit the function early as we don't need to process headings
   }
-  
-  if(headings) {
-    headings.forEach((heading) => {
+
+  if (headings) {
+    headings.forEach(heading => {
       // Get the current path
       const currentPath = window.location.pathname
 
@@ -74,7 +95,7 @@ function handleScroll() {
         // adds active class top sidebar link with no #
         overview.classList.add('menu__link--active')
       }
-    });
+    })
   }
 }
 
@@ -87,15 +108,16 @@ function clearAllHighlights(links) {
 
 // defines viewport
 function isElementInViewport(element) {
-  const rect = element.getBoundingClientRect();
+  const rect = element.getBoundingClientRect()
   return (
     rect.top >= 0 &&
     rect.left >= 0 &&
-    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.bottom <=
+      (window.innerHeight || document.documentElement.clientHeight) &&
     rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-  );
+  )
 }
 
 // calls handleScroll
-document.addEventListener('scroll', handleScroll);
-document.addEventListener('DOMContentLoaded', handleScroll);
+document.addEventListener('scroll', handleScroll)
+document.addEventListener('DOMContentLoaded', handleScroll)

@@ -44,7 +44,7 @@
     },
     {
       "type": "category",
-      "label": "Previous Years",
+      "label": "Other Years",
       "collapsed": true,
       "items": [
         {
@@ -77,7 +77,12 @@
         {
           "type": "link",
           "label": "2025 Supplemental Guide for Quarterly Filers",
-          "href": "/fig/supplemental-guide-for-quaterly-filers-2025"
+          "href": "/fig/supplemental-guide-for-quaterly-filers"
+        },
+        {
+          "type": "doc",
+          "id": "supplemental-guide-for-quaterly-filers",
+          "label": "2024 Supplemental Guide for Quarterly Filers"
         }
       ]
     }

@@ -514,4 +514,14 @@ article, .fig-section {
   .printBtn {
     display: none !important;
   }
+
+  /* Hide Version Banner */
+  .theme-doc-version-banner {
+    display: none !important;
+  }
+
+  /* Hide Breadcrumb navigation */
+  .theme-doc-breadcrumbs {
+    display: none !important;
+  }
 }

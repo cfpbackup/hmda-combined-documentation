@@ -3,9 +3,6 @@
     {
       "type": "category",
       "label": "2021 Filing Instructions Guide",
-      "link": {
-        "type": "generated-index"
-      },
       "collapsed": true,
       "items": [
         {
@@ -14,33 +11,33 @@
           "label": "1. Overview"
         },
         {
-          "type": "doc",
-          "id": "changes-2021",
+          "type": "link",
+          "href": "/fig/2021/overview#changes",
           "label": "2. Changes for 2021"
         },
         {
-          "type": "doc",
-          "id": "file-specifications",
+          "type": "link",
+          "href": "/fig/2021/overview#file-specifications",
           "label": "3. File Specifications"
         },
         {
-          "type": "doc",
-          "id": "data-specifications",
+          "type": "link",
+          "href": "/fig/2021/overview#data-specifications",
           "label": "4. Data Specifications"
         },
         {
-          "type": "doc",
-          "id": "edit-specifications",
+          "type": "link",
+          "href": "/fig/2021/overview#edit-specifications",
           "label": "5. Edit Specifications"
         },
         {
-          "type": "doc",
-          "id": "additional-info",
+          "type": "link",
+          "href": "/fig/2021/overview#additional-information",
           "label": "6. Additional Info"
         },
         {
-          "type": "doc",
-          "id": "paperwork-reduction",
+          "type": "link",
+          "href": "/fig/2021/overview#paperwork-reduction-act",
           "label": "Paperwork Reduction"
         }
       ]
@@ -91,6 +88,16 @@
           "type": "link",
           "label": "2023 Supplemental Guide for Quarterly Filers",
           "href": "/fig/2023/supplemental-guide-for-quaterly-filers"
+        },
+        {
+          "type": "link",
+          "label": "2022 Supplemental Guide for Quarterly Filers",
+          "href": "/fig/2022/supplemental-guide-for-quaterly-filers"
+        },
+        {
+          "type": "doc",
+          "id": "supplemental-guide-for-quaterly-filers",
+          "label": "2021 Supplemental Guide for Quarterly Filers"
         }
       ]
     }

@@ -376,7 +376,7 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-
  .theme-doc-markdown p { font-size: 18px; }
 
 
- .docs-version-2025, .docs-version-2024, .docs-version-2023 {
+.docs-version-2025, .docs-version-2024, .docs-version-2023, .docs-version-2022, .docs-version-2021 {
   h2 {
     color: var(--ifm-color-primary);
     font-size: 36px;
@@ -393,7 +393,7 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-
     color: #ff0000; /* Adjust the color to your preference */
     font-weight: bold; /* Optional: Adjust the styling as needed */
   }
- }
+}
 
 /***************************************
   FIG Tables

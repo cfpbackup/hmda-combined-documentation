@@ -1,4 +1,6 @@
 function handleScroll() {
+  const path = window.location.pathname
+
   // array of all h2s
   let headings = ''
   // array of all sidebar links
@@ -6,32 +8,37 @@ function handleScroll() {
   // top sidebar link with no #
   let overview = ''
 
-  if (window.location.pathname == '/documentation/fig/2023/overview') {
-    headings = document.querySelectorAll('.docs-version-2023 h2')
-    links = document.querySelectorAll('.docs-version-2023 .menu__link')
-    overview = document.querySelector(
-      '.menu__link[href="/documentation/fig/2023/overview"]'
-    )
-  } else if (window.location.pathname == '/documentation/fig/2024/overview') {
-    headings = document.querySelectorAll('.docs-version-2024 h2')
-    links = document.querySelectorAll('.docs-version-2024 .menu__link')
-    overview = document.querySelector(
-      '.menu__link[href="/documentation/fig/2024/overview"]'
-    )
-  } else if (window.location.pathname == '/documentation/fig/overview') {
-    headings = document.querySelectorAll('.docs-version-2025 h2')
-    links = document.querySelectorAll('.docs-version-2025 .menu__link')
-    overview = document.querySelector(
-      '.menu__link[href="/documentation/fig/overview"]'
-    )
-  } else if (
-    window.location.pathname.includes('supplemental-guide-for-quaterly-filers')
-  ) {
+  // Define a mapping of years to their respective classes
+  const yearClasses = {
+    2021: 'docs-version-2021',
+    2022: 'docs-version-2022',
+    2023: 'docs-version-2023',
+    2024: 'docs-version-2024',
+    latest: 'docs-version-2025', // 2025 is considered the latest
+  }
+
+  // Check if the path matches the pattern for FIG overview pages
+  const yearMatch = path.match(/^\/documentation\/fig\/((\d{4})\/)?overview$/)
+
+  if (yearMatch) {
+    const year = yearMatch[2] || 'latest' // If no year is specified, it's the latest
+    const className = yearClasses[year]
+
+    if (className) {
+      headings = document.querySelectorAll(`.${className} h2`)
+      links = document.querySelectorAll(`.${className} .menu__link`)
+      overview = document.querySelector(
+        `.menu__link[href="/documentation/fig/${
+          year === 'latest' ? '' : year + '/'
+        }overview"]`
+      )
+    }
+  } else if (path.includes('supplemental-guide-for-quaterly-filers')) {
     // Handle the supplemental guide page
     links = document.querySelectorAll('.menu__link')
     clearAllHighlights(links) // Clear any highlighted FIG links
 
-    const pathParts = window.location.pathname.split('/')
+    const pathParts = path.split('/')
     let isLatestYear = true
     let year
 
@@ -65,7 +72,7 @@ function handleScroll() {
   if (headings) {
     headings.forEach(heading => {
       // Get the current path
-      const currentPath = window.location.pathname
+      const currentPath = path
 
       // sidebar link that corresponds to h2
       const link = document.querySelector(

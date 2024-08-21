@@ -83,6 +83,11 @@
           "type": "link",
           "label": "2024 Supplemental Guide for Quarterly Filers",
           "href": "/fig/2024/supplemental-guide-for-quaterly-filers"
+        },
+        {
+          "type": "doc",
+          "id": "supplemental-guide-for-quaterly-filers",
+          "label": "2023 Supplemental Guide for Quarterly Filers"
         }
       ]
     }

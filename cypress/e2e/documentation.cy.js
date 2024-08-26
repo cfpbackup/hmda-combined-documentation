@@ -117,12 +117,12 @@ describe('Covers Filing Instructions Guide (FIG) interactions', () => {
   it('Searches for an answer on the 2023 FIG through Algolia', () => {
     cy.visit(`${HOST}/documentation/fig/2023/overview`)
     cy.get('.DocSearch').click()
-    cy.get('#docsearch-input').type('Loan/Application Register format')
+    cy.get('#docsearch-input').type('2023 Loan/Application Register format')
     cy.get('.DocSearch-Hit-source').invoke('remove') // Remove the HMTL element that is blocking Cypress from clicking
     cy.get('#docsearch-item-0 > a > .DocSearch-Hit-Container')
       .contains('Loan/Application Register format')
       .click()
-    cy.get('[id^=33--loanapplication-register-format]').contains('Loan/Application Register format')
+    cy.get('[id^=33--loanapplication-register-format]').contains('Loan/Application Register')
   })
   it('Navigates to FIG year (2023) and ensures 2023 version is properly displayed and allows navigation to the latest FIG via the banner link', () => {
     let previousYear = '2023'

@@ -15,7 +15,7 @@
         "Edit ID": "V608",
         "Data Point Name": "Universal Loan Identifier (ULI) or Non-Universal Loan Identifier (NULI)",
         "Affected Data Fields": "Universal Loan Identifier (ULI) Universal Loan Identifier (NULI)",
-        "Edit Description": "A ULI with an invalid format was provided. Please review the information below and update your file accordingly.   1) The required format for ULI is alphanumeric with at least 23 characters and up to 45 characters, and it cannot be left blank.   2) The required format for NULIis alphanumeric with at least 1 character and no more than 22 characters, and it cannot be NA, Exempt, 1111 or left blank."
+        "Edit Description": "A ULI with an invalid format was provided. Please review the information below and update your file accordingly.   1) The required format for ULI is alphanumeric with at least 23 characters and up to 45 characters, and it cannot be left blank.   2) The required format for NULI is alphanumeric with at least 1 character and no more than 22 characters, and it cannot be NA, Exempt, 1111 or left blank."
     },
     {
         "Edit ID": "V609",
@@ -39,19 +39,19 @@
         "Edit ID": "V612",
         "Data Point Name": "Loan Purpose",
         "Affected Data Fields": "Loan Purpose; Preapproval",
-        "Edit Description": "An invalid Loan Purpose was reported. Please review the information below and update your file accordingly.   1) Loan Purpose must equal 1, 2, 31, 32, 4, or 5, and cannot be left blank.   2) If Preapprovalequals 1, then  Loan Purpose  must equal 1."
+        "Edit Description": "An invalid Loan Purpose was reported. Please review the information below and update your file accordingly.   1) Loan Purpose must equal 1, 2, 31, 32, 4, or 5, and cannot be left blank.   2) If Preapproval equals 1, then  Loan Purpose  must equal 1."
     },
     {
         "Edit ID": "V613",
         "Data Point Name": "Preapproval",
         "Affected Data Fields": "Preapproval; Action Taken",
-        "Edit Description": "An invalid Preapprovaldata field was provided. Please review the information below and update your file accordingly.   1) Preapproval must equal 1 or 2, and cannot be left blank.   2) If Action Taken equals 7 or 8, then  Preapproval  must equal 1.   3) If Action Taken equals 3, 4, 5, or 6, then  Preapproval  must equal 2.   4) If Preapproval equals 1, then  Action Taken  must equal 1, 2, 7, or 8."
+        "Edit Description": "An invalid Preapproval data field was provided. Please review the information below and update your file accordingly.   1) Preapproval must equal 1 or 2, and cannot be left blank.   2) If Action Taken equals 7 or 8, then  Preapproval  must equal 1.   3) If Action Taken equals 3, 4, 5, or 6, then  Preapproval  must equal 2.   4) If Preapproval equals 1, then  Action Taken  must equal 1, 2, 7, or 8."
     },
     {
         "Edit ID": "V614",
         "Data Point Name": "Preapproval",
         "Affected Data Fields": "Preapproval; Loan Purpose; Multifamily Affordable Units; Reverse Mortgage; Open-End Line of Credit",
-        "Edit Description": "An invalid Preapprovalwas provided. Please review the information below and update your file accordingly.   1) If Loan Purpose equals 2, 4, 31, 32, or 5, then Preapproval must equal 2.   2) If Multifamily Affordable Units is a number, then Preapproval must equal 2.   3) If Reverse Mortgage equals 1, then  Preapproval  must equal 2.   4) If Open-End Line of Credit equals 1, then  Preapproval  must equal 2."
+        "Edit Description": "An invalid Preapproval was provided. Please review the information below and update your file accordingly.   1) If Loan Purpose equals 2, 4, 31, 32, or 5, then Preapproval must equal 2.   2) If Multifamily Affordable Units is a number, then Preapproval must equal 2.   3) If Reverse Mortgage equals 1, then  Preapproval  must equal 2.   4) If Open-End Line of Credit equals 1, then  Preapproval  must equal 2."
     },
     {
         "Edit ID": "V615",
@@ -285,7 +285,7 @@
         "Edit ID": "V654",
         "Data Point Name": "Income",
         "Affected Data Fields": "Income; Multifamily Affordable Units",
-        "Edit Description": "An invalid Income was reported. Please review the information below and update your file accordingly.   1) Income must be either a positive or negative integer rounded to the nearest thousand or NA, and cannot be left blank.   2) If Multifamily Affordable Unitsis a number, then Income must be NA."
+        "Edit Description": "An invalid Income was reported. Please review the information below and update your file accordingly.   1) Income must be either a positive or negative integer rounded to the nearest thousand or NA, and cannot be left blank.   2) If Multifamily Affordable Units is a number, then Income must be NA."
     },
     {
         "Edit ID": "V655",
@@ -513,7 +513,7 @@
         "Edit ID": "V692",
         "Data Point Name": "Multifamily Affordable Units",
         "Affected Data Fields": "Multifamily Affordable Units; Total Units",
-        "Edit Description": "An invalid Multifamily Affordable Units was reported. Please review the information below and update your file accordingly.   1) Multifamily Affordable Units must be a whole number, Exempt, or NA, and cannot be left blank.   2) If Total Units is less than 5, then  Multifamily Affordable Units  must be NA or Exempt.   3) If Total Unitsis greater than or equal to 5, then Multifamily Affordable Units must be less than or equal to Total Units, NA or Exempt."
+        "Edit Description": "An invalid Multifamily Affordable Units was reported. Please review the information below and update your file accordingly.   1) Multifamily Affordable Units must be a whole number, Exempt, or NA, and cannot be left blank.   2) If Total Units is less than 5, then  Multifamily Affordable Units  must be NA or Exempt.   3) If Total Units is greater than or equal to 5, then Multifamily Affordable Units must be less than or equal to Total Units, NA or Exempt."
     },
     {
         "Edit ID": "V693",

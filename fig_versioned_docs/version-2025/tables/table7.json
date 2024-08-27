@@ -243,7 +243,7 @@
         "Edit ID": "Q651",
         "Data Point Name": "Combined Loan-to-Value Ratio",
         "Affected Data Fields": "Combined Loan-to-Value Ratio",
-        "Edit Description": "Please review the information below and update your file, if needed.   1) The CLTV reported is greater than 0 but less than 1, which may indicate a misplaced decimal point,  as CLTV should be reported as a percentage.   2) The CLTV should generally fall below 150, please review the information in your file for accuracy."
+        "Edit Description": "Please review the information below and update your file, if needed.   1) The CLTV reported is greater than 0 but less than 1.5, which may indicate a misplaced decimal point, as CLTV should be reported as a percentage.   2) The CLTV should generally fall below 150, please review the information in your file for accuracy."
     },
     {
         "Edit ID": "Q652",

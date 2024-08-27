@@ -21,6 +21,12 @@
     "Type of Data Field": "Loan/Application Register",
     "Edit Number": "Q651",
     "Data Point": "Combined Loan to Value Ratio",
-    "Modification": "Updated edit to include CLTV should be reported as a percentage and its general range should be less than 150."
+    "Modification": "Updated edit to include the CLTV should be less than 1.5, be reported as a percentage and its general range should be less than 150."
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q621",
+    "Data Point": "NMLSR ID",
+    "Modification": "Updated edit to note NMLSR ID must be four to twelve digits."
   }
 ]

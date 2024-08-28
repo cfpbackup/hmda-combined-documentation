@@ -123,7 +123,7 @@
         "Edit ID": "Q621",
         "Data Point Name": "NMLSR ID",
         "Affected Data Fields": "NMLSR ID",
-        "Edit Description": "Please review the information below and update your file, if needed.   1) The NMLSR ID should be alphanumeric up to 12 characters. Your data indicates a value outside of this range."
+        "Edit Description": "Please review the information below and update your file, if needed.   1) The NMLSR ID must be between four to twelve digits. Your data indicates a value outside of this range."
     },
     {
         "Edit ID": "Q622",
@@ -220,6 +220,12 @@
         "Data Point Name": "Loan Amount",
         "Affected Data Fields": "Loan Amount",
         "Edit Description": "Please review the information below and update your file, if needed.   1) Loan Amount should generally be greater than or equal to $500 (reported 500).   2)If Loan Purpose equals 1, then Loan  Amount should generally be greater than or equal to $1,000 (reported 1000)."
+    },
+        {
+        "Edit ID": "Q646",
+        "Data Point Name": "Any data point eligible for an exemption code",
+        "Affected Data Fields": "Any field eligible for an exemption code",
+        "Edit Description": "Your file indicates that at least one exemption code was used. Please verify that your institution is eligible for a partial exemption pursuant to the 2018 HMDA Rule."
     },
     {
         "Edit ID": "Q648",

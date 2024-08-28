@@ -28,5 +28,17 @@
     "Edit Number": "Q621",
     "Data Point": "NMLSR ID",
     "Modification": "Updated edit to note NMLSR ID must be four to twelve digits."
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q646",
+    "Data Point": "Any data point eligible for an exemption code",
+    "Modification": "Changed edit from macro-quality edit to quality edit"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register/Transmittal Sheet",
+    "Edit Number": "Q647",
+    "Data Point": "Federal Agency; Any field eligible for exemption code",
+    "Modification": "Changing macro-quality edit to quality edit"
   }
 ]

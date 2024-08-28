@@ -40,11 +40,5 @@
         "Data Point Name": "Income",
         "Affected Data Fields": "Income; Total Number of Entries Contained in Submission",
         "Edit Description": "Please review the information below and update your file, if needed.   No more than 20% of the loans in the file should report Income less than $10 thousand (entered as 10). Your data indicates a percentage outside of this range."
-    },
-    {
-        "Edit ID": "Q646",
-        "Data Point Name": "Any data point eligible for an exemption code",
-        "Affected Data Fields": "Any field eligible for an exemption code",
-        "Edit Description": "Your file indicates that at least one exemption code was used. Please verify that your institution is eligible for a partial exemption pursuant to the 2018 HMDA Rule."
     }
 ]

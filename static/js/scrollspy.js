@@ -14,23 +14,21 @@ function handleScroll() {
     2022: 'docs-version-2022',
     2023: 'docs-version-2023',
     2024: 'docs-version-2024',
-    latest: 'docs-version-2025', // 2025 is considered the latest
+    2025: 'docs-version-2025', // 2025 is considered the latest
   }
 
   // Check if the path matches the pattern for FIG overview pages
   const yearMatch = path.match(/^\/documentation\/fig\/((\d{4})\/)?overview$/)
 
   if (yearMatch) {
-    const year = yearMatch[2] || 'latest' // If no year is specified, it's the latest
+    const year = yearMatch[2]
     const className = yearClasses[year]
 
     if (className) {
       headings = document.querySelectorAll(`.${className} h2`)
       links = document.querySelectorAll(`.${className} .menu__link`)
       overview = document.querySelector(
-        `.menu__link[href="/documentation/fig/${
-          year === 'latest' ? '' : year + '/'
-        }overview"]`
+        `.menu__link[href="/documentation/fig/${year}/overview"]`
       )
     }
   } else if (path.includes('supplemental-guide-for-quaterly-filers')) {
@@ -39,24 +37,12 @@ function handleScroll() {
     clearAllHighlights(links) // Clear any highlighted FIG links
 
     const pathParts = path.split('/')
-    let isLatestYear = true
-    let year
 
-    // Check for year in the path parts (for older years)
-    const yearIndex = pathParts.findIndex(part => /^\d{4}$/.test(part))
-    if (yearIndex !== -1) {
-      year = pathParts[yearIndex]
-      isLatestYear = false
-    }
+    // Find the year in the path parts
+    const year = pathParts.find(part => /^\d{4}$/.test(part))
 
-    // Construct the dynamic href based on whether it's the latest year or not
-    let supplementalGuideHref
-    if (isLatestYear) {
-      // No year in the URL means it's the latest year
-      supplementalGuideHref = `/documentation/fig/supplemental-guide-for-quaterly-filers`
-    } else {
-      supplementalGuideHref = `/documentation/fig/${year}/supplemental-guide-for-quaterly-filers`
-    }
+    // Construct the href with the year included
+    const supplementalGuideHref = `/documentation/fig/${year}/supplemental-guide-for-quaterly-filers`
 
     const supplementalGuideLink = document.querySelector(
       `.menu__link[href="${supplementalGuideHref}"]`

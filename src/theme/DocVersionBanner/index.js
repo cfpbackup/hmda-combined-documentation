@@ -94,35 +94,36 @@ function LatestVersionSuggestionLabel({
 }
 function DocVersionBannerEnabled({ className, versionMetadata }) {
   const {
-    siteConfig: { title: siteTitle },
+    siteConfig: { title: siteTitle, customFields },
   } = useDocusaurusContext()
   const { pluginId } = useActivePlugin({ failfast: true })
-  const getVersionMainDoc = version =>
-    version.docs.find(doc => doc.id === version.mainDocId)
   const { savePreferredVersionName } = useDocsPreferredVersion(pluginId)
-  const { latestDocSuggestion, latestVersionSuggestion } =
-    useDocVersionSuggestions(pluginId)
-  const location = useLocation() // Using Docusaurus API for SSR window.location - https://docusaurus.io/docs/next/advanced/routing#generating-and-accessing-routes
+  const { latestVersionSuggestion } = useDocVersionSuggestions(pluginId)
+  const location = useLocation()
 
-  // Try to link to same doc in latest version (not always possible), falling
-  // back to main doc of latest version
-  const latestVersionSuggestedDoc =
-    latestDocSuggestion ?? getVersionMainDoc(latestVersionSuggestion)
+  const latestFigYear =
+    customFields.latestFigYear
 
-  // Determine if the current page is the supplemental guide
+  // Function to extract year from URL
+  const getYearFromUrl = path => {
+    const match = path.match(/\/fig\/(\d{4})/)
+    return match ? match[1] : null
+  }
+
+  const urlYear = getYearFromUrl(location.pathname)
   const isSupplemental = location.pathname.includes(
     'supplemental-guide-for-quaterly-filers'
   )
 
-  // Construct the correct path for the latest version
-  let pathToLatestVersion
-  if (isSupplemental) {
-    // For the Supplemental Guide, use the direct path without version in URL
-    pathToLatestVersion = `/documentation/fig/supplemental-guide-for-quaterly-filers`
-  } else {
-    // For the FIG, use the version-specific path
-    pathToLatestVersion = latestVersionSuggestedDoc.path
+  // Only show banner if the URL year is not the latest FIG year
+  if (!urlYear || urlYear === latestFigYear) {
+    return null
   }
+
+  // Construct the correct path for the latest version
+  const pathToLatestVersion = isSupplemental
+    ? `/fig/${latestFigYear}/supplemental-guide-for-quaterly-filers`
+    : `/fig/${latestFigYear}/overview`
 
   return (
     <div
@@ -134,7 +135,7 @@ function DocVersionBannerEnabled({ className, versionMetadata }) {
       role='alert'
     >
       <div>
-        <BannerLabel
+        <UnmaintainedVersionLabel
           siteTitle={siteTitle}
           versionMetadata={versionMetadata}
           isSupplemental={isSupplemental}
@@ -142,7 +143,7 @@ function DocVersionBannerEnabled({ className, versionMetadata }) {
       </div>
       <div className='margin-top--md'>
         <LatestVersionSuggestionLabel
-          versionLabel={latestVersionSuggestion.label}
+          versionLabel={latestFigYear}
           to={pathToLatestVersion}
           onClick={() => savePreferredVersionName(latestVersionSuggestion.name)}
           isSupplemental={isSupplemental}
@@ -152,15 +153,18 @@ function DocVersionBannerEnabled({ className, versionMetadata }) {
   )
 }
 
-export default function DocVersionBanner({className}) {
-  const versionMetadata = useDocsVersion();
-  if (versionMetadata.banner) {
+export default function DocVersionBanner({ className }) {
+  const versionMetadata = useDocsVersion()
+  const location = useLocation()
+
+  // Check if this is a FIG or supplemental guide page
+  if (location.pathname.includes('/fig/')) {
     return (
       <DocVersionBannerEnabled
         className={className}
         versionMetadata={versionMetadata}
       />
-    );
+    )
   }
-  return null;
+  return null
 }

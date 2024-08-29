@@ -1,8 +1,8 @@
 const { HOST } = Cypress.env()
 
 const DOCS_DEFAULT_URL = `${HOST}/documentation/category/frequently-asked-questions`
-const FIG_DOCS_DEFAULT_URL = `${HOST}/documentation/fig/overview` // Takes user to most current FIG document
-const LATEST_FIG_YEAR = '2024'
+const FIG_DOCS_DEFAULT_URL = `${HOST}/documentation/fig/2024/overview` // Takes user to most current FIG document
+const CURRENT_FIG_YEAR = '2024'
 
 describe('General Checks', () => {
   it('Government banner is displayed and image is visible', () => {
@@ -112,7 +112,7 @@ describe('Covers Filing Instructions Guide (FIG) interactions', () => {
 
   it('Ensures the latest FIG is live', () => {
     cy.visit(FIG_DOCS_DEFAULT_URL)
-    cy.get('h1').contains(LATEST_FIG_YEAR)
+    cy.get('h1').contains(CURRENT_FIG_YEAR)
   })
   it('Searches for an answer on the 2023 FIG through Algolia', () => {
     cy.visit(`${HOST}/documentation/fig/2023/overview`)
@@ -128,7 +128,7 @@ describe('Covers Filing Instructions Guide (FIG) interactions', () => {
     cy.get(':nth-child(2) > .menu__list > :nth-child(1) > .menu__link').click()
     cy.wait(1000)
     cy.get('.menu__list-item--collapsed > .menu__list-item-collapsible > .menu__link').click()
-    cy.get(':nth-child(2) > .menu__list > :nth-child(1) > .menu__link').contains(LATEST_FIG_YEAR)
+    cy.get(':nth-child(2) > .menu__list > :nth-child(1) > .menu__link').contains(CURRENT_FIG_YEAR)
     cy.get('.theme-doc-version-banner').contains('2023 Filing Instructions Guide')
     cy.get('.theme-doc-version-banner').contains('2024 Filing Instructions Guide')
     cy.get(':nth-child(2) > .breadcrumbs__link').contains(`${previousYear} Filing Instructions Guide`)

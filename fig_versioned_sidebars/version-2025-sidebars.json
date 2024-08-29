@@ -12,32 +12,32 @@
         },
         {
           "type": "link",
-          "href": "/fig/overview#changes",
+          "href": "/fig/2025/overview#changes",
           "label": "2. Changes for 2025"
         },
         {
           "type": "link",
-          "href": "/fig/overview#file-specifications",
+          "href": "/fig/2025/overview#file-specifications",
           "label": "3. File Specifications"
         },
         {
           "type": "link",
-          "href": "/fig/overview#data-specifications",
+          "href": "/fig/2025/overview#data-specifications",
           "label": "4. Data Specifications"
         },
         {
           "type": "link",
-          "href": "/fig/overview#edit-specifications",
+          "href": "/fig/2025/overview#edit-specifications",
           "label": "5. Edit Specifications"
         },
         {
           "type": "link",
-          "href": "/fig/overview#additional-information",
+          "href": "/fig/2025/overview#additional-information",
           "label": "6. Additional Info"
         },
         {
           "type": "link",
-          "href": "/fig/overview#paperwork-reduction-act",
+          "href": "/fig/2025/overview#paperwork-reduction-act",
           "label": "Paperwork Reduction"
         }
       ]

@@ -21,16 +21,17 @@ The collection window of HMDA Data submission and resubmission is a three year p
 | 2022      | January 1, 2023   | December 31, 2025 |
 | 2023      | January 1, 2024   | December 31, 2026 |
 | 2024      | January 1, 2025   | December 31, 2027 |
+| 2025      | January 1, 2026   | December 31, 2028 |
 
 ## Filing Instructions Guide (FIG)
 
 | HMDA Filing Instructions Guides (FIG) | 
 |:---:|
-| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig-2018-hmda-rule.pdf">2018</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2019-hmda-fig.pdf">2019</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2020-hmda-fig.pdf">2020</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2021-hmda-fig.pdf">2021</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2022-hmda-fig.pdf">2022</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2023-hmda-fig.pdf">2023</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2024-hmda-fig.pdf">2024</a> \|
+| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig-2018-hmda-rule.pdf">2018</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2019-hmda-fig.pdf">2019</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2020-hmda-fig.pdf">2020</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2021-hmda-fig.pdf">2021</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2022-hmda-fig.pdf">2022</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2023-hmda-fig.pdf">2023</a> \| <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2024-hmda-fig.pdf">2024</a> \| <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2025/overview">2025</a>
 
 **Note**: The 2018 FIG link in the table is the updated FIG released on October 11, 2018 for data collected in 2018 incorporating the 2018 HMDA rule. The <a target="_blank" rel="noopener noreferrer" href="https://s3.amazonaws.com/cfpb-hmda-public/prod/help/2018-hmda-fig-2018">previous 2018 FIG</a> released before the ruling is also available. Data collection for 2018 is closed.
 
-The Filing Instructions Guide is available to filers in an online format that is searchable, linkable, and shareable. Access the [Online FIG](/documentation/fig/overview).
+The Filing Instructions Guide is available to filers in an online format that is searchable, linkable, and shareable. Access the [2024 Online FIG](/documentation/fig/2024/overview).
 
 ## Annual Filing Period Dates
 

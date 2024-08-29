@@ -22,6 +22,10 @@ const config = {
   },
   staticDirectories: ['static'],
 
+  customFields: {
+    latestFigYear: '2025', // Using key to determine 'latestFigYear' in various places. The key is like a 'env' or const configuration.
+  },
+
   presets: [
     [
       'classic',
@@ -63,10 +67,31 @@ const config = {
       '@docusaurus/plugin-content-docs',
       {
         id: 'fig',
-        path: 'fig',
+        path: 'fig_versioned_docs',
         routeBasePath: '/fig',
-        // sidebarPath: './sidebarsFig.js',
         lastVersion: '2025',
+        versions: {
+          2025: {
+            label: '2025',
+            path: '2025',
+          },
+          2024: {
+            label: '2024',
+            path: '2024',
+          },
+          2023: {
+            label: '2023',
+            path: '2023',
+          },
+          2022: {
+            label: '2022',
+            path: '2022',
+          },
+          2021: {
+            label: '2021',
+            path: '2021',
+          },
+        },
         includeCurrentVersion: false,
       },
     ],

@@ -585,7 +585,7 @@ Body: {"signed": true/false}
 curl -X POST \
   "https://ffiec.cfpb.gov/v2/filing/institutions/B90YWS6AFX2LGWOXJ1LD/filings/{{year}}/submissions/{{sequenceNumber}}/sign" \
   -H 'Authorization: Bearer {{access_token}}' \
-  -d '{"verified": true}'
+  -d '{"signed": true}'
 ```
 
 <b>Response:</b>

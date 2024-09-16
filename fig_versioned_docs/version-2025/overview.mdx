@@ -1,7 +1,6 @@
 import PrintPage from './tables/PrintPage'
 import { TableMaker } from './tables/TableMaker'
 import versionLog from './tables/version-log.json'
-//import './tables/scrollspy.js'
 
 # 2025 FIG (Filing Instructions Guide) {#fig2025}
 <div className="fig-section">
@@ -49,11 +48,6 @@ This section lists the edits that financial institutions must run on HMDA data b
 This section may be useful for employees in a variety of roles, for example, your institution’s:
 - Staff who collect, prepare, and submit HMDA data
 
-[^1]: The HMDA agencies are the member agencies of the Federal Financial Institutions Examination Council (FFIEC)—the Consumer Financial Protection
-Bureau (CFPB), the Office of the Comptroller of the Currency (OCC), the Federal Deposit Insurance Corporation (FDIC), the Board of Governors of
-the Federal Reserve System (Board), and the National Credit Union Administration (NCUA), and the Department of Housing and Urban
-Development (HUD).
-
 </div>
 <div className="fig-section">
 
@@ -76,7 +70,7 @@ Specification section for the 2025 requirements.
 
 #### The loan/application register file format for submitting your HMDA data:
 
-Financial institutions will submit data collected in a pipe delimited text file (.txt). Data fields will be separated by a pipe character, “|”, and will not be fixed length. Do not include leading zeros for the purpose of making a data field a specific number of characters. Additional information regarding the loan/application register file format was previously found in our Knowledge Portal. We have replaced our Knowledge Portal with our Frequently Asked Questions Portal. Information regarding the loan/application register file format can be now found at "Frequently Asked Questions: HMDA Filing" located at https://ffiec.cfpb.gov/documentation/faq/filing-faq
+Financial institutions will submit data collected in a pipe delimited text file (.txt). Data fields will be separated by a pipe character, “|”, and will not be fixed length. Do not include leading zeros for the purpose of making a data field a specific number of characters. Additional information regarding the loan/application register file format was previously found in our Knowledge Portal. We have replaced our Knowledge Portal with our Frequently Asked Questions Portal. Information regarding the loan/application register file format can be now found at "Frequently Asked Questions: HMDA Filing" located at https://ffiec.cfpb.gov/documentation/faq/filing-faq. For additional questions, contact hmdahelp@cfpb.gov.
 
 Text entries in alphanumeric fields do not need to use all uppercase letters with the exception of:
 - “NA” used when the reporting requirement is not applicable;
@@ -121,9 +115,7 @@ submitted. Filers will not fax or e-mail the signed certification.
 #### The contact information for HMDA Help:
 Technical questions about reporting HMDA data collected in or after 2017 should be directed to hmdahelp@cfpb.gov.
 
-Technical questions about reporting HMDA data collected in or before 2016 should be directed
-to hmdahelp@frb.gov.
-
+Technical questions about reporting HMDA data collected in or before 2016 should be directed to cer@nara.gov.
 
 
 </div>
@@ -189,11 +181,11 @@ Table 1 and Table 2 contain the data field name, data field type, valid values f
 <TableMaker jsonData={table2} tableNumber='2' tableName='Table 2' />
 
 <hr />
-<a id="2">2:</a> Please see the [Rescission of Statement of Policy on Supervisory and Enforcement Practices Response](https://files.consumerfinance.gov/f/documents/cfpb_final-rescission_enf-and-supervisory-response_2021-03.pdf) to COVID-19 Pandemic for more information on quarterly reporting.
+<a id="2">2:</a> Please see the [Rescission of Statement of Policy on Supervisory and Enforcement Practices Response](https://files.consumerfinance.gov/f/documents/cfpb_final-rescission_enf-and-supervisory-response_2021-03.pdf) to COVID-19 Pandemic for more information on quarterly reporting[^2].
 
-<a id="3">3:</a> Reporting of the State data field is subject to the requirements of both Property Address, provided in 1003.4(a)(9)(i), and Property Location, provided in 1003.4(a)(9)(ii).
+<a id="3">3:</a> Reporting of the State data field is subject to the requirements of both Property Address, provided in 1003.4(a)(9)(i), and Property Location, provided in 1003.4(a)(9)(ii)[^3].
 
-<a id="4">4:</a> Filers should continue to follow the race and ethnicity categories listed in [Regulation C, Appendix B](https://www.consumerfinance.gov/rules-policy/regulations/1003/b/).
+<a id="4">4:</a> Filers should continue to follow the race and ethnicity categories listed in [Regulation C, Appendix B](https://www.consumerfinance.gov/rules-policy/regulations/1003/b/)[^4].
 
 
 </div>
@@ -515,7 +507,7 @@ Example: Enter 06037 for the FIPS code for Los Angeles County, CA.
 
 > a. Enter "NA" if the requirement to report county is not applicable to the covered loan or application that your institution is reporting.
 
-2. **Census Tract.** Enter the 11-digit census tract number as defined by the U.S. Census Bureau and use the boundaries and codes in effect on January 1 of the calendar year covered by the loan/application register that it is reporting.
+2. **Census Tract.** Enter the 11-digit census tract number as defined by the U.S. Census Bureau. Use the boundaries and codes in effect on January 1 of the calendar year covered by the loan/application register that it is reporting.
 
 Example: Enter 06037264000 for a census tract within Los Angeles County, CA.
 
@@ -1465,6 +1457,8 @@ The Frequently Asked Questions are available in the HMDA Filing Section at https
 
 Technical questions about reporting HMDA data collected in or after 2017 should be directed to hmdahelp@cfpb.gov.
 
+Technical questions about reporting HMDA data collected in or before 2016 should be directed to cer@nara.gov.
+
 
 </div>
 <div className="fig-section">
@@ -1476,3 +1470,14 @@ not withstanding any other provision of law, a person is not required to respond
 
 </div>
 <PrintPage />
+
+{/* Footnotes */}
+
+[^1]: The HMDA agencies are the member agencies of the Federal Financial Institutions Examination Council (FFIEC)—the Consumer Financial Protection Bureau (CFPB), the Office of the Comptroller of the Currency (OCC), the Federal Deposit Insurance Corporation (FDIC), the Board of Governors of the Federal Reserve System (Board), and the National Credit Union Administration (NCUA), and the Department of Housing and Urban
+Development (HUD).
+
+[^2]: Please see the [Rescission of Statement of Policy on Supervisory and Enforcement Practices Response](https://files.consumerfinance.gov/f/documents/cfpb_final-rescission_enf-and-supervisory-response_2021-03.pdf) to COVID-19 Pandemic for more information on quarterly reporting.
+
+[^3]: Reporting of the State data field is subject to the requirements of both Property Address, provided in 1003.4(a)(9)(i), and Property Location, provided in 1003.4(a)(9)(ii).
+
+[^4]: Filers should continue to follow the race and ethnicity categories listed in [Regulation C, Appendix B](https://www.consumerfinance.gov/rules-policy/regulations/1003/b/).

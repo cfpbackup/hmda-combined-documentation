@@ -9,7 +9,7 @@
     "Type of Data Field": "Filing Instituition, Reporting Period, and Contact Information (Transmittal Sheet)",
     "Edit Number": "Q303",
     "Data Point": "Federal Agency; Federal Taxpayer Identification Number; Legal Entity Identifier (LEI)",
-    "Modification": "Changed edit type from S303 to Q303."
+    "Modification": "Changed edit type from S303 to Q303. Updated the edit and removed that filers should confirm the correct financial institution at the start of the filing; and the correct file was uploaded."
   },
   {
     "Type of Data Field": "Loan/Application Register",
@@ -39,6 +39,6 @@
     "Type of Data Field": "Loan/Application Register/Transmittal Sheet",
     "Edit Number": "Q647",
     "Data Point": "Federal Agency; Any field eligible for exemption code",
-    "Modification": "Changing macro-quality edit to quality edit"
+    "Modification": "Changed macro-quality edit to quality edit"
   }
 ]

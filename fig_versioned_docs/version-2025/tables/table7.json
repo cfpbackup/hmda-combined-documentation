@@ -123,7 +123,7 @@
         "Edit ID": "Q621",
         "Data Point Name": "NMLSR ID",
         "Affected Data Fields": "NMLSR ID",
-        "Edit Description": "Please review the information below and update your file, if needed.   1) The NMLSR ID must be between four to twelve digits. Your data indicates a value outside of this range."
+        "Edit Description": "Please review the information below and update your file, if needed.   1) The NMLSR ID must be four to twelve digits. Your data indicates a value outside of this range."
     },
     {
         "Edit ID": "Q622",

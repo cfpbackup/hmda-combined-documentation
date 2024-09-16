@@ -531,7 +531,7 @@
         "Edit ID": "V695",
         "Data Point Name": "Mortgage Loan Originator NMLSR Identifier",
         "Affected Data Fields": "Mortgage Loan Originator NMLSR Identifier",
-        "Edit Description": "An invalid NMLSR Identifier was reported. Please review the information below and update your file accordingly.   1) NMLSR Identifier must be a valid NMLSR ID in integer format, NA, or Exempt, and cannot be left blank.   2) NMLSR Identifier must not contain only the number zero (0) as a value.   3) NMLSR Identifier must be between four to twelve digits."
+        "Edit Description": "An invalid NMLSR Identifier was reported. Please review the information below and update your file accordingly.   1) NMLSR Identifier must be a valid NMLSR ID in integer format, NA, or Exempt, and cannot be left blank.   2) NMLSR Identifier must not contain only the number zero (0) as a value.   3) NMLSR Identifier must be four to twelve digits."
     },
     {
         "Edit ID": "V696",

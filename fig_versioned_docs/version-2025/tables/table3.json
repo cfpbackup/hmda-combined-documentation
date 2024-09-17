@@ -9,19 +9,13 @@
     "Type of Data Field": "Filing Instituition, Reporting Period, and Contact Information (Transmittal Sheet)",
     "Edit Number": "Q303",
     "Data Point": "Federal Agency; Federal Taxpayer Identification Number; Legal Entity Identifier (LEI)",
-    "Modification": "Changed edit type from S303 to Q303. Updated the edit and removed that filers should confirm the correct financial institution at the start of the filing; and the correct file was uploaded."
+    "Modification": "Changed edit type from S303 to Q303. Updated edit and removed that filers should confirm the correct financial institution at the start of the filing and the correct file was uploaded."
   },
   {
     "Type of Data Field": "Loan/Application Register",
     "Edit Number": "Q616",
-    "Data Point": "Discount Points",
+    "Data Point": "Discount Points; Total Loan Costs; Total Points and Fees",
     "Modification": "Updated edit to note discount points should not be higher than 15% of the loan amount and it must be reported in dollars."
-  },
-  {
-    "Type of Data Field": "Loan/Application Register",
-    "Edit Number": "Q651",
-    "Data Point": "Combined Loan to Value Ratio",
-    "Modification": "Updated edit to include the CLTV should be less than 1.5, be reported as a percentage and its general range should be less than 150."
   },
   {
     "Type of Data Field": "Loan/Application Register",
@@ -39,6 +33,12 @@
     "Type of Data Field": "Loan/Application Register/Transmittal Sheet",
     "Edit Number": "Q647",
     "Data Point": "Federal Agency; Any field eligible for exemption code",
-    "Modification": "Changed macro-quality edit to quality edit"
+    "Modification": "Changed edit from macro-quality edit to quality edit"
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q651",
+    "Data Point": "Combined Loan to Value Ratio",
+    "Modification": "Updated edit to include the CLTV should be less than 1.5, be reported as a percentage and its general range should be less than 150."
   }
 ]

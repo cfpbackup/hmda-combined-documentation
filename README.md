@@ -198,13 +198,13 @@ version-2026-sidebars.json:
 
 ### Supplemental Guide for Quarterly Filers
 
-The supplemnental guide for quarterly file file lives under `fig_versioned_docs` -> `version-{year}` folder called `supplemental-guide-for-quaterly-filers.mdx`.
+The supplemnental guide for quarterly file file lives under `fig_versioned_docs` -> `version-{year}` folder called `supplemental-guide-for-quarterly-filers.mdx`.
 
 The version log JSON for supplemnental guide for quarterly filers lives under `fig_versioned_docs` -> `version-{year}` -> `tables` -> `SupplementalGuide` folder.
 
 #### How to add new year
 
-1. Copy the file called `supplemental-guide-for-quaterly-filers.mdx` from the previous year (2025) and add it to the `fig_versioned_docs` -> `version-{year}`
+1. Copy the file called `supplemental-guide-for-quarterly-filers.mdx` from the previous year (2025) and add it to the `fig_versioned_docs` -> `version-{year}`
 2. The version log file will need to be created and updated, it contains the new changes that years supplemental guide.
 3. Work with the BAs to update the content of the new supplemental guide (changes are minor from year to year).
 4. Add the new supplemental guide link to the new `version-{year}-sidebars.json` found under `fig_versioned_sidebars` folder. Updates to the previous years `version-{year}-sidebars.json` files will need to be updated to contain the new link.
@@ -217,13 +217,13 @@ The version log JSON for supplemnental guide for quarterly filers lives under `f
       "items": [
         { // If latest supplemental guide make it type: doc
           "type": "doc",
-          "id": "supplemental-guide-for-quaterly-filers",
+          "id": "supplemental-guide-for-quarterly-filers",
           "label": "2025 Supplemental Guide for Quarterly Filers"
         },
         { // Linking to older supplemental guides are type: link
           "type": "link",
           "label": "2024 Supplemental Guide for Quarterly Filers",
-          "href": "/fig/2024/supplemental-guide-for-quaterly-filers"
+          "href": "/fig/2024/supplemental-guide-for-quarterly-filers"
         },
       ]
     }

@@ -31,7 +31,7 @@ function handleScroll() {
         `.menu__link[href="/documentation/fig/${year}/overview"]`
       )
     }
-  } else if (path.includes('supplemental-guide-for-quaterly-filers')) {
+  } else if (path.includes('supplemental-guide-for-quarterly-filers')) {
     // Handle the supplemental guide page
     links = document.querySelectorAll('.menu__link')
     clearAllHighlights(links) // Clear any highlighted FIG links
@@ -42,7 +42,7 @@ function handleScroll() {
     const year = pathParts.find(part => /^\d{4}$/.test(part))
 
     // Construct the href with the year included
-    const supplementalGuideHref = `/documentation/fig/${year}/supplemental-guide-for-quaterly-filers`
+    const supplementalGuideHref = `/documentation/fig/${year}/supplemental-guide-for-quarterly-filers`
 
     const supplementalGuideLink = document.querySelector(
       `.menu__link[href="${supplementalGuideHref}"]`

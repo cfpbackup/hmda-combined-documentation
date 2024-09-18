@@ -112,7 +112,7 @@ function DocVersionBannerEnabled({ className, versionMetadata }) {
 
   const urlYear = getYearFromUrl(location.pathname)
   const isSupplemental = location.pathname.includes(
-    'supplemental-guide-for-quaterly-filers'
+    'supplemental-guide-for-quarterly-filers'
   )
 
   // Only show banner if the URL year is not the latest FIG year
@@ -122,7 +122,7 @@ function DocVersionBannerEnabled({ className, versionMetadata }) {
 
   // Construct the correct path for the latest version
   const pathToLatestVersion = isSupplemental
-    ? `/fig/${latestFigYear}/supplemental-guide-for-quaterly-filers`
+    ? `/fig/${latestFigYear}/supplemental-guide-for-quarterly-filers`
     : `/fig/${latestFigYear}/overview`
 
   return (

@@ -15,7 +15,7 @@
         "Edit ID": "V608",
         "Data Point Name": "Universal Loan Identifier (ULI) or Non-Universal Loan Identifier (NULI)",
         "Affected Data Fields": "Universal Loan Identifier (ULI) Universal Loan Identifier (NULI)",
-        "Edit Description": "A ULI with an invalid format was provided. Please review the information below and update your file accordingly.   1) The required format for ULI is alphanumeric with at least 23 characters and up to 45 characters, and it cannot be left blank.   2) The required format for NULIis alphanumeric with at least 1 character and no more than 22 characters, and it cannot be NA, Exempt, 1111 or left blank."
+        "Edit Description": "A ULI with an invalid format was provided. Please review the information below and update your file accordingly.   1) The required format for ULI is alphanumeric with at least 23 characters and up to 45 characters, and it cannot be left blank.   2) The required format for NULI is alphanumeric with at least 1 character and no more than 22 characters, and it cannot be NA, Exempt, 1111 or left blank."
     },
     {
         "Edit ID": "V609",
@@ -39,19 +39,19 @@
         "Edit ID": "V612",
         "Data Point Name": "Loan Purpose",
         "Affected Data Fields": "Loan Purpose; Preapproval",
-        "Edit Description": "An invalid Loan Purpose was reported. Please review the information below and update your file accordingly.   1) Loan Purpose must equal 1, 2, 31, 32, 4, or 5, and cannot be left blank.   2) If Preapprovalequals 1, then  Loan Purpose  must equal 1."
+        "Edit Description": "An invalid Loan Purpose was reported. Please review the information below and update your file accordingly.   1) Loan Purpose must equal 1, 2, 31, 32, 4, or 5, and cannot be left blank.   2) If Preapproval equals 1, then  Loan Purpose  must equal 1."
     },
     {
         "Edit ID": "V613",
         "Data Point Name": "Preapproval",
         "Affected Data Fields": "Preapproval; Action Taken",
-        "Edit Description": "An invalid Preapprovaldata field was provided. Please review the information below and update your file accordingly.   1) Preapproval must equal 1 or 2, and cannot be left blank.   2) If Action Taken equals 7 or 8, then  Preapproval  must equal 1.   3) If Action Taken equals 3, 4, 5, or 6, then  Preapproval  must equal 2.   4) If Preapproval equals 1, then  Action Taken  must equal 1, 2, 7, or 8."
+        "Edit Description": "An invalid Preapproval data field was provided. Please review the information below and update your file accordingly.   1) Preapproval must equal 1 or 2, and cannot be left blank.   2) If Action Taken equals 7 or 8, then  Preapproval  must equal 1.   3) If Action Taken equals 3, 4, 5, or 6, then  Preapproval  must equal 2.   4) If Preapproval equals 1, then  Action Taken  must equal 1, 2, 7, or 8."
     },
     {
         "Edit ID": "V614",
         "Data Point Name": "Preapproval",
         "Affected Data Fields": "Preapproval; Loan Purpose; Multifamily Affordable Units; Reverse Mortgage; Open-End Line of Credit",
-        "Edit Description": "An invalid Preapprovalwas provided. Please review the information below and update your file accordingly.   1) If Loan Purpose equals 2, 4, 31, 32, or 5, then Preapproval must equal 2.   2) If Multifamily Affordable Units is a number, then Preapproval must equal 2.   3) If Reverse Mortgage equals 1, then  Preapproval  must equal 2.   4) If Open-End Line of Credit equals 1, then  Preapproval  must equal 2."
+        "Edit Description": "An invalid Preapproval was provided. Please review the information below and update your file accordingly.   1) If Loan Purpose equals 2, 4, 31, 32, or 5, then Preapproval must equal 2.   2) If Multifamily Affordable Units is a number, then Preapproval must equal 2.   3) If Reverse Mortgage equals 1, then  Preapproval  must equal 2.   4) If Open-End Line of Credit equals 1, then  Preapproval  must equal 2."
     },
     {
         "Edit ID": "V615",
@@ -177,7 +177,7 @@
         "Edit ID": "V635",
         "Data Point Name": "Race",
         "Affected Data Fields": "Race of Applicant or Borrower: 1; Race of Applicant or Borrower: 2; Race of Applicant or Borrower: 3; Race of Applicant or Borrower: 4; Race of Applicant or Borrower: 5; Race of Applicant or Borrower: Free Form Text Field for American Indian or Alaska Native Enrolled or Principal Tribe;Race of Applicant or Borrower: Free Form Text Field for Other Asian; Race of Applicant or Borrower: Free Form Text Field for Other Pacific Islander",
-        "Edit Description": "An invalid Race data field was reported. Please review the information below and update your file accordingly.   1) Race of Applicant or Borrower: 1must equal 1, 2, 21, 22, 23, 24, 25, 26, 27, 3, 4, 41, 42, 43, 44, 5, 6, or 7, and cannot be left blank, unless a race is provided in  Race of Applicant or Borrower: Free Form Text Field for American Indian or Alaska Native Enrolled or Principal Tribe  ,  Race of Applicant or Borrower: Free Form Text Field for Other Asian,  or  Race of Applicant or Borrower: Free Form Text Field for Other Pacific Islander  .   2) Race of Applicant or Borrower: 2;  Race of Applicant or Borrower: 3  ;  Race of Applicant or Borrower: 4; Race of Applicant or Borrower: 5  must equal 1, 2, 21, 22, 23, 24, 25, 26, 27, 3, 4, 41, 42, 43, 44, 5, or be left blank.   3) Each Race of Applicant or Borrower code can only be reported once.   4) If Race of Applicant or Borrower: 1 equals 6 or 7; then Race of Applicant or Borrower: 2; Race of Applicant or Borrower: 3;Race of Applicant or Borrower: 4; and  Race of Applicant or Borrower: 5  must all be left blank."
+        "Edit Description": "An invalid Race data field was reported. Please review the information below and update your file accordingly.   1) Race of Applicant or Borrower: 1must equal 1, 2, 21, 22, 23, 24, 25, 26, 27, 3, 4, 41, 42, 43, 44, 5, 6, or 7, and cannot be left blank, unless a race is provided in  Race of Applicant or Borrower: Free Form Text Field for American Indian or Alaska Native Enrolled or Principal Tribe  ,  Race of Applicant or Borrower: Free Form Text Field for Other Asian,  or  Race of Applicant or Borrower: Free Form Text Field for Other Pacific Islander.   2) Race of Applicant or Borrower: 2;  Race of Applicant or Borrower: 3  ;  Race of Applicant or Borrower: 4; Race of Applicant or Borrower: 5  must equal 1, 2, 21, 22, 23, 24, 25, 26, 27, 3, 4, 41, 42, 43, 44, 5, or be left blank.   3) Each Race of Applicant or Borrower code can only be reported once.   4) If Race of Applicant or Borrower: 1 equals 6 or 7; then Race of Applicant or Borrower: 2; Race of Applicant or Borrower: 3;Race of Applicant or Borrower: 4; and  Race of Applicant or Borrower: 5  must all be left blank."
     },
     {
         "Edit ID": "V636",
@@ -195,7 +195,7 @@
         "Edit ID": "V638",
         "Data Point Name": "Race",
         "Affected Data Fields": "Race of Co-Applicant or Co-Borrower: 1; Race of Co-Applicant or Co-Borrower: 2; Race of Co-Applicant or Co-Borrower: 3; Race of Co-Applicant or Co-Borrower: 4; Race of Co-Applicant or Co-Borrower: 5; Race of Co-Applicant or Co-Borrower: Free Form Text Field for American Indian or Alaska Native Enrolled or Principal Tribe; Race of Co-Applicant or Co-Borrower: Free Form Text Field for Other Asian; Race of Co-Applicant or Co-Borrower: Free Form Text Field for Other Pacific Islander",
-        "Edit Description": "An invalid Race data field was reported. Please review the information below and update your file accordingly.   1) Race of Co-Applicant or Co-Borrower: 1 must equal 1, 2, 21, 22, 23, 24, 25, 26, 27, 3, 4, 41, 42, 43, 44, 5, 6, 7, or 8, and cannot be left blank, unless a race is provided in  Race of Co-Applicant or Co-Borrower: Free Form Text Field for American Indian or Alaska Native Enrolled or Principal Tribe  ,  Race of Co-Applicant or Co-Borrower: Free Form Text Field for Other Asian,  or  Race of Co-Applicant or Co-Borrower: Free Form Text Field for Other Pacific Islander  .   2)  Race of Co-Applicant or Co-Borrower: 2; Race of Co-Applicant or Co-Borrower: 3; Race of Co-Applicant or Co-Borrower: 4; Race of Co-Applicant or Co-Borrower: 5  must equal 1, 2, 21, 22, 23, 24, 25, 26, 27, 3, 4, 41, 42, 43, 44, 5, or be left blank.   3) Each Race of Co-Applicant or Co-Borrower code can only be reported once.   4) If Race of Co-Applicant or Co-Borrower: 1 equals 6, 7, or 8, then  Race of Co-Applicant or Co-Borrower: 2  ;Race of Co-Applicant or Co-Borrower: 3;Race of Co-Applicant or Co-Borrower: 4;and  Race of Co-Applicant or Co-Borrower: 5  must be left blank."
+        "Edit Description": "An invalid Race data field was reported. Please review the information below and update your file accordingly.   1) Race of Co-Applicant or Co-Borrower: 1 must equal 1, 2, 21, 22, 23, 24, 25, 26, 27, 3, 4, 41, 42, 43, 44, 5, 6, 7, or 8, and cannot be left blank, unless a race is provided in  Race of Co-Applicant or Co-Borrower: Free Form Text Field for American Indian or Alaska Native Enrolled or Principal Tribe  ,  Race of Co-Applicant or Co-Borrower: Free Form Text Field for Other Asian,  or  Race of Co-Applicant or Co-Borrower: Free Form Text Field for Other Pacific Islander.   2)  Race of Co-Applicant or Co-Borrower: 2; Race of Co-Applicant or Co-Borrower: 3; Race of Co-Applicant or Co-Borrower: 4; Race of Co-Applicant or Co-Borrower: 5  must equal 1, 2, 21, 22, 23, 24, 25, 26, 27, 3, 4, 41, 42, 43, 44, 5, or be left blank.   3) Each Race of Co-Applicant or Co-Borrower code can only be reported once.   4) If Race of Co-Applicant or Co-Borrower: 1 equals 6, 7, or 8, then  Race of Co-Applicant or Co-Borrower: 2  ;Race of Co-Applicant or Co-Borrower: 3;Race of Co-Applicant or Co-Borrower: 4;and  Race of Co-Applicant or Co-Borrower: 5  must be left blank."
     },
     {
         "Edit ID": "V639",
@@ -225,7 +225,7 @@
         "Edit ID": "V643",
         "Data Point Name": "Sex",
         "Affected Data Fields": "Sex of Applicant or Borrower; Sex of Applicant or Borrower Collected on the Basis of Visual Observation or Surname",
-        "Edit Description": "An invalid Sex data fieldwas reported. Please review the information below and update your file accordingly.   1) If  Sex of Applicant or Borrower Collected on the Basis of Visual Observation or Surname  equals 1, then S ex of Applicant or Borrower must equal 1 or 2."
+        "Edit Description": "An invalid Sex data fieldwas reported. Please review the information below and update your file accordingly.   1) If  Sex of Applicant or Borrower Collected on the Basis of Visual Observation or Surname  equals 1, then Sex of Applicant or Borrower must equal 1 or 2."
     },
     {
         "Edit ID": "V644",
@@ -285,7 +285,7 @@
         "Edit ID": "V654",
         "Data Point Name": "Income",
         "Affected Data Fields": "Income; Multifamily Affordable Units",
-        "Edit Description": "An invalid Income was reported. Please review the information below and update your file accordingly.   1) Income must be either a positive or negative integer rounded to the nearest thousand or NA, and cannot be left blank.   2) If Multifamily Affordable Unitsis a number, then Income must be NA."
+        "Edit Description": "An invalid Income was reported. Please review the information below and update your file accordingly.   1) Income must be either a positive or negative integer rounded to the nearest thousand or NA, and cannot be left blank.   2) If Multifamily Affordable Units is a number, then Income must be NA."
     },
     {
         "Edit ID": "V655",
@@ -333,13 +333,13 @@
         "Edit ID": "V662",
         "Data Point Name": "Credit Score",
         "Affected Data Fields": "Applicant or Borrower, Name and Version of Credit Scoring Model; Applicant or Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8",
-        "Edit Description": "An invalid Credit Score data field was reported. Please review the information below and update your file accordingly.   1) If  Applicant or Borrower, Name and Version of Credit Scoring Model  equals 1111, 1, 2, 3, 4, 5, 6, 7, 9,11, 12, 13, 14 or 15, then  Applicant or Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8  must be left blank,  and the reverse must be true.    2) If  Applicant or Borrower, Name and Version of Credit Scoring Model  equals 8, then A  pplicant or Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8  must not be blank,  and the reverse must be true."
+        "Edit Description": "An invalid Credit Score data field was reported. Please review the information below and update your file accordingly.   1) If  Applicant or Borrower, Name and Version of Credit Scoring Model  equals 1111, 1, 2, 3, 4, 5, 6, 7, 9,11, 12, 13, 14 or 15, then  Applicant or Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8  must be left blank,  and the reverse must be true.    2) If  Applicant or Borrower, Name and Version of Credit Scoring Model  equals 8, then Applicant or Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8  must not be blank,  and the reverse must be true."
     },
     {
         "Edit ID": "V663",
         "Data Point Name": "Credit Score",
         "Affected Data Fields": "Action Taken; Credit Score of Applicant or Borrower; Applicant or Borrower, Name and Version of Credit Scoring Model; Applicant or Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8",
-        "Edit Description": "An invalid Credit Score data field was reported. Please review the information below and update your file accordingly.   1) If A ction Taken equals 4, 5, or 6, then  Credit Score of Applicant or Borrower  must equal 8888 or 1111; and A  pplicant or Borrower, Name and Version of Credit Scoring Model  must equal 9 or 1111; and  Applicant or Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8  must be left blank."
+        "Edit Description": "An invalid Credit Score data field was reported. Please review the information below and update your file accordingly.   1) If Action Taken equals 4, 5, or 6, then  Credit Score of Applicant or Borrower  must equal 8888 or 1111; and Applicant or Borrower, Name and Version of Credit Scoring Model  must equal 9 or 1111; and  Applicant or Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8  must be left blank."
     },
     {
         "Edit ID": "V664",
@@ -363,13 +363,13 @@
         "Edit ID": "V667",
         "Data Point Name": "Credit Score",
         "Affected Data Fields": "Co-Applicant or Co-Borrower,Name and Version of Credit Scoring Model; Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8",
-        "Edit Description": "An invalid Credit Score data field was reported. Please review the information below and update your file accordingly.   1) If  Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model  equals 1111, 1, 2, 3, 4, 5, 6, 7, 9, 10,11, 12, 13, 14, or 15 then  Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8  must be left blank,  and the reverse must be true.    2) If  Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model  equals 8, thenCo-Applicant or Co-Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8 must not be left blank,  and the reverse must be true."
+        "Edit Description": "An invalid Credit Score data field was reported. Please review the information below and update your file accordingly.   1) If  Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model  equals 1111, 1, 2, 3, 4, 5, 6, 7, 9, 10,11, 12, 13, 14, or 15 then  Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8  must be left blank,  and the reverse must be true.    2) If  Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model  equals 8, then Co-Applicant or Co-Borrower, Name and Version of Credit Scoring Model: Conditional Free Form Text Field for Code 8 must not be left blank,  and the reverse must be true."
     },
     {
         "Edit ID": "V668",
         "Data Point Name": "Credit Score",
         "Affected Data Fields": "Credit Score of Applicant or Borrower; Credit Score of Co-Applicant or Co-Borrower; Ethnicity of Applicant or Borrower 1; Race of Applicant or Borrower 1; Sex of Applicant or Borrower; Ethnicity of Co-Applicant or Co-Borrower 1; Race of Co-Applicant or Co-Borrower 1; Sex of Co-Applicant or Co-Borrower",
-        "Edit Description": "An invalid Credit Score data point was reported. Please review the information below and update your file accordingly.   1) If Ethnicity of Applicant or Borrower: 1 equals 4; and Race of Applicant or Borrower: 1 equals 7; and Sex of Applicant or Borrower equals 4 indicating the applicant is a non-natural person then  Credit Score of Applicant or Borrower  must equal 8888, indicating not applicable, or 1111.   2) If E thnicity of Co-Applicant or Co-Borrower: 1 equals 4; and  Race of Co-Applicant or Co-Borrower: 1  equals 7; and Sex of Co-Applicant or Co-Borrowerequals 4 indicating that the co-applicant is a non-natural person, then  Credit Score of Co-Applicant or Co-Borrower  must equal 8888, indicating not applicable, or 1111."
+        "Edit Description": "An invalid Credit Score data point was reported. Please review the information below and update your file accordingly.   1) If Ethnicity of Applicant or Borrower: 1 equals 4; and Race of Applicant or Borrower: 1 equals 7; and Sex of Applicant or Borrower equals 4 indicating the applicant is a non-natural person then  Credit Score of Applicant or Borrower  must equal 8888, indicating not applicable, or 1111.   2) If E thnicity of Co-Applicant or Co-Borrower: 1 equals 4; and  Race of Co-Applicant or Co-Borrower: 1  equals 7; and Sex of Co-Applicant or Co-Borrower equals 4 indicating that the co-applicant is a non-natural person, then  Credit Score of Co-Applicant or Co-Borrower  must equal 8888, indicating not applicable, or 1111."
     },
     {
         "Edit ID": "V669",
@@ -513,13 +513,13 @@
         "Edit ID": "V692",
         "Data Point Name": "Multifamily Affordable Units",
         "Affected Data Fields": "Multifamily Affordable Units; Total Units",
-        "Edit Description": "An invalid Multifamily Affordable Units was reported. Please review the information below and update your file accordingly.   1) Multifamily Affordable Units must be a whole number, Exempt, or NA, and cannot be left blank.   2) If Total Units is less than 5, then  Multifamily Affordable Units  must be NA or Exempt.   3) If Total Unitsis greater than or equal to 5, then Multifamily Affordable Units must be less than or equal to Total Units, NA or Exempt."
+        "Edit Description": "An invalid Multifamily Affordable Units was reported. Please review the information below and update your file accordingly.   1) Multifamily Affordable Units must be a whole number, Exempt, or NA, and cannot be left blank.   2) If Total Units is less than 5, then  Multifamily Affordable Units  must be NA or Exempt.   3) If Total Units is greater than or equal to 5, then Multifamily Affordable Units must be less than or equal to Total Units, NA or Exempt."
     },
     {
         "Edit ID": "V693",
         "Data Point Name": "Application Channel",
         "Affected Data Fields": "Submission of Application; Action Taken",
-        "Edit Description": "An invalid Application Channel data field was reported. Please review the information below and update your file accordingly.   1) Submission of Application must equal 1111, 1, 2, or 3, and cannot be left blank.   2) If A ction Taken equals 6, then  Submission of Application  must equal 1111 or 3.   3) If Submission of Application equals 3, then Action Taken must equal 6."
+        "Edit Description": "An invalid Application Channel data field was reported. Please review the information below and update your file accordingly.   1) Submission of Application must equal 1111, 1, 2, or 3, and cannot be left blank.   2) If Action Taken equals 6, then  Submission of Application  must equal 1111 or 3.   3) If Submission of Application equals 3, then Action Taken must equal 6."
     },
     {
         "Edit ID": "V694",
@@ -579,7 +579,7 @@
         "Edit ID": "V705",
         "Data Point Name": "Automated Underwriting System",
         "Affected Data Fields": "Automated Underwriting System: 1; Automated Underwriting System Result: 1; Ethnicity of Applicant or Borrower: 1; Race of Applicant or Borrower: 1; Sex of Applicant or Borrower: 1; Ethnicity of Co-Applicant or Co-Borrower: 1; Race of Co-Applicant or Co-Borrower: 1; Sex of Co-Applicant or Co-Borrower: 1",
-        "Edit Description": "An invalid Automated Underwriting System data field was reported. Please review the information below and update your file accordingly.   1) If Ethnicity of Applicant or Borrower: 1 equals 4; and Race of Applicant or Borrower: 1 equals 7; and Sex of Applicant or Borrower: 1 equals 4 indicating the applicant is a non-natural person; and the Ethnicity of Co-Applicant or Co-Borrower: 1 equals 5; and Race of Co-Applicant or Co-Borrower: 1 equals 8; and Sex of Co-Applicant or Co-Borrower: 1 equals 5 indicating that there is no co-applicant or co-borrower, then Automated Underwriting System: 1 must equal 1111 or 6; and  Automated Underwriting System Result: 1  must equal 1111 or 17.   2) If the Ethnicity of Applicant or Borrower: 1 equals 4; and Race of Applicant or Borrower: 1 equals 7; and S ex of Applicant or Borrower: 1 equals 4 indicating the applicant or borrower is a non-natural person; and  Ethnicity of Co-Applicant or Co-Borrower: 1  equals 4; and  Race of Co-Applicant or Co-Borrower: 1  equals 7; and Sex of Co-Applicant or Co-Borrower: 1 equals 4 indicating that the co-applicant or co-borrower is also a non-natural person, then  Automated Underwriting System: 1  must equal 1111 or 6; and  Automated Underwriting System Result: 1  must equal 1111 or 17."
+        "Edit Description": "An invalid Automated Underwriting System data field was reported. Please review the information below and update your file accordingly.   1) If Ethnicity of Applicant or Borrower: 1 equals 4; and Race of Applicant or Borrower: 1 equals 7; and Sex of Applicant or Borrower: 1 equals 4 indicating the applicant is a non-natural person; and the Ethnicity of Co-Applicant or Co-Borrower: 1 equals 5; and Race of Co-Applicant or Co-Borrower: 1 equals 8; and Sex of Co-Applicant or Co-Borrower: 1 equals 5 indicating that there is no co-applicant or co-borrower, then Automated Underwriting System: 1 must equal 1111 or 6; and  Automated Underwriting System Result: 1  must equal 1111 or 17.   2) If the Ethnicity of Applicant or Borrower: 1 equals 4; and Race of Applicant or Borrower: 1 equals 7; and Sex of Applicant or Borrower: 1 equals 4 indicating the applicant or borrower is a non-natural person; and  Ethnicity of Co-Applicant or Co-Borrower: 1  equals 4; and  Race of Co-Applicant or Co-Borrower: 1  equals 7; and Sex of Co-Applicant or Co-Borrower: 1 equals 4 indicating that the co-applicant or co-borrower is also a non-natural person, then  Automated Underwriting System: 1  must equal 1111 or 6; and  Automated Underwriting System Result: 1  must equal 1111 or 17."
     },
     {
         "Edit ID": "V706",

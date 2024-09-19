@@ -3,7 +3,7 @@
         "Edit ID": "Q600",
         "Data Point Name": "ULI",
         "Affected Data Fields": "ULI",
-        "Edit Description": "Please verify the information below and update your file, if needed   1) A duplicate ULIor NULI was reported."
+        "Edit Description": "Please verify the information below and update your file, if needed   1) A duplicate ULI or NULI was reported."
     },
     {
         "Edit ID": "Q601",
@@ -75,7 +75,7 @@
         "Edit ID": "Q613",
         "Data Point Name": "Loan Purpose",
         "Affected Data Fields": "Business or Commercial Purpose; Loan Purpose",
-        "Edit Description": "Please review the information below and update your file, if needed.   1) If Business or Commercial Purposeequals 1, then Loan Purposegenerally should equal 1, 2, 31, 32, or 5."
+        "Edit Description": "Please review the information below and update your file, if needed.   1) If Business or Commercial Purpose equals 1, then Loan Purposegenerally should equal 1, 2, 31, 32, or 5."
     },
     {
         "Edit ID": "Q614",

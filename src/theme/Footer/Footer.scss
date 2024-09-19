@@ -57,7 +57,21 @@
 .return-to-top {
   margin: 1em 1em 1em auto;
   max-width: 1040px;
-  padding: 0 3rem;
+  padding: 2 3rem;
+}
+
+.button-link {
+  background-color: #1f498f;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button-link:hover {
+  background-color: #2353a6;
 }
 
 @media screen and (max-width: 850px) {

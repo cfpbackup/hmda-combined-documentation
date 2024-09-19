@@ -376,7 +376,7 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-
  .theme-doc-markdown p { font-size: 18px; }
 
 
- .docs-version-2024, .docs-version-2023 {
+.docs-version-2025, .docs-version-2024, .docs-version-2023, .docs-version-2022, .docs-version-2021 {
   h2 {
     color: var(--ifm-color-primary);
     font-size: 36px;
@@ -393,7 +393,7 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-
     color: #ff0000; /* Adjust the color to your preference */
     font-weight: bold; /* Optional: Adjust the styling as needed */
   }
- }
+}
 
 /***************************************
   FIG Tables
@@ -465,6 +465,7 @@ article, .fig-section {
     border-radius: .25em;
     border: 1px solid #ccc;
     margin-bottom: .25em;
+    cursor: pointer;
 
     &:hover {
       background-color: var(--hmda-blue-light);
@@ -480,5 +481,47 @@ article, .fig-section {
 .table0 {
   td:nth-of-type(4) {
     width: 100%;
+  }
+}
+
+/***************************************
+  Printing
+/***************************************/
+
+@media print {
+
+  /* Hide Navbar Menu */
+  .navbar {
+    display: none !important;
+  }
+
+  /* Hide Footer */
+  .usa-identifier {
+    display: none !important;
+  }
+
+  /* Hide return to top button */
+  .return-to-top {
+    display: none !important;
+  }
+
+  /* Hide Export CSV button */
+  .export-csv {
+    display: none !important;
+  }
+  
+  /* Hide the print button itself when printing */
+  .printBtn {
+    display: none !important;
+  }
+
+  /* Hide Version Banner */
+  .theme-doc-version-banner {
+    display: none !important;
+  }
+
+  /* Hide Breadcrumb navigation */
+  .theme-doc-breadcrumbs {
+    display: none !important;
   }
 }

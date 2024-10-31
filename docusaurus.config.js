@@ -103,7 +103,6 @@ const config = {
       '@docusaurus/plugin-client-redirects',
       {
         redirects: [
-          // /docs/oldDoc -> /docs/newDoc
           {
             to: '/fig/2024/overview',
             from: ['/fig/overview', '/fig'],

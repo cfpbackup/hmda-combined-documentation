@@ -2781,7 +2781,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/core@npm:3.3.2, @docusaurus/core@npm:^3.3.0":
+"@docusaurus/core@npm:3.3.2":
   version: 3.3.2
   resolution: "@docusaurus/core@npm:3.3.2"
   dependencies:
@@ -2934,6 +2934,26 @@ __metadata:
     react: "*"
     react-dom: "*"
   checksum: 10c0/c119b1ed7c9871ce2196498da20d98089065eb8e0a1302b5024225cd5051ccb07f344a6f680da2b9793769727abba510a3106d0ee338b672baf4a48a24ff4e35
+  languageName: node
+  linkType: hard
+
+"@docusaurus/plugin-client-redirects@npm:3.3.2":
+  version: 3.3.2
+  resolution: "@docusaurus/plugin-client-redirects@npm:3.3.2"
+  dependencies:
+    "@docusaurus/core": "npm:3.3.2"
+    "@docusaurus/logger": "npm:3.3.2"
+    "@docusaurus/utils": "npm:3.3.2"
+    "@docusaurus/utils-common": "npm:3.3.2"
+    "@docusaurus/utils-validation": "npm:3.3.2"
+    eta: "npm:^2.2.0"
+    fs-extra: "npm:^11.1.1"
+    lodash: "npm:^4.17.21"
+    tslib: "npm:^2.6.0"
+  peerDependencies:
+    react: ^18.0.0
+    react-dom: ^18.0.0
+  checksum: 10c0/39d197c0e8fb12cc866d186290cae5a6c6fb14b368b689fc73f4e5100feff378e46d5ff3c3999e43fbf6a5acff370650f33df6ae210280ceab3ff5a643785386
   languageName: node
   linkType: hard
 
@@ -3094,7 +3114,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/preset-classic@npm:^3.3.0":
+"@docusaurus/preset-classic@npm:3.3.2":
   version: 3.3.2
   resolution: "@docusaurus/preset-classic@npm:3.3.2"
   dependencies:
@@ -9027,9 +9047,10 @@ __metadata:
   dependencies:
     "@discoveryjs/json-ext": "npm:^0.5.7"
     "@docsearch/react": "npm:^3.5.2"
-    "@docusaurus/core": "npm:^3.3.0"
+    "@docusaurus/core": "npm:3.3.2"
     "@docusaurus/module-type-aliases": "npm:^3.3.0"
-    "@docusaurus/preset-classic": "npm:^3.3.0"
+    "@docusaurus/plugin-client-redirects": "npm:3.3.2"
+    "@docusaurus/preset-classic": "npm:3.3.2"
     "@mdx-js/react": "npm:^3.0.0"
     "@uswds/compile": "npm:^1.1.0"
     "@uswds/uswds": "npm:^3.7.1"

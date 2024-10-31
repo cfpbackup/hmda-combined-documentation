@@ -99,6 +99,17 @@ const config = {
         includeCurrentVersion: false,
       },
     ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/fig/2024/overview',
+            from: ['/fig/overview', '/fig'],
+          },
+        ],
+      }
+    ],
   ],
 
   themeConfig:

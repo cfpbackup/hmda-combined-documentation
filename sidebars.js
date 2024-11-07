@@ -29,6 +29,7 @@ const sidebars = {
         "faq/data-browser-graphs-faq",
         "faq/data-browser-maps-faq",
         "faq/static-dataset-faq",
+        "faq/login-gov-quick-reference",
       ],
     },
     // Publications

@@ -525,3 +525,22 @@ article, .fig-section {
     display: none !important;
   }
 }
+
+/***************************************
+  Login.gov FAQ
+/***************************************/
+
+.login-gov-table {
+  table {
+    td {
+      vertical-align: top;
+    }
+    td:nth-of-type(1){
+      min-width: 75px;
+    }
+    td:nth-of-type(2){
+      min-width: 300px;
+    }
+  }
+
+}

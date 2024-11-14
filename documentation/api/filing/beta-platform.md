@@ -7,7 +7,7 @@ The [HMDA Beta Platform](https://ffiec.beta.cfpb.gov/filing) is a test environme
 ## Authorization
 
 <p style={{ background: '#ffe4c4', paddingLeft: '10px', paddingTop: '10px', paddingBottom: '10px' }}>
-<b><u>Please note:</u></b> Starting on January 1st 2025, for the 2024 HMDA Filling season, all users will be required to authenticate using Login.gov. In order to integrate with the HMDA Platform using Login.gov please contact HMDA Help (hmdahelp@cfpb.gov).
+<b><u>Please note:</u></b> Starting on January 1st 2025, for the 2025 HMDA Filling season, all users will be required to authenticate using Login.gov. In order to integrate with the HMDA Platform using Login.gov please contact HMDA Help (hmdahelp@cfpb.gov).
 
 </p>
 

@@ -4,7 +4,7 @@ The HMDA Platform serves a number of files including:
 
 1. [Documentation](https://ffiec.cfpb.gov/documentation)
 2. [Modified LAR](https://ffiec.cfpb.gov/data-publication/modified-lar)
-3. [Institution Register Summaries](https://ffiec.cfpb.gov/filing)
+3. [Institution Register Summaries](https://ffiec.cfpb.gov/data-publication/disclosure-reports/)
 4. [Dynamic National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/dynamic-national-loan-level-dataset)
 5. [Snapshot National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset)
 6. [Disclosure Reports](https://ffiec.cfpb.gov/data-publication/disclosure-reports)

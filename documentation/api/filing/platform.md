@@ -7,52 +7,18 @@ This API powers the [HMDA Filing application](https://ffiec.cfpb.gov/filing/)
 ## Authorization
 
 <p style={{ background: '#ffe4c4', paddingLeft: '10px', paddingTop: '10px', paddingBottom: '10px' }}>
-<b><u>Please note:</u></b> Starting on January 1st 2025, for the 2025 HMDA Filling season, all users will be required to authenticate using Login.gov. In order to integrate with the HMDA Platform using Login.gov please contact HMDA Help (hmdahelp@cfpb.gov).
-
+<b><u>Please note:</u></b> Starting on January 1st 2025, for the 2025 HMDA Filling season, all users will be required to authenticate using Login.gov.
 </p>
 
-To file HMDA data using the Filing API, a _bearer_ authorization token is required for all Filing API calls. To acquire an authorization token use the `/auth` endpoint with your username and password as payload.
+Follow the [Login.gov FAQ](/documentation/faq/login-gov-quick-reference) on creating a new HMDA User account via the HMDA Login.gov UI and go through the process of new user registration.
 
-For local development, no authorization is needed. See [One-line Local Development Environment (No Auth)](https://github.com/cfpb/hmda-platform#one-line-local-development-environment-no-auth) for more info.
+### Getting a Bearer Token
 
+In lieu of directly getting a token from an API call you will be required to go through the HMDA UI and obtain a Bearer Token via the HMDA User account page.
 
-<b>Request</b>
+In the top right of the UI, click your name. It will take you to the Profile page. Scroll to the bottom and hover over the `Developer Settings` and click the `Copy Auth Token` option, it will copy the Bearer Token to your clipboard which can then be used for API calls.
 
-```
-TOKEN=$(curl -s 'https://ffiec.cfpb.gov/auth/realms/hmda2/protocol/openid-connect/token'
---header 'Content-Type: application/x-www-form-urlencoded'
---data-urlencode 'client_id=hmda2-api'
---data-urlencode 'grant_type=password'
---data-urlencode 'username=xxxx'
---data-urlencode 'password=xxx' | jq .""access_token"" | tr -d '"') && echo $TOKEN
-```
-
- | |
----|---
-Method  |  `POST`
-URL | `https://ffiec.cfpb.gov/auth/realms/hmda2/protocol/openid-connect/token`
-Payload  | client_id=hmda2-api <br/> grant_type=password <br/> username=`{{username}}@{{bank_domain}}` <br/> password=`{{password}}`
-
-### Error Messages
-
-error | error_description | explanation
----|---|---
-invalid_grant | Account is not fully set up | Either the `password` needs to be reset or the `email` needs to be verified..
-invalid_grant | Account disabled | Please contact HMDA Help (hmdahelp@cfpb.gov) in order to re-enable the account.
-invalid_grant | Invalid user credentials | The `username` or `password` provided is incorrect.
-
-### Password Policy
-
-- Users must reset their password every 90 days. This 90 days is from when the account's password was last set.
-- Passwords must:
-  - Be at least 12 characters
-  - Have at least 1 uppercase character
-  - Have at least 1 lowercase character
-  - Have at least 1 numerical character
-  - Have at least 1 special character
-  - Not be the same as your username 
-
-
+![LoginGov HMDA Auth Token](/img/api/login_gov_token.gif)
 
 ## Postman Collection
 

@@ -1,5 +1,11 @@
 [
     {
+        "Date": "January 2025",
+        "Version": "1.4",
+        "Section": "",
+        "Changes": "<strong>1. Section 1.2</strong>    <ul><li>Updated Section 1.2 with correct the Calendar Year Value</li></ul>"
+    },
+    {
         "Date": "October 2024",
         "Version": "1.3",
         "Section": "",

@@ -55,7 +55,7 @@ const sidebars = {
         },
         {
           type: "category",
-          label: "Loan Level Datasets",
+          label: "Full Annual Datasets",
           items: [
             "publications/loan-level-datasets/lar-data-fields",
             "publications/loan-level-datasets/ts-data-fields",

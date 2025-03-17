@@ -373,7 +373,20 @@ li.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1:last-
  h4 { font-size: 20px; }
  h5 { font-size: 16px; }
  h6 { font-size: 13px; }
- .theme-doc-markdown p { font-size: 18px; }
+.theme-doc-markdown p { font-size: 18px; }
+
+.theme-doc-markdown {
+  td, p, ul {
+    a {
+      text-decoration: underline;
+      color: var(--hmda-blue-light);
+      &:hover { 
+        text-decoration: none;
+        color: var(--hmda-blue-bright); 
+      }
+    }
+  } 
+} 
 
 
 .docs-version-2025, .docs-version-2024, .docs-version-2023, .docs-version-2022, .docs-version-2021 {

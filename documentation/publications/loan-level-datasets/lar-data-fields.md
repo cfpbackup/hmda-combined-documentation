@@ -443,6 +443,11 @@
   - 8 - Other credit scoring model
   - 9 - Not applicable
   - 10 - No co-applicant
+  - 11 – FICO Score 9
+  - 12 – FICO Score 8
+  - 13 – FICO Score 10
+  - 14 – FICO Score 10T
+  - 15 - VantageScore 4.0
   - 1111 - Exempt
 
 ### [applicant\_ethnicity-1](#applicant_ethnicity-1)

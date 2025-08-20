@@ -1,0 +1,14 @@
+[
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "V695",
+    "Data Point": "Mortgage Loan Originator NMLSR Identifier",
+    "Modification": "Updated edit to include NMLSR identifier must be four to seven digits and cannot exceed 3000000."
+  },
+  {
+    "Type of Data Field": "Loan/Application Register",
+    "Edit Number": "Q621",
+    "Data Point": "NMLSR ID",
+    "Modification": "Removed edit due to redundancy with edit V695."
+  }
+]

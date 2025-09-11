@@ -19,19 +19,12 @@ spec:
         app: {{ include "hmda-documentation.name" . }}
         release: {{ .Release.Name }}
     spec:
-      volumes:
-        - name: tz-config
-          hostPath:
-            path: /usr/share/zoneinfo/America/New_York
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           env:
           - name: GIT_COMMIT
             value: {{ .Values.commitId }}
-          volumeMounts:
-            - name: tz-config
-              mountPath: /etc/localtime
           securityContext:
             allowPrivilegeEscalation: false
             capabilities:

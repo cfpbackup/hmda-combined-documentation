@@ -11,11 +11,11 @@ The Quarterly Graphs display an aggregated view of quarterly filers for the curr
 
 ## What are the requirements to become a quarterly filer?
 
-A financial institution is required to report quarterly HMDA data if it reported a combined total of at least 60,000 applications and covered loans, excluding purchased covered loans, for the preceding calendar year. Institutions file quarterly data three times a year, with quarter four data being reported in the following year’s annual submission. 
+A financial institution is required to report quarterly HMDA data if it reported a combined total of at least 60,000 applications and covered loans, excluding purchased covered loans, for the preceding calendar year. Institutions file quarterly data three times a year, with quarter four data being reported in the following year’s annual submission.
 
 ## What institutions are displayed in the Quarterly Graphs?
 
-The institutions displayed are required to file quarterly data in the current year. Only the current year’s submission is considered when determining the list of institutions displayed in these quarterly graphs, meaning a previous quarterly filer would be excluded if they do not qualify for the current year. In addition to the current year’s quarterly data, users can view three years of data for the institutions that submitted quarterly data in the current year. The data in each graph is based on the same set of institutions.   
+The institutions displayed are those required to file quarterly data in the current year. The requirement to file quarterly data is determined using an institution's annual submission for the preceding year. The list of institutions, as well as the aggregate record data, represented on the Quarterly Graphs is limited to those that are designated as quarterly filers for the current calendar year. This means that historic data are altered to reflect only the data related to current quarterly filers. Please note that this may cause changes to historic data, meaning they are not static.
 
 ## How do I view a list of quarterly filers?
 

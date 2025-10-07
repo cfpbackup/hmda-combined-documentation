@@ -207,24 +207,57 @@ The version log JSON for supplemnental guide for quarterly filers lives under `f
 1. Copy the file called `supplemental-guide-for-quarterly-filers.mdx` from the previous year (2025) and add it to the `fig_versioned_docs` -> `version-{year}`
 2. The version log file will need to be created and updated, it contains the new changes that years supplemental guide.
 3. Work with the BAs to update the content of the new supplemental guide (changes are minor from year to year).
-4. Add the new supplemental guide link to the new `version-{year}-sidebars.json` found under `fig_versioned_sidebars` folder. Updates to the previous years `version-{year}-sidebars.json` files will need to be updated to contain the new link.
+4. Add the new supplemental guide link to the new `version-{year}-sidebars.json` found under `fig_versioned_sidebars` folder. Updates to the previous years `version-{year}-sidebars.json` files will need to be updated to contain the new links for both the new FIG version and the supplementary guide.
 
 ```json
+// add links to the new FIG year to all the existing version-{year}-sidebars.json
 {
-      "type": "category",
-      "label": "Supplemental Guides for Quarterly Filers",
-      "collapsed": true,
-      "items": [
-        { // If latest supplemental guide make it type: doc
-          "type": "doc",
-          "id": "supplemental-guide-for-quarterly-filers",
-          "label": "2025 Supplemental Guide for Quarterly Filers"
-        },
-        { // Linking to older supplemental guides are type: link
-          "type": "link",
-          "label": "2024 Supplemental Guide for Quarterly Filers",
-          "href": "/fig/2024/supplemental-guide-for-quarterly-filers"
-        },
-      ]
-    }
+  "type": "link",
+  "label": "2025 Filing Instructions Guide",
+  "href": "/fig/2026/overview"
+},
+...
+{
+  "type": "category",
+  "label": "Supplemental Guides for Quarterly Filers",
+  "collapsed": true,
+  "items": [
+    { // If latest supplemental guide make it type: doc
+      "type": "doc",
+      "id": "supplemental-guide-for-quarterly-filers",
+      "label": "2025 Supplemental Guide for Quarterly Filers"
+    },
+    { // Linking to older supplemental guides are type: link
+      "type": "link",
+      "label": "2024 Supplemental Guide for Quarterly Filers",
+      "href": "/fig/2024/supplemental-guide-for-quarterly-filers"
+    },
+  ]
+}
+```
+
+### Updating the timeline documentation
+- Update `documentation/faq/data-collection-timelines.md` with the newest deadline dates, [see this commit](https://github.com/cfpb/hmda-combined-documentation/commit/2c96aaa88a84d69a608afc478c7ee72f4b7f1066#diff-f0b8713a7c4c8e0bc4971603bbdba523487a872e4dd776d2411eeed7a2a8f58e).
+- Work with the PM to update the [HMDA Data Collection Timelines](https://ffiec.cfpb.gov/documentation/faq/data-collection-timelines) page's deadline diagrams. If you're looking for the PowerPoint where these diagrams are stored, see the [HMDA Timelines Powerpoint Template]([ENT]/HMDA-Operations/hmda-devops/wiki/HMDA-Timelines-Powerpoint-Template) on the enterprise hmda-devops wiki.
+
+### Update hmda-frontend links and sitemap
+- You should have a PR ready to update the homepage on [hmda-frontend](https://github.com/cfpb/hmda-frontend) so you can update it right after you release the FIG on the documentation side. See [this PR](https://github.com/cfpb/hmda-frontend/pull/2274/files) for an example, and you will need to update for the latest year the following files:
+  - `public/sitemap.xml`
+  - `src/common/constants/links.js`
+  - `src/homepage/ForFilers/FilingGuides.jsx`
+  - `src/homepage/QuickLinks.jsx`
+
+#### Announcing a release
+- Coordinate with your PM about how you want to announce the release of the FIG. Usually, a new FIG's comms include an announcement banner, changelog addition, and the PM sending an email to our mailing list. Using [this commit](https://github.com/cfpb/hmda-frontend/commit/752d314e2224b798850bf4ccdb7c3c266e9487e6) as a guide, the frontend will need to update the following files:
+- `src/updates-notes/change-log-data.json`
+- `src/common/constants/prod-config.json`
+- `src/common/constants/dev-config.json`
+
+### Updating the Cypress tests
+- Increment the `cypress/e2e/documentation.cy.js` to the newest FIG year values
+
+```
+const FIG_DOCS_DEFAULT_URL = `${HOST}/documentation/fig/2025/overview` // Takes user to most current FIG document
+const CURRENT_FIG_YEAR = '2025'
+const LATEST_FIG_YEAR = '2026'
 ```

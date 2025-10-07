@@ -2,7 +2,7 @@
   "figDocs": [
     {
       "type": "category",
-      "label": "2025 Filing Instructions Guide",
+      "label": "2026 Filing Instructions Guide",
       "collapsed": true,
       "items": [
         {
@@ -12,32 +12,32 @@
         },
         {
           "type": "link",
-          "href": "/fig/2025/overview#changes",
-          "label": "2. Changes for 2025"
+          "href": "/fig/2026/overview#changes",
+          "label": "2. Changes for 2026"
         },
         {
           "type": "link",
-          "href": "/fig/2025/overview#file-specifications",
+          "href": "/fig/2026/overview#file-specifications",
           "label": "3. File Specifications"
         },
         {
           "type": "link",
-          "href": "/fig/2025/overview#data-specifications",
+          "href": "/fig/2026/overview#data-specifications",
           "label": "4. Data Specifications"
         },
         {
           "type": "link",
-          "href": "/fig/2025/overview#edit-specifications",
+          "href": "/fig/2026/overview#edit-specifications",
           "label": "5. Edit Specifications"
         },
         {
           "type": "link",
-          "href": "/fig/2025/overview#additional-information",
+          "href": "/fig/2026/overview#additional-information",
           "label": "6. Additional Info"
         },
         {
           "type": "link",
-          "href": "/fig/2025/overview#paperwork-reduction-act",
+          "href": "/fig/2026/overview#paperwork-reduction-act",
           "label": "Paperwork Reduction"
         }
       ]
@@ -85,14 +85,14 @@
       "collapsed": true,
       "items": [
         {
-          "type": "link",
-          "label": "2026 Supplemental Guide for Quarterly Filers",
-          "href": "/fig/2026/supplemental-guide-for-quarterly-filers"
-        },
-        {
           "type": "doc",
           "id": "supplemental-guide-for-quarterly-filers",
-          "label": "2025 Supplemental Guide for Quarterly Filers"
+          "label": "2026 Supplemental Guide for Quarterly Filers"
+        },
+        {
+          "type": "link",
+          "label": "2025 Supplemental Guide for Quarterly Filers",
+          "href": "/fig/2025/supplemental-guide-for-quarterly-filers"
         },
         {
           "type": "link",

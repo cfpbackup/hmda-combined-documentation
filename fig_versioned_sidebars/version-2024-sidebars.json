@@ -59,6 +59,11 @@
         },
         {
           "type": "link",
+          "label": "2024 Filing Instructions Guide",
+          "href": "/fig/2024/overview"
+        },
+        {
+          "type": "link",
           "label": "2023 Filing Instructions Guide",
           "href": "/fig/2023/overview"
         },

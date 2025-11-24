@@ -18,8 +18,8 @@ Respondent ID is for 2017 and prior is one of the following: OCC charter number,
 ### How can I map institution identifiers from 2017 to 2018?
 The _ARID2017 to LEI Reference Table_ provides a mapping of 2017 Agency Code and Respondent IDs (ARID2017) to their current institution identifiers (LEI). This table is available on the <a href="https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/">Snapshot National Loan Level Dataset</a> page, with direct links to each available table format provided below.
 
-- <a download href="https://files.ffiec.cfpb.gov/snapshot/arid2017tolei/arid2017_to_lei_xref_csv.zip">ARID2017 to LEI Reference Table (CSV)</a>  
-- <a download href="https://files.ffiec.cfpb.gov/snapshot/arid2017tolei/arid2017_to_lei_xref_psv.zip">ARID2017 to LEI Reference Table (Pipe Delimited)</a>
+- <a download href="https://files.ffiec.cfpb.gov/static-data/snapshot/2017/arid2017tolei/arid2017_to_lei_xref_csv.zip">ARID2017 to LEI Reference Table (CSV)</a>  
+- <a download href="https://files.ffiec.cfpb.gov/static-data/snapshot/2017/arid2017tolei/arid2017_to_lei_xref_psv.zip">ARID2017 to LEI Reference Table (Pipe Delimited)</a>
 
 ## Institution Name Changes
 

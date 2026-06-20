@@ -2,7 +2,7 @@
 
 Field Name|Field Data Type|Valid Values|Notes
 |----|-------------|----|----|
-Activity Year|Integer| 2018, 2019, 2020, 2021, 2022, 2023 |
+Activity Year|Integer| 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025 |
 Legal Entity Identifier (LEI)|Character Varying||
 Loan Type|Integer|1, 2, 3, 4|
 Loan Purpose|Integer|1, 2, 31, 32, 4, 5|

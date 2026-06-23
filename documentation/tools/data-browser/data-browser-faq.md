@@ -6,7 +6,7 @@
 Answer: The HMDA Dataset Filtering allows users to filter and download HMDA datasets. Users can select from geographic areas that they’d like to filter by. Upon selection, they can then download a CSV file that includes this geographic data, along with all 99 public data fields. If a user would like to filter data further, they can select from up to two of 11 available variables. Users can then view an aggregated summary table of the data requested and download a CSV file of the filtered data.
 
 ## What years of HMDA data are available?
-Answer: The HMDA Dataset Filtering contains HMDA data from the years 2018-2021. To access HMDA data from 2007-2017, visit the <a target="_blank" rel="noopener noreferrer" href="https://www.consumerfinance.gov/data-research/hmda/historic-data/">HMDA historic data page</a>.
+Answer: The HMDA Dataset Filtering contains HMDA data from the years 2018-2025. To access HMDA data from 2007-2017, visit the <a target="_blank" rel="noopener noreferrer" href="https://www.consumerfinance.gov/data-research/hmda/historic-data/">HMDA historic data page</a>.
 
 ## What is a CSV?
 Answer: A comma-separated values (CSV) file derives its name from a file containing multiple data fields separated by commas to distinguish where each field starts and ends. Files are stored in plain text as numbers and letters with one record per line. As long as the CSV file meets row/column limits, it can be opened in Microsoft Excel.
@@ -23,9 +23,18 @@ If you are looking for a particular year's data, or additional documentation abo
 |---|---|---|
 |2018|[Three Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/three-year-national-loan-level-dataset/2018)|Dec 31, 2021|
 |2019|[Three Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/three-year-national-loan-level-dataset/2019)|Dec 31, 2022|
+|2020|[Three Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/three-year-national-loan-level-dataset/2020)|Dec 31, 2023|
+|2021|[Three Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/three-year-national-loan-level-dataset/2021)|Dec 31, 2024|
+|2022|[Three Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/three-year-national-loan-level-dataset/2022)|Dec 31, 2025|
 |2020|[One Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/one-year-national-loan-level-dataset/2020)|Apr 30, 2022|
 |2021|[One Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/one-year-national-loan-level-dataset/2021)|May 1, 2023|
+|2022|[One Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/one-year-national-loan-level-dataset/2022)|May 1, 2024|
+|2023|[One Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/one-year-national-loan-level-dataset/2023)|May 19, 2025|
+|2024|[One Year National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/one-year-national-loan-level-dataset/2024)|June 2, 2026|
 |2022|[Snapshot National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/2022)|May 1, 2023|
+|2023|[Snapshot National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/2023)|May 1, 2024|
+|2024|[Snapshot National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/2024)|May 19, 2025|
+|2025|[Snapshot National Loan-Level Dataset](https://ffiec.cfpb.gov/data-publication/snapshot-national-loan-level-dataset/2025)|June 2, 2026|
 
 ## I have a suggestion/improvement, who can I contact?
 Answer: For questions/suggestions regarding the HMDA Dataset Filtering, contact [hmdahelp@cfpb.gov](mailto:hmdahelp@cfpb.gov).

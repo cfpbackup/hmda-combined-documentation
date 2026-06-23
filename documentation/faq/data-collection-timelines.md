@@ -52,7 +52,7 @@ As stated in <a target="_blank" rel="noopener noreferrer" href="https://www.cons
 
 Beginning January 1, 2020, the 2015 HMDA Final Rule requires quarterly reporting for financial institutions that reported a combined total of at least 60,000 applications and covered loans, excluding purchased covered loans, for the preceding calendar year. Thus, in addition to their annual data submission, these larger-volume reporters will submit HMDA data for each of the first three quarters of the year on a quarterly basis. Further information can be found in <a target="_blank" rel="noopener noreferrer" href="https://www.consumerfinance.gov/rules-policy/regulations/1003/5/#a-1-ii">Regulation C, 12 CFR 1003.5(a)(1)(ii)</a>.
 
-If you need additional information to help get your file ready you can refer to the <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2024/supplemental-guide-for-quarterly-filers">Supplemental Guide for Quarterly Filers</a> or the [Filing Instructions Guide (FIG)](#filing-instructions-guide-fig) section.
+If you need additional information to help get your file ready you can refer to the <a target="_blank" rel="noopener noreferrer" href="/documentation/fig/2026/supplemental-guide-for-quarterly-filers">Supplemental Guide for Quarterly Filers</a> or the [Filing Instructions Guide (FIG)](#filing-instructions-guide-fig) section.
 
 See below for information on HMDA 2026 Quarterly Filing period dates:
 

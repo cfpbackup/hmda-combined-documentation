@@ -13,6 +13,7 @@
   | 2022 | 2022 |
   | 2023 | 2023 |
   | 2024 | 2024 |
+  | 2025 | 2025 |
 
 ### [calendar\_quarter](#calendar_quarter)
 - **Description:** The calandar quarter to which the data refer. Quarter 4 is for the annual submission of data.
